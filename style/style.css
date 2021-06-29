@@ -1,15 +1,16 @@
 /* base css file for TTRPG projects */
 /* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
 
-@page         { size: letter portrait; margin: 54pt; }
-/* @page      { size: letter portrait; margin: 18pt; } */
+@page { size: 1920px 1080px; background-color: black; color: white; margin: 0; padding: 0; }
 header        { display: none;                       }
 header p.date { string-set: date content()           }
 header h1     { string-set: gamename content()       }
 
 @prince-pdf {
-  -prince-pdf-profile: "PDF/A-3a+PDF/UA-1";
+  -prince-pdf-page-mode: fullscreen;
+  -prince-pdf-page-layout: single-page;
 /*
+  -prince-pdf-profile: "PDF/A-3a+PDF/UA-1";
   -prince-pdf-profile: "PDF/A-1a+PDF/UA-1";
   -prince-pdf-profile: "PDF/A-1a";
   -prince-pdf-profile: "PDF/A-1b";
@@ -28,29 +29,27 @@ header h1     { string-set: gamename content()       }
 }
 
 :root {
-  --font: "Marcellus";
-  --font-header: "Marcellus SC";
-  --font-toolkit: "Montserrat";
+  --font: "Michroma";
+  --font-header: "Michroma";
+  --font-title: "Battlestar";
 
-  --icon-thin: 'Font Awesome 5 Free Regular';
-  --icon-solid: 'Font Awesome 5 Free Solid';
   --icon-game: 'game-icons';
 
-  --body:      10pt;
-  --larger:    11pt;
-  --smaller:    9pt;
-  --small:      8pt;
-  --large:     12pt;
-  --title:     54pt;
-  --subtitle:  36pt;
-  --h1:        24pt; 
-  --h2:        20pt;
-  --h3:        18pt;
-  --h4:        16pt;
-  --h5:        14pt;
-  --h6:        12pt;
-  --th:        11pt;
-  --toolkit:    8pt; 
+  --body:      10px;
+  --larger:    11px;
+  --smaller:    9px;
+  --small:      8px;
+  --large:     12px;
+  --title:     54px;
+  --subtitle:  36px;
+  --h1:        24px; 
+  --h2:        20px;
+  --h3:        18px;
+  --h4:        16px;
+  --h5:        14px;
+  --h6:        12px;
+  --th:        11px;
+  --toolkit:    8px; 
 
   --color-line:    gray;
   --color-light:   silver;
@@ -71,7 +70,7 @@ h3                 { font-family: var(--font-header); font-size: var(--h3); }
 h4                 { font-family: var(--font-header); font-size: var(--h4); }
 h5                 { font-family: var(--font-header); font-size: var(--h5); }
 h6                 { font-family: var(--font-header); font-size: var(--h6); }
-body               { column-count: 2; column-width: auto; column-gap: 36pt; }
+/* body               { column-count: 2; column-width: auto; column-gap: 36pt; } */
 h1                 { break-after: avoid-page; break-inside: avoid;          }
 h2, h3, h4, h5, h6 { break-inside: avoid; break-after: avoid;               }
 h1                 { column-span: all; text-align: center;                  }
@@ -118,6 +117,7 @@ img { -prince-image-resolution: 96;
 
 p, li { orphans: 3; line-height: 1.40; }
 
+/*
 @page { @bottom-center {
   content:         counter(page);
   font-family:     var(--font-headline);
@@ -126,7 +126,9 @@ p, li { orphans: 3; line-height: 1.40; }
   margin-bottom:   18pt;
   text-align:      center;
 } }
+*/
 
+/* 
 @page { @top-left {
   content:         string(gamename) ' Draft by Cadera Spindrift';
   font-family:     var(--font-header);
@@ -157,6 +159,7 @@ p, li { orphans: 3; line-height: 1.40; }
 @page:nth(3) { @bottom-center { content: normal; }  }
 @page:nth(3) { @top-left      { content: normal; }  }
 @page:nth(3) { @top-right     { content: normal; }  }
+*/
 
 
 figure figcaption { counter-increment: figure; display: block; font-size: var(--th); font-family: var(--font-header); }
@@ -167,9 +170,6 @@ table caption     { counter-increment: table; display: block; font-size: var(--t
 
 figure figcaption:before { content: 'Figure ' counter(figure) ': '; }
 figure caption:before    { content: 'Table ' counter(table) ': ';   }
-
-.section > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Section ' counter(section) ': ';        }
-.chapter > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Chapter ' counter(chapter) ': ';        }
 
 #toc {
   /*column-span: all; float: top;*/
@@ -230,9 +230,12 @@ figure caption:before    { content: 'Table ' counter(table) ': ';   }
 .license ol p    { margin-top: 0; margin-bottom: 2pt; }
 .license p       { text-align: justify;               }
 
+/*
 @page license    { margin: 24pt; padding: 0; }
 @page license { @top-left  { content: normal; }  }
 @page license { @top-right { content: normal; }  }
+
+*/
 
 /* a:link, a:active, a:visited, a:hover { text-decoration: none; color: black; } */
  *
@@ -258,11 +261,12 @@ a:hover   { text-decoration: none; color: red;    }
   margin-right: 0.5em;
   color: #BB00BB;
 }
-
+/*
 @page :first { margin: 0; }
 @page :first { @top-left      { content: normal; } }
 @page :first { @top-right     { content: normal; } }
 @page :first { @bottom-center { content: normal; } }
+*/
 
 #cover { break-after: page; width: 8.5in; height: 11in; position: relative; }
 #cover h1 { 
@@ -283,16 +287,81 @@ a:hover   { text-decoration: none; color: red;    }
 
 #cover img { position: absolute; top: 0; left: 0; width: 8.5in; height: 11in; }
 
+/*
 @page:blank { @top-left { content: normal; } }
 @page:blank { @top-right { content: normal; } }
 @page:blank { @bottom-center { content: normal; } }
 
 @page:nth(2) { @bottom-center { content: 'i'; } }
+*/
 
 #charsheet { page: charsheet; break-before: right; height: 11in; width: 8.5in; }
+/*
 @page charsheet { margin: 0; }
 @page charsheet { @top-right     { content: normal; } }
 @page charsheet { @top-left      { content: normal; } }
 @page charsheet { @bottom-center { content: normal; } }
+*/
 
 
+.page {
+  width: 1920px;
+  height: 1080px; 
+  position: relative; 
+  display: block;
+  padding-top: 256px;
+  padding-bottom: 256px;
+  box-sizing: border-box; 
+  background-size: 100% auto;
+  background-clip: content-box;
+  background-position: center; 
+}
+
+.page h2, .page h3, .page h4, .page h5 { 
+  font-family: var(--font-header); 
+  font-size: 64px; 
+  position: absolute; 
+  display: inline-block; 
+  width: auto;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 0 0.25em black; 
+}
+
+.page:nth-of-type(2n+1) { padding-bottom: 0; }
+.page:nth-of-type(2n+2) { padding-top:    0; }
+
+.page:nth-of-type(2n+1) h2 { top: 80px; left: 128px; }
+.page:nth-of-type(2n+2) h2 { top: 896px; right: 128px; }
+
+.page:nth-of-type(n+9) h2 { top: 128px; left: 128px; right: 128px; 
+  font-family: var(--font-title);
+  font-size: 128px;
+  text-align: center; 
+  font-weight: normal; 
+  letter-spacing: 0.5em;
+}
+
+.page:nth-of-type(n+10) h3 { top: 448px; left: 128px; }
+.page:nth-of-type(n+12) h5 { top: 640px; left: 128px; right: 128px; text-align: center; }
+.page:nth-of-type(n+11) h4 { top: 832px; right: 128px; }
+
+/* .page.p1 { background-image: url("../art/blue.jpg"); background-position: bottom; } */
+.page.p1 { background-image: url("../art/nasty.jpg"); background-position: top; }
+.page.p2 { background-image: url("../art/probe.jpg"); }
+.page.p3 { background-image: url("../art/Spacecolony1.jpg"); background-position: top; }
+.page.p4 { background-image: url("../art/parker.jpg"); background-position: top; } 
+.page.p5 { background-image: url("../art/jupiter.jpg"); background-position: bottom; }
+.page.p6 { background-image: url("../art/nebula.jpg"); background-position: top; }
+/* .page.p7 { background-image: url("../art/island3.jpg"); background-position: 0 64px; } */
+/* .page.p7 { background-image: url("../art/green-station.jpg"); background-position: center; } */
+.page.p7 { background-image: url("../art/funky-interior.jpg"); background-position: top; }
+.page.p8 { background-image: url("../art/earth.jpg"); background-position: top; }
+.page.p9 { background-image: url("../art/earth.jpg"); background-position: top; padding: 0; }
+.page.p10 { background-image: url("../art/earth.jpg"); background-position: top; padding: 0; }
+.page.p11 { background-image: url("../art/earth.jpg"); background-position: top; padding: 0; }
+/* .page.p12 { background-image: url("../art/earth.jpg"); background-position: top; padding: 0; } */
+
+.page.p13 h2 { font-size: 64pt; top: 192pt; }
+.page.p13 h3 { top: 832px; right: 128px; left: 128px; text-align: center; }
