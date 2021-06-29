@@ -1,7 +1,17 @@
-# TTRPG Template
+# PIONEERS
 
-This is a template for tabletop roleplaying game projects created by Cadera Spindrift.
+## We created the Pions.
 
-To use it, create a project named `projname` then do this:
+## We sent Them before Us.
 
-`cp -r ttrpg/* projname`
+## And followed Them to Space.
+
+## We gave Them Life.
+
+## They gave Us the Planets.
+
+## We gave Them a Galaxy to Explore.
+
+## We never Imagined ...
+
+## ... They would Want to Return.
