@@ -1,0 +1,298 @@
+/* base css file for TTRPG projects */
+/* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
+
+@page         { size: letter portrait; margin: 54pt; }
+/* @page      { size: letter portrait; margin: 18pt; } */
+header        { display: none;                       }
+header p.date { string-set: date content()           }
+header h1     { string-set: gamename content()       }
+
+@prince-pdf {
+  -prince-pdf-profile: "PDF/A-3a+PDF/UA-1";
+/*
+  -prince-pdf-profile: "PDF/A-1a+PDF/UA-1";
+  -prince-pdf-profile: "PDF/A-1a";
+  -prince-pdf-profile: "PDF/A-1b";
+  -prince-pdf-profile: "PDF/A-2a";
+  -prince-pdf-profile: "PDF/A-2b";
+  -prince-pdf-profile: "PDF/A-3a";
+  -prince-pdf-profile: "PDF/A-3b";
+  -prince-pdf-profile: "PDF/UA-1";
+  -prince-pdf-profile: "PDF/X-1a:2001";
+  -prince-pdf-profile: "PDF/X-1a:2003";
+  -prince-pdf-profile: "PDF/X-3:2002";
+  -prince-pdf-profile: "PDF/X-3:2003";
+  -prince-pdf-profile: "PDF/X-4";
+  -prince-pdf-profile: "PDF/A-3a+PDF/UA-1";
+*/
+}
+
+:root {
+  --font: "Marcellus";
+  --font-header: "Marcellus SC";
+  --font-toolkit: "Montserrat";
+
+  --icon-thin: 'Font Awesome 5 Free Regular';
+  --icon-solid: 'Font Awesome 5 Free Solid';
+  --icon-game: 'game-icons';
+
+  --body:      10pt;
+  --larger:    11pt;
+  --smaller:    9pt;
+  --small:      8pt;
+  --large:     12pt;
+  --title:     54pt;
+  --subtitle:  36pt;
+  --h1:        24pt; 
+  --h2:        20pt;
+  --h3:        18pt;
+  --h4:        16pt;
+  --h5:        14pt;
+  --h6:        12pt;
+  --th:        11pt;
+  --toolkit:    8pt; 
+
+  --color-line:    gray;
+  --color-light:   silver;
+  --color-toolkit: #006600;
+
+  --bgcolor-sidebar: #EEEEEE;
+  --bgcolor-toolkit: #F8FFF8;
+
+  counter-reset: table figure sidebar;
+}
+
+body               { font-family: var(--font); font-size: var(--body);      }
+td                 { font-size: var(--body); vertical-align: top;           }
+th                 { font-family: var(--font-header); font-size: var(--th); }
+h1                 { font-family: var(--font-header); font-size: var(--h1); }
+h2                 { font-family: var(--font-header); font-size: var(--h2); }
+h3                 { font-family: var(--font-header); font-size: var(--h3); }
+h4                 { font-family: var(--font-header); font-size: var(--h4); }
+h5                 { font-family: var(--font-header); font-size: var(--h5); }
+h6                 { font-family: var(--font-header); font-size: var(--h6); }
+body               { column-count: 2; column-width: auto; column-gap: 36pt; }
+h1                 { break-after: avoid-page; break-inside: avoid;          }
+h2, h3, h4, h5, h6 { break-inside: avoid; break-after: avoid;               }
+h1                 { column-span: all; text-align: center;                  }
+.breakbefore       { break-before: page;                                    }
+.colbefore         { break-before: column;                                  }
+.nobreak           { break-before: avoid-page;                              }
+.nocolbreak        { break-before: avoid-column;                            }
+.colspan           { column-span: all;                                      }
+.bottom            { column-span: all; float: page-bottom;                  }
+p+table            { break-before: avoid-page;                              }
+table              { border-collapse: collapse; break-inside: avoid-page;   }
+table tr           { break-inside: avoid-page;                              }
+table thead        { break-after: avoid;                                    }
+table thead        { border-bottom: 0.5pt solid var(--color-line);          }
+table th, table td { padding: 2pt;                                          }
+table th           { vertical-align: bottom;                                }
+table td           { vertical-align: top;                                   }
+
+#cover + h1   { counter-reset: page; counter-increment: page; break-before: right; }
+
+/* ul, ol       { break-inside: avoid; } */
+li           { break-inside: avoid; }
+ul, ol       { margin-left: 1em;    }
+ul li, ul ol { margin-left: 1em;    }
+
+.sidebar p { margin-top: 6pt; margin-bottom: 0; }
+.sidebar { 
+  float-placement:   top;
+  float-reference:   column;
+  border:            0.5pt solid var(--color-line);
+  border-radius:     3pt;
+  padding-left:      9pt;
+  padding-right:     9pt;
+  padding-bottom:    6pt;
+  margin-bottom:     9pt;
+  background:        var(--bgcolor-sidebar);
+}
+
+.sidebar.next { float-defer-column: 1;                                                    }
+.sidehead     { font-weight: bold; font-family: var(--font-header); font-size: var(--h4); }
+
+img { -prince-image-resolution: 96;
+      -prince-image-magic: recompress(50%) convert-to-jpeg(50%) snap-to-integer-coords; } 
+
+p, li { orphans: 3; line-height: 1.40; }
+
+@page { @bottom-center {
+  content:         counter(page);
+  font-family:     var(--font-headline);
+  font-size:       var(--big);
+  margin-top:      18pt;
+  margin-bottom:   18pt;
+  text-align:      center;
+} }
+
+@page { @top-left {
+  content:         string(gamename) ' Draft by Cadera Spindrift';
+  font-family:     var(--font-header);
+  font-size:       var(--small);
+  margin-top:      18pt;
+  margin-bottom:   16pt;
+  margin-left:     -54pt;
+  padding-left:    54pt;
+  border-bottom:   0.25pt solid var(--color-line);
+  color:           var(--color-light);
+  text-align:      left;
+} }
+
+@page { @top-right {
+  content:         'Version ' string(date);
+  font-family:     var(--font-header);
+  font-size:       var(--small);
+  margin-top:      18pt;
+  margin-bottom:   16pt;
+  margin-right:    -54pt;
+  padding-right:   54pt;
+  border-bottom:   0.25pt solid var(--color-line);
+  color:           var(--color-light);
+  text-align:      right;
+} }
+
+@page:nth(3) { margin-top: 36pt; }
+@page:nth(3) { @bottom-center { content: normal; }  }
+@page:nth(3) { @top-left      { content: normal; }  }
+@page:nth(3) { @top-right     { content: normal; }  }
+
+
+figure figcaption { counter-increment: figure; display: block; font-size: var(--th); font-family: var(--font-header); }
+table caption     { counter-increment: table; display: block; font-size: var(--th); font-family: var(--font-header);       }
+.sidehead         { counter-increment: sidebar;                                                                       }
+.chapter          { counter-increment: chapter;                                                                       }
+.section          { counter-increment: section;                                                                       }
+
+figure figcaption:before { content: 'Figure ' counter(figure) ': '; }
+figure caption:before    { content: 'Table ' counter(table) ': ';   }
+
+.section > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Section ' counter(section) ': ';        }
+.chapter > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Chapter ' counter(chapter) ': ';        }
+
+#toc {
+  /*column-span: all; float: top;*/
+  /*column-count: 4; column-width: auto; column-gap: 12pt;*/
+}
+#toc a:before    { content: target-content(attr(href)) ' ';                        }
+#toc a:after     { content: leader('. ') target-counter(attr(href), page);         }
+#toc ul          { margin-left: 0;                                                 }
+#toc ul li       { list-style-type: none; line-height: 1.1;                        }
+#toc ul ul li    { margin-left: 8pt; font-weight: normal;                          }
+#toc ul ul ul li { font-size: var(--smaller);                                      }
+#toc > ul > li   { font-weight: bold; margin-bottom: 4pt; font-size: var(--larger) }
+#toc a:link,
+#toc a:visited,
+#toc a:active,
+#toc a:hover { color: black; }
+
+#toc ul { -prince-pdf-tag-type: TOC; }
+#toc li { -prince-pdf-tag-type: TOCI; }
+
+.tstoolkit { 
+  background: var(--bgcolor-toolkit);  
+  border: 0.5pt solid var(--color-toolkit); 
+  border-radius: 3pt; 
+  padding-left: 9pt; padding-right: 9pt; 
+}
+
+.tstoolkit p { font-family: var(--font-toolkit); font-size: var(--toolkit); text-align: justify; }
+.tstoolkit :matches(h1, h2, h3, h4, h5, h6) { 
+  font-family: var(--font-toolkit); 
+  color: var(--color-toolkit); 
+  margin-bottom: 3pt; margin-top: 3pt; 
+}
+.tstoolkit h3 { font-size: var(--h5); }
+.tstoolkit h4 { font-size: var(--h6); }
+.tstoolkit h5 { font-size: var(--larger); }
+.tstoolkit h6 { font-size: var(--body); }
+
+.tstoolkit strong { white-space: pre; color: var(--color-toolkit); }
+.tstoolkit .icon { white-space: pre; color: var(--color-toolkit); font-weight: bold; }
+.tstoolkit .icon:after { font-family: var(--icon-solid); padding-left: 0.25em; display: inline-block; font-weight: normal; }
+
+.tstoolkit .rewind:after { content: '\f04a'; }
+.tstoolkit .ff:after     { content: '\f050'; }
+.tstoolkit .pause:after  { content: '\f04c'; }
+.tstoolkit .resume:after { content: '\f04b'; }
+
+.license { column-span: all; column-count: 3; column-gap: 12pt; font-size: var(--small); page: license; }
+
+.anchor { position: absolute; color: transparent; }
+
+.license h2      { font-size: var(--large); column-span: all; margin-bottom: 3pt; }
+.license h3      { font-size: var(--larger);          }
+.license li      { break-inside: auto;                }
+.license > ol    { margin-left: 9pt;                  }
+.license > ol ol { margin-left: 6pt;                  }
+.license > ol li { margin-left: 6pt;                  }
+.license ol p    { margin-top: 0; margin-bottom: 2pt; }
+.license p       { text-align: justify;               }
+
+@page license    { margin: 24pt; padding: 0; }
+@page license { @top-left  { content: normal; }  }
+@page license { @top-right { content: normal; }  }
+
+/* a:link, a:active, a:visited, a:hover { text-decoration: none; color: black; } */
+ *
+a:link    { text-decoration: none; color: blue;   }
+a:active  { text-decoration: none; color: red;    }
+a:visited { text-decoration: none; color: purple; }
+a:hover   { text-decoration: none; color: red;    }
+
+.gamename:before { content: string(gamename); font-style: italic; }
+
+.cw:before {  /* content warning */
+  font-family: var(--icon-solid);
+  content: '\f071';
+  display: inline-block;
+  margin-right: 0.5em;
+  color: #EEDD00;
+}
+
+.inclu:before { /* notes on inclusion */
+  font-family: var(--icon-solid);
+  content: '\f0ac';
+  display: inline-block;
+  margin-right: 0.5em;
+  color: #BB00BB;
+}
+
+@page :first { margin: 0; }
+@page :first { @top-left      { content: normal; } }
+@page :first { @top-right     { content: normal; } }
+@page :first { @bottom-center { content: normal; } }
+
+#cover { break-after: page; width: 8.5in; height: 11in; position: relative; }
+#cover h1 { 
+  position: absolute; 
+  top: 3in; left: 1in; 
+  width: 6.5in; 
+  text-align: center; 
+  font-size: var(--title); 
+}
+
+#cover h2 { 
+  position: absolute; 
+  top: 7in; left: 1in; 
+  width: 6.5in; 
+  text-align: center; 
+  font-size: var(--subtitle); 
+}
+
+#cover img { position: absolute; top: 0; left: 0; width: 8.5in; height: 11in; }
+
+@page:blank { @top-left { content: normal; } }
+@page:blank { @top-right { content: normal; } }
+@page:blank { @bottom-center { content: normal; } }
+
+@page:nth(2) { @bottom-center { content: 'i'; } }
+
+#charsheet { page: charsheet; break-before: right; height: 11in; width: 8.5in; }
+@page charsheet { margin: 0; }
+@page charsheet { @top-right     { content: normal; } }
+@page charsheet { @top-left      { content: normal; } }
+@page charsheet { @bottom-center { content: normal; } }
+
+
