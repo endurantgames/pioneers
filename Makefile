@@ -33,6 +33,9 @@ PROJ_RECIPE = $(PROJ)
 PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
 PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
+TEASER_RECIPE = teaser
+TEASER_SRC = $(BUILDDIR)/teaser.md
+TEASER_OUT = $(BUILDDIR)/pioneers-teaser.pdf
 
 # CSS Location
 #   Edit: if you have more than one stylesheet
@@ -213,12 +216,22 @@ markdown:
 	@ echo '$(ltmagn)Collecting markdown.$(resetc)'
 	@       $(MAKE_MD) $(PROJ_RECIPE)
 
+markdown-teaser:
+	@ echo '$(ltmagn)Collecting teaser markdown.$(resetc)'
+	@       $(MAKE_MD) $(TEASER_RECIPE)
+
 # make pdf
 #   Edit: if you are making more than one pdf
 pdf: markdown
 	@ echo '$(ltblue)Making PDF.$(resetc)'
 	@       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(PROJ_OUT) $(PROJ_SRC)
 	@       $(PDFINFO) $(PROJ_OUT)
+	@      -$(EXPLORER)
+
+teaser: markdown-teaser
+	@ echo '$(ltblue)Making Teaser PDF.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(TEASER_OUT) $(TEASER_SRC)
+	@       $(PDFINFO) $(TEASER_OUT)
 	@      -$(EXPLORER)
 
 # make HTML
@@ -231,7 +244,7 @@ html: markdown
 
 # make all
 #   Edit: if you are making more than one pdf or html
-all: pdf html
+all: pdf teaser html
 
 # Make Aliases ##########################################################################################
 #  Edit: only you if want to add something
