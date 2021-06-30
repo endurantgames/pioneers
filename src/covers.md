@@ -42,13 +42,13 @@
 ::::::::::::::::: {.page .p11 } ::::::::::::::::::
 # PIONEERS
 ## Space Probes
-### Star Colonies
+### Orbital Colonies
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::: {.page .p12 } ::::::::::::::::::
 # PIONEERS
 ## Space Probes
-### Star Colonies
+### Orbital Colonies
 #### And the End of All that Is.
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
