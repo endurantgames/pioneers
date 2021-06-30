@@ -58,7 +58,8 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 # Prince Config
 #   Edit: Sure, if you need to
 # PRINCEFLAGS    = --pdf-engine-opt=--css-dpi=300
-PRINCEFLAGS    = --pdf-engine-opt=--raster-output=$(OUTDIR)/page_%d.png
+# PRINCEFLAGS    = --pdf-engine-opt=--raster-output=$(OUTDIR)/page_%d.png
+PRINCEFLAGS    =
 
 # Pdfinfo Config
 #   Edit: probably unnecessary
