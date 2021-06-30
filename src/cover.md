@@ -1,6 +1,13 @@
 :::::::::::::::::::::::::::::::::::::::::: {#cover} :::::::::::::::::::::::::::::::::::::::::::::::::::
-![Cover Image](art/placeholder.png "Cover Image")
+<h1 class="title">Pioneers</h1>
 
-<h1>This is a cover</h1>
-# []{.gamename} by Cadera Spindrift 
+# Space Probes
+
+## Orbital Colonies
+
+### And the End of All that Is
+
+#### Spindrift Games
+
+![Pioneers](art/lumen.png) \ 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

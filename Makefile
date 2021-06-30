@@ -35,7 +35,7 @@ PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
 TEASER_RECIPE = teaser
 TEASER_SRC = $(BUILDDIR)/teaser.md
-TEASER_OUT = $(BUILDDIR)/pioneers-teaser.pdf
+TEASER_OUT = $(OUTDIR)/pioneers-teaser.pdf
 
 # CSS Location
 #   Edit: if you have more than one stylesheet
@@ -230,10 +230,10 @@ pdf: markdown
 	@      -$(EXPLORER)
 
 teaser: markdown-teaser
-	@ echo '$(ltblue)Making Teaser PDF.$(resetc)'
-	@       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(TEASER_OUT) $(TEASER_SRC)
-	@       $(PDFINFO) $(TEASER_OUT)
-	@      -$(EXPLORER)
+	 echo '$(ltblue)Making Teaser PDF.$(resetc)'
+	       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(TEASER_OUT) $(TEASER_SRC)
+	       $(PDFINFO) $(TEASER_OUT)
+	      -$(EXPLORER)
 
 # make HTML
 #   Edit: if you are making more than one html
