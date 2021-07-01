@@ -1,0 +1,27 @@
+# TODO
+
+- [ ] Classes
+  - [ ] Apollo
+  - [ ] Gemini
+  - [ ] Mercury
+  - [ ] Soyuz
+- [ ] Colony Benefits
+- [ ] Equipment
+  - [ ] Armor
+  - [ ] Weapons
+  - [ ] Miscellany
+- [ ] Fights
+- [ ] Ops
+- [ ] Solar System
+- [ ] Opponents
+  - [ ] Mariner
+  - [ ] Venera
+  - [ ] Viking
+  - [ ] Ulysses
+  - [ ] Cassini
+  - [ ] Rover
+- [ ] Character Sheet
+  - [ ] Apollo
+  - [ ] Gemini
+  - [ ] Mercury
+  - [ ] Soyuz
