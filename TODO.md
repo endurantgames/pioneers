@@ -12,6 +12,11 @@
   - [ ] Miscellany
 - [ ] Fights
 - [ ] Ops
+- [ ] Ships
+  - [ ] Ship equipment
+  - [ ] Ship traits
+  - [ ] Ship ops
+  - [ ] Ship fights
 - [ ] Solar System
 - [ ] Opponents
   - [ ] Mariner
