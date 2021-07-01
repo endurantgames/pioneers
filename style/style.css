@@ -36,6 +36,7 @@ header h1     { string-set: gamename content()       }
   /* --font: "Federation"; */
   --font-header: "Federation Bold"; 
   --font-title: "Battlestar";
+  --font-quote: "Reenie Beanie";
 
   --icon-game: 'game-icons';
 
@@ -197,7 +198,7 @@ figure caption:before    { content: 'Table ' counter(table) ': ';   }
 #toc a:link,
 #toc a:visited,
 #toc a:active,
-#toc a:hover { color: white; }
+#toc a:hover { color: yellow; }
 
 #toc ul { -prince-pdf-tag-type: TOC; }
 #toc li { -prince-pdf-tag-type: TOCI; }
@@ -251,10 +252,10 @@ figure caption:before    { content: 'Table ' counter(table) ': ';   }
 
 /* a:link, a:active, a:visited, a:hover { text-decoration: none; color: black; } */
  *
-a:link    { text-decoration: none; color: blue;   }
+/* a:link    { text-decoration: none; color: blue;   }
 a:active  { text-decoration: none; color: red;    }
 a:visited { text-decoration: none; color: purple; }
-a:hover   { text-decoration: none; color: red;    }
+a:hover   { text-decoration: none; color: red;    } */
 
 .gamename:before { content: string(gamename); font-style: italic; }
 
@@ -490,3 +491,6 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 .infolist ul li strong { font-size: 90%; font-weight: normal; font-family: var(--font); }
 .infolist ul { background-color: rgba(255, 255, 255, 0.25); padding: 6px 12px; }
 .infolist ul li { font-family: "Noto Sans Cond"; }
+
+blockquote { font-family: var(--font-quote); }
+

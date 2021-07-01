@@ -17,54 +17,102 @@ title: Pioneers
 ## Pioneers {.title .headline}
 
 
+## Credits
+
+This game was created by <a href="mailto:caderaspindrift@gmail.com">Cadera Spindrift</a>.
+
+
+[]{.gamename} was created as part of the [LUMEN Jam](https://itch.io/jam/lumen-jam)
+hosted by [Gila RPGs](https://gilarpgs.itch.io/).
+
+This game is Illuminated, and is made using the LUMEN
+system created by Spencer Campbell of GilaRPGs. This
+game is not affiliated with Gila RPGs.
+
+All art is courtesy of NASA and is in the public domain. Use of these images
+in this game does not imply any endorsement by NASA.
+
+
+The contents of the game are covered by the
+*Anti-Capitalist Attribution Cooperative License*, written 
+by <a href="https://noroadhome.itch.io/acaclicense">Takuma Okada</a>]{.spin}
+which [you can read here](https://noroadhome.itch.io/acaclicense).
+
+
+This game is an homage to *Battlestar Galactica* (both incarnations),
+with *Star Trek: The Motion Picture* thrown in, as well as a tribute to
+my 1970s-era nerd-girl fascination with NASA.
+
+
+> "We named 'em *Pioneers* after the old NASA space probes. Someone
+> here in the lab started calling 'em *Pions* as a cutesy nickname,
+> and it stuck."
+> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
+
 In []{.gamename}, you fight to liberate the Solar System from the Pions,
-cybernetic beings who have already conquered the Earth and nuked the Moon.
+cybernetic beings who have already conquered the Earth and much of the
+Solar System, and nuked the Moon. You know, as one does.
 
 ## Game Mechanics
 
-Roll a number of dice equal to your attribute, and use the highest
-number.
+You have three abilities: **Thrust**, **Gyro**, and **Telemetry**.
+
+You use **Thrust** for direct actions -- to solve problems that are
+best solved by an application of force, whether physical or mental.
+
+**Gyro** is all about speed and balance. If it has to be done quickly,
+gracefully, or both, then you're going to make a Gyro roll.
+
+**Telemetry** covers anything requiring knowlege, whether that's the
+specialized knowledge of a hacker or surgeon, or just general
+intelligence about the enemy's movement.
+
+When you do an action, either in a fight or not, state which 
+attribute you're using, then Roll a number of dice equal to your 
+attribute. Check the highest number you rolled on one die against
+the following table:
 
  On a...  
---------- ----------------------
+--------- ---------------------------------------------------------
   1-2     The action **fails** and there's a **consequence**.
   3-4     The action **succeeds** but there's a **complication**.
   5-6     The action **succeeds** with **no problems**.
 
-Each extra 6 is **Good Fortune**, meaning one of the following:
-- +1 Harm on an attack
+In addition, you have three resource pools, **Health**, **Impulse**,
+and **Kit**.
 
-## Character Creation
+**Health** tells you how much Harm you can take before dying; each
+hit by the enemy usually does 1 to 3 Harm.
 
-1. Pick a Class.
-2. Choose Your Home Colony.
+**Impulse** is your energy, your drive, your momentum. You can spend
+Impulse to activate your Talents.
 
-## Class
+**Kit** is an abstract measure of how much gear you have. At the
+beginning of each Op, you can grab items from the Armory by spending 
+some of your Kit; you can also spend Kit in the field, to represent 
+items that you had on you but didn't want to slow the game down with 
+time-consuming inventory tracking.
 
-Pick a class:
+You are part of the **Rag-Tag Fugitive Resistance** trying to free
+the Solar System from the clutches of its prodigal electronic children.
+With all the other players, you comprise a Resistance Cell that takes
+on mssions, called **Ops,** that invariably involve blowing up lots and
+lots of Pions. 
 
-- **Apollo** You're big, strong, and tough in a fight.
-- **Mercury** You're fast, agile, and hard to pin down.
-- **Gemini** You're smart, clever, and good with technology.
-- **Soyuz** You're a jack-of-all-trades who is pretty good at everything.
+If you survive a deadly Op, the most you can hope for 
+is a free drink in one of the underground Speakeasies frequented by
+the Resistance fighters; if you fail, the best you'll get is one of
+those drinks lifted in honor of your sacrifice.
 
-:::::::::::::::::::: classtable :::::::::::::::::::::::::::::::
-Class       Thrust   Gyro   Telemetry   Health   Impulse   Kit
----------- -------- ------ ----------- -------- --------- -----
-Apollo        3       1         2         8       4         3 
-Gemini        1       2         3         6       3         6
-Mercury       1       3         2         5       6         4
-Soyuz         2       2         2         5       5         5
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Apollo
+## Apollo
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
    3       1         2         8       4         3
 
-### Apollo Class Talents
+## Apollo Class Talents
 
 - Talent 1
 - Talent 2
@@ -74,13 +122,13 @@ Soyuz         2       2         2         5       5         5
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Gemini
+## Gemini
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
     1       2         3         6       3         6
 
-### Gemini Class Talents
+## Gemini Class Talents
 
 - Talent 1
 - Talent 2
@@ -90,13 +138,13 @@ Soyuz         2       2         2         5       5         5
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Mercury
+## Mercury
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
    1       3         2         5       6         4
 
-### Mercury Class Talents
+## Mercury Class Talents
 
 - Talent 1
 - Talent 2
@@ -106,13 +154,13 @@ Soyuz         2       2         2         5       5         5
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Soyuz
+## Soyuz
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
    2       2         2         5       5         5
 
-### Soyuz Class Talents
+## Soyuz Class Talents
 
 - Talent 1
 - Talent 2
@@ -121,6 +169,59 @@ Soyuz         2       2         2         5       5         5
 - Talent 5
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+## Equipment
+
+### Armor
+
+- **Tactical Vest**
+- **Assault Armor**
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
+### Weapons
+
+- **Autolaser**         2 Harm, Mid, Autofire, Burn
+- **Autorifle**         1 Harm, Mid, Autofire
+- **Bow**               1 Harm, Mid, Far
+- **Flamethrower**      2 Harm, Close, Burn
+- **Grenade Mortar**    2 Harm, Mid, Tactical, Exploding, Reload
+- **Pulse Grenade**     1 Harm, Close, AOE, EMP, Single-Use
+- **Pulse Pistol**      1 Harm, Close, Handgun, EMP
+- **Pulse Rifle**       2 Harm, Mid, Heavy, EMP
+- **Raybeam Pistol**    1 Harm, Close, Handgun, Burn
+- **Raybeam Rifle**     2 Harm, Mid, Far, Burn
+- **Rocket Launcher**   3 Harm, Mid, Exploding, Heavy, Reload
+- **SMG**               1 Harm, Close, Mid, Autofire
+- **Shotgun**           2 Harm, Close
+- **Slug Grenade**      1 Harm, Close, Exploding, Single-Use
+- **Slug Pistol**       1 Harm, Close, Handgun
+- **Slug Rifle**        2 Harm, Mid, Far, Heavy
+- **Sniper Rifle**      2 Harm, Far, Scope, Tactical
+- **Taser Pistol**      1 Harm, Close, Handgun, Shock
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ 
+::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
+### Weapon Tags
+
+- **AOE** Affects multiple targets.
+- **Autofire** Can hit multiple targets.
+- **Burn** Does burn damage.
+- **Close** Effective up close.
+- **EMP**  Does pulse damage.
+- **Exploding** Does explosive damage against multiple targets.
+- **Far** Effective far away.
+- **Handgun** +1 Harm when fired with Gyro.
+- **Heavy** +1 Harm when fired with Thrust.
+- **Mid** Effective at medium ranges.
+- **Piercing** Does +1 Harm against armored targets.
+- **Reload** Sometimes requires reloading.
+- **Scope** Does +1 Harm if you remain stationary when firing.
+- **Single-Use** You can only use this weapon once.
+- **Shock** Does electrical damage.
+- **Tactical** Does +1 Harm when fired with Telemetry.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 ## Health
 
@@ -133,6 +234,25 @@ Soyuz         2       2         2         5       5         5
 ## Kit
 
 - Resource to spend
+
+## Fights
+
+> "I fuckin' hate these goddamn space probes. 
+> 'Explore the universe and report back' -- fuck that, does us
+> no damn good down here on planet Earth. Earth first, always."
+> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
+
+[]{.lorem}
+
+## Drops
+
+At the end of the GM's turn, roll 1d6 for each enemy that died.
+
+ Roll  Result
+------ -----------
+1-2    +1 Health
+3-4    +1 Impulse
+5-6    +1 Kit
 
 ## Solar System {.breakbefore}
 
@@ -189,70 +309,9 @@ Pluto is the second most distant colony and is primary for astronomical research
 
 Venus has floating cloud cities occupied by the wealthy above, and gas miners on the lower decks.
 
-## Drops
-
-At the end of the GM's turn, roll 1d6 for each enemy that died.
-
- Roll  Result
------- -----------
-1-2    +1 Health
-3-4    +1 Impulse
-5-6    +1 Kit
-
-## Equipment
-
-### Armor
-
-- **Tactical Vest**
-- **Assault Armor**
-
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Weapons
-
-- **Autolaser**         2 Harm, Mid, Autofire, Burn
-- **Autorifle**         1 Harm, Mid, Autofire
-- **Bow**               1 Harm, Mid, Far
-- **Flamethrower**      2 Harm, Close, Burn
-- **Grenade Mortar**    2 Harm, Mid, Tactical, Exploding, Reload
-- **Pulse Grenade**     1 Harm, Close, AOE, EMP, Single-Use
-- **Pulse Pistol**      1 Harm, Close, Handgun, EMP
-- **Pulse Rifle**       2 Harm, Mid, Heavy, EMP
-- **Raybeam Pistol**    1 Harm, Close, Handgun, Burn
-- **Raybeam Rifle**     2 Harm, Mid, Far, Burn
-- **Rocket Launcher**   3 Harm, Mid, Exploding, Heavy, Reload
-- **SMG**               1 Harm, Close, Mid, Autofire
-- **Shotgun**           2 Harm, Close
-- **Slug Grenade**      1 Harm, Close, Exploding, Single-Use
-- **Slug Pistol**       1 Harm, Close, Handgun
-- **Slug Rifle**        2 Harm, Mid, Far, Heavy
-- **Sniper Rifle**      2 Harm, Far, Scope, Tactical
-- **Taser Pistol**      1 Harm, Close, Handgun, Shock
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
- 
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Weapon Tags
-
-- **AOE** Affects multiple targets.
-- **Autofire** Can hit multiple targets.
-- **Burn** Does burn damage.
-- **Close** Effective up close.
-- **EMP**  Does pulse damage.
-- **Exploding** Does explosive damage against multiple targets.
-- **Far** Effective far away.
-- **Handgun** +1 Harm when fired with Gyro.
-- **Heavy** +1 Harm when fired with Thrust.
-- **Mid** Effective at medium ranges.
-- **Piercing** Does +1 Harm against armored targets.
-- **Reload** Sometimes requires reloading.
-- **Scope** Does +1 Harm if you remain stationary when firing.
-- **Single-Use** You can only use this weapon once.
-- **Shock** Does electrical damage.
-- **Tactical** Does +1 Harm when fired with Telemetry.
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ## Origins
 
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 - **Tellurian** You're from Earth. *Start each operation with +1 Kit.*
 - **Hermean** You're from Mercury.
 - **Selenite** You're from Luna, Earth's moon.
@@ -352,15 +411,3 @@ Location Tags:
 - **Pluto** Minimal Population, Cold, Low-G, Occupation, Spaceport, Underground
 - **Eris** Minimal Population, Cold, Prison, Mining, Spaceport, Underground
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-## Opponents {.breakbefore}
-
-Pion Classes:
-
-- **Mariner** Space forces
-- **Venera** Air support
-- **Viking** Marine
-- **Ulysses** Commander
-- **Cassini** Diplomat
-- **Rover** Infantry
-

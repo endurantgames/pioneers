@@ -1,28 +1,77 @@
+> "We named 'em *Pioneers* after the old NASA space probes. Someone
+> here in the lab started calling 'em *Pions* as a cutesy nickname,
+> and it stuck."
+> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
+
 In []{.gamename}, you fight to liberate the Solar System from the Pions,
-cybernetic beings who have already conquered the Earth and nuked the Moon.
+cybernetic beings who have already conquered the Earth and much of the
+Solar System, and nuked the Moon. You know, as one does.
 
 ## Game Mechanics
 
-Roll a number of dice equal to your attribute, and use the highest
-number.
+You have three abilities: **Thrust**, **Gyro**, and **Telemetry**.
+
+You use **Thrust** for direct actions -- to solve problems that are
+best solved by an application of force, whether physical or mental.
+
+**Gyro** is all about speed and balance. If it has to be done quickly,
+gracefully, or both, then you're going to make a Gyro roll.
+
+**Telemetry** covers anything requiring knowlege, whether that's the
+specialized knowledge of a hacker or surgeon, or just general
+intelligence about the enemy's movement.
+
+When you do an action, either in a fight or not, state which 
+attribute you're using, then Roll a number of dice equal to your 
+attribute. Check the highest number you rolled on one die against
+the following table:
 
  On a...  
---------- ----------------------
+--------- ---------------------------------------------------------
   1-2     The action **fails** and there's a **consequence**.
   3-4     The action **succeeds** but there's a **complication**.
   5-6     The action **succeeds** with **no problems**.
 
-Each extra 6 is **Good Fortune**, meaning one of the following:
-- +1 Harm on an attack
+In addition, you have three resource pools, **Health**, **Impulse**,
+and **Kit**.
+
+**Health** tells you how much Harm you can take before dying; each
+hit by the enemy usually does 1 to 3 Harm.
+
+**Impulse** is your energy, your drive, your momentum. You can spend
+Impulse to activate your Talents.
+
+**Kit** is an abstract measure of how much gear you have. At the
+beginning of each Op, you can grab items from the Armory by spending 
+some of your Kit; you can also spend Kit in the field, to represent 
+items that you had on you but didn't want to slow the game down with 
+time-consuming inventory tracking.
+
+You are part of the **Rag-Tag Fugitive Resistance** trying to free
+the Solar System from the clutches of its prodigal electronic children.
+With all the other players, you comprise a Resistance Cell that takes
+on mssions, called **Ops,** that invariably involve blowing up lots and
+lots of Pions. 
+
+If you survive a deadly Op, the most you can hope for 
+is a free drink in one of the underground Speakeasies frequented by
+the Resistance fighters; if you fail, the best you'll get is one of
+those drinks lifted in honor of your sacrifice.
 
 ## Character Creation
 
+Character creation is dirt simple. Follow these steps and you're done.
+
 1. Pick a Class.
 2. Choose Your Home Colony.
+3. Grab your Weapon.
+4. Come up with a Name.
+5. Snag a ship.
 
 ## Class
 
-Pick a class:
+Your **Class** determines your starting attributes and pools, and
+gives you a choice of Talents. Pick a class from this list:
 
 - **Apollo** You're big, strong, and tough in a fight.
 - **Mercury** You're fast, agile, and hard to pin down.
@@ -37,6 +86,10 @@ Gemini        1       2         3         6       3         6
 Mercury       1       3         2         5       6         4
 Soyuz         2       2         2         5       5         5
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+> "In retrospect, putting a map showing how to get back to Earth on those 
+> old-fashioned space probes probably wasn't the smartest idea."
+> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
 
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Apollo
@@ -169,6 +222,15 @@ Pluto is the second most distant colony and is primary for astronomical research
 ### Venus
 
 Venus has floating cloud cities occupied by the wealthy above, and gas miners on the lower decks.
+
+## Fights
+
+> "I fuckin' hate these goddamn space probes. 
+> 'Explore the universe and report back' -- fuck that, does us
+> no damn good down here on planet Earth. Earth first, always."
+> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
+
+[]{.lorem}
 
 ## Drops
 
@@ -335,6 +397,11 @@ Location Tags:
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Opponents {.breakbefore}
+
+> "We were just trying to make them more like us -- more human, with
+> a range of simulated emotions. And that was the problem, we made them
+> **too much** like us."
+> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
 
 Pion Classes:
 

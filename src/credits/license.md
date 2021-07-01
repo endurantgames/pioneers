@@ -1,3 +1,5 @@
 The contents of the game are covered by the
-*Anti-Capitalist Attirbution Cooperative License* found at the end of the rules.
+*Anti-Capitalist Attribution Cooperative License*, written 
+by <a href="https://noroadhome.itch.io/acaclicense">Takuma Okada</a>]{.spin}
+which [you can read here](https://noroadhome.itch.io/acaclicense).
 

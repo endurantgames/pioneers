@@ -1,2 +1,2 @@
-[]{.gamename} was created as part of the [generator name](https://itch.io/jam/url)
-hosted by [itch username](https://username.itch.io/).
+[]{.gamename} was created as part of the [LUMEN Jam](https://itch.io/jam/lumen-jam)
+hosted by [Gila RPGs](https://gilarpgs.itch.io/).
