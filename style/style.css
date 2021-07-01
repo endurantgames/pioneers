@@ -36,7 +36,10 @@ header h1     { string-set: gamename content()       }
   /* --font: "Federation"; */
   --font-header: "Federation Bold"; 
   --font-title: "Battlestar";
-  --font-quote: "Reenie Beanie";
+  --font-quote: "Shadows Into Light";
+  --font-block: "Wallpoet";
+
+  --font-chinese: "Noto Sans SC";
 
   --icon-game: 'game-icons';
 
@@ -195,10 +198,7 @@ figure caption:before    { content: 'Table ' counter(table) ': ';   }
 #toc ul ul li    { margin-left: 8pt; font-weight: normal;                          }
 #toc ul ul ul li { font-size: var(--smaller);                                      }
 #toc > ul > li   { font-weight: bold; margin-bottom: 4pt; font-size: var(--larger) }
-#toc a:link,
-#toc a:visited,
-#toc a:active,
-#toc a:hover { color: yellow; }
+a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
 
 #toc ul { -prince-pdf-tag-type: TOC; }
 #toc li { -prince-pdf-tag-type: TOCI; }
@@ -251,7 +251,6 @@ figure caption:before    { content: 'Table ' counter(table) ': ';   }
 */
 
 /* a:link, a:active, a:visited, a:hover { text-decoration: none; color: black; } */
- *
 /* a:link    { text-decoration: none; color: blue;   }
 a:active  { text-decoration: none; color: red;    }
 a:visited { text-decoration: none; color: purple; }
@@ -446,20 +445,21 @@ h2.headline {
 
 @page { background-size: 100% auto; background-repeat: no-repeat; }
 
-@page:nth(2)  { background-image: url("../art/blue-2.jpg"         ); /* background-position:  1280px bottom; */ }
-@page:nth(3)  { background-image: url("../art/blue-voyager.jpg"   ); /* background-position: -1280px bottom; */ }
-@page:nth(4)  { background-image: url("../art/fuel-satellite.jpg" ); /* background-position:  1280px bottom; */ }
-@page:nth(5)  { background-image: url("../art/golden-record.png"  ); /* background-position: -1280px bottom; */ }
-@page:nth(6)  { background-image: url("../art/hydrogen-depot.jpg" ); /* background-position:  1280px bottom; */ }
-@page:nth(7)  { background-image: url("../art/red-nebula.jpg"     ); /* background-position: -1280px bottom; */ }
-@page:nth(8)  { background-image: url("../art/voyager.jpg"        ); /* background-position:  1280px bottom; */ }
-@page:nth(9)  { background-image: url("../art/venus-approach.jpg" ); /* background-position: -1280px bottom; */ }
-@page:nth(10) { background-image: url("../art/green-station.jpg"  ); /* background-position:  1280px bottom; */ }
-@page:nth(11) { background-image: url("../art/Spacecolony1.jpg"   ); /* background-position: -1280px bottom; */ }
-@page:nth(12) { background-image: url("../art/saturn.jpg"         ); /* background-position:  1280px bottom; */ }
-@page:nth(13) { background-image: url("../art/Spacecolony1.jpg"   ); /* background-position: -1280px bottom; */ }
-@page:nth(14) { background-image: url("../art/voyager.jpg"        ); /* background-position:  1280px bottom; */ }
-@page:nth(15) { background-image: url("../art/Spacecolony1.jpg"   ); /* background-position: -1280px bottom; */ }
+@page:nth(2)  { background-image: url("../art/blue-2.jpg"         ); /* background-position: bottom; */ }
+@page:nth(3)  { background-image: url("../art/golden-record.png"  ); /* background-position: bottom; */ }
+@page:nth(4)  { background-image: url("../art/nasty.jpg"          ); /* background-position: bottom; */ }
+@page:nth(5)  { background-image: url("../art/jupiter.jpg"        ); background-position: bottom; }
+@page:nth(6)  { background-image: url("../art/funky-interior.jpg" ); /* background-position: bottom; */ }
+@page:nth(7)  { background-image: url("../art/red-nebula.jpg"     ); /* background-position: bottom; */ }
+@page:nth(8)  { background-image: url("../art/island3.jpg"        ); /* background-position: bottom; */ }
+@page:nth(9)  { background-image: url("../art/green-station.jpg"  ); /* background-position: bottom; */ }
+@page:nth(10) { background-image: url("../art/voyager.jpg"        ); /* background-position: bottom; */ }
+@page:nth(11) { background-image: url("../art/sphere-interior.jpg"); /* background-position: bottom; */ }
+@page:nth(12) { background-image: url("../art/venus-approach.jpg" ); /* background-position: bottom; */ }
+@page:nth(13) { background-image: url("../art/nebula.jpg"         ); /* background-position: bottom; */ }
+@page:nth(14) { background-image: url("../art/saturn.jpg"         ); /* background-position: bottom; */ }
+@page:nth(15) { background-image: url("../art/probe.jpg"          ); /* background-position: bottom; */ }
+@page:nth(16) { background-image: url("../art/torus.jpg"          ); background-position: center; }
 
 .class { break-before: page; }
 
@@ -492,5 +492,11 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 .infolist ul { background-color: rgba(255, 255, 255, 0.25); padding: 6px 12px; }
 .infolist ul li { font-family: "Noto Sans Cond"; }
 
-blockquote { font-family: var(--font-quote); }
+blockquote p strong { font-family: var(--font-quote); }
+blockquote p { line-height: 1.25; }
+.redalert blockquote p { line-height: 1.4; }
+blockquote { font-family: var(--font-quote); font-size: 24px; }
+.redalert blockquote { font-family: var(--font-block); font-size: 18px; } 
+blockquote .credit { display: block; font-family: "PT Sans Narrow"; font-style: italic; text-align: right; font-size: 16px; padding-top: 4px; }
 
+blockquote .chinese { font-family: var(--font-chinese); }

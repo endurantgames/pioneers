@@ -2,17 +2,13 @@ metadata
 intro
 # toc
 # no_fascists
-credits/intro
-credits/jam
-credits/lumen
-credits/art
-credits/license
-credits/homage
 attributes
+chargen
 classes
 gear
 combat
 solar_system
+enemies
 # credits/pbta
 # credits/no_fascists
 # credits/safety
@@ -21,3 +17,9 @@ solar_system
 # safety/toolkit
 # license
 # charsheet
+credits/intro
+credits/jam
+credits/lumen
+credits/art
+credits/license
+credits/homage

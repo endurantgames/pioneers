@@ -1,11 +1,11 @@
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Apollo
+# Apollo
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
    3       1         2         8       4         3
 
-### Apollo Class Talents
+## Apollo Class Talents
 
 - Talent 1
 - Talent 2
@@ -15,13 +15,13 @@
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Gemini
+# Gemini
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
     1       2         3         6       3         6
 
-### Gemini Class Talents
+## Gemini Class Talents
 
 - Talent 1
 - Talent 2
@@ -31,13 +31,13 @@
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Mercury
+# Mercury
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
    1       3         2         5       6         4
 
-### Mercury Class Talents
+## Mercury Class Talents
 
 - Talent 1
 - Talent 2
@@ -47,13 +47,13 @@
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Soyuz
+# Soyuz
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
    2       2         2         5       5         5
 
-### Soyuz Class Talents
+## Soyuz Class Talents
 
 - Talent 1
 - Talent 2

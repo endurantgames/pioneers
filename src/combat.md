@@ -1,4 +1,4 @@
-## Fights
+## Fights {.breakbefore}
 
 > "I fuckin' hate these goddamn space probes. 
 > 'Explore the universe and report back' -- fuck that, does us
@@ -7,7 +7,7 @@
 
 []{.lorem}
 
-## Drops
+### Drops
 
 At the end of the GM's turn, roll 1d6 for each enemy that died.
 

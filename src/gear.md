@@ -1,4 +1,4 @@
-## Equipment
+## Equipment {.breakbefore}
 
 ### Armor
 

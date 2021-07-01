@@ -1,12 +1,3 @@
-> "We named 'em *Pioneers* after the old NASA space probes. Someone
-> here in the lab started calling 'em *Pions* as a cutesy nickname,
-> and it stuck."
-> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
-
-In []{.gamename}, you fight to liberate the Solar System from the Pions,
-cybernetic beings who have already conquered the Earth and much of the
-Solar System, and nuked the Moon. You know, as one does.
-
 ## Game Mechanics
 
 You have three abilities: **Thrust**, **Gyro**, and **Telemetry**.
@@ -21,6 +12,8 @@ gracefully, or both, then you're going to make a Gyro roll.
 specialized knowledge of a hacker or surgeon, or just general
 intelligence about the enemy's movement.
 
+### Dice Rolling
+
 When you do an action, either in a fight or not, state which 
 attribute you're using, then Roll a number of dice equal to your 
 attribute. Check the highest number you rolled on one die against
@@ -31,6 +24,8 @@ the following table:
   1-2     The action **fails** and there's a **consequence**.
   3-4     The action **succeeds** but there's a **complication**.
   5-6     The action **succeeds** with **no problems**.
+
+### Resource Pools
 
 In addition, you have three resource pools, **Health**, **Impulse**,
 and **Kit**.
@@ -46,6 +41,8 @@ beginning of each Op, you can grab items from the Armory by spending
 some of your Kit; you can also spend Kit in the field, to represent 
 items that you had on you but didn't want to slow the game down with 
 time-consuming inventory tracking.
+
+### Resistance Ops
 
 You are part of the **Rag-Tag Fugitive Resistance** trying to free
 the Solar System from the clutches of its prodigal electronic children.
