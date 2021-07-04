@@ -39,7 +39,8 @@ header h1     { string-set: gamename content()       }
   --font-title: "Battlestar";
   --font-quote: "Shadows Into Light";
   --font-block: "Wallpoet";
-  --font-info: "Noto Sans Cond";
+  /* --font-info: "Noto Sans Cond"; */
+  --font-info: "Noto Sans SemCond";
   --font-chinese: "Noto Sans SC";
 
   --icon-game: 'game-icons';
@@ -298,6 +299,14 @@ h2.headline {
 @page:nth(14) { background-image: url("../art/saturn.jpg"         ); }
 @page:nth(15) { background-image: url("../art/probe.jpg"          ); }
 @page:nth(16) { background-image: url("../art/torus.jpg"          ); background-position: center; }
+@page:nth(17) { background-image: url("../art/blue-voyager.jpg"   ); }
+@page:nth(18) { background-image: url("../art/eclipse.jpg"        ); }
+@page:nth(19) { background-image: url("../art/fuel-satellite.jpg" ); }
+@page:nth(20) { background-image: url("../art/nebula3.jpg"        ); }
+@page:nth(21) { background-image: url("../art/over-mars.jpg"      ); }
+@page:nth(22) { background-image: url("../art/abstract-jupiter.jpg"); }
+@page:nth(23) { background-image: url("../art/texas.jpg"          ); }
+@page:nth(24) { background-image: url("../art/flyby-saturn.jpg"   ); }
 
 .class { break-before: page; }
 
@@ -319,7 +328,7 @@ strong { font-family: var(--font-header); font-weight: normal; }
 
 ul li { list-style-type: none; }
 ul { margin-left: 2em; }
-ul li strong { margin-left: -2em; padding-right: 0.75em; }
+ul li strong { margin-left: -2em; padding-right: 0.25em; }
 ol li { margin-left: 2em; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
@@ -328,8 +337,8 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 .infotable table :matches(th, td) { font-family: var(--font-info); }
 
 .infolist ul li strong { font-size: 90%; font-weight: normal; font-family: var(--font); }
-.infolist ul { background-color: rgba(255, 255, 255, 0.25); padding: 6px 12px; }
-.infolist ul li { font-family: "Noto Sans Cond"; }
+.infolist ul { background-color: rgba(255, 255, 255, 0.25); padding: 6px 12px; margin-left: 0; }
+.infolist ul li { padding-left: 1em; font-family: "Noto Sans Cond"; font-size: 20px; }
 
 .infolist.dark ul { background-color: rgba(255, 255, 255, 0.10); }
 
