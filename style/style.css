@@ -1,6 +1,8 @@
 /* base css file for TTRPG projects */
 /* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
 
+@import "pics.css";
+
 @page { size: 1920px 1080px; background-color: black; color: white; margin: 64px; }
 header        { display: none;                       }
 header p.date { string-set: date content()           }
@@ -9,8 +11,8 @@ header h1     { string-set: gamename content()       }
 @page:first { margin: 0; padding: 0; }
 @page { margin-inside: 768px; }
 
-@page { @left-bottom { font-size: 64px; font-family: var(--font); text-shadow: 0 0 0.25em black; } }
-@page { @right-bottom { font-size: 64px; font-family: var(--font); text-shadow: 0 0 0.25em black; } }
+@page { @left-bottom { font-size: 64px; font-family: var(--font-header); text-shadow: 0 0 0.25em black; } }
+@page { @right-bottom { font-size: 64px; font-family: var(--font-header); text-shadow: 0 0 0.25em black; } }
 
 @page:right { @left-bottom { content: counter(page); text-align: inside; padding-left: 64px; } }
 @page:left  { @right-bottom { content: counter(page); text-align: inside; padding-right: 64px; } }
@@ -284,59 +286,43 @@ h2.headline {
 
 @page { background-size: 100% auto; background-repeat: no-repeat; }
 
-@page:nth(2)  { background-image: url("../art/blue-2.jpg"         ); }
-@page:nth(3)  { background-image: url("../art/golden-record.png"  ); }
-@page:nth(4)  { background-image: url("../art/nasty.jpg"          ); }
-@page:nth(5)  { background-image: url("../art/jupiter.jpg"        ); background-position: bottom; }
-@page:nth(6)  { background-image: url("../art/funky-interior.jpg" ); }
-@page:nth(7)  { background-image: url("../art/red-nebula.jpg"     ); }
-@page:nth(8)  { background-image: url("../art/island3.jpg"        ); }
-@page:nth(9)  { background-image: url("../art/green-station.jpg"  ); }
-@page:nth(10) { background-image: url("../art/voyager.jpg"        ); }
-@page:nth(11) { background-image: url("../art/sphere-interior.jpg"); }
-@page:nth(12) { background-image: url("../art/venus-approach.jpg" ); }
-@page:nth(13) { background-image: url("../art/nebula.jpg"         ); }
-@page:nth(14) { background-image: url("../art/saturn.jpg"         ); }
-@page:nth(15) { background-image: url("../art/probe.jpg"          ); }
-@page:nth(16) { background-image: url("../art/torus.jpg"          ); background-position: center; }
-@page:nth(17) { background-image: url("../art/blue-voyager.jpg"   ); }
-@page:nth(18) { background-image: url("../art/eclipse.jpg"        ); }
-@page:nth(19) { background-image: url("../art/fuel-satellite.jpg" ); }
-@page:nth(20) { background-image: url("../art/nebula3.jpg"        ); }
-@page:nth(21) { background-image: url("../art/over-mars.jpg"      ); }
-@page:nth(22) { background-image: url("../art/abstract-jupiter.jpg"); }
-@page:nth(23) { background-image: url("../art/texas.jpg"          ); }
-@page:nth(24) { background-image: url("../art/flyby-saturn.jpg"   ); }
-
 .class { break-before: page; }
 
-.class h3:first-child { font-size: var(--h1); column-span: all; font-family: var(--font-title); text-align: center; letter-spacing: 0.25em; }
 .class table { column-span: all; border-collapse: collapse; border: 1pt solid white; width: 100%; margin-bottom: 32px; }
 .class table :matches(td, th) { width: 16.666%; padding: 16px; }
-.class table td { font-size: var(--large); } 
+.class table td { font-size: var(--h3); font-family: var(--font-header); } 
 .class table td:nth-child(3) { border-right: 1px solid silver; }
 .class table th:nth-child(3) { border-right: 1px solid silver; }
+.class table th { font-weight: normal; font-size: var(--large); font-family: var(--font); }
 
-.classtable table { margin: 32px; }
-.classtable table :matches(td, th) { width: 10%; padding: 4px; }
+.classtable table { font-family: var(--font-header);
+   margin: 32px;
+   background: rgba(128, 128, 128, 0.2);
+   padding: 6pt;
+   }
+.classtable table :matches(td, th) { width: 10%; padding: 8px; font-size: var(--large); }
 .classtable table :matches(td, th):first-child { width: 20%; }
 .classtable { float: page bottom; column-span: all; }
-.classtable tr { border-bottom: 0.25px solid gray; }
-.classtable tr:last-child { border-bottom: none; }
+.classtable table td:first-child { font-family: var(--font); }
+.classtable table :matches(td, th):nth-child(4) { border-right: 1px solid gray;
+   padding-right: 1em;
+   }
 
 strong { font-family: var(--font-header); font-weight: normal; } 
 
 ul li { list-style-type: none; }
-ul { margin-left: 2em; }
+ul { margin-left: 2em; break-inside: avoid; }
 ul li strong { margin-left: -2em; padding-right: 0.25em; }
 ol li { margin-left: 2em; }
+
+.breakable ul { break-inside: auto; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 
 .infotable table { padding: 8px; background-color: rgba(255, 255, 255, 0.15); }
 .infotable table :matches(th, td) { font-family: var(--font-info); }
 
-.infolist ul li strong { font-size: 90%; font-weight: normal; font-family: var(--font); }
+.infolist ul li strong { font-size: 90%; font-weight: normal; font-family: var(--font-header); }
 .infolist ul { background-color: rgba(255, 255, 255, 0.25); padding: 6px 12px; margin-left: 0; }
 .infolist ul li { padding-left: 1em; font-family: "Noto Sans Cond"; font-size: 20px; }
 
@@ -347,6 +333,29 @@ blockquote p { line-height: 1.25; }
 .redalert blockquote p { line-height: 1.4; }
 blockquote { font-family: var(--font-quote); font-size: 24px; }
 .redalert blockquote { font-family: var(--font-block); font-size: 18px; } 
-blockquote .credit { display: block; font-family: var(--font-info); font-style: italic; text-align: right; font-size: 20px; padding-top: 4px; }
+blockquote .credit { display: block; font-family: var(--font-info); font-style: italic; text-align: right; font-size: 20px; padding-top: 4px; break-before: avoid; }
 
 blockquote .chinese { font-family: var(--font-chinese); }
+
+.traveltimes { float: column bottom; margin-top: 9pt; }
+
+h2.breakbefore { column-span: all; }
+
+.class table { margin-top: 12pt; }
+.class h2 { 
+  font-size: var(--h1); 
+}
+.class h3.classquote { 
+   font-family: var(--font);
+   font-weight: normal;
+   text-align: center;
+   column-span: all;
+   font-style: italic;
+   margin-top: 12px;
+   margin-bottom: 24px;
+   margin-left: 192px;
+   margin-right: 192px;
+}
+
+a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
+

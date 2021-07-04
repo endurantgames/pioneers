@@ -11,23 +11,21 @@ Soyuz         2       2         2         5       5         5
 
 Character creation is dirt simple. Follow these steps and you're done.
 
-1. Pick a Class.
-2. Choose Your Home Colony.
-3. Grab your Weapon.
-4. Come up with a Name.
-5. Snag a ship.
+1. [Pick a Class.](#step-class){.page}
+2. [Choose Your Home Colony.](#step-colony){.page}
+3. [Grab your Gear.](#step-gear){.page}
+4. [Snag a ship.](#step-ship){.page}
+5. Come up with a Name.
 
-## Class {.colbefore}
-
-> "In retrospect, putting a map showing how to get back to Earth on those 
-> old-fashioned space probes probably wasn't the smartest idea."
-> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
+## Class {#step-class}
 
 Your **Class** determines your starting attributes and pools, and
-gives you a choice of Talents. Pick a class from this list:
+gives you five Talents. Pick a class from this list:
 
 - **Apollo** You're big, strong, and tough in a fight.
 - **Mercury** You're fast, agile, and hard to pin down.
 - **Gemini** You're smart, clever, and good with technology.
-- **Soyuz** You're a jack-of-all-trades who is pretty good at everything.
+- **Soyuz** You're a jack-of-all-trades and born leader.
+
+The table below lists the attributes and pools for each class.
 

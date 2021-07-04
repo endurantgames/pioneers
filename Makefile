@@ -64,6 +64,7 @@ PRINCEFLAGS    = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
 # Pdfinfo Config
 #   Edit: probably unnecessary
 PDFINFO        = /usr/bin/pdfinfo
+PDFINFO_GREP = | grep -v no
 
 # Make Markdown Script Config
 #   Edit: you can turn off quiet mode
@@ -226,13 +227,13 @@ markdown-teaser:
 pdf: markdown
 	@ echo '$(ltblue)Making PDF.$(resetc)'
 	@       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(PROJ_OUT) $(PROJ_SRC)
-	@       $(PDFINFO) $(PROJ_OUT)
+	@       $(PDFINFO) $(PROJ_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
 teaser: markdown-teaser
 	 echo '$(ltblue)Making Teaser PDF.$(resetc)'
 	       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(TEASER_OUT) $(TEASER_SRC)
-	       $(PDFINFO) $(TEASER_OUT)
+	       $(PDFINFO) $(TEASER_OUT) $(PDFINFO_GREP)
 	      -$(EXPLORER)
 
 # make HTML

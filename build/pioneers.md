@@ -53,6 +53,12 @@ gracefully, or both, then you're going to make a Gyro roll.
 specialized knowledge of a hacker or surgeon, or just general
 intelligence about the enemy's movement.
 
+:::::::::::::::: breakbefore :::::::::::::::::::::::::::::::::::::::::::::::
+> "In retrospect, putting a map showing how to get back to Earth on those 
+> old-fashioned space probes probably wasn't the smartest idea."
+> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ### Dice Rolling
 
 When you do an action, either in a fight or not, state which 
@@ -97,46 +103,45 @@ Soyuz         2       2         2         5       5         5
 
 Character creation is dirt simple. Follow these steps and you're done.
 
-1. Pick a Class.
-2. Choose Your Home Colony.
-3. Grab your Weapon.
-4. Come up with a Name.
-5. Snag a ship.
+1. [Pick a Class.](#step-class){.page}
+2. [Choose Your Home Colony.](#step-colony){.page}
+3. [Grab your Gear.](#step-gear){.page}
+4. [Snag a ship.](#step-ship){.page}
+5. Come up with a Name.
 
-## Class {.colbefore}
-
-> "In retrospect, putting a map showing how to get back to Earth on those 
-> old-fashioned space probes probably wasn't the smartest idea."
-> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
+## Class {#step-class}
 
 Your **Class** determines your starting attributes and pools, and
-gives you a choice of Talents. Pick a class from this list:
+gives you five Talents. Pick a class from this list:
 
 - **Apollo** You're big, strong, and tough in a fight.
 - **Mercury** You're fast, agile, and hard to pin down.
 - **Gemini** You're smart, clever, and good with technology.
-- **Soyuz** You're a jack-of-all-trades who is pretty good at everything.
+- **Soyuz** You're a jack-of-all-trades and born leader.
+
+The table below lists the attributes and pools for each class.
 
 
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-## Colony Origins
+::::::::::::: {.infolist .breakable } :::::::::::::::::::::::::::::::::
+## Colony Origins {.breakbefore #step-colony}
 
-- **Tellurian** You're from Earth. *Start each operation with +1 Kit.*
-- **Hermean** You're from Mercury. *+1 Ship-Gyro on Solar Gliders.*
-- **Selenite** You're from Luna, Earth's moon. *+1 Ship-Gyro on Racing Yachts.*
-- **Granger** You're from O'Neill Station in the L5 point. *+1 Ship-Gyro on Repair Pods.*
-- **Cyntherean** You're from Venus. *Resist burn Harm.*
-- **Martian** You're from Mars. *+1 Ship-Health on any ship.*
+- **Callistoan** You're from Jupiter's moon Callisto.  *+1 Ship-Telemetry on Liquid-Hydrogen Tankers.*
 - **Cererean** You're from Ceres, in the Asteroid Belt. *+1 Ship-Gyro on Mining Rigs.*
-- **Leo** You're from an orbital colony in Low Earth Orbit. *+1 Ship-Thrust on Comms Relays.*
+- **Cyntherean** You're from Venus. *+1 Ship-Thrust on Racing Yachts.*
+- **Enceladan** You're from Saturn's moon Enceledus. *+1 Ship-Gyro on Shuttles*.
+- **Eridian** You're from Eris. *+1 Ship-Gyro on Ore Haulers.*
 - **Europan** You're from Jupiter's moon Europa. *+1 Ship-Telemetry on Shuttles.*
 - **Ganymedean** You're from Jupiter's moon Ganymede. *+1 Ship-Telemetry on Ore Haulers.*
-- **Callistoan** You're from Jupiter's moon Callisto.  *+1 Ship-Telemetry on Liquid-Hydrogen Tankers.*
-- **Titanian** You're from Saturn's moon Titan.  *+1 Ship-Telemetry on Mining Rigs.*
-- **Enceladan** You're from Saturn's moon Enceledus. *+1 Ship-Gyro on Shuttles*.
-- **Uranian** You're from Oberon or one of the colonies on Uranus's moons. *+1 Ship-Thrust on Liquid-Hydrogen Tankers.*
+- **Granger** You're from O'Neill Station in the L5 point. *+1 Ship-Gyro on Repair Pods.*
+- **Hermean** You're from Mercury. *+1 Ship-Gyro on Solar Gliders.*
+- **Leo** You're from an orbital colony in Low Earth Orbit. *+1 Ship-Thrust on Comms Relays.*
+- **Martian** You're from Mars. *+1 Ship-Health on any ship.*
 - **Plutonian** You're from Pluto. *+1 Ship-Telemetry on Comms Relays.*
-- **Eridian** You're from Eris. *+1 Ship-Gyro on Ore Haulers.*
+- **Selenite** You're from Luna, Earth's moon. *+1 Ship-Gyro on Racing Yachts.*
+- **Tellurian** You're from Earth. *Start each operation with +1 Kit.*
+- **Titanian** You're from Saturn's moon Titan.  *+1 Ship-Telemetry on Mining Rigs.*
+- **Uranian** You're from Oberon or one of the colonies on Uranus's moons. *+1 Ship-Thrust on Liquid-Hydrogen Tankers.*
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -146,13 +151,28 @@ gives you a choice of Talents. Pick a class from this list:
 -------- ------ ----------- -------- --------- -----
    3       1         2         8       4         3
 
-### Apollo Class Talents
+### What you lack in subtlety, you make up in brute force. {.classquote}
 
-- Talent 1
-- Talent 2
-- Talent 3
-- Talent 4
-- Talent 5
+### Starting Gear
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Armor** 1-4 Assault Armor, 5-6 Tactical Vest
+- **Weapon** 1-2 Pulse Rifle, 3-4 Rocket Launcher, 5-6 Slug Rifle
+- **Weapon** 1-2 Frag Grenade, 3-4 Laser Grenade, 5-6 Pulse Grenade
+- **Ship** 1-2 Mining Rig, 3-4 Ore Hauler, 5-6 Shuttle
+
+Spend 1 Kit per list to pick instead of taking what you rolled.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### Apollo Talents
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Shrug It Off** Spend 1 Impulse to ignore 1 helping of Harm.
+- **Fire in the Hole** Spend 1 Impulse to ignore your weapons' Friendly-Fire tags this Fight.
+- **Rock 'n Roll** Spend 1 Kit to do +1 damage with Autofire weapons this Fight.
+- **I Packed a Spare** Spend 1 Kit to ignore your weapons' Reload and Single-Use tags this Fight.
+- **Gunner** *ship* Spend 1 Impulse to do +1 Ship-Harm on this hit.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -162,13 +182,29 @@ gives you a choice of Talents. Pick a class from this list:
 -------- ------ ----------- -------- --------- -----
     1       2         3         6       3         6
 
-### Gemini Class Talents
+### Why are things so heavy in the future? Is there a problem with the Earth's gravitational pull? {.classquote}
 
-- Talent 1
-- Talent 2
-- Talent 3
-- Talent 4
-- Talent 5
+### Starting Gear
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Armor** 1-4 Energy Siphon, Assault Armor
+- **Weapon** 1-4 Sniper Rifle, 5-6 Grenade Mortar
+- **Weapon** 1-4 Taser Pistol, 5-6 Pulse Pistol
+- **Ship** 1-2 Comms Relay, 3-4 Liquid-Nitrogen Tanker, 5-6 Repair Pod
+
+Spend 1 Kit per list to pick instead of taking what you rolled.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### Gemini Talents
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Electronic Countermeasures** Spend 1 Kit to shut down 1 Pion in this Fight.
+- **Salvage Ops** Spend 1 Impulse to gain 1 Kit from a dead Pion.
+- **Weapon Modifications** Spend 1 Kit to give your weapon Autofire, Burn, 
+  EMP, Exploding, Piercing, or Shock for this Fight.
+- **Armorer** Spend 1 Kit to fully repair any Armor.
+- **Damage Control** *ship* Spend 1 Kit to repair 1 Ship-Health.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -178,13 +214,28 @@ gives you a choice of Talents. Pick a class from this list:
 -------- ------ ----------- -------- --------- -----
    1       3         2         5       6         4
 
-### Mercury Class Talents
+### It's time to buzz the tower. {.classquote}
 
-- Talent 1
-- Talent 2
-- Talent 3
-- Talent 4
-- Talent 5
+### Starting Gear
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Armor** 1-4 Stealthsuit, 5-6 Energy Siphon
+- **Weapon** 1-2 two Laser Pistols, 3-4 two Slug Pistols, 5-6 one Pulse Pistol and one Taser Pistol
+- **Weapon** 1-4 Bow, 5-6 Flamethrower
+- **Ship** 1-2 Mining Rig, 3-4 Racing Yacht, 5-6 Solar Glider
+
+Spend 1 Kit per list to pick instead of taking what you rolled.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### Mercury Talents
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Moving Target** Spend 1 Impulse to instantly change your Range Band.
+- **Rapid Fire** Spend 1 Impulse to make another attack at -1.
+- **Gun-Kata** Spend 1 Kit to use two Pistols in one attack, adding the Harm together.
+- **Dive for Cover** Spend 1 Impulse to ignore Harm from an AOE, Autofire, or Exploding attack.
+- **Ace Pilot** *ship* Spend N Impulse to add +N to a ship roll.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -194,48 +245,69 @@ gives you a choice of Talents. Pick a class from this list:
 -------- ------ ----------- -------- --------- -----
    2       2         2         5       5         5
 
-### Soyuz Class Talents
+### You're everyone's second-best friend. {.classquote}
 
-- Talent 1
-- Talent 2
-- Talent 3
-- Talent 4
-- Talent 5
+### Starting Gear
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Armor** 1-4 Tactical Vest, 5-6 Stealthsuit
+- **Weapon** 1-4 SMG, 5-6 Autolaser
+- **Weapon** 1-4 Slug Pistol, 5-6 Pulse Pistol
+- **Ship** 1-2 Racing Yacht, 3-4 Repair Pod, 5-6 Shuttle
+
+Spend 1 Kit per list to pick instead of taking what you rolled.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### Soyuz Talents
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Adaptable** Spend 1 Health, Impulse or Kit to add +1 Impulse, Kit, or Health.
+- **Resupply** Spend 1 Kit to refresh anyone else's Kit total.
+- **Rousing Pep Talk** Spend 1 Impulse to refresh anyone else's Impulse total.
+- **Field Medic** Spend 1 Kit to refresh anyone else's Health total.
+- **Fleet Tactics** Spend 1 Impulse to give everyone +1 on their next ship roll.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Equipment {.breakbefore}
+## Gear {.breakbefore #step-gear}
 
 ### Armor
 
-- **Tactical Vest**
-- **Assault Armor**
-
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
+- **Assault Armor** Ignore 1 Harm per attack (6 charges)
+- **Energy Siphon** Ignore Burn, Pulse, or Shock Harm (3 charges)
+- **Stealthsuit** Ignore Harm from *far* sources (3 charges)
+- **Tactical Vest** Ignore Harm from *close* sources (3 charges)
+- **Vacsuit** You don't get KIA if your ship is destroyed (1 charge)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::: {.infolist .breakable} ::::::::::::::::::::::::::::::::::::
 ### Weapons
 
 - **Autolaser**         *mid* Harm 2, Autofire, Burn
-- **Autorifle**         *mid* Harm 1, Autofire
-- **Bow**               *mid, far* Harm 1
-- **Flamethrower**      *close* Harm 2, Burn
+- **Autorifle**         *mid* Harm 1, Autofire, Heavy
+- **Bow**               *mid, far* Harm 1, Reload
+- **Flamethrower**      *close* Harm 2, AOE, Burn
+- **Frag Grenade**      *close* Harm 1, Exploding, Friendly-Fire, Single-Use
 - **Grenade Mortar**    *mid* Harm 2, Exploding, Reload, Tactical
+- **Laser Grenade**     *close* Harm 1, AOE, Burn, Friendly-Fire, Single-Use
+- **Laser Pistol**      *close* Harm 1, Handgun, Burn
+- **Laser Rifle**       *mid, far* Harm 2, Burn
 - **Pulse Grenade**     *close* Harm 1, AOE, EMP, Friendly-Fire, Single-Use
-- **Pulse Pistol**      *close* Harm 1, Handgun, EMP
-- **Pulse Rifle**       *mid* Harm 2, Heavy, EMP
-- **Raybeam Pistol**    *close* Harm 1, Handgun, Burn
-- **Raybeam Rifle**     *mid, far* Harm 2, Burn
+- **Pulse Pistol**      *close* Harm 1, EMP, Handgun
+- **Pulse Rifle**       *mid* Harm 2, EMP, Heavy
 - **Rocket Launcher**   *mid* Harm 3, Exploding, Heavy, Reload
 - **SMG**               *close, mid* Harm 1, Autofire
 - **Shotgun**           *close* Harm 2
-- **Slug Grenade**      *close* Harm 1, Exploding, Friendly-Fire, Single-Use
 - **Slug Pistol**       *close* Harm 1, Handgun
 - **Slug Rifle**        *mid, far* Harm 2, Heavy
-- **Sniper Rifle**      *far* Harm 2,  Scope, Tactical
-- **Taser Pistol**      *close* Harm 1, Handgun, Shock
+- **Sniper Rifle**      *far* Harm 2, Scope, Tactical
+- **Taser Pistol**      *close* Harm 1, Handgun, Shock, Tactical
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
  
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::: {.infolist .breakable} ::::::::::::::::::::::::::::::::::::
 ### Weapon Tags
 
 - **AOE** Affects multiple targets.
@@ -246,7 +318,7 @@ gives you a choice of Talents. Pick a class from this list:
 - **Friendly Fire** Targets allies in the range band.
 - **Handgun** +1 Harm when fired with Gyro.
 - **Heavy** +1 Harm when fired with Thrust.
-- **Piercing** Does +1 Harm against armored targets.
+- **Piercing** Ignores Resist.
 - **Reload** Sometimes requires reloading.
 - **Scope** Does +1 Harm if you remain stationary when firing.
 - **Self-Destructive** Damages wielder.
@@ -286,8 +358,8 @@ At the end of the GM's turn, roll 1d6 for each enemy that died.
 > [Transcript of emergency broadcast, unknown speaker. June 19 2320]{.credit}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-Location Tags:
+::::::::::: { .infolist .breakable } :::::::::::::::::::::::::::::::::::::
+### Location Tags 
 
 - **Atmosphere** The location has a breathable atmosphere.
 - **Blocade** Currently blocaded by the Pions.
@@ -404,7 +476,7 @@ remoteness let it escape Pion notice.
 - **Eris** Minimal Population, Cold, Prison, Mining, Spaceport, Underground
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Opponents {.breakbefore}
+## The Pions {.breakbefore}
 
 > "We were just trying to make them more like us -- more human, with
 > a range of simulated emotions. And that was the problem, we made them
@@ -414,14 +486,16 @@ remoteness let it escape Pion notice.
 Six classes of pions have been positively identified, although there may be
 more as yet unseen.
 
+::::::::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::
 - **Cassini** Diplomat
 - **Mariner** Troop transport
 - **Rover** Infantry
 - **Ulysses** Commander
 - **Venera** Air Support
 - **Viking** Marine
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Cassini
+### Cassini {.colbefore}
 
 The only pions who have verbally spoken with humans. Roughly humanoid,
 slender, eight feet tall, and with clear domes over their blinking cybernetic
@@ -434,7 +508,7 @@ brains. They're the spokesrobots for the Occupation.
 - **Moves** Issue threats, call for help, strategic withdrawal
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Mariner
+### Mariner 
 
 The largest of the non-vessel Pions, they're less like individual robots 
 and more like small shuttlecraft used as troop transports.
@@ -448,9 +522,9 @@ truck and have fore- and aft-facing cannons.
 - **Moves** Lift off, disgorge troops, hover precipitously
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Rover
+### Rover {.colbefore}
 
-These pions are about the size of a large dog; their six wheels are made to 
+These pions are about the size of a large dog; their four limbs are made to 
 fold inward, or extend to maneuver over obstacles. They're the rank-and-file
 infantry of the Occupation.
 
@@ -458,10 +532,11 @@ infantry of the Occupation.
 - **Health** 4
 - **Vulnerable** explosive
 - **Slugthrowers** *close, mid* Harm 1
+- **Laser Torch** *close* Harm 1
 - **Moves** Swarm the humans, obey orders, breach defenses
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Ulysses
+### Ulysses 
 
 The Ulysses pions are the command-and-control leaders of pion ground forces,
 including the rovers and the vikings. They're shaped like six-legged mechanical
@@ -474,7 +549,7 @@ spiders about the size of a small car, with sensors in all directions.
 - **Moves** Analyze tactics, coordinate troops, missile lock
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Venera
+### Venera {.colbefore}
 
 Venera pions are the air support for ground operations, offering eye-in-the-sky
 intelligence reports to those on the ground. They look the most like old NASA
@@ -487,7 +562,7 @@ probes of any pions, resembling armored viking orbiters.
 - **Moves** Transmit tactical telemetry, evasive maneuvers, crash and burn
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Viking
+### Viking 
 
 The viking-class pions are the most feared by resistance fighters, as they're
 the heavy troopers of the Ooccupation. Reinforced weapon mounts surround a cylindrical
@@ -501,7 +576,7 @@ central body mounted on 12 flexible legs of variegrated size.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Ships {.breakbefore}
+## Ships {.breakbefore #step-ship}
 
 ### Ship Fights
 
@@ -511,7 +586,7 @@ your character's Thrust, Gyro, or Telemetry, you use the ship's.
 If a ship is destroyed, anyone on board is KIA unless the ship has the EVA
 tag or Escape Pods.
 
-::::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::{ .infolist .breakable } :::::::::::::::::::::::::::::::::
 
 ### Ship Weaponry
 
@@ -544,7 +619,7 @@ These weapons or other devices are attached to a ship's mount points.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Ship Tags
 
@@ -560,13 +635,14 @@ These weapons or other devices are attached to a ship's mount points.
 - **Reinforced Bulkheads** Add 1 to Health.
 - **Sensor Array** Add 1 to Telemetry.
 - **Stealth** Ship can't be targeted at Long-Ship range.
+- **Tailgunner** The ship's mounted weapons can be fired by a co-pilot.
 - **Turbocharged** Add 1 to Thrust.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### The Resistance Fleet
+## The Resistance Fleet {.breakbefore}
 
-With the Solar System's small military disabled or destroyed in the initial 
+With the Solar System's small military forces disabled or destroyed in the initial 
 Pion attack, the Resistance has been forced to assemble a rag-tag fleet comprised
 of ships not normally used in battle.
 
@@ -582,7 +658,7 @@ The most common ship types are:
 - **Solar Glider**
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Comms Relay
+### Comms Relay {.colbefore}
 
 These ships were constructed from old communications satellites.
 
@@ -598,7 +674,7 @@ These ships were constructed from old communications satellites.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Liquid-Hydrogen Tanker
+### Liquid-Hydrogen Tanker {.colbefore}
 
 Large, ponderous tankers that actually move quite quickly when they get up to speed.
 
@@ -609,12 +685,12 @@ Large, ponderous tankers that actually move quite quickly when they get up to sp
 - **Resist** pulse
 - **Vulnerable** burn
 - **Mount Points** 4 (Docking Clamps, Escape Pods, Fuel Reserve x2)
-- **Tags** Cargo, Ramming Speed
+- **Tags** Cargo, Ramming Speed, Tailgunner
 - **Names** *Auriga*, *Kobayashi Maru*, *Raza*, *Valdez*, *Yamato*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Mining Rig
+### Mining Rig {.colbefore}
 
 Primarily used in the asteroid belt to mine ores.
 
@@ -630,7 +706,7 @@ Primarily used in the asteroid belt to mine ores.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Ore Hauler
+### Ore Hauler {.colbefore}
 
 Largest ships in the Resistance fleet, but lacking in mount points for its size.
 
@@ -641,12 +717,12 @@ Largest ships in the Resistance fleet, but lacking in mount points for its size.
 - **Resist** everything
 - **Vulnerable** none
 - **Mount Points** 2 (Escape Pods, Flak Cannon)
-- **Tags** Cargo x2, Ramming Speed
+- **Tags** Cargo x2, Ramming Speed, Tailgunner
 - **Names** *Cygnus*, *Kate Rice*, *Narada*, *Nostromo*, *Snark*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Racing Yacht
+### Racing Yacht {.colbefore}
 
 A sleek vessel not designed for space combat.
 
@@ -657,12 +733,12 @@ A sleek vessel not designed for space combat.
 - **Resist** shock
 - **Vulnerable** pulse
 - **Mount Points** 2 (Escape Pods, Raybeam Cannon)
-- **Tags** Atmospheric, Nimble, Passengers
+- **Tags** Atmospheric, Nimble, Passengers, Tailgunner
 - **Names** *Christina*, *Double Down*, *Mariquita*, *Prometheus*, *Splendour*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Repair Pod
+### Repair Pod {.colbefore}
 
 Small and maneuverable with tools for repairing other ships in battlefield conditions.
 
@@ -678,7 +754,7 @@ Small and maneuverable with tools for repairing other ships in battlefield condi
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Shuttle
+### Shuttle {.colbefore}
 
 The workhorses of the Resistance; able to fly, land, and lift off in an atmosphere.
 
@@ -694,11 +770,11 @@ The workhorses of the Resistance; able to fly, land, and lift off in an atmosphe
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Solar Glider
+### Solar Glider {.colbefore}
 
 An agile, reflective ship with solar sails and a tiny radar signature.
 
-- **Thrust 2
+- **Thrust** 2
 - **Gyro** 3
 - **Telemetry** 1
 - **Health** Ship-1
@@ -709,7 +785,7 @@ An agile, reflective ship with solar sails and a tiny radar signature.
 - **Names** *Blanchard*, *Kahanamoku*, *Norrin*, *Paskowitz*, *Slater*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### The Pion Fleet
+## Pion Spacecraft {.breakbefore}
 
 Pion ships are essentially huge robots; each is controlled by redundant central
 computers and has no pilot.
@@ -721,7 +797,7 @@ computers and has no pilot.
 - **Zond** Interdictor
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Genesis
+### Genesis
 
 - **Health** Ship-1000
 - **Vulnerable** *nothing*
@@ -732,7 +808,7 @@ computers and has no pilot.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Kosmos
+### Kosmos
 
 - **Health** Ship-50
 - **Vulnerable** burn
@@ -741,7 +817,7 @@ computers and has no pilot.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Mariner
+### Mariner
 
 - **Health** Ship-2
 - **Vulnerable** explosive
@@ -750,7 +826,7 @@ computers and has no pilot.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Sakigake
+### Sakigake {.colbefore}
 
 - **Health** Ship-10
 - **Vulnerable** pulse
@@ -759,7 +835,7 @@ computers and has no pilot.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-#### Zond
+### Zond
 
 - **Health** Ship-4
 - **Vulnerable** shock
@@ -789,16 +865,7 @@ it could take years to get from one side of it to another.
 If the travel time ever matters, here are some approximate values
 you can use.
 
-- Travel between Earth and O'Neill Station takes 1d6 hours,
-  as does travel between Earth and Luna.
-
-- For travel within the inner planets -- Mercury to Mars -- roll
-  1d6 for the travel time, in days. Add 2 days for travel to or
-  from Ceres.
-
-- For travel from the inner planets to the outer planets, roll
-  1d6 days and add the base travel time from the table below.
-
+:::::::::::::::::::: traveltimes :::::::::::
 Outer Planet Base Travel Time
 ---          ----
 Jupiter       1 week
@@ -807,9 +874,20 @@ Uranus        5 weeks (1 month)
 Neptune       8 weeks (2 months)
 Pluto        11 weeks (3 months)
 Eris         19 weeks (4 months)
+::::::::::::::::::::::::::::::::::::::::::::
 
-- For travel between two outer planets, use the higher base travel
-  time, plus 1d6 weeks.
+Travel between Earth and O'Neill Station takes 1d6 hours,
+as does travel between Earth and Luna.
+
+For travel within the inner planets -- Mercury to Mars -- roll
+1d6 for the travel time, in days. Add 2 days for travel to or
+from Ceres.
+
+For travel from the inner planets to the outer planets, roll
+1d6 days and add the base travel time from the table below.
+
+For travel between two outer planets, use the higher base travel
+time, plus 1d6 weeks.
 
 - Travel time between moons of the same outer planet takes 1d6 hours.
 

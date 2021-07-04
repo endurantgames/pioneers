@@ -12,6 +12,12 @@ gracefully, or both, then you're going to make a Gyro roll.
 specialized knowledge of a hacker or surgeon, or just general
 intelligence about the enemy's movement.
 
+:::::::::::::::: breakbefore :::::::::::::::::::::::::::::::::::::::::::::::
+> "In retrospect, putting a map showing how to get back to Earth on those 
+> old-fashioned space probes probably wasn't the smartest idea."
+> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Dice Rolling
 
 When you do an action, either in a fight or not, state which 

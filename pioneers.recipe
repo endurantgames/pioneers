@@ -5,13 +5,15 @@ intro
 attributes
 pools
 chargen
-colony_origins
+colony
 classes
 gear
 combat
 solar_system
 enemies
 ships
+fleet
+pion_ships
 ops
 # credits/pbta
 # credits/no_fascists

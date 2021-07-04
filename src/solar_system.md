@@ -1,4 +1,4 @@
-## The Solar System {.breakbefore}
+# The Solar System {.breakbefore}
 
 ::::::::::::::: redalert ::::::::::::::::::::::::::::::::::::::::::::::::
 > ... WILL REPEAT ON THIS FREQUENCY. 
@@ -10,8 +10,8 @@
 > [Transcript of emergency broadcast, unknown speaker. June 19 2320]{.credit}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-Location Tags:
+::::::::::: { .infolist .breakable } :::::::::::::::::::::::::::::::::::::
+## Location Tags 
 
 - **Atmosphere** The location has a breathable atmosphere.
 - **Blocade** Currently blocaded by the Pions.
@@ -37,7 +37,7 @@ Location Tags:
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
  
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Earth Orbit
+## Earth Orbit
 
 Earth is home to the vast majority of the human race, and is surrounded by large
 orbital colonies in Low Earth Orbit.
@@ -54,7 +54,7 @@ in the Solar System.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Inner Planets
+## Inner Planets
 Mercury is a very hot planet on the side facing the sun, and a very cold planet on the
 side facing away from the sun.
 
@@ -72,7 +72,7 @@ Ceres is the largest and most populous planetoid in the asteroid belt.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Jupiter
+## Jupiter
 
 All but one of Jupiter's largest moons are home to Earth colonies.
 
@@ -86,7 +86,7 @@ form of brine shrimp.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Saturn
+## Saturn
 
 - **Titan** Low Population, Blocade, Cold, Colony, Life, Low-G, Orbit
 - **Rhea** Minimal Population, Cold, Ice, Low-G
@@ -99,7 +99,7 @@ form of brine shrimp.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Uranus
+## Uranus
 
 Oberon is the nominal capital of the five united colonies on Uranian moons.
 
@@ -111,13 +111,13 @@ Oberon is the nominal capital of the five united colonies on Uranian moons.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Neptune
+## Neptune
 
 - **Triton** Minimal Population, Cold, Ice, Low-G, Surface
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Trans-Neptunian Space
+## Trans-Neptunian Space
 
 Pluto is the second most distant colony and is primary for astronomical research.
 

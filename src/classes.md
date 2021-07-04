@@ -5,13 +5,28 @@
 -------- ------ ----------- -------- --------- -----
    3       1         2         8       4         3
 
-## Apollo Class Talents
+## What you lack in subtlety, you make up in brute force. {.classquote}
 
-- Talent 1
-- Talent 2
-- Talent 3
-- Talent 4
-- Talent 5
+## Starting Gear
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Armor** 1-4 Assault Armor, 5-6 Tactical Vest
+- **Weapon** 1-2 Pulse Rifle, 3-4 Rocket Launcher, 5-6 Slug Rifle
+- **Weapon** 1-2 Frag Grenade, 3-4 Laser Grenade, 5-6 Pulse Grenade
+- **Ship** 1-2 Mining Rig, 3-4 Ore Hauler, 5-6 Shuttle
+
+Spend 1 Kit per list to pick instead of taking what you rolled.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Apollo Talents
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Shrug It Off** Spend 1 Impulse to ignore 1 helping of Harm.
+- **Fire in the Hole** Spend 1 Impulse to ignore your weapons' Friendly-Fire tags this Fight.
+- **Rock 'n Roll** Spend 1 Kit to do +1 damage with Autofire weapons this Fight.
+- **I Packed a Spare** Spend 1 Kit to ignore your weapons' Reload and Single-Use tags this Fight.
+- **Gunner** *ship* Spend 1 Impulse to do +1 Ship-Harm on this hit.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -21,13 +36,29 @@
 -------- ------ ----------- -------- --------- -----
     1       2         3         6       3         6
 
-## Gemini Class Talents
+## Why are things so heavy in the future? Is there a problem with the Earth's gravitational pull? {.classquote}
 
-- Talent 1
-- Talent 2
-- Talent 3
-- Talent 4
-- Talent 5
+## Starting Gear
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Armor** 1-4 Energy Siphon, Assault Armor
+- **Weapon** 1-4 Sniper Rifle, 5-6 Grenade Mortar
+- **Weapon** 1-4 Taser Pistol, 5-6 Pulse Pistol
+- **Ship** 1-2 Comms Relay, 3-4 Liquid-Nitrogen Tanker, 5-6 Repair Pod
+
+Spend 1 Kit per list to pick instead of taking what you rolled.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Gemini Talents
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Electronic Countermeasures** Spend 1 Kit to shut down 1 Pion in this Fight.
+- **Salvage Ops** Spend 1 Impulse to gain 1 Kit from a dead Pion.
+- **Weapon Modifications** Spend 1 Kit to give your weapon Autofire, Burn, 
+  EMP, Exploding, Piercing, or Shock for this Fight.
+- **Armorer** Spend 1 Kit to fully repair any Armor.
+- **Damage Control** *ship* Spend 1 Kit to repair 1 Ship-Health.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -37,13 +68,28 @@
 -------- ------ ----------- -------- --------- -----
    1       3         2         5       6         4
 
-## Mercury Class Talents
+## It's time to buzz the tower. {.classquote}
 
-- Talent 1
-- Talent 2
-- Talent 3
-- Talent 4
-- Talent 5
+## Starting Gear
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Armor** 1-4 Stealthsuit, 5-6 Energy Siphon
+- **Weapon** 1-2 two Laser Pistols, 3-4 two Slug Pistols, 5-6 one Pulse Pistol and one Taser Pistol
+- **Weapon** 1-4 Bow, 5-6 Flamethrower
+- **Ship** 1-2 Mining Rig, 3-4 Racing Yacht, 5-6 Solar Glider
+
+Spend 1 Kit per list to pick instead of taking what you rolled.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Mercury Talents
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Moving Target** Spend 1 Impulse to instantly change your Range Band.
+- **Rapid Fire** Spend 1 Impulse to make another attack at -1.
+- **Gun-Kata** Spend 1 Kit to use two Pistols in one attack, adding the Harm together.
+- **Dive for Cover** Spend 1 Impulse to ignore Harm from an AOE, Autofire, or Exploding attack.
+- **Ace Pilot** *ship* Spend N Impulse to add +N to a ship roll.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -53,13 +99,28 @@
 -------- ------ ----------- -------- --------- -----
    2       2         2         5       5         5
 
-## Soyuz Class Talents
+## You're everyone's second-best friend. {.classquote}
 
-- Talent 1
-- Talent 2
-- Talent 3
-- Talent 4
-- Talent 5
+## Starting Gear
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Armor** 1-4 Tactical Vest, 5-6 Stealthsuit
+- **Weapon** 1-4 SMG, 5-6 Autolaser
+- **Weapon** 1-4 Slug Pistol, 5-6 Pulse Pistol
+- **Ship** 1-2 Racing Yacht, 3-4 Repair Pod, 5-6 Shuttle
+
+Spend 1 Kit per list to pick instead of taking what you rolled.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Soyuz Talents
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Adaptable** Spend 1 Health, Impulse or Kit to add +1 Impulse, Kit, or Health.
+- **Resupply** Spend 1 Kit to refresh anyone else's Kit total.
+- **Rousing Pep Talk** Spend 1 Impulse to refresh anyone else's Impulse total.
+- **Field Medic** Spend 1 Kit to refresh anyone else's Health total.
+- **Fleet Tactics** Spend 1 Impulse to give everyone +1 on their next ship roll.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

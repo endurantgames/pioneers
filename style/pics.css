@@ -1,0 +1,27 @@
+/* base css file for TTRPG projects */
+/* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
+
+@page:nth(2)  { background-image: url("../art/blue-2.jpg"         ); }
+@page:nth(3)  { background-image: url("../art/golden-record.png"  ); }
+@page:nth(4)  { background-image: url("../art/jupiter.jpg"        ); background-position: bottom; }
+@page:nth(5)  { background-image: url("../art/nasty.jpg"          ); }
+@page:nth(6)  { background-image: url("../art/funky-interior.jpg" ); }
+@page:nth(7)  { background-image: url("../art/red-nebula.jpg"     ); }
+@page:nth(8)  { background-image: url("../art/island3.jpg"        ); }
+@page:nth(9 ) { background-image: url("../art/rhea-rings.jpg"     ); }
+@page:nth(10) { background-image: url("../art/sphere-interior.jpg"); }
+@page:nth(11) { background-image: url("../art/nebula.jpg"         ); }
+@page:nth(12) { background-image: url("../art/abstract-jupiter.jpg"); }
+@page:nth(13) { background-image: url("../art/torus.jpg"          ); background-position: center; }
+@page:nth(14) { background-image: url("../art/saturn.jpg"         ); }
+@page:nth(15) { background-image: url("../art/aquasimian.jpg"     ); }
+@page:nth(16) { background-image: url("../art/voyager.jpg"        ); }
+@page:nth(17) { background-image: url("../art/venus-approach.jpg" ); }
+@page:nth(18) { background-image: url("../art/hit-europa.jpg"     ); }
+@page:nth(19) { background-image: url("../art/nebula3.jpg"        ); }
+@page:nth(20) { background-image: url("../art/vesta.jpg"          ); }
+@page:nth(22) { background-image: url("../art/green-station.jpg"  ); }
+@page:nth(23) { background-image: url("../art/jupiter-slingshot.jpg"); }
+@page:nth(24) { background-image: url("../art/flyby-saturn.jpg"   ); }
+@page:nth(25) { background-image: url("../art/lunar-flashlight.jpg"); }
+@page:nth(26) { background-image: url("../art/texas.jpg"          ); }
