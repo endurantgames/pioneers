@@ -30,7 +30,7 @@ brains. They're the spokesrobots for the Occupation.
 - **Moves** Issue threats, call for help, strategic withdrawal
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Mariner 
+## Mariner {.colbefore}
 
 The largest of the non-vessel Pions, they're less like individual robots 
 and more like small shuttlecraft used as troop transports.
@@ -44,7 +44,7 @@ truck and have fore- and aft-facing cannons.
 - **Moves** Lift off, disgorge troops, hover precipitously
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Rover {.colbefore}
+## Rover 
 
 These pions are about the size of a large dog; their four limbs are made to 
 fold inward, or extend to maneuver over obstacles. They're the rank-and-file
