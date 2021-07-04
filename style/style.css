@@ -31,14 +31,15 @@ header h1     { string-set: gamename content()       }
 
 :root {
   /* --font-header: "Michroma"; */
+  /* --font-info: "PT Sans Narrow"; */
+  /* --font: "Federation"; */
   --font: "Michroma";
   --font-bold: "Federation Bold";
-  /* --font: "Federation"; */
   --font-header: "Federation Bold"; 
   --font-title: "Battlestar";
   --font-quote: "Shadows Into Light";
   --font-block: "Wallpoet";
-
+  --font-info: "Noto Sans Cond";
   --font-chinese: "Noto Sans SC";
 
   --icon-game: 'game-icons';
@@ -90,7 +91,6 @@ h3                 { font-family: var(--font-header); font-size: var(--h3); }
 h4                 { font-family: var(--font-header); font-size: var(--h4); }
 h5                 { font-family: var(--font-header); font-size: var(--h5); }
 h6                 { font-family: var(--font-header); font-size: var(--h6); }
-/* body               { column-count: 2; column-width: auto; column-gap: 36pt; } */
 h1                 { break-after: avoid-page; break-inside: avoid;          }
 h2, h3, h4, h5, h6 { break-inside: avoid; break-after: avoid;               }
 h1                 { column-span: all; text-align: center;                  }
@@ -109,7 +109,6 @@ table th, table td { padding: 2pt;                                          }
 table th           { vertical-align: bottom;                                }
 table td           { vertical-align: top;                                   }
 
-/* ul, ol       { break-inside: avoid; } */
 li           { break-inside: avoid; }
 ul, ol       { margin-left: 1em;    }
 ul li, ul ol { margin-left: 1em;    }
@@ -135,168 +134,13 @@ img { -prince-image-resolution: 96;
 
 p, li { orphans: 3; line-height: 1.60; }
 
-/*
-@page { @bottom-center {
-  content:         counter(page);
-  font-family:     var(--font-headline);
-  font-size:       var(--big);
-  margin-top:      18pt;
-  margin-bottom:   18pt;
-  text-align:      center;
-} }
-*/
-
-/* 
-@page { @top-left {
-  content:         string(gamename) ' Draft by Cadera Spindrift';
-  font-family:     var(--font-header);
-  font-size:       var(--small);
-  margin-top:      18pt;
-  margin-bottom:   16pt;
-  margin-left:     -54pt;
-  padding-left:    54pt;
-  border-bottom:   0.25pt solid var(--color-line);
-  color:           var(--color-light);
-  text-align:      left;
-} }
-
-@page { @top-right {
-  content:         'Version ' string(date);
-  font-family:     var(--font-header);
-  font-size:       var(--small);
-  margin-top:      18pt;
-  margin-bottom:   16pt;
-  margin-right:    -54pt;
-  padding-right:   54pt;
-  border-bottom:   0.25pt solid var(--color-line);
-  color:           var(--color-light);
-  text-align:      right;
-} }
-
-@page:nth(3) { margin-top: 36pt; }
-@page:nth(3) { @bottom-center { content: normal; }  }
-@page:nth(3) { @top-left      { content: normal; }  }
-@page:nth(3) { @top-right     { content: normal; }  }
-*/
-
-
-figure figcaption { counter-increment: figure; display: block; font-size: var(--th); font-family: var(--font-header); }
-table caption     { counter-increment: table; display: block; font-size: var(--th); font-family: var(--font-header);       }
-.sidehead         { counter-increment: sidebar;                                                                       }
-.chapter          { counter-increment: chapter;                                                                       }
-.section          { counter-increment: section;                                                                       }
-
-figure figcaption:before { content: 'Figure ' counter(figure) ': '; }
-figure caption:before    { content: 'Table ' counter(table) ': ';   }
-
-#toc {
-}
-#toc a:before    { content: target-content(attr(href)) ' ';                        }
-#toc a:after     { content: leader('. ') target-counter(attr(href), page);         }
-#toc ul          { margin-left: 0;                                                 }
-#toc ul li       { list-style-type: none; line-height: 1.1;                        }
-#toc ul ul li    { margin-left: 8pt; font-weight: normal;                          }
-#toc ul ul ul li { font-size: var(--smaller);                                      }
-#toc > ul > li   { font-weight: bold; margin-bottom: 4pt; font-size: var(--larger) }
 a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
-
-#toc ul { -prince-pdf-tag-type: TOC; }
-#toc li { -prince-pdf-tag-type: TOCI; }
-
-.tstoolkit { 
-  background: var(--bgcolor-toolkit);  
-  border: 0.5pt solid var(--color-toolkit); 
-  border-radius: 3pt; 
-  padding-left: 9pt; padding-right: 9pt; 
-}
-
-.tstoolkit p { font-family: var(--font-toolkit); font-size: var(--toolkit); text-align: justify; }
-.tstoolkit :matches(h1, h2, h3, h4, h5, h6) { 
-  font-family: var(--font-toolkit); 
-  color: var(--color-toolkit); 
-  margin-bottom: 3pt; margin-top: 3pt; 
-}
-.tstoolkit h3 { font-size: var(--h5); }
-.tstoolkit h4 { font-size: var(--h6); }
-.tstoolkit h5 { font-size: var(--larger); }
-.tstoolkit h6 { font-size: var(--body); }
-
-.tstoolkit strong { white-space: pre; color: var(--color-toolkit); }
-.tstoolkit .icon { white-space: pre; color: var(--color-toolkit); font-weight: bold; }
-.tstoolkit .icon:after { font-family: var(--icon-solid); padding-left: 0.25em; display: inline-block; font-weight: normal; }
-
-.tstoolkit .rewind:after { content: '\f04a'; }
-.tstoolkit .ff:after     { content: '\f050'; }
-.tstoolkit .pause:after  { content: '\f04c'; }
-.tstoolkit .resume:after { content: '\f04b'; }
-
-.license { column-span: all; column-count: 3; column-gap: 12pt; font-size: var(--small); page: license; }
 
 .anchor { position: absolute; color: transparent; }
 
-.license h2      { font-size: var(--large); column-span: all; margin-bottom: 3pt; }
-.license h3      { font-size: var(--larger);          }
-.license li      { break-inside: auto;                }
-.license > ol    { margin-left: 9pt;                  }
-.license > ol ol { margin-left: 6pt;                  }
-.license > ol li { margin-left: 6pt;                  }
-.license ol p    { margin-top: 0; margin-bottom: 2pt; }
-.license p       { text-align: justify;               }
-
-/*
-@page license    { margin: 24pt; padding: 0; }
-@page license { @top-left  { content: normal; }  }
-@page license { @top-right { content: normal; }  }
-
-*/
-
-/* a:link, a:active, a:visited, a:hover { text-decoration: none; color: black; } */
-/* a:link    { text-decoration: none; color: blue;   }
-a:active  { text-decoration: none; color: red;    }
-a:visited { text-decoration: none; color: purple; }
-a:hover   { text-decoration: none; color: red;    } */
-
 .gamename:before { content: string(gamename); font-style: italic; }
 
-.cw:before {  /* content warning */
-  font-family: var(--icon-solid);
-  content: '\f071';
-  display: inline-block;
-  margin-right: 0.5em;
-  color: #EEDD00;
-}
-
-.inclu:before { /* notes on inclusion */
-  font-family: var(--icon-solid);
-  content: '\f0ac';
-  display: inline-block;
-  margin-right: 0.5em;
-  color: #BB00BB;
-}
-/*
-@page :first { margin: 0; }
-@page :first { @top-left      { content: normal; } }
-@page :first { @top-right     { content: normal; } }
-@page :first { @bottom-center { content: normal; } }
-*/
-
-
-/*
-@page:blank { @top-left { content: normal; } }
-@page:blank { @top-right { content: normal; } }
-@page:blank { @bottom-center { content: normal; } }
-
-@page:nth(2) { @bottom-center { content: 'i'; } }
-*/
-
 #charsheet { page: charsheet; break-before: right; height: 11in; width: 8.5in; }
-/*
-@page charsheet { margin: 0; }
-@page charsheet { @top-right     { content: normal; } }
-@page charsheet { @top-left      { content: normal; } }
-@page charsheet { @bottom-center { content: normal; } }
-*/
-
 
 .tease {
   width: 1920px;
@@ -365,13 +209,7 @@ a:hover   { text-decoration: none; color: red;    } */
 .tease.p13 h2 { font-size: 64pt; top: 192pt; }
 .tease.p13 h3 { top: 800px; right: 128px; left: 128px; text-align: center; }
 
-/* .tease.p1 { background-image: url("../art/blue.jpg"); background-position: bottom; } */
-/* .tease.p7 { background-image: url("../art/island3.jpg"); background-position: 0 64px; } */
-/* .tease.p7 { background-image: url("../art/green-station.jpg"); background-position: center; } */
-/* .tease.p12 { background-image: url("../art/earth.jpg"); background-position: top; padding: 0; } */
-
 #cover { 
-  /* break-after: page;  */
   column-span: all; 
   width: 1920px; 
   height: 1080px; 
@@ -445,20 +283,20 @@ h2.headline {
 
 @page { background-size: 100% auto; background-repeat: no-repeat; }
 
-@page:nth(2)  { background-image: url("../art/blue-2.jpg"         ); /* background-position: bottom; */ }
-@page:nth(3)  { background-image: url("../art/golden-record.png"  ); /* background-position: bottom; */ }
-@page:nth(4)  { background-image: url("../art/nasty.jpg"          ); /* background-position: bottom; */ }
+@page:nth(2)  { background-image: url("../art/blue-2.jpg"         ); }
+@page:nth(3)  { background-image: url("../art/golden-record.png"  ); }
+@page:nth(4)  { background-image: url("../art/nasty.jpg"          ); }
 @page:nth(5)  { background-image: url("../art/jupiter.jpg"        ); background-position: bottom; }
-@page:nth(6)  { background-image: url("../art/funky-interior.jpg" ); /* background-position: bottom; */ }
-@page:nth(7)  { background-image: url("../art/red-nebula.jpg"     ); /* background-position: bottom; */ }
-@page:nth(8)  { background-image: url("../art/island3.jpg"        ); /* background-position: bottom; */ }
-@page:nth(9)  { background-image: url("../art/green-station.jpg"  ); /* background-position: bottom; */ }
-@page:nth(10) { background-image: url("../art/voyager.jpg"        ); /* background-position: bottom; */ }
-@page:nth(11) { background-image: url("../art/sphere-interior.jpg"); /* background-position: bottom; */ }
-@page:nth(12) { background-image: url("../art/venus-approach.jpg" ); /* background-position: bottom; */ }
-@page:nth(13) { background-image: url("../art/nebula.jpg"         ); /* background-position: bottom; */ }
-@page:nth(14) { background-image: url("../art/saturn.jpg"         ); /* background-position: bottom; */ }
-@page:nth(15) { background-image: url("../art/probe.jpg"          ); /* background-position: bottom; */ }
+@page:nth(6)  { background-image: url("../art/funky-interior.jpg" ); }
+@page:nth(7)  { background-image: url("../art/red-nebula.jpg"     ); }
+@page:nth(8)  { background-image: url("../art/island3.jpg"        ); }
+@page:nth(9)  { background-image: url("../art/green-station.jpg"  ); }
+@page:nth(10) { background-image: url("../art/voyager.jpg"        ); }
+@page:nth(11) { background-image: url("../art/sphere-interior.jpg"); }
+@page:nth(12) { background-image: url("../art/venus-approach.jpg" ); }
+@page:nth(13) { background-image: url("../art/nebula.jpg"         ); }
+@page:nth(14) { background-image: url("../art/saturn.jpg"         ); }
+@page:nth(15) { background-image: url("../art/probe.jpg"          ); }
 @page:nth(16) { background-image: url("../art/torus.jpg"          ); background-position: center; }
 
 .class { break-before: page; }
@@ -480,23 +318,26 @@ h2.headline {
 strong { font-family: var(--font-header); font-weight: normal; } 
 
 ul li { list-style-type: none; }
-ul li strong { margin-left: -1em; padding-right: 0.5em; }
+ul { margin-left: 2em; }
+ul li strong { margin-left: -2em; padding-right: 0.75em; }
 ol li { margin-left: 2em; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 
 .infotable table { padding: 8px; background-color: rgba(255, 255, 255, 0.15); }
-.infotable table :matches(th, td) { font-family: "PT Sans Narrow"; }
+.infotable table :matches(th, td) { font-family: var(--font-info); }
 
 .infolist ul li strong { font-size: 90%; font-weight: normal; font-family: var(--font); }
 .infolist ul { background-color: rgba(255, 255, 255, 0.25); padding: 6px 12px; }
 .infolist ul li { font-family: "Noto Sans Cond"; }
+
+.infolist.dark ul { background-color: rgba(255, 255, 255, 0.10); }
 
 blockquote p strong { font-family: var(--font-quote); }
 blockquote p { line-height: 1.25; }
 .redalert blockquote p { line-height: 1.4; }
 blockquote { font-family: var(--font-quote); font-size: 24px; }
 .redalert blockquote { font-family: var(--font-block); font-size: 18px; } 
-blockquote .credit { display: block; font-family: "PT Sans Narrow"; font-style: italic; text-align: right; font-size: 16px; padding-top: 4px; }
+blockquote .credit { display: block; font-family: var(--font-info); font-style: italic; text-align: right; font-size: 20px; padding-top: 4px; }
 
 blockquote .chinese { font-family: var(--font-chinese); }

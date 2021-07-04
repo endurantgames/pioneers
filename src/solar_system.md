@@ -10,87 +10,11 @@
 > [Transcript of emergency broadcast, unknown speaker. June 19 2320]{.credit}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Earth
-
-Earth is home to the vast majority of the human race, and is surrounded by large
-orbital colonies in Low Earth Orbit.
-
-### Ceres
-
-Ceres is the largest and most populous planetoid in the asteroid belt.
-It's a mining colony.
-
-### Enceladus
-
-
-### Eris
-
-Eris is on the far edges of the Solar System.
-
-### Europa
-
-Europa's colonists live in the frozen seas below the surface ice.
-
-### Luna
-
-Luna is the second most populated colony and is primarily technological work.
-It's also the center of communications in the Solar System.
-
-### Mars
-
-Mars is the most populous colony in the Solar System. Its two moons are known
-for their shipbuilding.
-
-### Mercury
-
-Mercury is a very hot planet.
-
-### O'Neill Station
-
-Located in the La Grange 5 point, O'Neill Station is the largest orbital colony in the Solar System.
-
-### Oberon
-
-Oberon is the nominal capital of the five colonies on Uranian moons.
-
-### Pluto
-
-Pluto is the second most distant colony and is primary for astronomical research.
-
-### Triton
-
-### Venus
-
-Venus has floating cloud cities occupied by the wealthy above, and gas miners on the lower decks.
-
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-## Origins
-
-- **Tellurian** You're from Earth. *Start each operation with +1 Kit.*
-- **Hermean** You're from Mercury.
-- **Selenite** You're from Luna, Earth's moon.
-- **Granger** You're from O'Neill Station in the L5 point.
-- **Cyntherean** You're from Venus.
-- **Martian** You're from Mars.
-- **Cererean** You're from Ceres, in the Asteroid Belt.
-- **Leonan** You're from an orbital colony in Low Earth Orbit.
-- **Europan** You're from Jupiter's moon Europa.
-- **Ganymedean** You're from Jupiter's moon Ganymede.
-- **Callistoan** You're from Jupiter's moon Callisto.
-- **Titanian** You're from Saturn's moon Titan.
-- **Enceladan** You're from Saturn's moon Enceledus.
-- **Uranian** You're from Oberon or one of the colonies on Uranus's moons.
-- **Plutonian** You're from Pluto.
-- **Eridian** You're from Eris.
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-## The Solar System {.breakbefore}
-
 Location Tags:
 
 - **Atmosphere** The location has a breathable atmosphere.
-- **Blocade** Currently blocaded by the Pion.
+- **Blocade** Currently blocaded by the Pions.
 - **Cold** It's too cold for a human to survive without protection.
 - **Colony** Recognized as an independent colony.
 - **Farming** Farming is a major industry.
@@ -114,6 +38,16 @@ Location Tags:
  
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Earth Orbit
+
+Earth is home to the vast majority of the human race, and is surrounded by large
+orbital colonies in Low Earth Orbit.
+
+Luna is the second most populated colony and is primarily technological workers.
+It's also the communications hub of the Solar System ... or at least, it *was*.
+
+Located in the La Grange 5 point, O'Neill Station is the largest orbital colony 
+in the Solar System.
+
 - **Earth** Maximum Population, Atmosphere, Blocade, Farming, Ice, High-G, Life, Manufacturing, Occupation, Orbit, Spaceport, Surface, Underground, Volcanos, Water
 - **Luna** High Population, Colony, Low-G, Mining, Siege, Spaceport, Surface, Underground
 - **O'Neill Station** Medium Population, Atmosphere, Farming, High-G, Occupation, Spaceport
@@ -121,6 +55,16 @@ Location Tags:
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Inner Planets
+Mercury is a very hot planet on the side facing the sun, and a very cold planet on the
+side facing away from the sun.
+
+Venus has floating cloud cities occupied by the wealthy above, and gas miners on the lower decks.
+
+Mars is the most populous colony in the Solar System. Its two moons are known
+for their shipbuilding.
+
+Ceres is the largest and most populous planetoid in the asteroid belt.
+
 - **Mercury** Low Population, Bright, Cold, Colony, Hot, Mining, Orbit, Siege, Surface, Underground
 - **Venus**  Medium Population, Colony, High-G, Hot, Life, Mining, Occupation, Orbit, Spaceport, Surface
 - **Mars** High Population, Cold, Colony, Ice, Manufacturing, Mining, Occupation, Orbit, Spaceport, Surface, Underground
@@ -129,6 +73,12 @@ Location Tags:
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Jupiter
+
+All but one of Jupiter's largest moons are home to Earth colonies.
+
+Europa is known for the indigenous life forms in its chilly seas -- a primitive
+form of brine shrimp.
+
 - **Europa** Medium Population, Cold, Colony, Life, Low-G, Blocade, Surface, Water
 - **Ganymede** Low Population, Cold, Colony, Ice, Low-G, Mining, Occupation, Orbit
 - **Io** Cold, Hot, Low-G, Volcanos
@@ -137,6 +87,7 @@ Location Tags:
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Saturn
+
 - **Titan** Low Population, Blocade, Cold, Colony, Life, Low-G, Orbit
 - **Rhea** Minimal Population, Cold, Ice, Low-G
 - **Iapetus** Cold, Ice, Low-G
@@ -144,10 +95,14 @@ Location Tags:
 - **Dione** Cold, Low-G
 - **Tethys** Cold, Ice, Low-G
 - **Mimas** Cold, Ice, Low-G
+
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Uranus
+
+Oberon is the nominal capital of the five united colonies on Uranian moons.
+
 - **Umbriel** Minimal Population, Cold, Ice, Low-G, Mining, Underground
 - **Titania** Minimal Population, Ice, Cold, Low-G, Surface
 - **Oberon** Low Population, Cold, Colony, Ice, Low-G, Mining, Spaceport, Surface
@@ -157,11 +112,18 @@ Location Tags:
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Neptune
+
 - **Triton** Minimal Population, Cold, Ice, Low-G, Surface
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Trans-Neptunian
+### Trans-Neptunian Space
+
+Pluto is the second most distant colony and is primary for astronomical research.
+
+Eris is on the far edge of the Solar System and is a mining penal colony. Its
+remoteness let it escape Pion notice.
+
 - **Pluto** Minimal Population, Cold, Low-G, Occupation, Spaceport, Underground
 - **Eris** Minimal Population, Cold, Prison, Mining, Spaceport, Underground
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
