@@ -1,0 +1,228 @@
+
+/* base css file for TTRPG projects */
+/* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
+
+@page { size: portrait letter; background: white; color: black; margin: 0.75in; }
+header        { display: none;                       }
+header p.date { string-set: date content()           }
+header h1     { string-set: gamename content()       }
+
+@prince-pdf {
+}
+
+@font-face { 
+  font-family: "Federation";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/home/cadera/.fonts/Federation_1.ttf");
+}
+
+:root {
+  /* --font-header: "Michroma"; */
+  /* --font-info: "PT Sans Narrow"; */
+  /* --font: "Federation"; */
+  --font: "Noto Sans";
+  --font-bold: "Noto Sans Bold";
+  --font-header: "Federation Bold"; 
+  --font-title: "Battlestar";
+  --font-quote: "Shadows Into Light";
+  --font-block: "Wallpoet";
+  /* --font-info: "Noto Sans Cond"; */
+  --font-info: "Noto Sans SemCond";
+  --font-chinese: "Noto Sans SC";
+
+  --icon-game: 'game-icons';
+
+  --large:     15pt;
+  --larger:    13pt;
+  --body:      11pt;
+  --smaller:   11pt;
+  --small:      9pt;
+  --title:     48pt;
+  --subtitle:  40pt;
+  --h1:        26pt; 
+  --h2:        24pt;
+  --h3:        22pt;
+  --h4:        20pt;
+  --h5:        18pt;
+  --h6:        16pt;
+  --th:        13pt;
+
+  --color-line:    gray;
+  --color-light:   silver;
+  --color-toolkit: #006600;
+
+  --bgcolor-sidebar: #EEEEEE;
+  --bgcolor-toolkit: #F8FFF8;
+
+  counter-reset: table figure sidebar;
+}
+
+.lorem { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur '
+                  'ornare ex nisi, sit amet aliquet libero bibendum non. Curabitur sed '
+                  'ligula eu mi laoreet ornare. Ut tempor pretium ex. Etiam eu semper '
+                  'arcu sem gravida metus, at vestibulum erat augue vel ante.'; }
+
+body { 
+  color: black; 
+  columns: 2 auto;
+  column-gap: 0.125in;
+}
+
+body               { font-family: var(--font); font-size: var(--body);      }
+td                 { font-size: var(--body); vertical-align: top;           }
+th                 { font-family: var(--font-bold); font-size: var(--th); font-weight: normal; }
+h1                 { font-family: var(--font-header); font-size: var(--h1); }
+h2                 { font-family: var(--font-header); font-size: var(--h2); }
+h3                 { font-family: var(--font-header); font-size: var(--h3); }
+h4                 { font-family: var(--font-header); font-size: var(--h4); }
+h5                 { font-family: var(--font-header); font-size: var(--h5); }
+h6                 { font-family: var(--font-header); font-size: var(--h6); }
+h1                 { break-after: avoid-page; break-inside: avoid;          }
+h2, h3, h4, h5, h6 { break-inside: avoid; break-after: avoid;               }
+h1                 { column-span: all; text-align: center;                  }
+.breakbefore       { break-before: column;                                  }
+.colbefore         { break-before: column;                                  }
+.nobreak           { break-before: avoid-page;                              }
+.nocolbreak        { break-before: avoid-column;                            }
+.colspan           { column-span: all;                                      }
+.bottom            { column-span: all; float: page-bottom;                  }
+p+table            { break-before: avoid-page;                              }
+table              { border-collapse: collapse; break-inside: avoid-page;   }
+table tr           { break-inside: avoid-page;                              }
+table thead        { break-after: avoid;                                    }
+table thead        { border-bottom: 0.5pt solid var(--color-line);          }
+table th, table td { padding: 2pt;                                          }
+table th           { vertical-align: bottom;                                }
+table td           { vertical-align: top;                                   }
+
+li           { break-inside: avoid; }
+ul, ol       { margin-left: 1em;    }
+ul li, ul ol { margin-left: 1em;    }
+
+.sidebar.next { float-defer-column: 1;                                                    }
+.sidehead     { font-weight: bold; font-family: var(--font-header); font-size: var(--h4); }
+
+img { -prince-image-resolution: 96;
+      -prince-image-magic: recompress(50%) convert-to-jpeg(50%) snap-to-integer-coords; } 
+
+p, li { orphans: 3; line-height: 1.60; }
+
+a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
+
+.anchor { position: absolute; color: transparent; }
+
+.gamename:before { content: string(gamename); font-style: italic; }
+
+#charsheet { page: charsheet; break-before: right; height: 11in; width: 8.5in; }
+
+#cover { text-align: center; }
+#cover h1.title { 
+  color: black;
+  font-family: var(--font-title);
+  margin-top: 2in;
+  margin-bottom: 1.0in;
+  font-size: var(--title); 
+  font-weight: normal; 
+  letter-spacing: 0.5em;
+  text-align: center; 
+  text-transform: uppercase;
+}
+
+#cover h2, #cover h3, #cover h4, #cover h5 { 
+  text-align: center; 
+  column-span: all;
+  font-size: var(--h2); 
+  padding: 0;
+  margin-bottom: 0.25in;
+  margin-left: 1.25in;
+  margin-right: 1.25in;
+}
+
+#cover h5 { margin-top: 1.25in; font-size: var(--h3); margin-bottom: 0.5in; }
+
+#cover p { text-align: center; column-span: all; }
+
+#cover img { width: 1.5in; height: auto; background: black; }
+
+.title { 
+  font-family: var(--font-title); 
+  font-weight: normal; 
+  text-transform: uppercase; 
+  letter-spacing: 0.5em;
+}
+
+h2.headline { column-span: all; text-align: center; break-before: page; }
+
+@page { background-size: 100% auto; background-repeat: no-repeat; }
+
+.class table { column-span: all; border-collapse: collapse; border: 1pt solid white; width: 100%; margin-bottom: 32px; }
+.class table :matches(td, th) { width: 16.666%; padding: 16px; }
+.class table td { font-size: var(--h3); } 
+.class table td:nth-child(3) { border-right: 1px solid silver; }
+.class table th:nth-child(3) { border-right: 1px solid silver; }
+.class table th { font-weight: normal; font-size: var(--large); font-family: var(--font); }
+
+.classtable table { 
+   margin: 32px;
+   background: rgba(128, 128, 128, 0.2);
+   padding: 6pt;
+   }
+.classtable table :matches(td, th) { width: 10%; padding: 8px; font-size: var(--large); }
+.classtable table :matches(td, th):first-child { width: 20%; }
+.classtable { float: page bottom; column-span: all; }
+.classtable table td:first-child { font-family: var(--font); }
+.classtable table :matches(td, th):nth-child(4) { border-right: 1px solid gray;
+   padding-right: 1em;
+   }
+
+strong { font-family: var(--font-bold); } 
+
+ul li { list-style-type: none; }
+ul { margin-left: 2em; break-inside: avoid; }
+ul li strong { margin-left: -2em; padding-right: 0.25em; }
+ol li { margin-left: 2em; }
+
+.breakable ul { break-inside: auto; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+.infotable table { padding: 8px; background-color: rgba(255, 255, 255, 0.15); }
+.infotable table :matches(th, td) { font-family: var(--font-info); }
+
+.infolist ul li strong { font-size: 90%; font-weight: normal; font-family: var(--font-bold); }
+.infolist ul { background-color: rgba(255, 255, 255, 0.25); padding: 6px 12px; margin-left: 0; }
+.infolist ul li { padding-left: 1em; font-family: "Noto Sans Cond"; font-size: 20px; }
+
+.infolist.dark ul { background-color: rgba(255, 255, 255, 0.10); }
+
+blockquote p strong { font-family: var(--font-quote); }
+blockquote p { line-height: 1.25; }
+.redalert blockquote p { line-height: 1.4; }
+blockquote { font-family: var(--font-quote); font-size: 24px; }
+.redalert blockquote { font-family: var(--font-block); font-size: 18px; } 
+blockquote .credit { display: block; font-family: var(--font-info); font-style: italic; text-align: right; font-size: 20px; padding-top: 4px; break-before: avoid; }
+
+blockquote .chinese { font-family: var(--font-chinese); }
+
+.traveltimes { float: column bottom; margin-top: 9pt; }
+
+h2.breakbefore { }
+
+.class table { margin-top: 12pt; }
+.class h2 { 
+  font-size: var(--h1); 
+}
+.class h3.classquote { 
+   font-family: var(--font);
+   font-weight: normal;
+   text-align: center;
+   font-style: italic;
+   margin-top: 12px;
+   margin-bottom: 24px;
+   margin-left: 192px;
+   margin-right: 192px;
+}
+
+a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
+

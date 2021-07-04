@@ -33,6 +33,7 @@ PROJ_RECIPE = $(PROJ)
 PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
 PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
+PLAINTEXT_OUT = $(OUTDIR)/$(PROJ)-plaintext.pdf
 TEASER_RECIPE = teaser
 TEASER_SRC = $(BUILDDIR)/teaser.md
 TEASER_OUT = $(OUTDIR)/pioneers-teaser.pdf
@@ -41,11 +42,13 @@ TEASER_OUT = $(OUTDIR)/pioneers-teaser.pdf
 #   Edit: if you have more than one stylesheet
 PROJ_CSS    = --css=$(STYLEDIR)/style.css
 # PROJ_CSS    = --css=$(STYLEDIR)/$(PROJ).css
+PLAINTEXT_CSS = --css=$(STYLEDIR)/plain.css
 
 # Derived Flags
 #   Edit: probably unnecessary
 FLAGS       = -t html5 --standalone --resource-path=$(IMGDIR) 
 PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
+PLAINTEXT_FLAGS = $(FLAGS) $(PLAINTEXT_CSS)
 
 # Application Configruation #############################################################################
 #
@@ -230,6 +233,12 @@ pdf: markdown
 	@       $(PDFINFO) $(PROJ_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
+plaintext: markdown
+	@ echo '$(ltblue)Making Plaintext PDF.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(PLAINTEXT_FLAGS) -o $(PLAINTEXT_OUT) $(PROJ_SRC)
+	@       $(PDFINFO) $(PLAINTEXT_OUT) $(PDFINFO_GREP)
+	@      -$(EXPLORER)
+
 teaser: markdown-teaser
 	 echo '$(ltblue)Making Teaser PDF.$(resetc)'
 	       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(TEASER_OUT) $(TEASER_SRC)
@@ -256,3 +265,4 @@ backup: backups
 vi:     edit
 vim:    edit
 # game: all
+plain: plaintext
