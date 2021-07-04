@@ -768,7 +768,7 @@ computers and has no pilot.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Resistance Ops
+## Resistance Ops {.breakbefore}
 
 []{.lorem}
 
