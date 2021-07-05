@@ -23,25 +23,41 @@ title: Pioneers
 
 In []{.gamename}, you fight to liberate the Solar System from the Pions,
 cybernetic beings who have already conquered the Earth and much of the
-Solar System, and nuked the Moon. You know, as one does.
+Solar System and nuked the Moon.  You know, as one does.
 
-## Resistance Ops
+## Saving the World
 
-You are part of the **Rag-Tag Fugitive Resistance** trying to free
-the Solar System from the clutches of its prodigal electronic children.
-With all the other players, you comprise a Resistance Cell that takes
-on mssions, called **Ops,** that invariably involve blowing up lots and
-lots of Pions. 
+[]{.gameguide} is a tabletop roleplaying game for 3-6 players. 
+One player takes on the role of **Mission Control** (or, *the MC* for short)
+and controls **the Pions** -- humanity's prodigal, digital children
+who have returned from the depths of space with technology far beyond that 
+of 24th Century Earth.
 
-If you survive a deadly Op, the most you can hope for 
-is a free drink in one of the underground Speakeasies frequented by
-the Resistance fighters; if you fail, the best you'll get is one of
-those drinks lifted in honor of your sacrifice.
+The each of other players creates a **Survivor** who is part of the **Rag-Tag 
+Fugitive Resistance** striving to free the Solar System from the crushing 
+**Occupation**.  
 
+As member of the Resistance, your Survivor is part of a small cell of 2 to 5
+freedom fighters that undertake missions, called **Ops**, that invariably 
+involve blowing up lots and lots of murderous robots -- on Earth, in space,
+or on one of the **Twelve Colonies of Man** scattered across the conquered
+Solar System.
+
+If you survive a deadly Op, the most you can hope for is a free drink in 
+one of the underground speak-easies frequented by the Resistance fighters; 
+if you fail, the best you'll get is one of those drinks lifted in honor of 
+your sacrifice.
+
+
+::::::::::: breakbefore :::::::::::::::::::::::::::::::::::::::::::::::
+> "In retrospect, putting a map showing how to get back to Earth on those 
+> old-fashioned space probes probably wasn't the smartest idea."
+> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Game Mechanics
 
-You have three abilities: **Thrust**, **Gyro**, and **Telemetry**.
+Your Survivor three abilities: **Thrust**, **Gyro**, and **Telemetry**.
 
 You use **Thrust** for direct actions -- to solve problems that are
 best solved by an application of force, whether physical or mental.
@@ -53,12 +69,6 @@ gracefully, or both, then you're going to make a Gyro roll.
 specialized knowledge of a hacker or surgeon, or just general
 intelligence about the enemy's movement.
 
-:::::::::::::::: breakbefore :::::::::::::::::::::::::::::::::::::::::::::::
-> "In retrospect, putting a map showing how to get back to Earth on those 
-> old-fashioned space probes probably wasn't the smartest idea."
-> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ### Dice Rolling
 
 When you do an action, either in a fight or not, state which 
@@ -67,30 +77,32 @@ attribute. Check the highest number you rolled on one die against
 the following table:
 
  On a...  
---------- ---------------------------------------------------------
+--------- ---                                                       
   1-2     The action **fails** and there's a **consequence**.
   3-4     The action **succeeds** but there's a **complication**.
   5-6     The action **succeeds** with **no problems**.
 
 
-## Resource Pools {.colbefore}
+## Resource Pools 
 
 In addition, you have three resource pools, **Health**, **Impulse**,
-and **Kit**.
+and **Kit**. At the start of each Op, your resource pools are set
+to their maximum value; while the exact value will go up or down
+during the Op, you can't go over your maximum value.
 
-**Health** tells you how much Harm you can take before dying; each
-hit by the enemy usually does 1 to 3 Harm.
+**Health** tells you how much Harm your Survivor can take before being 
+KIA; each hit by the enemy usually does 1 to 3 Harm.
 
-**Impulse** is your energy, your drive, your momentum. You can spend
-Impulse to activate your Talents.
+**Impulse** is your energy, your drive, your momentum. Your class gives
+you Talents that you can activate using Impulse.
 
-**Kit** is an abstract measure of how much gear you have. At the
-beginning of each Op, you can grab items from the Armory by spending 
-some of your Kit; you can also spend Kit in the field, to represent 
+**Kit** is an abstract measure of how much gear you have.  At the
+beginning of each Op, you adjust your inventory by expending points from
+your Kit; you can also spend Kit in the field, to represent 
 items that you had on you but didn't want to slow the game down with 
 time-consuming inventory tracking.
 
-## Character Creation {.breakbefore}
+## Survivor Creation 
 
 :::::::::::::::::::: classtable :::::::::::::::::::::::::::::::
 Class       Thrust   Gyro   Telemetry   Health   Impulse   Kit
@@ -101,7 +113,11 @@ Mercury       1       3         2         5       6         4
 Soyuz         2       2         2         5       5         5
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Character creation is dirt simple. Follow these steps and you're done.
+Creating a Survivor is dirt simple. There are just five steps,
+then you're done.  
+You can fill in the fields on the Survivor
+Record, which is a sheet et for recording your character's 
+details.
 
 1. [Pick a Class.](#step-class){.page}
 2. [Choose Your Home Colony.](#step-colony){.page}
@@ -109,43 +125,23 @@ Character creation is dirt simple. Follow these steps and you're done.
 4. [Snag a ship.](#step-ship){.page}
 5. Come up with a Name.
 
+Instructions for playing the MC [come later in the rules](#the-mc).
+
 ## Class {#step-class}
 
-Your **Class** determines your starting attributes and pools, and
-gives you five Talents. Pick a class from this list:
+Your **Class** determines your attributes and pools, your talents,
+and your starting equipment. Pick a class from this list:
 
-- **Apollo** You're big, strong, and tough in a fight.
-- **Mercury** You're fast, agile, and hard to pin down.
-- **Gemini** You're smart, clever, and good with technology.
-- **Soyuz** You're a jack-of-all-trades and born leader.
+- [**Apollo** ](#class-apollo ) You're big, strong, and tough in a fight.
+- [**Gemini** ](#class-gemini ) You're smart, clever, and good with technology.
+- [**Mercury**](#class-mercury) You're fast, agile, and hard to pin down.
+- [**Soyuz**  ](#class-soyuz  ) You're a jack-of-all-trades and born leader.
 
 The table below lists the attributes and pools for each class.
 
 
-::::::::::::: {.infolist .breakable } :::::::::::::::::::::::::::::::::
-## Colony Origins {.breakbefore #step-colony}
-
-- **Callistoan** You're from Jupiter's moon Callisto.  *+1 Ship-Telemetry on Liquid-Hydrogen Tankers.*
-- **Cererean** You're from Ceres, in the Asteroid Belt. *+1 Ship-Gyro on Mining Rigs.*
-- **Cyntherean** You're from Venus. *+1 Ship-Thrust on Racing Yachts.*
-- **Enceladan** You're from Saturn's moon Enceledus. *+1 Ship-Gyro on Shuttles*.
-- **Eridian** You're from Eris. *+1 Ship-Gyro on Ore Haulers.*
-- **Europan** You're from Jupiter's moon Europa. *+1 Ship-Telemetry on Shuttles.*
-- **Ganymedean** You're from Jupiter's moon Ganymede. *+1 Ship-Telemetry on Ore Haulers.*
-- **Granger** You're from O'Neill Station in the L5 point. *+1 Ship-Gyro on Repair Pods.*
-- **Hermean** You're from Mercury. *+1 Ship-Gyro on Solar Gliders.*
-- **Leo** You're from an orbital colony in Low Earth Orbit. *+1 Ship-Thrust on Comms Relays.*
-- **Martian** You're from Mars. *+1 Ship-Health on any ship.*
-- **Plutonian** You're from Pluto. *+1 Ship-Telemetry on Comms Relays.*
-- **Selenite** You're from Luna, Earth's moon. *+1 Ship-Gyro on Racing Yachts.*
-- **Tellurian** You're from Earth. *Start each operation with +1 Kit.*
-- **Titanian** You're from Saturn's moon Titan.  *+1 Ship-Telemetry on Mining Rigs.*
-- **Uranian** You're from Oberon or one of the colonies on Uranus's moons. *+1 Ship-Thrust on Liquid-Hydrogen Tankers.*
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Apollo
+## Apollo {#class-apollo}
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
@@ -176,7 +172,7 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Gemini
+## Gemini {#class-gemini}
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
@@ -208,7 +204,7 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Mercury
+## Mercury {#class-mercury}
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
@@ -239,7 +235,7 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Soyuz
+## Soyuz {#class-soyuz}
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
@@ -271,11 +267,59 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
+::::::::::::: {.infolist .breakable } :::::::::::::::::::::::::::::::::
+## Colonial Origin {.breakbefore #step-colony}
+
+> We created the Pions. We sent them before us, and followed them
+> to space. We gave them life; they gave us the planets. We gave them
+> a galaxy to explore. We never imagined they would want to return.
+> [Introduction to *Earthfall: The Roots of the Pion War*]{.credit}
+
+In the 24th Century, humanity has long since colonized the
+Solar System, building both surface bases on inhospitable planets and
+moons, and orbiting colonies above them.
+
+Choose one of the following origins for your Survivor, and note it
+on your Survivor Record.
+
+- **Callistoan** You're from Jupiter's moon Callisto.  *+1 Ship-Telemetry on Liquid-Hydrogen Tankers.*
+- **Cererean** You're from Ceres, in the Asteroid Belt. *+1 Ship-Gyro on Mining Rigs.*
+- **Cyntherean** You're from Venus. *+1 Ship-Thrust on Racing Yachts.*
+- **Enceladan** You're from Saturn's moon Enceledus. *+1 Ship-Gyro on Shuttles*.
+- **Eridian** You're from Eris. *+1 Ship-Gyro on Ore Haulers.*
+- **Europan** You're from Jupiter's moon Europa. *+1 Ship-Telemetry on Shuttles.*
+- **Ganymedean** You're from Jupiter's moon Ganymede. *+1 Ship-Telemetry on Ore Haulers.*
+- **Granger** You're from O'Neill Station in the L5 point. *+1 Ship-Gyro on Repair Pods.*
+- **Hermean** You're from Mercury. *+1 Ship-Gyro on Solar Gliders.*
+- **Leo** You're from an orbital colony in Low Earth Orbit. *+1 Ship-Thrust on Comms Relays.*
+- **Martian** You're from Mars. *+1 Ship-Health on any ship.*
+- **Plutonian** You're from Pluto. *+1 Ship-Telemetry on Comms Relays.*
+- **Selenite** You're from Luna, Earth's moon. *+1 Ship-Gyro on Racing Yachts.*
+- **Tellurian** You're from Earth. *Start each operation with +1 Kit above your maximum.*
+- **Titanian** You're from Saturn's moon Titan.  *+1 Ship-Telemetry on Mining Rigs.*
+- **Uranian** You're from Oberon or one of the colonies on Uranus's moons. *+1 Ship-Thrust on Liquid-Hydrogen Tankers.*
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Gear {.breakbefore #step-gear}
+
+When you first create your Survivor, you're given a suit of armor and
+two or three weapons, as shown on the page for your class. 
+
+If you don't like the results you rolled, you can spend one Kit before 
+your mission to change those to another option on your list.
+
+After each Op you have the option to spend 1 Kit each to change your armor
+or weapon for any others, including those that aren't on your starting
+gear list.
 
 ### Armor
 
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
+Armor is *ablative*. meaning that when it protects you, it becomes weaker.
+A new suit of armor starts out with a full set of charges, and you can repair
+it between Ops to reset those charges to their maximum values.
+
+::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::::::::::::::::
 - **Assault Armor** Ignore 1 Harm per attack (6 charges)
 - **Energy Siphon** Ignore Burn, Pulse, or Shock Harm (3 charges)
 - **Stealthsuit** Ignore Harm from *far* sources (3 charges)
@@ -285,6 +329,9 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
 ::::::::::::: {.infolist .breakable} ::::::::::::::::::::::::::::::::::::
 ### Weapons
+
+Each weapon lists the ranges at which it can be used -- *close*, *mid*,
+and *far* -- as well as the damage and any Weapon Tags (see below).
 
 - **Autolaser**         *mid* Harm 2, Autofire, Burn
 - **Autorifle**         *mid* Harm 1, Autofire, Heavy
@@ -307,8 +354,11 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 - **Taser Pistol**      *close* Harm 1, Handgun, Shock, Tactical
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
  
-::::::::::::: {.infolist .breakable} ::::::::::::::::::::::::::::::::::::
+::::::::::::: {.infolist .colbefore } ::::::::::::::::::::::::::::::::::::
 ### Weapon Tags
+
+These tags apply to both personal weaponry and weapons on spacecraft
+(#step-ship){.page}.
 
 - **AOE** Affects multiple targets.
 - **Autofire** Can hit multiple targets.
@@ -334,9 +384,101 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 > no damn good down here on planet Earth. Earth first, always."
 > [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
 
-[]{.lorem}
 
-### Drops
+[]{.gamename} is a game of violent resistance to the Occupation, so
+of course violence is likely to ensue. We call each instance of that a
+a **Fight**.
+
+In a fight, the players and the MC alternate turns -- each of the players
+gets to have their Survivor do something, and then the MC takes a turn for
+the Pions.
+
+### Range Bands
+
+Unlike some tabletop RPGs, []{.gamename} is not concerned with exact position
+and distance; instead, participants in a fight are classified as being in *close*,
+*mid*, or *far* range, relative to the other combatants. This affects the 
+effectiveness of most weapons and can interact with class's Talents.
+
+### Player Turns
+
+On the the players' turn, they can act in whatever order they like, until
+every player has had to chance to act.
+
+When it's your turn, you can do any or all of these:
+
+1. **Change your Range Band** by one -- *close* to *mid*, *mid* to *close* or *far*,
+or *far* to *mid*. (You can't jump from *close* to *far* or vice versa.)
+
+2. **Make an Attack** against one of the Pions.
+
+3. **Use Your Talents** by paying a cost from the appropriate pool. You can use
+   as many Talents as you wish during your turn, but you can only activate each
+   Talent once during that turn.
+
+### Attacking
+
+To attack, choose which weapon you're using and which attribute you're using for the
+attack -- *Thrust* for a direct attack, *Gyro* for quick strikes or feints, and 
+*Telemetry* for a steady, aimed attack -- and pick your targets.
+
+Roll a number of dice (d6s) equal to your score in the attribute, then compare the
+hightest die to the total. 
+
+On a **5 or 6,** you hit your target and do damage equal to the Harm rating of your weapon. 
+
+If the high score is a **3 or 4,** you still do the same Harm, but there's also
+a *Complication*, which means the MC gets to have the Pions do something -- usually
+doing Harm to your Health.
+
+If you didn't roll higher than a **1 or 2**, then you failed to Harm your target, and
+the MC can make a move for the Pions.
+
+#### Doing Harm
+
+When you successfully hit a Pion with a weapon, you do Harm equal to the weapon's Harm
+score, plus other modifiers such as the weapon's tags.
+
+Most weapons do *untyped Harm*, meaning it's not some energy type. Weapons with specific
+tags do *burn*, *exploding*, *pulse* or *shock* Harm. If your target has the Resist tag
+against that kind of Harm, it takes 1 less point of Harm from the attack. Conversely, if
+it has a Vulnerability to that weapon's type, you do an extra 1 point of Harm.
+
+Each Pion is resistant and vulnerable to different types of attacks, so it pays to switch
+up your tactics during a fight as you discover how it reacts to each.
+
+### The MC's Turn
+
+During the MC's turn, they can do any or all of these:
+
+1. **Change the Range Band** for some or all of the Pions, relative to the Survivors.
+
+2. Make a **Big Change** in the fight.
+
+3. Have the **Pions counter-attack.**
+
+4. Have the **Pions take moves.**
+
+At the end of the MC's turn, they generate Drops, if appropriate.
+
+#### Big Changes
+
+#### Pion Counter-Attacks
+
+Usually, the MC doesn't need to specifically have the Pions attack; complications rolled
+by the players are usually enough to keep the flow of damage in both directions.
+However, a concentrated counter-attack could be the Big Change that the MC chooses during
+their turn. 
+
+When this happens, they describe the type of attack or attacks used by each enemy, and
+the players can describe how their Survivor is avoiding the Harm. They roll the appropriate
+number of dice and check the high number as always; on a 5 or 6, they escape taking any
+Harm; 3 or 4 they take Harm equal to half the Pion's Harm rating; and 1 or 2 they take
+the full amount of Harm.
+
+#### Pion Moves
+
+#### Drops
 
 At the end of the GM's turn, roll 1d6 for each enemy that died.
 

@@ -1,30 +1,30 @@
 # TODO
 
-- [ ] Classes
-  - [ ] Apollo
-  - [ ] Gemini
-  - [ ] Mercury
-  - [ ] Soyuz
-- [ ] Colony Benefits
-- [ ] Equipment
-  - [ ] Armor
-  - [ ] Weapons
+- [x] Classes
+  - [x] Apollo
+  - [x] Gemini
+  - [x] Mercury
+  - [x] Soyuz
+- [x] Colony Benefits
+- [x] Equipment
+  - [x] Armor
+  - [x] Weapons
   - [ ] Miscellany
 - [ ] Fights
 - [ ] Ops
-- [ ] Ships
-  - [ ] Ship equipment
-  - [ ] Ship traits
+- [x] Ships
+  - [x] Ship equipment
+  - [x] Ship traits
   - [ ] Ship ops
   - [ ] Ship fights
-- [ ] Solar System
-- [ ] Opponents
-  - [ ] Mariner
-  - [ ] Venera
-  - [ ] Viking
-  - [ ] Ulysses
-  - [ ] Cassini
-  - [ ] Rover
+- [x] Solar System
+- [-] Opponents
+  - [-] Mariner
+  - [-] Venera
+  - [-] Viking
+  - [-] Ulysses
+  - [-] Cassini
+  - [-] Rover
 - [ ] Character Sheet
   - [ ] Apollo
   - [ ] Gemini

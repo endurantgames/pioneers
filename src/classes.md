@@ -1,5 +1,5 @@
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-# Apollo
+# Apollo {#class-apollo}
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
@@ -30,7 +30,7 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-# Gemini
+# Gemini {#class-gemini}
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
@@ -62,7 +62,7 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-# Mercury
+# Mercury {#class-mercury}
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
@@ -93,7 +93,7 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::: class ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-# Soyuz
+# Soyuz {#class-soyuz}
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----

@@ -311,8 +311,8 @@ h2.headline {
 strong { font-family: var(--font-header); font-weight: normal; } 
 
 ul li { list-style-type: none; }
-ul { margin-left: 2em; break-inside: avoid; }
-ul li strong { margin-left: -2em; padding-right: 0.25em; }
+ul { margin-left: 1.5em; break-inside: avoid; }
+ul li strong { margin-left: -1.5em; padding-right: 0.25em; }
 ol li { margin-left: 2em; }
 
 .breakable ul { break-inside: auto; }
@@ -333,7 +333,7 @@ blockquote p { line-height: 1.25; }
 .redalert blockquote p { line-height: 1.4; }
 blockquote { font-family: var(--font-quote); font-size: 24px; }
 .redalert blockquote { font-family: var(--font-block); font-size: 18px; } 
-blockquote .credit { display: block; font-family: var(--font-info); font-style: italic; text-align: right; font-size: 20px; padding-top: 4px; break-before: avoid; }
+blockquote .credit { display: block; font-family: var(--font-info); margin-left: 25%; text-align: right; font-size: 20px; padding-top: 4px; break-before: avoid; }
 
 blockquote .chinese { font-family: var(--font-chinese); }
 

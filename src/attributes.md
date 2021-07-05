@@ -1,6 +1,12 @@
+::::::::::: breakbefore :::::::::::::::::::::::::::::::::::::::::::::::
+> "In retrospect, putting a map showing how to get back to Earth on those 
+> old-fashioned space probes probably wasn't the smartest idea."
+> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 # Game Mechanics
 
-You have three abilities: **Thrust**, **Gyro**, and **Telemetry**.
+Your Survivor three abilities: **Thrust**, **Gyro**, and **Telemetry**.
 
 You use **Thrust** for direct actions -- to solve problems that are
 best solved by an application of force, whether physical or mental.
@@ -12,12 +18,6 @@ gracefully, or both, then you're going to make a Gyro roll.
 specialized knowledge of a hacker or surgeon, or just general
 intelligence about the enemy's movement.
 
-:::::::::::::::: breakbefore :::::::::::::::::::::::::::::::::::::::::::::::
-> "In retrospect, putting a map showing how to get back to Earth on those 
-> old-fashioned space probes probably wasn't the smartest idea."
-> [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ## Dice Rolling
 
 When you do an action, either in a fight or not, state which 
@@ -26,7 +26,7 @@ attribute. Check the highest number you rolled on one die against
 the following table:
 
  On a...  
---------- ---------------------------------------------------------
+--------- ---                                                       
   1-2     The action **fails** and there's a **consequence**.
   3-4     The action **succeeds** but there's a **complication**.
   5-6     The action **succeeds** with **no problems**.

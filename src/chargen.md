@@ -1,4 +1,4 @@
-## Character Creation {.breakbefore}
+## Survivor Creation 
 
 :::::::::::::::::::: classtable :::::::::::::::::::::::::::::::
 Class       Thrust   Gyro   Telemetry   Health   Impulse   Kit
@@ -9,7 +9,11 @@ Mercury       1       3         2         5       6         4
 Soyuz         2       2         2         5       5         5
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Character creation is dirt simple. Follow these steps and you're done.
+Creating a Survivor is dirt simple. There are just five steps,
+then you're done.  
+You can fill in the fields on the Survivor
+Record, which is a sheet et for recording your character's 
+details.
 
 1. [Pick a Class.](#step-class){.page}
 2. [Choose Your Home Colony.](#step-colony){.page}
@@ -17,15 +21,17 @@ Character creation is dirt simple. Follow these steps and you're done.
 4. [Snag a ship.](#step-ship){.page}
 5. Come up with a Name.
 
+Instructions for playing the MC [come later in the rules](#the-mc).
+
 ## Class {#step-class}
 
-Your **Class** determines your starting attributes and pools, and
-gives you five Talents. Pick a class from this list:
+Your **Class** determines your attributes and pools, your talents,
+and your starting equipment. Pick a class from this list:
 
-- **Apollo** You're big, strong, and tough in a fight.
-- **Mercury** You're fast, agile, and hard to pin down.
-- **Gemini** You're smart, clever, and good with technology.
-- **Soyuz** You're a jack-of-all-trades and born leader.
+- [**Apollo** ](#class-apollo ) You're big, strong, and tough in a fight.
+- [**Gemini** ](#class-gemini ) You're smart, clever, and good with technology.
+- [**Mercury**](#class-mercury) You're fast, agile, and hard to pin down.
+- [**Soyuz**  ](#class-soyuz  ) You're a jack-of-all-trades and born leader.
 
 The table below lists the attributes and pools for each class.
 

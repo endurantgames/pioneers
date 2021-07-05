@@ -1,8 +1,22 @@
 # Gear {.breakbefore #step-gear}
 
+When you first create your Survivor, you're given a suit of armor and
+two or three weapons, as shown on the page for your class. 
+
+If you don't like the results you rolled, you can spend one Kit before 
+your mission to change those to another option on your list.
+
+After each Op you have the option to spend 1 Kit each to change your armor
+or weapon for any others, including those that aren't on your starting
+gear list.
+
 ## Armor
 
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
+Armor is *ablative*. meaning that when it protects you, it becomes weaker.
+A new suit of armor starts out with a full set of charges, and you can repair
+it between Ops to reset those charges to their maximum values.
+
+::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::::::::::::::::
 - **Assault Armor** Ignore 1 Harm per attack (6 charges)
 - **Energy Siphon** Ignore Burn, Pulse, or Shock Harm (3 charges)
 - **Stealthsuit** Ignore Harm from *far* sources (3 charges)
@@ -12,6 +26,9 @@
 
 ::::::::::::: {.infolist .breakable} ::::::::::::::::::::::::::::::::::::
 ## Weapons
+
+Each weapon lists the ranges at which it can be used -- *close*, *mid*,
+and *far* -- as well as the damage and any Weapon Tags (see below).
 
 - **Autolaser**         *mid* Harm 2, Autofire, Burn
 - **Autorifle**         *mid* Harm 1, Autofire, Heavy
@@ -34,8 +51,11 @@
 - **Taser Pistol**      *close* Harm 1, Handgun, Shock, Tactical
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
  
-::::::::::::: {.infolist .breakable} ::::::::::::::::::::::::::::::::::::
+::::::::::::: {.infolist .colbefore } ::::::::::::::::::::::::::::::::::::
 ## Weapon Tags
+
+These tags apply to both personal weaponry and weapons on spacecraft
+(#step-ship){.page}.
 
 - **AOE** Affects multiple targets.
 - **Autofire** Can hit multiple targets.
