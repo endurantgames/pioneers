@@ -63,6 +63,7 @@ header { display: none; }
   padding: 0.25in;
   display: inline-block;
   position: relative;
+  vertical-align: top;
 }
 
 .ship-sheet h3 img { width: 0.75in; top: 5pt; right: 12.5pt; }
@@ -83,34 +84,31 @@ header { display: none; }
   margin-left: 0;
 }
 
-.ship-sheet .resist, .ship-sheet .vulnerable {
-  width: 132pt;
-  display: inline-block;
-  box-sizing: border-box;
-  padding-left: 4pt;
-  background: var(--bg-light);
-  height: 24pt;
-}
-.ship-sheet .mount-points {
+.ship-sheet :matches(.resist, .vulnerable, .mount-points, .tags) {
   display: block;
   box-sizing: border-box;
-  padding-left: 4pt;
+  padding-left: 4pt; 
+  padding-top: 6pt;
   background: var(--bg-light);
-  height: 24pt;
+  font-family: var(--font-bold);
+  font-size: 10pt;
 }
-.ship-sheet .mount-points:before { content: 'Mount Points '; }
-
-.ship-sheet .tags {
-  display: block;
-  box-sizing: border-box;
-  padding-left: 4pt;
-  background: var(--bg-light);
-  height: 32pt;
-  margin-bottom: 4pt;
-}
-.ship-sheet .tags:before { content: 'Ship Tags '; }
-
+.ship-sheet .resist, .ship-sheet .vulnerable { width: 132pt; height: 24pt; display: inline-block; }
+.ship-sheet .mount-points { height: 24pt; }
 .ship-sheet .resist { margin-right: 4pt; }
+.ship-sheet .tags { height: 32pt; margin-bottom: 4pt; }
+
+.ship-sheet :matches(.mount-points, .tags, .resist, .vulnerable):before {
+  display: inline-block;
+  padding-right: 1em;
+  position: relative;
+  top: -6pt;
+  font-family: var(--font);
+  font-size: 9pt;
+}
+
+.ship-sheet .mount-points:before { content: 'Mount Points '; }
+.ship-sheet .tags:before { content: 'Ship Tags '; }
 .ship-sheet .resist:before { content: 'Resist '; }
 .ship-sheet .vulnerable:before { content: 'Vulnerable '; }
 
@@ -126,7 +124,9 @@ header { display: none; }
 .ship-sheet:nth-of-type(4n+1) { border-right:  0.5pt dashed silver; }
 .ship-sheet:nth-of-type(4n+3) { border-right:  0.5pt dashed silver; }
 
-.ship-sheet h3 { font-size: 18pt; letter-spacing: 0.25em; }
+.ship-sheet h3 .sub { font-size: 50%; }
+.ship-sheet h3 { font-size: 18pt; letter-spacing: 0; }
+.ship-sheet h3:before { letter-spacing: 0; }
 
 #template.charsheet { display: none; }
 
@@ -270,8 +270,8 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
 .armor table tbody tr:nth-child(odd) { background: var(--bg-light); }
 .armor table td:nth-child(1)      { width: 80pt; }
 .armor table td:nth-child(2)      { width: 56pt; }
-.armor table td:first-child       { padding-left: 12pt; }
-.armor table td:first-child .box1 { margin-left: -9pt; }
+.armor table td:first-child       { padding-left: 14pt; }
+.armor table td:first-child .box1 { margin-left: -12pt; }
 .armor table td .box6 { content: var(--box-6); }
 .armor table td .box3 { content: var(--box-3); }
 .armor table td .box6.gray { color: gray; }
@@ -289,8 +289,8 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
 .weapons table td:nth-child(2)      { width: 74pt; }
 .weapons table td:nth-child(3)      { width: 32pt; }
 .weapons table td:last-child        { padding-right: 2pt; }
-.weapons table td:first-child       { padding-left: 12pt; }
-.weapons table td:first-child .box1 { margin-left: -9pt; }
+.weapons table td:first-child       { padding-left: 14pt; }
+.weapons table td:first-child .box1 { margin-left: -11pt; }
 
 .weapons table td :matches(.close, .mid, .far):after { font-size: 7pt; font-style: italic; }
 .weapons table td .means { font-size: 7pt; font-style: italic; }
@@ -301,6 +301,9 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
 .weapons table td .means        {                     }
 .weapons table td .means:before { content: '(';       }
 .weapons table td .means:after  { content: ')';       }
+
+.weapons table td .ship:before { font-style: italic; content: 'Ship-'; }
+.ship-sheet .weapons table td:nth-child(3) { width: 50pt; }
 
 /* talents ---------------------------------------------------------------- */
 
@@ -365,8 +368,10 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
   margin-bottom: 4pt;
 }
 
-#mercury .notes ul li { height: 30pt; }
-#soyuz .notes ul li { height: 46pt; }
+#mercury     .notes ul li { height: 30pt; }
+#soyuz       .notes ul li { height: 46pt; }
+#comms-relay .notes ul li { height: 70pt; }
+#tanker      .notes ul li { height: 50pt; }
 
 /* gear ------------------------------------------------------------ */
 

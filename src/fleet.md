@@ -27,7 +27,7 @@ These ships were constructed from old communications satellites.
 - **Resist** shock
 - **Vulnerable** pulse
 - **Mount Points** 2 (Microwave Scrambler, EMP Burster)
-- **Tags** Connected
+- **Tags** Networked
 - **Names** *Ansible*, *Molniya*, *Syncom*, *Telstar* *Venus Equilateral*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -43,7 +43,7 @@ Large, ponderous tankers that actually move quite quickly when they get up to sp
 - **Resist** pulse
 - **Vulnerable** burn
 - **Mount Points** 4 (Docking Clamps, Escape Pods, Fuel Reserve x2)
-- **Tags** Cargo, Ramming Speed, Tailgunner
+- **Tags** Ramming Speed, Tailgunner
 - **Names** *Auriga*, *Kobayashi Maru*, *Raza*, *Valdez*, *Yamato*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

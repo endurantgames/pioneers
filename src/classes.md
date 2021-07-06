@@ -76,7 +76,7 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
-   1       3         2         5       6         4
+   1       3         2         4       7         4
 
 ## It's time to buzz the tower. {.classquote}
 

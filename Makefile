@@ -35,6 +35,7 @@ PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
 SHEET_SRC  = $(BUILDDIR)/sheet.md
 PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
+SHEET_HTML_OUT = $(OUTDIR)/$(PROJ)-sheets.html
 PLAINTEXT_OUT = $(OUTDIR)/$(PROJ)-plaintext.pdf
 SHEET_OUT = $(OUTDIR)/$(PROJ)-sheets.pdf
 TEASER_RECIPE = teaser
@@ -268,6 +269,12 @@ html: markdown
 	@       $(PANDOC) $(PANDOCFLAGS) $(FLAGS) -o $(HTML_OUT) $(PROJ_SRC)
 	@ echo '$(ltcyan)HTML built.$(resetc)'
 	@       $(EDITOR) $(HTML_OUT)
+
+html-sheet: markdown-sheet
+	@ echo '$(ltcyan)Making HTML.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(FLAGS) -o $(SHEET_HTML_OUT) $(SHEET_SRC)
+	@ echo '$(ltcyan)HTML built.$(resetc)'
+	@       $(EDITOR) $(SHEET_HTML_OUT)
 
 # make all
 #   Edit: if you are making more than one pdf or html
