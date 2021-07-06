@@ -1,10 +1,16 @@
 # TODO
 
 - [ ] Fights
+  - [ ] Big Changes
+  - [ ] Pion Moves
+  - [-] Drops
 - [ ] Ops
-- [-] Ships
+  - [ ] Surface ops
   - [ ] Ship ops
+  - [ ] Combined ops
+- [-] Ships
   - [ ] Ship fights
+  - [ ] Drops
 - [-] Opponents - just need descriptions
   - [-] Mariner
   - [-] Venera
@@ -13,3 +19,5 @@
   - [-] Cassini
   - [-] Rover
 - [ ] Mission Control section
+  - [ ] Roleplaying the Pions
+

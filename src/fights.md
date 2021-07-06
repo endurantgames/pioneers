@@ -103,10 +103,13 @@ the full amount of Harm.
 
 ### Drops {#toc-drops}
 
-At the end of the GM's turn, roll 1d6 for each enemy that died.
+At the end of the MC's turn, they roll 1d6 for each enemy that died that round.
 
  Roll  Result
 ------ -----------
 1-2    +1 Health
 3-4    +1 Impulse
 5-6    +1 Kit
+
+Players can decide among themselves who will take each drop.
+
