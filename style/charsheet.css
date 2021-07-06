@@ -55,6 +55,79 @@ header { display: none; }
   font-family: var(--font-info);
 }
 
+.ship-sheet {
+  box-sizing: border-box;
+  margin: 0;
+  width: 305pt;
+  height: 5.5in;
+  padding: 0.25in;
+  display: inline-block;
+  position: relative;
+}
+
+.ship-sheet h3 img { width: 0.75in; top: 5pt; right: 12.5pt; }
+.ship-sheet .bio .name { width: 180pt; }
+.ship-sheet .bio .pilot { width: 84pt;  
+  content: 'Pilot';
+  display: inline-block; 
+  box-sizing: border-box; 
+  padding-left: 4pt;
+  background: var(--bg-light);
+  height: 24pt;
+}
+
+.ship-sheet .ship-data ul { margin: 0; }
+.ship-sheet .ship-data ul li { 
+  margin-top: 4pt;
+  list-style-type: none; 
+  margin-left: 0;
+}
+
+.ship-sheet .resist, .ship-sheet .vulnerable {
+  width: 132pt;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 4pt;
+  background: var(--bg-light);
+  height: 24pt;
+}
+.ship-sheet .mount-points {
+  display: block;
+  box-sizing: border-box;
+  padding-left: 4pt;
+  background: var(--bg-light);
+  height: 24pt;
+}
+.ship-sheet .mount-points:before { content: 'Mount Points '; }
+
+.ship-sheet .tags {
+  display: block;
+  box-sizing: border-box;
+  padding-left: 4pt;
+  background: var(--bg-light);
+  height: 32pt;
+  margin-bottom: 4pt;
+}
+.ship-sheet .tags:before { content: 'Ship Tags '; }
+
+.ship-sheet .resist { margin-right: 4pt; }
+.ship-sheet .resist:before { content: 'Resist '; }
+.ship-sheet .vulnerable:before { content: 'Vulnerable '; }
+
+.ship-sheet .stats table th { font-size: 8pt; padding: 2pt; }
+.ship-sheet .stats table td { padding: 4pt; }
+.ship-sheet .stats table :matches(th, td):nth-child(1) { width: 54pt; }
+.ship-sheet .stats table :matches(th, td):nth-child(2) { width: 54pt; }
+.ship-sheet .stats table :matches(th, td):nth-child(3) { width: 54pt; }
+.ship-sheet .stats table :matches(th, td):nth-child(4) { width: 108pt; }
+
+.ship-sheet:nth-of-type(4n+1) { border-bottom: 0.5pt dashed silver; }
+.ship-sheet:nth-of-type(4n+2) { border-bottom: 0.5pt dashed silver; }
+.ship-sheet:nth-of-type(4n+1) { border-right:  0.5pt dashed silver; }
+.ship-sheet:nth-of-type(4n+3) { border-right:  0.5pt dashed silver; }
+
+.ship-sheet h3 { font-size: 18pt; letter-spacing: 0.25em; }
+
 #template.charsheet { display: none; }
 
 body {
@@ -80,7 +153,7 @@ h3:before {
   display: inline-block;
   width: auto;
   position: absolute;
-  font-size: 18pt;
+  font-size: 50%; 
   top: 0.25in;
   left: 0.25in;
   color: gray;
@@ -161,6 +234,18 @@ table th {
   content: var(--box-1);
   font-family: var(--font-icon); 
 }
+
+.box2 { content: var(--box-2); font-family: var(--font-icon); }
+.box3 { content: var(--box-3); font-family: var(--font-icon); }
+.box4 { content: var(--box-4); font-family: var(--font-icon); }
+.box5 { content: var(--box-5); font-family: var(--font-icon); }
+.box6 { content: var(--box-6); font-family: var(--font-icon); }
+.box7 { content: var(--box-7); font-family: var(--font-icon); }
+.box8 { content: var(--box-8); font-family: var(--font-icon); }
+.box9 { content: var(--box-9); font-family: var(--font-icon); }
+.box10 { content: var(--box-10); font-family: var(--font-icon); }
+
+:matches( .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10).gray { color: gray; }
 
 .boxc {
   content: var(--box-checked);
