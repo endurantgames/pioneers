@@ -10,6 +10,7 @@ header { display: none; }
   --font-quote: "Shadows Into Light";
   --font-block: "Wallpoet";
   --font-icon: "Noto Sans";
+  --font-info: "Noto Sans SemCond";
   --box-1: '\2610';
   --box-2: '\2610' '\2610';
   --box-3: '\2610' '\2610' '\2610';
@@ -20,21 +21,27 @@ header { display: none; }
   --box-8: '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610';
   --box-9: '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610';
   --box-10: '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610';
+  --box-checked: '\2611';
+  --bg-light: #e0e0e0;
 }
 
 .charsheet {
   height: 5.5in;
   padding: 0.25in; 
   box-sizing: border-box; 
+  columns: 2 auto;
+  column-gap: 0.25in;
 }
 
 .charsheet:nth-child(even) {
   border-bottom: 1pt dashed gray;
 }
 
+#template.charsheet { display: none; }
+
 body {
   font-family: var(--font);
-  font-size: 9pt; 
+  font-size: 8pt; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,6 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h3 {
+  column-span: all;
   font-family: var(--font-title);
   letter-spacing: 0.5em; 
   text-align: center; 
@@ -55,6 +63,7 @@ h4 {
 
 table, th, td {
   box-sizing: border-box;
+  font-size: 9pt;
 }
 
 table {
@@ -65,10 +74,13 @@ table {
 
 table th {
   border-bottom: 0.5pt solid black;
+  font-family: var(--font-bold);
+  font-weight: normal;
 }
 
 .stats table {
   border: 1px solid black;
+  column-span: all;
 }
 
 .stats table :matches(th, td) {
@@ -77,7 +89,8 @@ table th {
 
 .stats table td {
   font-size: 12pt;
-  padding: 6pt; 
+  padding-top: 6pt; 
+  padding-bottom: 6pt;
 }
 
 .stats table th {
@@ -110,13 +123,149 @@ table th {
   font-family: var(--font-icon); 
 }
 
+.boxc {
+  content: var(--box-checked);
+  font-family: var(--font-icon);
+}
+
+.box0 {
+  content: var(--box-1);
+  font-family: var(--font-icon);
+  color: gray;
+}
+
+.health, .impulse, .kit { font-family: var(--font-icon); }
+
+table td .empty { content: ' '; display: inline-block; height: 2em; }
+
+.bio, .armor, .weapons, .ships, .talents { margin-top: 9pt; }
+
+/* armor table --------------------------------------------------------- */
+.armor table { break-inside: avoid; }
+.armor table td { font-family: var(--font-info); vertical-align: top; } 
+.armor table th { border-bottom: none; font-weight: bold; font-family: var(--font-info); }
+.armor table tbody tr:nth-child(odd) { background: var(--bg-light); }
+.armor table td:nth-child(1)      { width: 80pt; }
+.armor table td:nth-child(2)      { width: 56pt; }
+.armor table td:first-child       { padding-left: 12pt; }
+.armor table td:first-child .box1 { margin-left: -9pt; }
+.armor table td .box6 { content: var(--box-6); }
+.armor table td .box3 { content: var(--box-3); }
+.armor table td .box6.gray { color: gray; }
+
+/* weapons table --------------------------------------------------------- */
+.weapons table { break-inside: avoid; }
+.weapons table td { font-family: var(--font-info); vertical-align: top; } 
+
+.weapons table th:nth-child(2) { text-align: left; }
+.weapons table th { border-bottom: none; font-weight: bold; font-family: var(--font-info); }
+.weapons table tbody tr:nth-child(odd) { background: var(--bg-light); }
+
+.weapons table td:nth-child(1)      { width: 80pt; }
+.weapons table td:nth-child(2)      { width: 72pt; }
+.weapons table td:nth-child(3)      { width: 32pt; }
+.weapons table td:first-child       { padding-left: 12pt; }
+.weapons table td:first-child .box1 { margin-left: -9pt; }
+
+.weapons table td :matches(.close, .mid, .far, .means) {
+  font-size: 7pt;
+}
+
+.weapons table td .close:after  { content: ' close '; font-style: italic; }
+.weapons table td .mid:after    { content: ' mid ';   font-style: italic; }
+.weapons table td .far:after    { content: ' far ';   font-style: italic; }
+.weapons table td .means        {                     font-style: italic; }
+.weapons table td .means:before { content: '(';       }
+.weapons table td .means:after  { content: ')';       }
+
+/* talents ---------------------------------------------------------------- */
+
+.talents h4 { display: block; margin-bottom: 0; }
+
+.talents ul { margin: 0; }
+
+.talents ul li { 
+  margin-left: 0;
+  padding-left: 18pt;
+  list-style-type: none;
+  font-family: var(--font);
+  letter-spacing: 0.05em;
+  font-size: 7pt;
+  margin-bottom: 3pt;
+}
+.talents ul li strong { 
+  font-size: 125%;
+  vertical-align: baseline;
+  margin-left: -18pt;
+  position: relative;
+  margin-right: 0.5em;
+  top: 0.5pt;
+  font-family: var(--font-bold);
+  font-weight: normal;
+  letter-spacing: 0;
+  word-spacing: -0.15em;
+}
+
+.talents ul li .ship-talent { font-style: italic; content: 'Ship Talent:'; }
+
+/* bio ----------------------------------------------------------------- */
+
+.bio { column-span: all; }
+
+.bio ul { margin: 0; }
+.bio ul li {
+  list-style-type: none;
+  margin-left: 0;
+  margin-bottom: 4pt; 
+}
+
+.bio ul li :matches(.name, .pronouns, .colony, .talent) {
+  display: inline-block; 
+  box-sizing: border-box; 
+  padding-left: 4pt;
+  background: var(--bg-light);
+  height: 24pt;
+}
+
+.bio ul li .name     { width: 286pt; content: 'Name';     margin-right: 4pt; }
+.bio ul li .pronouns { width: 286pt; content: 'Pronouns'; margin-right: 0; }
+.bio ul li .colony   { width: 286pt; content: 'Colony';   margin-right: 4pt; }
+.bio ul li .talent   { width: 286pt; content: 'Talent';   margin-right: 0; }
+
+
+/* ships ----------------------------------------------------------- */
+.ships { background: silver; }
+
+
 /* data --------------------------------------------------------------------- */
 
 #apollo .thrust    { content: '3'; }
 #apollo .gyro      { content: '1'; }
 #apollo .telemetry { content: '2'; }
-#apollo .health    { content: var(--box-8); font-family: var(--font-icon); } 
-#apollo .impulse   { content: var(--box-4); font-family: var(--font-icon); }
-#apollo .kit       { content: var(--box-5); font-family: var(--font-icon); }
+#apollo .health    { content: var(--box-8); } 
+#apollo .impulse   { content: var(--box-4); }
+#apollo .kit       { content: var(--box-5); }
+
+#gemini .thrust    { content: '1'; }
+#gemini .gyro      { content: '2'; }
+#gemini .telemetry { content: '3'; }
+#gemini .health    { content: var(--box-6); } 
+#gemini .impulse   { content: var(--box-3); }
+#gemini .kit       { content: var(--box-6); }
+
+#mercury .thrust    { content: '1'; }
+#mercury .gyro      { content: '3'; }
+#mercury .telemetry { content: '2'; }
+#mercury .health    { content: var(--box-5); } 
+#mercury .impulse   { content: var(--box-6); }
+#mercury .kit       { content: var(--box-4); }
+
+#soyuz .thrust    { content: '2'; }
+#soyuz .gyro      { content: '2'; }
+#soyuz .telemetry { content: '2'; }
+#soyuz .health    { content: var(--box-5); } 
+#soyuz .impulse   { content: var(--box-5); }
+#soyuz .kit       { content: var(--box-5); }
+
 
 
