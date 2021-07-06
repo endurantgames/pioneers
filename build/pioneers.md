@@ -16,16 +16,18 @@ title: Pioneers
 
 ## Pioneers {.title .headline}
 
+::::::::::::::::::::::::::: nofloat ::::::::::::::::::::::::::::::::::
 > "We named 'em *Pioneers* after the old NASA space probes. Someone
 > here in the lab started calling 'em *Pions* as a cutesy nickname,
 > and it stuck."
 > [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 In []{.gamename}, you fight to liberate the Solar System from the Pions,
 cybernetic beings who have already conquered the Earth and much of the
 Solar System and nuked the Moon.  You know, as one does.
 
-## Saving the World
+## Saving the World {#toc-intro}
 
 []{.gameguide} is a tabletop roleplaying game for 3-6 players. 
 One player takes on the role of **Mission Control** (or, *the MC* for short)
@@ -49,13 +51,38 @@ if you fail, the best you'll get is one of those drinks lifted in honor of
 your sacrifice.
 
 
-::::::::::: breakbefore :::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::: { #toc } ::::::::::::::::::::::::::::::::
+- <a href="#toc-intro"></a>
+- <a href="#toc-attributes"></a>
+  - <a href="#toc-pools"></a>
+  - <a href="#toc-dice"></a>
+- <a href="#toc-chargen"></a>
+- <a href="#step-class"></a>
+  - <a href="#class-apollo"></a>
+  - <a href="#class-gemini"></a>
+  - <a href="#class-mercury"></a>
+  - <a href="#class-soyuz"></a>
+- <a href="#step-colony"></a>
+- <a href="#step-gear"></a>
+  - <a href="#toc-armor"></a>
+  - <a href="#toc-weapons"></a>
+- <a href="#toc-fights"></a>
+- <a href="#toc-solar-system"></a>
+- <a href="#toc-pions"></a>
+- <a href="#step-ship"></a>
+  - <a href="#toc-fleet"></a>
+  - <a href="#toc-pion-ships"></a>
+- <a href="#toc-mc"></a>
+- <a href="#toc-ops"></a>
+- <a href="#toc-credits"></a>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+## Game Mechanics {#toc-attributes .breakbefore}
+
 > "In retrospect, putting a map showing how to get back to Earth on those 
 > old-fashioned space probes probably wasn't the smartest idea."
 > [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-## Game Mechanics
 
 Your Survivor three abilities: **Thrust**, **Gyro**, and **Telemetry**.
 
@@ -69,21 +96,7 @@ gracefully, or both, then you're going to make a Gyro roll.
 specialized knowledge of a hacker or surgeon, or just general
 intelligence about the enemy's movement.
 
-### Dice Rolling
-
-When you do an action, either in a fight or not, state which 
-attribute you're using, then Roll a number of dice equal to your 
-attribute. Check the highest number you rolled on one die against
-the following table:
-
- On a...  
---------- ---                                                       
-  1-2     The action **fails** and there's a **consequence**.
-  3-4     The action **succeeds** but there's a **complication**.
-  5-6     The action **succeeds** with **no problems**.
-
-
-## Resource Pools 
+### Resource Pools {#toc-pools}
 
 In addition, you have three resource pools, **Health**, **Impulse**,
 and **Kit**. At the start of each Op, your resource pools are set
@@ -102,7 +115,21 @@ your Kit; you can also spend Kit in the field, to represent
 items that you had on you but didn't want to slow the game down with 
 time-consuming inventory tracking.
 
-## Survivor Creation 
+### Rolling the Dice {#toc-dice}
+
+When you do an action, either in a fight or not, state which 
+attribute you're using, then roll a number of six-sided dice equal to 
+your score in that attribute. Check the highest number you rolled on 
+one die against the following table:
+
+ On a...  
+--------- ---                                                       
+  1-2     The action **fails** and there's a **consequence**.
+  3-4     The action **succeeds** but there's a **complication**.
+  5-6     The action **succeeds** with **no problems**.
+
+
+## Survivor Creation {#toc-chargen}
 
 :::::::::::::::::::: classtable :::::::::::::::::::::::::::::::
 Class       Thrust   Gyro   Telemetry   Health   Impulse   Kit
@@ -313,7 +340,7 @@ After each Op you have the option to spend 1 Kit each to change your armor
 or weapon for any others, including those that aren't on your starting
 gear list.
 
-### Armor
+### Armor {#toc-armor}
 
 Armor is *ablative*. meaning that when it protects you, it becomes weaker.
 A new suit of armor starts out with a full set of charges, and you can repair
@@ -328,7 +355,7 @@ it between Ops to reset those charges to their maximum values.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: {.infolist .breakable} ::::::::::::::::::::::::::::::::::::
-### Weapons
+### Weapons {#toc-weapons}
 
 Each weapon lists the ranges at which it can be used -- *close*, *mid*,
 and *far* -- as well as the damage and any Weapon Tags (see below).
@@ -354,8 +381,8 @@ and *far* -- as well as the damage and any Weapon Tags (see below).
 - **Taser Pistol**      *close* Harm 1, Handgun, Shock, Tactical
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
  
-::::::::::::: {.infolist .colbefore } ::::::::::::::::::::::::::::::::::::
-### Weapon Tags
+::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::
+### Weapon Tags {#toc-weapon-tags}
 
 These tags apply to both personal weaponry and weapons on spacecraft
 (#step-ship){.page}.
@@ -377,7 +404,25 @@ These tags apply to both personal weaponry and weapons on spacecraft
 - **Tactical** Does +1 Harm when fired with Telemetry.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Fights {.breakbefore}
+:::::::::::::::: { .infolist } ::::::::::::::::::::::::::::::::::::::::::
+### Other Items {#toc-gear-other}
+
+[]{.gamename} isn't a subtle game. You get a mission, go in, kill robots,
+and get out. There's not a lot of room for the niceties -- your Survivors
+are Resistance freedom fighters constantly on the run. There's not a need
+for specialized equipment.
+We assume your Survivor has the basics to do their jobs:
+
+- **Clothes and a Backpack**
+- **A Toolkit** for basic repairs
+- **Water/Rations** dried "astronaut food"
+- **A Map** of the mission area
+
+If you need anything else, you can spend 1 Kit before or during the
+mission to say you brought it with you.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Fights {#toc-fights .breakbefore}
 
 > "I fuckin' hate these goddamn space probes. 
 > 'Explore the universe and report back' -- fuck that, does us
@@ -393,14 +438,14 @@ In a fight, the players and the MC alternate turns -- each of the players
 gets to have their Survivor do something, and then the MC takes a turn for
 the Pions.
 
-### Range Bands
+### Range Bands {#toc-range}
 
 Unlike some tabletop RPGs, []{.gamename} is not concerned with exact position
 and distance; instead, participants in a fight are classified as being in *close*,
 *mid*, or *far* range, relative to the other combatants. This affects the 
 effectiveness of most weapons and can interact with class's Talents.
 
-### Player Turns
+### Player Turns {#toc-turn-player}
 
 On the the players' turn, they can act in whatever order they like, until
 every player has had to chance to act.
@@ -416,7 +461,7 @@ or *far* to *mid*. (You can't jump from *close* to *far* or vice versa.)
    as many Talents as you wish during your turn, but you can only activate each
    Talent once during that turn.
 
-### Attacking
+### Attacking {#toc-attacking}
 
 To attack, choose which weapon you're using and which attribute you're using for the
 attack -- *Thrust* for a direct attack, *Gyro* for quick strikes or feints, and 
@@ -434,20 +479,22 @@ doing Harm to your Health.
 If you didn't roll higher than a **1 or 2**, then you failed to Harm your target, and
 the MC can make a move for the Pions.
 
-#### Doing Harm
+#### Doing Harm {#toc-harm}
 
 When you successfully hit a Pion with a weapon, you do Harm equal to the weapon's Harm
 score, plus other modifiers such as the weapon's tags.
 
 Most weapons do *untyped Harm*, meaning it's not some energy type. Weapons with specific
-tags do *burn*, *exploding*, *pulse* or *shock* Harm. If your target has the Resist tag
-against that kind of Harm, it takes 1 less point of Harm from the attack. Conversely, if
-it has a Vulnerability to that weapon's type, you do an extra 1 point of Harm.
+tags do *burn*, *exploding*, *pulse* or *shock* Harm. 
+
+If a target has a **Resist** tag against a type of harm, they take 1 less point of
+Harm from the attack. Conversely, if they have a **Vulnerability** to that type of
+harm, they take an extra 1 point of Harm.
 
 Each Pion is resistant and vulnerable to different types of attacks, so it pays to switch
 up your tactics during a fight as you discover how it reacts to each.
 
-### The MC's Turn
+### The MC's Turn {#toc-turn-mc}
 
 During the MC's turn, they can do any or all of these:
 
@@ -461,9 +508,9 @@ During the MC's turn, they can do any or all of these:
 
 At the end of the MC's turn, they generate Drops, if appropriate.
 
-#### Big Changes
+#### Big Changes {#toc-big-changes}
 
-#### Pion Counter-Attacks
+#### Pion Counter-Attacks {#toc-counter-attack}
 
 Usually, the MC doesn't need to specifically have the Pions attack; complications rolled
 by the players are usually enough to keep the flow of damage in both directions.
@@ -476,9 +523,9 @@ number of dice and check the high number as always; on a 5 or 6, they escape tak
 Harm; 3 or 4 they take Harm equal to half the Pion's Harm rating; and 1 or 2 they take
 the full amount of Harm.
 
-#### Pion Moves
+#### Pion Moves {#toc-pion-moves}
 
-#### Drops
+#### Drops {#toc-drops}
 
 At the end of the GM's turn, roll 1d6 for each enemy that died.
 
@@ -488,7 +535,7 @@ At the end of the GM's turn, roll 1d6 for each enemy that died.
 3-4    +1 Impulse
 5-6    +1 Kit
 
-## The Solar System {.breakbefore}
+## The Solar System {#toc-solar-system .breakbefore}
 
 ::::::::::::::: redalert ::::::::::::::::::::::::::::::::::::::::::::::::
 > ... WILL REPEAT ON THIS FREQUENCY. 
@@ -501,7 +548,7 @@ At the end of the GM's turn, roll 1d6 for each enemy that died.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::: { .infolist .breakable } :::::::::::::::::::::::::::::::::::::
-### Location Tags 
+### Location Tags {#toc-location-tags}
 
 - **Atmosphere** The location has a breathable atmosphere.
 - **Blocade** Currently blocaded by the Pions.
@@ -527,7 +574,7 @@ At the end of the GM's turn, roll 1d6 for each enemy that died.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
  
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Earth Orbit
+### Earth Orbit {#toc-location-earth}
 
 Earth is home to the vast majority of the human race, and is surrounded by large
 orbital colonies in Low Earth Orbit.
@@ -544,7 +591,8 @@ in the Solar System.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Inner Planets
+### Inner Planets {#toc-location-inner}
+
 Mercury is a very hot planet on the side facing the sun, and a very cold planet on the
 side facing away from the sun.
 
@@ -562,7 +610,7 @@ Ceres is the largest and most populous planetoid in the asteroid belt.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Jupiter
+### Jupiter {#toc-location-jupiter}
 
 All but one of Jupiter's largest moons are home to Earth colonies.
 
@@ -576,7 +624,7 @@ form of brine shrimp.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Saturn
+### Saturn {#toc-location-saturn}
 
 - **Titan** Low Population, Blocade, Cold, Colony, Life, Low-G, Orbit
 - **Rhea** Minimal Population, Cold, Ice, Low-G
@@ -589,7 +637,7 @@ form of brine shrimp.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Uranus
+### Uranus {#toc-location-uranus}
 
 Oberon is the nominal capital of the five united colonies on Uranian moons.
 
@@ -601,13 +649,13 @@ Oberon is the nominal capital of the five united colonies on Uranian moons.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Neptune
+### Neptune {#toc-location-neptune}
 
 - **Triton** Minimal Population, Cold, Ice, Low-G, Surface
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Trans-Neptunian Space
+### Trans-Neptunian Space {#toc-location-trans}
 
 Pluto is the second most distant colony and is primary for astronomical research.
 
@@ -618,7 +666,7 @@ remoteness let it escape Pion notice.
 - **Eris** Minimal Population, Cold, Prison, Mining, Spaceport, Underground
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## The Pions {.breakbefore}
+## The Pions {#toc-pions .breakbefore}
 
 > "We were just trying to make them more like us -- more human, with
 > a range of simulated emotions. And that was the problem, we made them
@@ -720,7 +768,7 @@ central body mounted on 12 flexible legs of variegrated size.
 
 ## Ships {.breakbefore #step-ship}
 
-### Ship Fights
+### Ship Fights {#toc-ship-fights}
 
 Ship fights work exactly like normal fights, except that instead of using
 your character's Thrust, Gyro, or Telemetry, you use the ship's.
@@ -730,7 +778,7 @@ tag or Escape Pods.
 
 :::::::::::::{ .infolist .breakable } :::::::::::::::::::::::::::::::::
 
-### Ship Weaponry
+### Ship Weaponry {#toc-ship-weapons}
 
 These weapons or other devices are attached to a ship's mount points.
 
@@ -763,7 +811,7 @@ These weapons or other devices are attached to a ship's mount points.
 
 :::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::::::::::::
 
-### Ship Tags
+### Ship Tags {#toc-ship-tags}
 
 - **Atmospheric** Can touch down or launch in an atmsophere.
 - **Balanced** Add 1 to Gyro.
@@ -782,7 +830,7 @@ These weapons or other devices are attached to a ship's mount points.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## The Resistance Fleet {.breakbefore}
+## The Resistance Fleet {#toc-fleet .breakbefore}
 
 With the Solar System's small military forces disabled or destroyed in the initial 
 Pion attack, the Resistance has been forced to assemble a rag-tag fleet comprised
@@ -927,7 +975,7 @@ An agile, reflective ship with solar sails and a tiny radar signature.
 - **Names** *Blanchard*, *Kahanamoku*, *Norrin*, *Paskowitz*, *Slater*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Pion Spacecraft {.breakbefore}
+## Pion Spacecraft {#toc-pion-ships .breakbefore}
 
 Pion ships are essentially huge robots; each is controlled by redundant central
 computers and has no pilot.
@@ -986,11 +1034,16 @@ computers and has no pilot.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Resistance Ops {.breakbefore}
+## Mission Control {#toc-mc}
 
 []{.lorem}
 
-### Op Types
+
+## Resistance Ops {#toc-ops .breakbefore}
+
+[]{.lorem}
+
+### Op Types {#toc-op-types}
 
 There are three basic Op types:
 
@@ -998,9 +1051,9 @@ There are three basic Op types:
 - Orbital Ops
 - Combined Ops
 
-### Preparing for the Mission
+### Preparing for the Mission {#toc-op-prep}
 
-### Travel Time
+### Travel Time {#toc-op-travel}
 
 Obviously, the Solar System is huge. With realistic travel times,
 it could take years to get from one side of it to another.
@@ -1034,7 +1087,7 @@ time, plus 1d6 weeks.
 - Travel time between moons of the same outer planet takes 1d6 hours.
 
 
-## Credits {.breakbefore}
+## Credits {#toc-credits .breakbefore}
 
 This game was created by <a href="mailto:caderaspindrift@gmail.com">Cadera Spindrift</a>.
 

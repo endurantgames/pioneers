@@ -1,6 +1,6 @@
 # Ships {.breakbefore #step-ship}
 
-## Ship Fights
+## Ship Fights {#toc-ship-fights}
 
 Ship fights work exactly like normal fights, except that instead of using
 your character's Thrust, Gyro, or Telemetry, you use the ship's.
@@ -10,7 +10,7 @@ tag or Escape Pods.
 
 :::::::::::::{ .infolist .breakable } :::::::::::::::::::::::::::::::::
 
-## Ship Weaponry
+## Ship Weaponry {#toc-ship-weapons}
 
 These weapons or other devices are attached to a ship's mount points.
 
@@ -43,7 +43,7 @@ These weapons or other devices are attached to a ship's mount points.
 
 :::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::::::::::::
 
-## Ship Tags
+## Ship Tags {#toc-ship-tags}
 
 - **Atmospheric** Can touch down or launch in an atmsophere.
 - **Balanced** Add 1 to Gyro.

@@ -1,10 +1,8 @@
-::::::::::: breakbefore :::::::::::::::::::::::::::::::::::::::::::::::
+# Game Mechanics {#toc-attributes .breakbefore}
+
 > "In retrospect, putting a map showing how to get back to Earth on those 
 > old-fashioned space probes probably wasn't the smartest idea."
 > [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-# Game Mechanics
 
 Your Survivor three abilities: **Thrust**, **Gyro**, and **Telemetry**.
 
@@ -18,12 +16,31 @@ gracefully, or both, then you're going to make a Gyro roll.
 specialized knowledge of a hacker or surgeon, or just general
 intelligence about the enemy's movement.
 
-## Dice Rolling
+## Resource Pools {#toc-pools}
+
+In addition, you have three resource pools, **Health**, **Impulse**,
+and **Kit**. At the start of each Op, your resource pools are set
+to their maximum value; while the exact value will go up or down
+during the Op, you can't go over your maximum value.
+
+**Health** tells you how much Harm your Survivor can take before being 
+KIA; each hit by the enemy usually does 1 to 3 Harm.
+
+**Impulse** is your energy, your drive, your momentum. Your class gives
+you Talents that you can activate using Impulse.
+
+**Kit** is an abstract measure of how much gear you have.  At the
+beginning of each Op, you adjust your inventory by expending points from
+your Kit; you can also spend Kit in the field, to represent 
+items that you had on you but didn't want to slow the game down with 
+time-consuming inventory tracking.
+
+## Rolling the Dice {#toc-dice}
 
 When you do an action, either in a fight or not, state which 
-attribute you're using, then Roll a number of dice equal to your 
-attribute. Check the highest number you rolled on one die against
-the following table:
+attribute you're using, then roll a number of six-sided dice equal to 
+your score in that attribute. Check the highest number you rolled on 
+one die against the following table:
 
  On a...  
 --------- ---                                                       

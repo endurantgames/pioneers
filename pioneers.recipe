@@ -1,28 +1,27 @@
 metadata
 intro
-# toc
-# no_fascists
+toc
+## no_fascists
 attributes
-pools
 chargen
 classes
 colony
 gear
-combat
+fights
 solar_system
 enemies
 ships
 fleet
 pion_ships
+mission_control
 ops
-# credits/pbta
-# credits/no_fascists
-# credits/safety
-# safety/intro
-# safety/cw
-# safety/toolkit
-# license
-# charsheet
+## credits/no_fascists
+## credits/safety
+## safety/intro
+## safety/cw
+## safety/toolkit
+## license
+## charsheet
 credits/intro
 credits/jam
 credits/lumen

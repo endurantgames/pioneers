@@ -1,4 +1,4 @@
-## Survivor Creation 
+# Survivor Creation {#toc-chargen}
 
 :::::::::::::::::::: classtable :::::::::::::::::::::::::::::::
 Class       Thrust   Gyro   Telemetry   Health   Impulse   Kit
@@ -23,7 +23,7 @@ details.
 
 Instructions for playing the MC [come later in the rules](#the-mc).
 
-## Class {#step-class}
+# Class {#step-class}
 
 Your **Class** determines your attributes and pools, your talents,
 and your starting equipment. Pick a class from this list:

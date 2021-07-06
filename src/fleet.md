@@ -1,4 +1,4 @@
-# The Resistance Fleet {.breakbefore}
+# The Resistance Fleet {#toc-fleet .breakbefore}
 
 With the Solar System's small military forces disabled or destroyed in the initial 
 Pion attack, the Resistance has been forced to assemble a rag-tag fleet comprised

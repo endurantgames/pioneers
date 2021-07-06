@@ -10,7 +10,7 @@ After each Op you have the option to spend 1 Kit each to change your armor
 or weapon for any others, including those that aren't on your starting
 gear list.
 
-## Armor
+## Armor {#toc-armor}
 
 Armor is *ablative*. meaning that when it protects you, it becomes weaker.
 A new suit of armor starts out with a full set of charges, and you can repair
@@ -25,7 +25,7 @@ it between Ops to reset those charges to their maximum values.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: {.infolist .breakable} ::::::::::::::::::::::::::::::::::::
-## Weapons
+## Weapons {#toc-weapons}
 
 Each weapon lists the ranges at which it can be used -- *close*, *mid*,
 and *far* -- as well as the damage and any Weapon Tags (see below).
@@ -51,8 +51,8 @@ and *far* -- as well as the damage and any Weapon Tags (see below).
 - **Taser Pistol**      *close* Harm 1, Handgun, Shock, Tactical
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
  
-::::::::::::: {.infolist .colbefore } ::::::::::::::::::::::::::::::::::::
-## Weapon Tags
+::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::
+## Weapon Tags {#toc-weapon-tags}
 
 These tags apply to both personal weaponry and weapons on spacecraft
 (#step-ship){.page}.
@@ -72,4 +72,22 @@ These tags apply to both personal weaponry and weapons on spacecraft
 - **Single-Use** You can only use this weapon once.
 - **Shock** Does shock damage.
 - **Tactical** Does +1 Harm when fired with Telemetry.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::: { .infolist } ::::::::::::::::::::::::::::::::::::::::::
+## Other Items {#toc-gear-other}
+
+[]{.gamename} isn't a subtle game. You get a mission, go in, kill robots,
+and get out. There's not a lot of room for the niceties -- your Survivors
+are Resistance freedom fighters constantly on the run. There's not a need
+for specialized equipment.
+We assume your Survivor has the basics to do their jobs:
+
+- **Clothes and a Backpack**
+- **A Toolkit** for basic repairs
+- **Water/Rations** dried "astronaut food"
+- **A Map** of the mission area
+
+If you need anything else, you can spend 1 Kit before or during the
+mission to say you brought it with you.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

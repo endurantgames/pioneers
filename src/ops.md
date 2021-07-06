@@ -1,8 +1,8 @@
-# Resistance Ops {.breakbefore}
+# Resistance Ops {#toc-ops .breakbefore}
 
 []{.lorem}
 
-## Op Types
+## Op Types {#toc-op-types}
 
 There are three basic Op types:
 
@@ -10,9 +10,9 @@ There are three basic Op types:
 - Orbital Ops
 - Combined Ops
 
-## Preparing for the Mission
+## Preparing for the Mission {#toc-op-prep}
 
-## Travel Time
+## Travel Time {#toc-op-travel}
 
 Obviously, the Solar System is huge. With realistic travel times,
 it could take years to get from one side of it to another.

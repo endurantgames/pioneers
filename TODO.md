@@ -1,5 +1,6 @@
 # TODO
 
+- [ ] Table of Contents
 - [x] Classes
   - [x] Apollo
   - [x] Gemini
@@ -10,6 +11,7 @@
   - [x] Armor
   - [x] Weapons
   - [ ] Miscellany
+- [ ] Mission Control section
 - [ ] Fights
 - [ ] Ops
 - [x] Ships

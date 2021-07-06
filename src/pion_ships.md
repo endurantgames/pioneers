@@ -1,4 +1,4 @@
-# Pion Spacecraft {.breakbefore}
+# Pion Spacecraft {#toc-pion-ships .breakbefore}
 
 Pion ships are essentially huge robots; each is controlled by redundant central
 computers and has no pilot.

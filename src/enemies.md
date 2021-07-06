@@ -1,4 +1,4 @@
-# The Pions {.breakbefore}
+# The Pions {#toc-pions .breakbefore}
 
 > "We were just trying to make them more like us -- more human, with
 > a range of simulated emotions. And that was the problem, we made them
