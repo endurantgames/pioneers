@@ -9,7 +9,7 @@
   - [ ] Ship ops
   - [ ] Combined ops
 - [-] Ships
-  - [ ] Ship fights
+  - [-] Ship fights
   - [ ] Drops
 - [-] Opponents - just need descriptions
   - [-] Mariner
