@@ -31,7 +31,7 @@ The each of other players creates a **Survivor** who is part of the **Rag-Tag
 Fugitive Resistance** striving to free the Solar System from the crushing 
 **Occupation**.  
 
-## Saving the World {.colbefore #toc-intro}
+## Saving the World { #toc-intro}
 
 As member of the Resistance, your Survivor is part of a small cell of 2 to 5
 freedom fighters that undertake missions, called **Ops**, that invariably 

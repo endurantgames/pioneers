@@ -149,6 +149,7 @@ img { -prince-image-resolution: 96;
       -prince-image-magic: recompress(50%) convert-to-jpeg(50%) snap-to-integer-coords; } 
 
 p, li { orphans: 3; line-height: 1.70; }
+p { widows: 2; }
 
 a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
 
@@ -499,4 +500,11 @@ a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
   text-align: right; 
   }
 
+.timeline ul { break-inside: auto; margin: 0; }
+.timeline ul li { break-inside: avoid; }
+.timeline ul li { margin-left: 88px; }
+.timeline ul li strong:first-child { 
+  margin-left: -88px; 
+  display: inline-block; 
+  width: 80px; }
 

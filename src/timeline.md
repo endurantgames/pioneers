@@ -1,5 +1,5 @@
-
-## Timeline {.colbefore}
+:::::::::::::::::::::::: timeline :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+## Timeline {.breakbefore}
 
 - **1957** Sputnik I is the first probe in space; destroyed in 1958
 - **1961** Yuri Gargarin is the first human in space
@@ -14,7 +14,7 @@
 - **1983** Pioneer 10 is the first probe to leave the Solar System
 - **1986** Voyager 2 is the first probe to encounter Uranus
 - **1986** Space Shuttle Challenger explodes seconds after liftoff
-- **1989** Voyager 2 is the first probe to Neptune
+- **1989** Voyager 2 is the first probe to encounter Neptune
 - **1999** Voyager 6 probe is launched
 - **2001** NEAR Shoemaker is first probe on an asteroid; last contact with Earth, 2001
 - **2002** Pioneer 11's final signal received by Earth
@@ -39,9 +39,9 @@
 - **2040** Liu Yaping is the first human on Mars
 - **2042** Voyager 6's final signal received by Earth; destroyed by contact with micro black hole
 - **2059** Aldrinport lunar colony is established as the first extraterrestrial colony
-- **2058-2099** A total of 18 deep space probes launched
+- **2058****- 2099** A total of 18 deep space probes launched
 - **2079** First low Earth orbit colony established
-- **2100-2199** A total of 27 deep space probes launched
+- **2100****- 2199** A total of 27 deep space probes launched
 - **2109** Mars colony established
 - **2116** McKendree Station is built at Earth's L4 La Grange point
 - **2120** Ceres colony established
@@ -53,12 +53,12 @@
 - **2170** Europa colony established
 - **2174** Mercury colony established
 - **2199** Callisto colony established
-- **2200-2299** A total of 8 deep space probes launched
+- **2200****- 2299** A total of 8 deep space probes launched
 - **2204** Ganymede colony established
 - **2230** Europa is recognized as an independent colony
 - **2240** O'Neill Station is recognized as an independent colony
 - **2242** Titan colony established
-- **2250-2264** Uranian colonies established
+- **2250****- 2264** Uranian colonies established
 - **2270** Uranian separatists start the Colonial War
 - **2276** The Colonial War concludes with the independence of Venus, Mercury, Titan, and the Uranian colonies
 - **2290** Pluto colony established
@@ -67,3 +67,4 @@
 - **2318** Contact lost with all remaining deep space probes
 - **2320** Start of the Pioneer War
 - **2323** Current year
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
