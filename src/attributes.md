@@ -4,7 +4,7 @@
 > old-fashioned space probes probably wasn't the smartest idea."
 > [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
 
-Your Survivor three abilities: **Thrust**, **Gyro**, and **Telemetry**.
+Your Survivor has three abilities: **Thrust**, **Gyro**, and **Telemetry**.
 
 You use **Thrust** for direct actions -- to solve problems that are
 best solved by an application of force, whether physical or mental.

@@ -58,12 +58,13 @@ header h1     { string-set: gamename content()       }
   --subhed:    64px;
   --h1:        64px; 
   --h2:        36px;
-  --h3:        32px;
-  --h4:        28px;
-  --h5:        24px;
-  --h6:        20px;
+  --h3:        30px;
+  --h4:        24px;
+  --h5:        22px;
+  --h6:        18px;
   --th:        18px;
   --quotesize: 36px;
+  --quotesize-redalert: 24px;
   --quotesize-inline: 24px;
   --creditsize: 24px;
   --creditsize-inline: 20px;
@@ -89,8 +90,9 @@ body { color: white;
   column-gap: 64px;
   background-color: var(--bg-dark);
   padding: 32px;
-  letter-spacing: 0.05em; 
 }
+
+body p { letter-spacing: 0.05em; }
 
 body               { font-family: var(--font); font-size: var(--body);      }
 td                 { font-size: var(--body); vertical-align: top;           }
@@ -117,6 +119,8 @@ table thead        { border-bottom: 0.5pt solid var(--color-line);          }
 table th, table td { padding: 2pt;                                          }
 table th           { vertical-align: bottom;                                }
 table td           { vertical-align: top;                                   }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 
 th { 
   font-family: var(--font-bold);
@@ -155,7 +159,7 @@ a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
 
 .anchor { position: absolute; color: transparent; }
 
-.gamename:before { content: string(gamename); font-style: italic; }
+.gamename:before { content: string(gamename); font-family: var(--font-title); }
 
 #charsheet { page: charsheet; break-before: right; height: 11in; width: 8.5in; }
 
@@ -365,7 +369,8 @@ h2.headline {
    padding-right: 1em;
    }
 
-strong { font-family: var(--font-header); font-weight: normal; } 
+strong { font-family: var(--font-header); font-weight: normal; font-size: 125%; vertical-align: baseline; position: relative; top: 1px; } 
+p strong { color: #90FFFF; }
 
 ul li { list-style-type: none; }
 ul { margin-left: 1.5em; break-inside: avoid; }
@@ -373,6 +378,7 @@ ul li strong { margin-left: -1.5em; padding-right: 0.25em; }
 ol li { margin-left: 2em; }
 
 .breakable ul { break-inside: auto; }
+.unbreakable { break-inside: avoid; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 
@@ -426,8 +432,9 @@ blockquote p { line-height: 1.25; text-shadow: 0 0 6px black; }
 blockquote { font-family: var(--font-quote);
   font-size: var(--quotesize);
   }
-.redalert blockquote { font-family: var(--font-block);
-  font-size: 18px;
+.redalert blockquote { 
+  font-family: var(--font-block);
+  font-size: var(--quotesize-redalert);
   } 
 blockquote p .credit { display: block;
   font-family: var(--font-info);
@@ -447,18 +454,23 @@ h2.breakbefore.nospan { column-span: none; }
 
 a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
 
+
 #toc {
   width: 576px;
   position: absolute;
-  top: 32px;
-  bottom: 0;
+  top: 0;
   right: -640px;
   break-after: page; 
   break-inside: avoid; 
   box-sizing: border-box;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: var(--bg-dark);
 }
 
-#toc ul { margin-left: 0; }
+#toc ul { margin-left: 0; margin: 0; padding: 0; }
 #toc ul li { margin-bottom: 0; margin-left: 0; }
 #toc ul li li { 
   margin-bottom: 0; 
@@ -478,26 +490,24 @@ a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
   color: yellow;
   font-family: var(--font);
   text-shadow: 0 0 6px black;
-  font-size: var(--large);
+  font-size: var(--larger);
   display: inline-block;
-  padding-right: 24px;
   }
 #toc a { 
   content: leader(' \22ef\2d\2d\2d\22ef');
   color: #99ddff;
   font-family: var(--font);
-  font-size: var(--small);
+  font-size: var(--larger);
   }
 #toc a:after { 
   content: target-counter(attr(href), page);
   font-family: var(--font-bold);
-  font-size: var(--large);
+  font-size: var(--larger);
   color: yellow;
   text-shadow: 0 0 6px black;
   display: inline-block;
-  width: 36px;
-  padding-left: 12px;
   text-align: right; 
+  width: 32px;
   }
 
 .timeline ul { break-inside: auto; margin: 0; }

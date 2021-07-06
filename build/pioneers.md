@@ -83,7 +83,7 @@ your sacrifice.
 > old-fashioned space probes probably wasn't the smartest idea."
 > [*An Oral History of the 2320-2324 Pioneer War*]{.credit}
 
-Your Survivor three abilities: **Thrust**, **Gyro**, and **Telemetry**.
+Your Survivor has three abilities: **Thrust**, **Gyro**, and **Telemetry**.
 
 You use **Thrust** for direct actions -- to solve problems that are
 best solved by an application of force, whether physical or mental.
@@ -327,7 +327,7 @@ on your Survivor Record.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Gear {.breakbefore #step-gear}
+## Gear {.breakbefore #step-gear }
 
 When you first create your Survivor, you're given a suit of armor and
 two or three weapons, as shown on the page for your class. 
@@ -339,13 +339,13 @@ After each Op you have the option to spend 1 Kit each to change your armor
 or weapon for any others, including those that aren't on your starting
 gear list.
 
-### Armor {#toc-armor}
+### Armor {#toc-armor }
 
 Armor is *ablative*. meaning that when it protects you, it becomes weaker.
 A new suit of armor starts out with a full set of charges, and you can repair
 it between Ops to reset those charges to their maximum values.
 
-::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::: {.infolist  } ::::::::::::::::::::::::::::::::::::::::::::::::::
 - **Assault Armor** Ignore 1 Harm per attack (6 charges)
 - **Energy Siphon** Ignore Burn, Pulse, or Shock Harm (3 charges)
 - **Stealthsuit** Ignore Harm from *far* sources (3 charges)
@@ -354,7 +354,7 @@ it between Ops to reset those charges to their maximum values.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: {.infolist .breakable} ::::::::::::::::::::::::::::::::::::
-### Weapons {#toc-weapons}
+### Weapons {#toc-weapons }
 
 Each weapon lists the ranges at which it can be used -- *close*, *mid*,
 and *far* -- as well as the damage and any Weapon Tags (see below).
@@ -381,10 +381,10 @@ and *far* -- as well as the damage and any Weapon Tags (see below).
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
  
 ::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::
-### Weapon Tags {#toc-weapon-tags}
+### Weapon Tags {#toc-weapon-tags .colbefore}
 
 These tags apply to both personal weaponry and weapons on spacecraft
-(#step-ship){.page}.
+[](#step-ship){.page}.
 
 - **AOE** Affects multiple targets.
 - **Autofire** Can hit multiple targets.
@@ -403,8 +403,8 @@ These tags apply to both personal weaponry and weapons on spacecraft
 - **Tactical** Does +1 Harm when fired with Telemetry.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::: { .infolist } ::::::::::::::::::::::::::::::::::::::::::
-### Other Items {#toc-gear-other}
+:::::::::::::::: { .infolist .unbreakable } ::::::::::::::::::::::::::::::::::::::::::
+### Other Items {#toc-gear-other .colbefore}
 
 []{.gamename} isn't a subtle game. You get a mission, go in, kill robots,
 and get out. There's not a lot of room for the niceties -- your Survivors
