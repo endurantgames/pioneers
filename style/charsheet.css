@@ -1,0 +1,122 @@
+@page { size: portrait letter; background: white; color: black; margin: 0; }
+
+header { display: none; }
+
+:root {
+  --font: "Michroma";
+  --font-bold: "Federation Bold";
+  --font-header: "Federation Bold";
+  --font-title: "Battlestar";
+  --font-quote: "Shadows Into Light";
+  --font-block: "Wallpoet";
+  --font-icon: "Noto Sans";
+  --box-1: '\2610';
+  --box-2: '\2610' '\2610';
+  --box-3: '\2610' '\2610' '\2610';
+  --box-4: '\2610' '\2610' '\2610' '\2610';
+  --box-5: '\2610' '\2610' '\2610' '\2610' '\2610';
+  --box-6: '\2610' '\2610' '\2610' '\2610' '\2610' '\2610';
+  --box-7: '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610';
+  --box-8: '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610';
+  --box-9: '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610';
+  --box-10: '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610' '\2610';
+}
+
+.charsheet {
+  height: 5.5in;
+  padding: 0.25in; 
+  box-sizing: border-box; 
+}
+
+.charsheet:nth-child(even) {
+  border-bottom: 1pt dashed gray;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 9pt; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-header);
+  margin-top: 0; 
+  margin-bottom: 0; 
+}
+
+h3 {
+  font-family: var(--font-title);
+  letter-spacing: 0.5em; 
+  text-align: center; 
+}
+
+h4 {
+  display: none;
+}
+
+table, th, td {
+  box-sizing: border-box;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse; 
+  width: 100%; 
+}
+
+table th {
+  border-bottom: 0.5pt solid black;
+}
+
+.stats table {
+  border: 1px solid black;
+}
+
+.stats table :matches(th, td) {
+  width: 16.67%;
+}
+
+.stats table td {
+  font-size: 12pt;
+  padding: 6pt; 
+}
+
+.stats table th {
+  font-size: 10pt;
+  padding: 3pt;
+}
+
+.stats table :matches(td, th):nth-child(3) {
+  border-right: 0.5pt solid gray;
+}
+
+.stats table td {
+  border-right: 0.25pt solid silver;
+}
+
+.stats table td {
+  color: gray;
+}
+
+.stats table td:nth-child(n+4) {
+  color: black;
+}
+
+.stats table th {
+  border-bottom: 0.5pt solid gray;
+}
+
+.box1 {
+  content: var(--box-1);
+  font-family: var(--font-icon); 
+}
+
+/* data --------------------------------------------------------------------- */
+
+#apollo .thrust    { content: '3'; }
+#apollo .gyro      { content: '1'; }
+#apollo .telemetry { content: '2'; }
+#apollo .health    { content: var(--box-8); font-family: var(--font-icon); } 
+#apollo .impulse   { content: var(--box-4); font-family: var(--font-icon); }
+#apollo .kit       { content: var(--box-5); font-family: var(--font-icon); }
+
+

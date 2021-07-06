@@ -1,6 +1,6 @@
 # TODO
 
-- [ ] Table of Contents
+- [x] Table of Contents
 - [x] Classes
   - [x] Apollo
   - [x] Gemini
@@ -10,8 +10,7 @@
 - [x] Equipment
   - [x] Armor
   - [x] Weapons
-  - [ ] Miscellany
-- [ ] Mission Control section
+  - [x] Miscellany
 - [ ] Fights
 - [ ] Ops
 - [x] Ships
@@ -27,6 +26,7 @@
   - [-] Ulysses
   - [-] Cassini
   - [-] Rover
+- [ ] Mission Control section
 - [ ] Character Sheet
   - [ ] Apollo
   - [ ] Gemini

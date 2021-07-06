@@ -369,8 +369,19 @@ h2.headline {
    padding-right: 1em;
    }
 
-strong { font-family: var(--font-header); font-weight: normal; font-size: 125%; vertical-align: baseline; position: relative; top: 1px; } 
-p strong { color: #90FFFF; }
+strong { 
+  font-family: var(--font-header);
+  font-weight: normal;
+  font-size: 125%;
+  vertical-align: baseline;
+  position: relative;
+  top: 1px;
+  line-height: none;
+  letter-spacing: 0;
+  word-spacing: -0.15em;
+  } 
+td strong, p strong { color: #90FFFF;
+  }
 
 ul li { list-style-type: none; }
 ul { margin-left: 1.5em; break-inside: avoid; }
@@ -388,7 +399,11 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 }
 .infotable table :matches(th, td) { font-family: var(--font-info); }
 
-.infolist ul li strong { font-size: 90%; font-weight: normal; font-family: var(--font-header); }
+.infolist ul li strong { 
+  font-size: 100%;
+  font-weight: normal; 
+  font-family: var(--font-header); 
+}
 .infolist ul { 
   background-color: var(--bg-info);
   padding: 6px 12px; 

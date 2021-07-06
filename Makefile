@@ -30,10 +30,13 @@ BACKUPS = --backup=numbered
 # File Locations
 #   Edit: probably unnecessary
 PROJ_RECIPE = $(PROJ)
+SHEET_RECIPE = sheet
 PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
+SHEET_SRC  = $(BUILDDIR)/sheet.md
 PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
 PLAINTEXT_OUT = $(OUTDIR)/$(PROJ)-plaintext.pdf
+SHEET_OUT = $(OUTDIR)/$(PROJ)-sheets.pdf
 TEASER_RECIPE = teaser
 TEASER_SRC = $(BUILDDIR)/teaser.md
 TEASER_OUT = $(OUTDIR)/pioneers-teaser.pdf
@@ -43,11 +46,13 @@ TEASER_OUT = $(OUTDIR)/pioneers-teaser.pdf
 PROJ_CSS    = --css=$(STYLEDIR)/style.css
 # PROJ_CSS    = --css=$(STYLEDIR)/$(PROJ).css
 PLAINTEXT_CSS = --css=$(STYLEDIR)/plain.css
+SHEET_CSS = --css=$(STYLEDIR)/charsheet.css
 
 # Derived Flags
 #   Edit: probably unnecessary
 FLAGS       = -t html5 --standalone --resource-path=$(IMGDIR) 
 PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
+SHEET_FLAGS = $(FLAGS) $(SHEET_CSS) $(PRINCEFLAGS)
 PLAINTEXT_FLAGS = $(FLAGS) $(PLAINTEXT_CSS)
 
 # Application Configruation #############################################################################
@@ -133,7 +138,8 @@ blorng := $(shell tput setab 208)
 # Default Make Script ###################################################################################
 #   Edit: if you want to change the default, e.g. to make testing easier
 # default: help
-default: pdf
+default: sheet
+# default: pdf
 # default: all
 
 # Make Help #############################################################################################
@@ -225,6 +231,10 @@ markdown-teaser:
 	@ echo '$(ltmagn)Collecting teaser markdown.$(resetc)'
 	@       $(MAKE_MD) $(TEASER_RECIPE)
 
+markdown-sheet:
+	@ echo '$(ltmagn)Collecting sheet markdown.$(resetc)'
+	@       $(MAKE_MD) $(SHEET_RECIPE)
+
 # make pdf
 #   Edit: if you are making more than one pdf
 pdf: markdown
@@ -244,6 +254,12 @@ teaser: markdown-teaser
 	       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(TEASER_OUT) $(TEASER_SRC)
 	       $(PDFINFO) $(TEASER_OUT) $(PDFINFO_GREP)
 	      -$(EXPLORER)
+
+sheet: markdown-sheet
+	@ echo '$(ltblue)Making character sheet PDF.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(SHEET_FLAGS) -o $(SHEET_OUT) $(SHEET_SRC)
+	@       $(PDFINFO) $(SHEET_OUT) $(PDFINFO_GREP)
+	@      -$(EXPLORER)
 
 # make HTML
 #   Edit: if you are making more than one html
@@ -266,3 +282,6 @@ vi:     edit
 vim:    edit
 # game: all
 plain: plaintext
+sheets: sheet
+charsheet: sheet
+charsheets: sheet

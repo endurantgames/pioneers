@@ -13,6 +13,7 @@
 - **Armor** 1-4 Assault Armor, 5-6 Tactical Vest
 - **Weapon** 1-2 Pulse Rifle, 3-4 Rocket Launcher, 5-6 Slug Rifle
 - **Weapon** 1-2 Frag Grenade, 3-4 Laser Grenade, 5-6 Pulse Grenade
+- **Other Gear** 1-4 Med Patch, 5-6 Toolkit
 - **Ship** 1-2 Mining Rig, 3-4 Ore Hauler, 5-6 Shuttle
 
 Spend 1 Kit per list to pick instead of taking what you rolled.
@@ -25,7 +26,11 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 - **Fire in the Hole** Spend 1 Impulse to ignore your weapons' Friendly-Fire tags this Fight.
 - **Rock 'n Roll** Spend 1 Kit to do +1 damage with Autofire weapons this Fight.
 - **I Packed a Spare** Spend 1 Kit to ignore your weapons' Reload and Single-Use tags this Fight.
-- **Gunner** *ship* Spend 1 Impulse to do +1 Ship-Harm on this hit.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Ship Talent
+::::::::::::::: infolist ::::::::::::::::::::::::::::
+- **Gunner**  Spend 1 Impulse to do +1 Ship-Harm on a hit.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -44,6 +49,7 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 - **Armor** 1-4 Energy Siphon, Assault Armor
 - **Weapon** 1-4 Sniper Rifle, 5-6 Grenade Mortar
 - **Weapon** 1-4 Taser Pistol, 5-6 Pulse Pistol
+- **Other Gear** 1-4 Radio, 5-6 Med Patch
 - **Ship** 1-2 Comms Relay, 3-4 Liquid-Nitrogen Tanker, 5-6 Repair Pod
 
 Spend 1 Kit per list to pick instead of taking what you rolled.
@@ -57,7 +63,11 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 - **Weapon Modifications** Spend 1 Kit to give your weapon Autofire, Burn, 
   EMP, Exploding, Piercing, or Shock for this Fight.
 - **Armorer** Spend 1 Kit to fully repair any Armor.
-- **Damage Control** *ship* Spend 1 Kit to repair 1 Ship-Health.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Ship Talent
+::::::::::::::: infolist ::::::::::::::::::::::::::::
+- **Damage Control** Spend 1 Kit to repair 1 Ship-Health.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -76,6 +86,7 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 - **Armor** 1-4 Stealthsuit, 5-6 Energy Siphon
 - **Weapon** 1-2 two Laser Pistols, 3-4 two Slug Pistols, 5-6 one Pulse Pistol and one Taser Pistol
 - **Weapon** 1-4 Bow, 5-6 Flamethrower
+- **Other Gear** 1-4 Toolkit, 5-6 Med Patch
 - **Ship** 1-2 Mining Rig, 3-4 Racing Yacht, 5-6 Solar Glider
 
 Spend 1 Kit per list to pick instead of taking what you rolled.
@@ -88,7 +99,11 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 - **Rapid Fire** Spend 1 Impulse to make another attack at -1.
 - **Gun-Kata** Spend 1 Kit to use two Pistols in one attack, adding the Harm together.
 - **Dive for Cover** Spend 1 Impulse to ignore Harm from an AOE, Autofire, or Exploding attack.
-- **Ace Pilot** *ship* Spend N Impulse to add +N to a ship roll.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Ship Talent
+::::::::::::::: infolist ::::::::::::::::::::::::::::
+- **Ace Pilot**  Spend *n* Impulse to add +*n* to a ship roll.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -107,6 +122,7 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 - **Armor** 1-4 Tactical Vest, 5-6 Stealthsuit
 - **Weapon** 1-4 SMG, 5-6 Autolaser
 - **Weapon** 1-4 Slug Pistol, 5-6 Pulse Pistol
+- **Other Gear** 1-4 2 Med Patches, 5-6 Long-Range Radio
 - **Ship** 1-2 Racing Yacht, 3-4 Repair Pod, 5-6 Shuttle
 
 Spend 1 Kit per list to pick instead of taking what you rolled.
@@ -119,6 +135,10 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 - **Resupply** Spend 1 Kit to refresh anyone else's Kit total.
 - **Rousing Pep Talk** Spend 1 Impulse to refresh anyone else's Impulse total.
 - **Field Medic** Spend 1 Kit to refresh anyone else's Health total.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Ship Talent
+::::::::::::::: infolist ::::::::::::::::::::::::::::
 - **Fleet Tactics** Spend 1 Impulse to give everyone +1 on their next ship roll.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
