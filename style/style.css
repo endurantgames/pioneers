@@ -437,7 +437,7 @@ a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
 #toc {
   width: 576px;
   position: absolute;
-  top: 64px;
+  top: 32px;
   bottom: 0;
   right: -640px;
   break-after: page; 
