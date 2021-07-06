@@ -35,7 +35,7 @@ and *far* -- as well as the damage and any Weapon Tags (see below).
 - **Bow**               *mid, far* Harm 1, Reload
 - **Flamethrower**      *close* Harm 2, AOE, Burn
 - **Frag Grenade**      *close* Harm 1, Exploding, Friendly-Fire, Single-Use
-- **Grenade Mortar**    *mid* Harm 2, Exploding, Reload, Tactical
+- **Grenade Mortar**    *mid* Harm 3, Exploding, Reload, Tactical
 - **Laser Grenade**     *close* Harm 1, AOE, Burn, Friendly-Fire, Single-Use
 - **Laser Pistol**      *close* Harm 1, Handgun, Burn
 - **Laser Rifle**       *mid, far* Harm 2, Burn
@@ -48,7 +48,7 @@ and *far* -- as well as the damage and any Weapon Tags (see below).
 - **Slug Pistol**       *close* Harm 1, Handgun
 - **Slug Rifle**        *mid, far* Harm 2, Heavy
 - **Sniper Rifle**      *far* Harm 2, Scope, Tactical
-- **Taser Pistol**      *close* Harm 1, Handgun, Shock, Tactical
+- **Taser Pistol**      *close* Harm 1, Handgun, Shock           
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
  
 ::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::

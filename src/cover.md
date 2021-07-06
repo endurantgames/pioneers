@@ -9,5 +9,5 @@
 
 #### Spindrift Games
 
-![Pioneers](art/lumen.png) \ 
+![Illuminated by LUMEN](art/lumen.png) \ 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

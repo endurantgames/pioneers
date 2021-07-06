@@ -1,5 +1,5 @@
 ::::::::::::::::::::::::::::::::: {.charsheet #apollo } ::::::::::::::::::::::::::::::::::::::::
-# Apollo
+# Apollo ![Illuminated by LUMEN](art/lumen-dark.png)
 
 :::::::::::::::::::::::::::::::::::::::::: stats :::::::::::::::::::::::::::::::::::::
  Thrust       Gyro      Telemetry      Health      Impulse      Kit
@@ -10,6 +10,20 @@
 :::::::::::::::::::::::::::::::::::::::::: bio :::::::::::::::::::::::::::::::::::::::
 - []{.name  }[]{.pronouns}
 - []{.colony}[]{.talent  }  
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::: notes :::::::::::::::::::::::::::::::::::::
+- Notes       
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::: talents :::::::::::::::::::::::::::::::::::
+## Talents
+
+- **Shrug It Off** Spend 1 Impulse to ignore 1 helping of Harm.
+- **Fire in the Hole** Spend 1 Impulse to ignore your weapons' Friendly-Fire tags this Fight.
+- **Rock 'n Roll** Spend 1 Kit to do +1 damage with Autofire weapons this Fight.
+- **I Packed a Spare** Spend 1 Kit to ignore your weapons' Reload and Single-Use tags this Fight.
+- **Gunner** []{.ship-talent} Spend 1 Impulse to do +1 Ship-Harm on a hit.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::: armor :::::::::::::::::::::::::::::::::::::
@@ -23,34 +37,20 @@ Armor                     Charges         Protection
 :::::::::::::::::::::::::::::::::::::::::: weapons :::::::::::::::::::::::::::::::::::
 Weapon                    Range                                          Harm    Tags
 ---------------           ---                                            ------  -------
-[]{.box1} Pulse Rifle     []{.box0 .close} []{.boxc .mid} []{.box0 .far} 2 Harm  EMP, Heavy [+1 with Thrust]{.means}
-[]{.box1} Rocket Launcher []{.box0 .close} []{.boxc .mid} []{.box0 .far} 3 Harm  Exploding, Heavy [+1 with Thrust]{.means}, Reload
-[]{.box1} Slug Rifle      []{.box0 .close} []{.boxc .mid} []{.boxc .far} 2 Harm  Heavy [+1 with Thrust]{.means}
-[]{.box1} Frag Grenade    []{.boxc .close} []{.box0 .mid} []{.box0 .far} 1 Harm  Exploding, Friendly-Fire, Single-Use
-[]{.box1} Laser Grenade   []{.boxc .close} []{.box0 .mid} []{.box0 .far} 1 Harm  AOE, Burn, Friendly-Fire, Single-Use
-[]{.box1} Pulse Grenade   []{.boxc .close} []{.box0 .mid} []{.box0 .far} 1 Harm  AOE, EMP, Friendly-Fire, Single-Use
+[]{.box1} Pulse Rifle     []{.box0 .close} []{.boxc .mid} []{.box0 .far} Harm 2  EMP, Heavy [+1 Harm with Thrust]{.means}
+[]{.box1} Rocket Launcher []{.box0 .close} []{.boxc .mid} []{.box0 .far} Harm 3  Exploding, Heavy [+1 Harm with Thrust]{.means}, Reload
+[]{.box1} Slug Rifle      []{.box0 .close} []{.boxc .mid} []{.boxc .far} Harm 2  Heavy [+1 Harm with Thrust]{.means}
+[]{.box1} Frag Grenade    []{.boxc .close} []{.box0 .mid} []{.box0 .far} Harm 1  Exploding, Friendly-Fire, Single-Use
+[]{.box1} Laser Grenade   []{.boxc .close} []{.box0 .mid} []{.box0 .far} Harm 1  AOE, Burn, Friendly-Fire, Single-Use
+[]{.box1} Pulse Grenade   []{.boxc .close} []{.box0 .mid} []{.box0 .far} Harm 1  AOE, EMP, Friendly-Fire, Single-Use
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::::::::::::::::::::::::: talents :::::::::::::::::::::::::::::::::::
-## Talents
-
-- **Shrug It Off** Spend 1 Impulse to ignore 1 helping of Harm.
-- **Fire in the Hole** Spend 1 Impulse to ignore your weapons' Friendly-Fire tags this Fight.
-- **Rock 'n Roll** Spend 1 Kit to do +1 damage with Autofire weapons this Fight.
-- **I Packed a Spare** Spend 1 Kit to ignore your weapons' Reload and Single-Use tags this Fight.
-- **Gunner** []{.ship-talent} Spend 1 Impulse to do +1 Ship-Harm on a hit.
-
+:::::::::::::::::::::::::::::::::::::::::: gear ::::::::::::::::::::::::::::::::::::::
+- Other Gear
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::::::::::::::::::::::::: ships :::::::::::::::::::::::::::::::::::::
-- []{.ship-name} []{.ship-health}
-  <span class="ship-attrs">[]{.ship-thrust} []{.ship-gyro} []{.ship-telemetry}</span>
-  []{.ship-resist} []{.ship-vulnerable}
-  []{.ship-points}
-  []{.ship-tags}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

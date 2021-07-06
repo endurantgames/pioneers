@@ -27,14 +27,32 @@ header { display: none; }
 
 .charsheet {
   height: 5.5in;
-  padding: 0.25in; 
+  padding-left: 0.25in; 
+  padding-right: 0.25in; 
+  padding-top: 0.25in; 
+  padding-bottom: 0;
   box-sizing: border-box; 
   columns: 2 auto;
-  column-gap: 0.25in;
+  column-gap: 4pt;
+  position: relative;
 }
 
 .charsheet:nth-child(even) {
-  border-bottom: 1pt dashed gray;
+  border-bottom: 0.5pt dashed silver;
+}
+.charsheet:nth-child(even):after {
+  display: inline-block;
+  font-size: 7pt;
+  color: silver;
+  background-color: white;
+  position: absolute;
+  bottom: -4pt;
+  left: 290pt;
+  width: auto;
+  padding-left: 4pt;
+  padding-right: 4pt;
+  content: 'cut here';
+  font-family: var(--font-info);
 }
 
 #template.charsheet { display: none; }
@@ -55,6 +73,27 @@ h3 {
   font-family: var(--font-title);
   letter-spacing: 0.5em; 
   text-align: center; 
+  font-size: 32pt;
+  font-weight: normal;
+}
+h3:before {
+  display: inline-block;
+  width: auto;
+  position: absolute;
+  font-size: 18pt;
+  top: 0.25in;
+  left: 0.25in;
+  color: gray;
+  letter-spacing: 0.125em;
+  content: 'Pioneers';
+}
+
+h3 img { 
+  opacity: 0.5;
+  width: 1.25in;
+  height: auto;
+  position: absolute;
+  top: 0; right: 10pt;
 }
 
 h4 {
@@ -138,11 +177,10 @@ table th {
 
 table td .empty { content: ' '; display: inline-block; height: 2em; }
 
-.bio, .armor, .weapons, .ships, .talents { margin-top: 9pt; }
-
 /* armor table --------------------------------------------------------- */
 .armor table { break-inside: avoid; }
 .armor table td { font-family: var(--font-info); vertical-align: top; } 
+.armor table th:first-child { font-family: var(--font-bold); font-weight: normal; font-size: 10pt; }
 .armor table th { border-bottom: none; font-weight: bold; font-family: var(--font-info); }
 .armor table tbody tr:nth-child(odd) { background: var(--bg-light); }
 .armor table td:nth-child(1)      { width: 80pt; }
@@ -157,30 +195,29 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
 .weapons table { break-inside: avoid; }
 .weapons table td { font-family: var(--font-info); vertical-align: top; } 
 
+.weapons table th:first-child { font-family: var(--font-bold); font-weight: normal; font-size: 10pt; }
 .weapons table th:nth-child(2) { text-align: left; }
 .weapons table th { border-bottom: none; font-weight: bold; font-family: var(--font-info); }
 .weapons table tbody tr:nth-child(odd) { background: var(--bg-light); }
 
 .weapons table td:nth-child(1)      { width: 80pt; }
-.weapons table td:nth-child(2)      { width: 72pt; }
+.weapons table td:nth-child(2)      { width: 74pt; }
 .weapons table td:nth-child(3)      { width: 32pt; }
+.weapons table td:last-child        { padding-right: 2pt; }
 .weapons table td:first-child       { padding-left: 12pt; }
 .weapons table td:first-child .box1 { margin-left: -9pt; }
 
-.weapons table td :matches(.close, .mid, .far, .means) {
-  font-size: 7pt;
-}
+.weapons table td :matches(.close, .mid, .far):after { font-size: 7pt; font-style: italic; }
+.weapons table td .means { font-size: 7pt; font-style: italic; }
 
-.weapons table td .close:after  { content: ' close '; font-style: italic; }
-.weapons table td .mid:after    { content: ' mid ';   font-style: italic; }
-.weapons table td .far:after    { content: ' far ';   font-style: italic; }
-.weapons table td .means        {                     font-style: italic; }
+.weapons table td .close:after  { content: ' close '; }
+.weapons table td .mid:after    { content: ' mid ';   }
+.weapons table td .far:after    { content: ' far ';   }
+.weapons table td .means        {                     }
 .weapons table td .means:before { content: '(';       }
 .weapons table td .means:after  { content: ')';       }
 
 /* talents ---------------------------------------------------------------- */
-
-.talents h4 { display: block; margin-bottom: 0; }
 
 .talents ul { margin: 0; }
 
@@ -188,13 +225,12 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
   margin-left: 0;
   padding-left: 18pt;
   list-style-type: none;
-  font-family: var(--font);
-  letter-spacing: 0.05em;
-  font-size: 7pt;
   margin-bottom: 3pt;
+  font-family: var(--font-info);
+  font-size: 9pt;
 }
 .talents ul li strong { 
-  font-size: 125%;
+  font-size: 10pt;
   vertical-align: baseline;
   margin-left: -18pt;
   position: relative;
@@ -203,14 +239,14 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
   font-family: var(--font-bold);
   font-weight: normal;
   letter-spacing: 0;
-  word-spacing: -0.15em;
+  word-spacing: -0.25em;
 }
 
 .talents ul li .ship-talent { font-style: italic; content: 'Ship Talent:'; }
 
 /* bio ----------------------------------------------------------------- */
 
-.bio { column-span: all; }
+.bio { column-span: all; margin-top: 4pt; }
 
 .bio ul { margin: 0; }
 .bio ul li {
@@ -232,10 +268,49 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
 .bio ul li .colony   { width: 286pt; content: 'Colony';   margin-right: 4pt; }
 .bio ul li .talent   { width: 286pt; content: 'Talent';   margin-right: 0; }
 
+/* notes ----------------------------------------------------------- */
+
+.notes ul { margin: 0; }
+.notes ul li { 
+  list-style-type: none; 
+  margin-left: 0;
+  background: var(--bg-light);
+  padding-left: 4pt;
+  height: 42pt;
+  margin-bottom: 4pt;
+}
+
+#mercury .notes ul li { height: 30pt; }
+#soyuz .notes ul li { height: 46pt; }
+
+/* gear ------------------------------------------------------------ */
+
+.gear ul { margin: 0; }
+.gear ul li { 
+  list-style-type: none; 
+  margin-left: 0; 
+  background: var(--bg-light);
+  padding-left: 4pt;
+  height: 40pt;
+}
+
+#apollo .gear ul li { height: 28pt; }
+#mercury .gear ul li { height: 53pt; }
+#soyuz .gear       { margin-top: 4pt; }
+#gemini .gear ul li { height: 40.5pt; }
 
 /* ships ----------------------------------------------------------- */
-.ships { background: silver; }
-
+.ships { background: silver; column-span: all; }
+.ships ul { margin-left: 0; }
+.ships ul li { 
+  margin-left: 0; 
+  list-style-type: none; 
+  display: inline-block;
+  width: 142pt; 
+  margin-right: 2pt;
+  height: 72pt;
+  background: var(--bg-light);
+}
 
 /* data --------------------------------------------------------------------- */
 

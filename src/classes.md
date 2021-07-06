@@ -58,7 +58,7 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 ## Gemini Talents
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::
-- **Electronic Countermeasures** Spend 1 Kit to shut down 1 Pion in this Fight.
+- **Electronic Countermeasures** Spend 1 Kit to shut down 1 Pion until the end of the Fight.
 - **Salvage Ops** Spend 1 Impulse to gain 1 Kit from a dead Pion.
 - **Weapon Modifications** Spend 1 Kit to give your weapon Autofire, Burn, 
   EMP, Exploding, Piercing, or Shock for this Fight.
@@ -96,14 +96,14 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::
 - **Moving Target** Spend 1 Impulse to instantly change your Range Band.
-- **Rapid Fire** Spend 1 Impulse to make another attack at -1.
+- **Rapid Fire** Spend 1 Impulse to make another attack at -1 Harm.
 - **Gun-Kata** Spend 1 Kit to use two Pistols in one attack, adding the Harm together.
 - **Dive for Cover** Spend 1 Impulse to ignore Harm from an AOE, Autofire, or Exploding attack.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Ship Talent
 ::::::::::::::: infolist ::::::::::::::::::::::::::::
-- **Ace Pilot**  Spend *n* Impulse to add +*n* to a ship roll.
+- **Ace Pilot**  Spend 1 Impulse to add +1 to a ship roll.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -132,9 +132,9 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::
 - **Adaptable** Spend 1 Health, Impulse or Kit to add +1 Impulse, Kit, or Health.
-- **Resupply** Spend 1 Kit to refresh anyone else's Kit total.
-- **Rousing Pep Talk** Spend 1 Impulse to refresh anyone else's Impulse total.
-- **Field Medic** Spend 1 Kit to refresh anyone else's Health total.
+- **Resupply** Spend 1 Kit to replenish anyone else's Kit total.
+- **Rousing Pep Talk** Spend 1 Impulse to replenish anyone else's Impulse total.
+- **Field Medic** Spend 1 Kit to replenish anyone else's Health total.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Ship Talent
