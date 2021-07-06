@@ -1,25 +1,11 @@
 # TODO
 
-- [x] Table of Contents
-- [x] Classes
-  - [x] Apollo
-  - [x] Gemini
-  - [x] Mercury
-  - [x] Soyuz
-- [x] Colony Benefits
-- [x] Equipment
-  - [x] Armor
-  - [x] Weapons
-  - [x] Miscellany
 - [ ] Fights
 - [ ] Ops
-- [x] Ships
-  - [x] Ship equipment
-  - [x] Ship traits
+- [-] Ships
   - [ ] Ship ops
   - [ ] Ship fights
-- [x] Solar System
-- [-] Opponents
+- [-] Opponents - just need descriptions
   - [-] Mariner
   - [-] Venera
   - [-] Viking
@@ -27,9 +13,3 @@
   - [-] Cassini
   - [-] Rover
 - [ ] Mission Control section
-- [ ] Character Sheet
-  - [x] Apollo
-  - [x] Gemini
-  - [x] Mercury
-  - [x] Soyuz
-  - [x] Ship sheets
