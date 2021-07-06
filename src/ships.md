@@ -1,5 +1,7 @@
 # Ships {.breakbefore #step-ship}
 
+[]{.lorem}
+
 ## Ship Fights {#toc-ship-fights}
 
 Ship fights work exactly like normal fights, except that instead of using
@@ -44,6 +46,8 @@ These weapons or other devices are attached to a ship's mount points.
 :::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Ship Tags {#toc-ship-tags}
+
+[]{.lorem}
 
 - **Atmospheric** Can touch down or launch in an atmsophere.
 - **Balanced** Add 1 to Gyro.

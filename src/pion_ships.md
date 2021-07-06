@@ -12,6 +12,8 @@ computers and has no pilot.
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Genesis
 
+[]{.lorem}
+
 - **Health** Ship-1000
 - **Vulnerable** *nothing*
 - **Ship-to-Ship Defense Batteries** *close-ship* Harm Ship-2, Burn
@@ -23,6 +25,8 @@ computers and has no pilot.
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Kosmos
 
+[]{.lorem}
+
 - **Health** Ship-50
 - **Vulnerable** burn
 - **Electrostatic Defense Field Generators** *close-ship* Harm Ship-2, AOE, Shock
@@ -31,6 +35,8 @@ computers and has no pilot.
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Mariner
+
+[]{.lorem}
 
 - **Health** Ship-2
 - **Vulnerable** explosive
@@ -41,6 +47,8 @@ computers and has no pilot.
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Sakigake {.colbefore}
 
+[]{.lorem}
+
 - **Health** Ship-10
 - **Vulnerable** pulse
 - **Laser Bombardment Cannons** *far-ship* Harm Ship-6, AOE, Burn, Reload
@@ -49,6 +57,8 @@ computers and has no pilot.
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Zond
+
+[]{.lorem}
 
 - **Health** Ship-4
 - **Vulnerable** shock

@@ -86,6 +86,8 @@ At the end of the MC's turn, they generate Drops, if appropriate.
 
 ### Big Changes {#toc-big-changes}
 
+[]{.lorem}
+
 ### Pion Counter-Attacks {#toc-counter-attack}
 
 Usually, the MC doesn't need to specifically have the Pions attack; complications rolled
@@ -100,6 +102,8 @@ Harm; 3 or 4 they take Harm equal to half the Pion's Harm rating; and 1 or 2 the
 the full amount of Harm.
 
 ### Pion Moves {#toc-pion-moves}
+
+[]{.lorem}
 
 ### Drops {#toc-drops}
 

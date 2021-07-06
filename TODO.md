@@ -1,6 +1,6 @@
 # TODO
 
-- [ ] Fights
+- [-] Fights
   - [ ] Big Changes
   - [ ] Pion Moves
   - [-] Drops

@@ -10,8 +10,12 @@
 > [Transcript of emergency broadcast, unknown speaker. June 19 2320]{.credit}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+[]{.lorem}
+
 ::::::::::: { .infolist .breakable } :::::::::::::::::::::::::::::::::::::
 ## Location Tags {#toc-location-tags}
+
+[]{.lorem}
 
 - **Atmosphere** The location has a breathable atmosphere.
 - **Blocade** Currently blocaded by the Pions.
@@ -89,6 +93,8 @@ form of brine shrimp.
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Saturn {#toc-location-saturn}
 
+[]{.lorem}
+
 - **Titan** Low Population, Blocade, Cold, Colony, Life, Low-G, Orbit
 - **Rhea** Minimal Population, Cold, Ice, Low-G
 - **Iapetus** Cold, Ice, Low-G
@@ -113,6 +119,8 @@ Oberon is the nominal capital of the five united colonies on Uranian moons.
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Neptune {#toc-location-neptune}
+
+[]{.lorem}
 
 - **Triton** Minimal Population, Cold, Ice, Low-G, Surface
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

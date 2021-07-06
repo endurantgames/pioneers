@@ -10,7 +10,11 @@ There are three basic Op types:
 - Orbital Ops
 - Combined Ops
 
-## Preparing for the Mission {#toc-op-prep}
+[]{.lorem}
+
+## Mission Prep {#toc-op-prep}
+
+[]{.lorem}
 
 ## Travel Time {#toc-op-travel}
 
@@ -43,5 +47,5 @@ For travel from the inner planets to the outer planets, roll
 For travel between two outer planets, use the higher base travel
 time, plus 1d6 weeks.
 
-- Travel time between moons of the same outer planet takes 1d6 hours.
+Travel time between moons of the same outer planet takes 1d6 hours.
 
