@@ -151,7 +151,7 @@ Class       Thrust   Gyro   Telemetry   Health   Impulse   Kit
 ---------- -------- ------ ----------- -------- --------- -----
 Apollo        3       1         2         8       4         3 
 Gemini        1       2         3         6       3         6
-Mercury       1       3         2         5       6         4
+Mercury       1       3         2         4       7         4
 Soyuz         2       2         2         5       5         5
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -226,7 +226,7 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 ### Gemini Talents
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::
-- **Electronic Countermeasures** Spend 1 Kit to shut down 1 Pion in this Fight.
+- **Electronic Countermeasures** Spend 1 Kit to shut down 1 Pion until the end of the Fight.
 - **Salvage Ops** Spend 1 Impulse to gain 1 Kit from a dead Pion.
 - **Weapon Modifications** Spend 1 Kit to give your weapon Autofire, Burn, 
   EMP, Exploding, Piercing, or Shock for this Fight.
@@ -244,7 +244,7 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
  Thrust   Gyro   Telemetry   Health   Impulse   Kit
 -------- ------ ----------- -------- --------- -----
-   1       3         2         5       6         4
+   1       3         2         4       7         4
 
 ### It's time to buzz the tower. {.classquote}
 
@@ -264,14 +264,14 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::
 - **Moving Target** Spend 1 Impulse to instantly change your Range Band.
-- **Rapid Fire** Spend 1 Impulse to make another attack at -1.
+- **Rapid Fire** Spend 1 Impulse to make another attack at -1 Harm.
 - **Gun-Kata** Spend 1 Kit to use two Pistols in one attack, adding the Harm together.
 - **Dive for Cover** Spend 1 Impulse to ignore Harm from an AOE, Autofire, or Exploding attack.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Ship Talent
 ::::::::::::::: infolist ::::::::::::::::::::::::::::
-- **Ace Pilot**  Spend *n* Impulse to add +*n* to a ship roll.
+- **Ace Pilot**  Spend 1 Impulse to add +1 to a ship roll.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -300,9 +300,9 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::
 - **Adaptable** Spend 1 Health, Impulse or Kit to add +1 Impulse, Kit, or Health.
-- **Resupply** Spend 1 Kit to refresh anyone else's Kit total.
-- **Rousing Pep Talk** Spend 1 Impulse to refresh anyone else's Impulse total.
-- **Field Medic** Spend 1 Kit to refresh anyone else's Health total.
+- **Resupply** Spend 1 Kit to replenish anyone else's Kit total.
+- **Rousing Pep Talk** Spend 1 Impulse to replenish anyone else's Impulse total.
+- **Field Medic** Spend 1 Kit to replenish anyone else's Health total.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Ship Talent
@@ -384,7 +384,7 @@ and *far* -- as well as the damage and any Weapon Tags (see below).
 - **Bow**               *mid, far* Harm 1, Reload
 - **Flamethrower**      *close* Harm 2, AOE, Burn
 - **Frag Grenade**      *close* Harm 1, Exploding, Friendly-Fire, Single-Use
-- **Grenade Mortar**    *mid* Harm 2, Exploding, Reload, Tactical
+- **Grenade Mortar**    *mid* Harm 3, Exploding, Reload, Tactical
 - **Laser Grenade**     *close* Harm 1, AOE, Burn, Friendly-Fire, Single-Use
 - **Laser Pistol**      *close* Harm 1, Handgun, Burn
 - **Laser Rifle**       *mid, far* Harm 2, Burn
@@ -397,7 +397,7 @@ and *far* -- as well as the damage and any Weapon Tags (see below).
 - **Slug Pistol**       *close* Harm 1, Handgun
 - **Slug Rifle**        *mid, far* Harm 2, Heavy
 - **Sniper Rifle**      *far* Harm 2, Scope, Tactical
-- **Taser Pistol**      *close* Harm 1, Handgun, Shock, Tactical
+- **Taser Pistol**      *close* Harm 1, Handgun, Shock           
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
  
 ::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::
@@ -878,7 +878,7 @@ These ships were constructed from old communications satellites.
 - **Resist** shock
 - **Vulnerable** pulse
 - **Mount Points** 2 (Microwave Scrambler, EMP Burster)
-- **Tags** Connected
+- **Tags** Networked
 - **Names** *Ansible*, *Molniya*, *Syncom*, *Telstar* *Venus Equilateral*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -894,7 +894,7 @@ Large, ponderous tankers that actually move quite quickly when they get up to sp
 - **Resist** pulse
 - **Vulnerable** burn
 - **Mount Points** 4 (Docking Clamps, Escape Pods, Fuel Reserve x2)
-- **Tags** Cargo, Ramming Speed, Tailgunner
+- **Tags** Ramming Speed, Tailgunner
 - **Names** *Auriga*, *Kobayashi Maru*, *Raza*, *Valdez*, *Yamato*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

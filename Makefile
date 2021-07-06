@@ -38,6 +38,7 @@ HTML_OUT    = $(OUTDIR)/$(PROJ).html
 SHEET_HTML_OUT = $(OUTDIR)/$(PROJ)-sheets.html
 PLAINTEXT_OUT = $(OUTDIR)/$(PROJ)-plaintext.pdf
 SHEET_OUT = $(OUTDIR)/$(PROJ)-sheets.pdf
+SHEET_ALT_OUT = $(OUTDIR)/$(PROJ)-sheets-alt.pdf
 TEASER_RECIPE = teaser
 TEASER_SRC = $(BUILDDIR)/teaser.md
 TEASER_OUT = $(OUTDIR)/pioneers-teaser.pdf
@@ -48,12 +49,14 @@ PROJ_CSS    = --css=$(STYLEDIR)/style.css
 # PROJ_CSS    = --css=$(STYLEDIR)/$(PROJ).css
 PLAINTEXT_CSS = --css=$(STYLEDIR)/plain.css
 SHEET_CSS = --css=$(STYLEDIR)/charsheet.css
+SHEET_ALT_CSS = --css=$(STYLEDIR)/alt-charsheet.css
 
 # Derived Flags
 #   Edit: probably unnecessary
 FLAGS       = -t html5 --standalone --resource-path=$(IMGDIR) 
 PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
-SHEET_FLAGS = $(FLAGS) $(SHEET_CSS) $(PRINCEFLAGS)
+SHEET_FLAGS = $(FLAGS) $(SHEET_CSS) $(PRINCEFLAGS_SHEET)
+SHEET_ALT_FLAGS = $(FLAGS) $(SHEET_ALT_CSS)
 PLAINTEXT_FLAGS = $(FLAGS) $(PLAINTEXT_CSS)
 
 # Application Configruation #############################################################################
@@ -68,6 +71,7 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 #   Edit: Sure, if you need to
 # PRINCEFLAGS    = --pdf-engine-opt=--css-dpi=300
 PRINCEFLAGS    = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
+PRINCEFLAGS_SHEET    = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/sheet_%d.png
 # PRINCEFLAGS    =
 
 # Pdfinfo Config
@@ -262,6 +266,12 @@ sheet: markdown-sheet
 	@       $(PDFINFO) $(SHEET_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
+alt-sheet: markdown-sheet
+	@ echo '$(ltblue)Making character sheet alternate PDF.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(SHEET_ALT_FLAGS) -o $(SHEET_ALT_OUT) $(SHEET_SRC)
+	@       $(PDFINFO) $(SHEET_ALT_OUT) $(PDFINFO_GREP)
+	@      -$(EXPLORER)
+
 # make HTML
 #   Edit: if you are making more than one html
 html: markdown
@@ -278,7 +288,8 @@ html-sheet: markdown-sheet
 
 # make all
 #   Edit: if you are making more than one pdf or html
-all: pdf teaser html
+# all: pdf teaser html
+all: pdf sheet alt-sheet
 
 # Make Aliases ##########################################################################################
 #  Edit: only you if want to add something

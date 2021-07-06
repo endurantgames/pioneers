@@ -1,4 +1,4 @@
-<div class="ship-sheet">
+<div class="ship-sheet blank">
 # &nbsp; ![Illuminated by LUMEN](art/lumen-dark.png)
 
 :::::::::::::: bio :::::::::::::::::::::::::::::::::::::::::
@@ -22,10 +22,6 @@
 ::::::::::::::: weapons ::::::::::::::::::::::::::::::::::::
 Weapon                    Range                                          Harm    Tags
 ---------------           ---                                            ------  -------
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
@@ -35,7 +31,7 @@ Weapon                    Range                                          Harm   
 :::::::::::: notes :::::::::::::::::::::::::::::::::::::::::
 - Notes
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-</div><div class="ship-sheet">
+</div><div class="ship-sheet blank">
 # &nbsp; ![Illuminated by LUMEN](art/lumen-dark.png)
 
 :::::::::::::: bio :::::::::::::::::::::::::::::::::::::::::
@@ -59,10 +55,6 @@ Weapon                    Range                                          Harm   
 ::::::::::::::: weapons ::::::::::::::::::::::::::::::::::::
 Weapon                    Range                                          Harm    Tags
 ---------------           ---                                            ------  -------
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
@@ -72,7 +64,7 @@ Weapon                    Range                                          Harm   
 :::::::::::: notes :::::::::::::::::::::::::::::::::::::::::
 - Notes
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-</div><div class="ship-sheet">
+</div><div class="ship-sheet blank">
 # &nbsp; ![Illuminated by LUMEN](art/lumen-dark.png)
 
 :::::::::::::: bio :::::::::::::::::::::::::::::::::::::::::
@@ -96,10 +88,6 @@ Weapon                    Range                                          Harm   
 ::::::::::::::: weapons ::::::::::::::::::::::::::::::::::::
 Weapon                    Range                                          Harm    Tags
 ---------------           ---                                            ------  -------
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
@@ -109,7 +97,7 @@ Weapon                    Range                                          Harm   
 :::::::::::: notes :::::::::::::::::::::::::::::::::::::::::
 - Notes
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-</div><div class="ship-sheet">
+</div><div class="ship-sheet blank">
 # &nbsp; ![Illuminated by LUMEN](art/lumen-dark.png)
 
 :::::::::::::: bio :::::::::::::::::::::::::::::::::::::::::
@@ -133,10 +121,6 @@ Weapon                    Range                                          Harm   
 ::::::::::::::: weapons ::::::::::::::::::::::::::::::::::::
 Weapon                    Range                                          Harm    Tags
 ---------------           ---                                            ------  -------
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}

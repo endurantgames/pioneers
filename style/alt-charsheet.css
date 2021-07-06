@@ -1,0 +1,46 @@
+@import "charsheet.css";
+
+.ship-sheet :matches(.resist, .vulnerable, .mount-points, .tags),
+.bio ul li :matches(.name, .pronouns, .colony, .talent),
+.notes ul li,
+.gear ul li,
+.ship-sheet .bio .pilot { 
+  border: 0.5pt solid gray;
+  background: none;
+}
+
+.armor table tbody tr:nth-child(odd),
+.weapons table tbody tr:nth-child(odd) {
+  background: none;
+}
+
+:matches(
+#apollo, 
+#mercury, 
+#soyuz)       
+              .weapons table tbody tr:nth-child(7),
+#soyuz        .weapons table tbody tr:nth-child(6),
+:matches(
+#gemini, 
+#soyuz, 
+#tanker, 
+#shuttle)       
+              .weapons table tbody tr:nth-child(5),
+#tanker       .weapons table tbody tr:nth-child(4),
+:matches(
+#comms-relay, 
+#mining-rig,
+#ore-hauler, 
+#racing-yacht, 
+#repair-pod, 
+.blank)  
+              .weapons table tbody tr:nth-child(3),
+.blank        .weapons table tbody tr:nth-child(2),
+.blank        .weapons table tbody tr:nth-child(1),
+              .armor   table tbody tr:nth-child(3),
+              .armor   table tbody tr:nth-child(3)
+{
+  border-bottom: 0.5pt solid silver;
+}
+
+

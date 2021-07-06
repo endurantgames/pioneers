@@ -173,7 +173,7 @@ h4 {
   display: none;
 }
 
-table, th, td {
+table, tr, th, td {
   box-sizing: border-box;
   font-size: 9pt;
 }
@@ -368,10 +368,17 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
   margin-bottom: 4pt;
 }
 
-#mercury     .notes ul li { height: 30pt; }
-#soyuz       .notes ul li { height: 46pt; }
-#comms-relay .notes ul li { height: 70pt; }
-#tanker      .notes ul li { height: 50pt; }
+#mercury          .notes ul li { height:  30pt; }
+#soyuz            .notes ul li { height:  46pt; }
+#comms-relay      .notes ul li { height:  70pt; }
+#tanker           .notes ul li { height:  50pt; }
+#mining-rig       .notes ul li { height:  93pt; }
+#ore-hauler       .notes ul li { height:  93pt; }
+#racing-yacht     .notes ul li { height:  93pt; }
+#repair-pod       .notes ul li { height:  80pt; }
+#shuttle          .notes ul li { height:  30pt; }
+#solar-glider     .notes ul li { height: 125pt; }
+.ship-sheet.blank .notes ul li { height:  78pt; }
 
 /* gear ------------------------------------------------------------ */
 
@@ -388,49 +395,3 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
 #mercury .gear ul li { height: 53pt; }
 #soyuz .gear       { margin-top: 4pt; }
 #gemini .gear ul li { height: 40.5pt; }
-
-/* ships ----------------------------------------------------------- */
-.ships { background: silver; column-span: all; }
-.ships ul { margin-left: 0; }
-.ships ul li { 
-  margin-left: 0; 
-  list-style-type: none; 
-  display: inline-block;
-  width: 142pt; 
-  margin-right: 2pt;
-  height: 72pt;
-  background: var(--bg-light);
-}
-
-/* data --------------------------------------------------------------------- */
-
-#apollo .thrust    { content: '3'; }
-#apollo .gyro      { content: '1'; }
-#apollo .telemetry { content: '2'; }
-#apollo .health    { content: var(--box-8); } 
-#apollo .impulse   { content: var(--box-4); }
-#apollo .kit       { content: var(--box-5); }
-
-#gemini .thrust    { content: '1'; }
-#gemini .gyro      { content: '2'; }
-#gemini .telemetry { content: '3'; }
-#gemini .health    { content: var(--box-6); } 
-#gemini .impulse   { content: var(--box-3); }
-#gemini .kit       { content: var(--box-6); }
-
-#mercury .thrust    { content: '1'; }
-#mercury .gyro      { content: '3'; }
-#mercury .telemetry { content: '2'; }
-#mercury .health    { content: var(--box-5); } 
-#mercury .impulse   { content: var(--box-6); }
-#mercury .kit       { content: var(--box-4); }
-
-#soyuz .thrust    { content: '2'; }
-#soyuz .gyro      { content: '2'; }
-#soyuz .telemetry { content: '2'; }
-#soyuz .health    { content: var(--box-5); } 
-#soyuz .impulse   { content: var(--box-5); }
-#soyuz .kit       { content: var(--box-5); }
-
-
-

@@ -15,14 +15,15 @@ tag or Escape Pods.
 These weapons or other devices are attached to a ship's mount points.
 
 - **Asteroid Drill**         *close-ship* Harm Ship-2
-- **Booster Rockets**        *mid-ship, far-ship* Harm Ship-5, Explosive, Single-Use
+- **Booster Rocket**         *mid-ship, far-ship* Harm Ship-5, Explosive, Single-Use
 - **Docking Clamps**         *close-ship* Harm none or Ship-1; prevents other vessel from moving
 - **EMP Burster**            *close-ship* Harm Ship-4, Pulse, Single-Use
 - **Escape Pods**            crew not KIA when ship destroyed
 - **Flak Cannon**            *close-ship* Harm Ship-2, AOE, Exploding
 - **Fuel Reserve**           *close-ship* Harm Ship-3 (explosive) + Ship-3 (burn), Single-Use
-- **Gatling Cannon**         *mid-ship* Harm Ship-3, Autofire
+- **Gatling Laser**          *mid-ship* Harm Ship-3, Autofire, Burn
 - **Jumpstart Hawsers**      *close-ship* Harm Ship-1, Shock
+- **Laser Cannon**           *mid-ship, far-ship* Harm Ship-1, Burn
 - **Laser Refractor**        *close-ship, mid-ship* Harm Ship-2, Burn
 - **Manipulator Arm**        *close-ship* Harm Ship-1; can move objects around
 - **Micro-Nuke**             *close-ship* Harm Ship-6 (explosive) + Ship-6 (burn) + Ship-6 (burn) + Ship-6 (pulse), AOE, Friendly Fire, Self-Destructive, Single-Use
@@ -31,7 +32,6 @@ These weapons or other devices are attached to a ship's mount points.
 - **Osmium Ballista**        *mid-ship* Harm Ship-5, Reload
 - **Patch Kit**              *close-ship* Repairs Health Ship-1
 - **Railgun**                *far-ship* Harm Ship-4, Reload, Scope
-- **Raybeam Cannon**         *mid-ship, far-ship* Harm Ship-1, Burn
 - **Ramming Spike**          Ship takes only one third of its maximum Health when using Ramming Speed.
 - **Refueling Tether**       *close-ship* Harm Ship-1, Burn
 - **Seeker Mines**           *close-ship* Harm Ship-2, Explosive

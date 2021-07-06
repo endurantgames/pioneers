@@ -10,7 +10,7 @@ title: Pioneers - Character Sheets
 :::::::::::::::::::::::::::::::::::::::::: stats :::::::::::::::::::::::::::::::::::::
  Thrust       Gyro      Telemetry      Health      Impulse      Kit
 --------     ------    -----------    --------    ----------   -----
- []{.thrust} []{.gyro} []{.telemetry} []{.health} []{.impulse} []{.impulse}
+ 3            1         2             []{.box8}   []{.box4}    []{.box3}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::: bio :::::::::::::::::::::::::::::::::::::::
@@ -67,7 +67,7 @@ Weapon                    Range                                          Harm   
 :::::::::::::::::::::::::::::::::::::::::: stats :::::::::::::::::::::::::::::::::::::
  Thrust       Gyro      Telemetry      Health      Impulse      Kit
 --------     ------    -----------    --------    ----------   -----
- []{.thrust} []{.gyro} []{.telemetry} []{.health} []{.impulse} []{.impulse}
+ 1             2            3         []{.box6}   []{.box3}    []{.box6}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::: bio :::::::::::::::::::::::::::::::::::::::
@@ -123,7 +123,7 @@ Weapon                    Range                                          Harm   
 :::::::::::::::::::::::::::::::::::::::::: stats :::::::::::::::::::::::::::::::::::::
  Thrust       Gyro      Telemetry      Health      Impulse      Kit
 --------     ------    -----------    --------    ----------   -----
- []{.thrust} []{.gyro} []{.telemetry} []{.health} []{.impulse} []{.impulse}
+  1            3          2           []{.box4}   []{.box7}    []{.box4}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::: bio :::::::::::::::::::::::::::::::::::::::
@@ -180,7 +180,7 @@ Weapon                    Range                                          Harm   
 :::::::::::::::::::::::::::::::::::::::::: stats :::::::::::::::::::::::::::::::::::::
  Thrust       Gyro      Telemetry      Health      Impulse      Kit
 --------     ------    -----------    --------    ----------   -----
- []{.thrust} []{.gyro} []{.telemetry} []{.health} []{.impulse} []{.impulse}
+  2            2           2          []{.box5}   []{.box5}    []{.box5}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::: bio :::::::::::::::::::::::::::::::::::::::
@@ -506,46 +506,7 @@ Weapon                    Range                                          Harm   
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 </div>
 
-<div class="ship-sheet" id="shipname">
-### Ship ![Illuminated by LUMEN](art/lumen-dark.png)
-
-:::::::::::::: bio :::::::::::::::::::::::::::::::::::::::::
-- []{.name}[]{.pilot}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::: stats ::::::::::::::::::::::::::::::
-
- Thrust   Gyro   Telemetry   Health
--------- ------ ----------- -----------------------------
- 1        1         1              2
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::: ship-data :::::::::::::::::::::::::::::::::::
-- []{.resist}[]{.vulnerable}
-- []{.mount-points}
-- []{.tags}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::: weapons ::::::::::::::::::::::::::::::::::::
-Weapon                    Range                                          Harm    Tags
----------------           ---                                            ------  -------
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
-[]{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
-[]{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
-[]{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::: notes :::::::::::::::::::::::::::::::::::::::::
-- Notes
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-</div>
-
-<div class="ship-sheet">
+<div class="ship-sheet blank">
 ### &nbsp; ![Illuminated by LUMEN](art/lumen-dark.png)
 
 :::::::::::::: bio :::::::::::::::::::::::::::::::::::::::::
@@ -569,10 +530,6 @@ Weapon                    Range                                          Harm   
 ::::::::::::::: weapons ::::::::::::::::::::::::::::::::::::
 Weapon                    Range                                          Harm    Tags
 ---------------           ---                                            ------  -------
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
@@ -582,7 +539,7 @@ Weapon                    Range                                          Harm   
 :::::::::::: notes :::::::::::::::::::::::::::::::::::::::::
 - Notes
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-</div><div class="ship-sheet">
+</div><div class="ship-sheet blank">
 ### &nbsp; ![Illuminated by LUMEN](art/lumen-dark.png)
 
 :::::::::::::: bio :::::::::::::::::::::::::::::::::::::::::
@@ -606,10 +563,6 @@ Weapon                    Range                                          Harm   
 ::::::::::::::: weapons ::::::::::::::::::::::::::::::::::::
 Weapon                    Range                                          Harm    Tags
 ---------------           ---                                            ------  -------
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
@@ -619,7 +572,7 @@ Weapon                    Range                                          Harm   
 :::::::::::: notes :::::::::::::::::::::::::::::::::::::::::
 - Notes
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-</div><div class="ship-sheet">
+</div><div class="ship-sheet blank">
 ### &nbsp; ![Illuminated by LUMEN](art/lumen-dark.png)
 
 :::::::::::::: bio :::::::::::::::::::::::::::::::::::::::::
@@ -643,10 +596,6 @@ Weapon                    Range                                          Harm   
 ::::::::::::::: weapons ::::::::::::::::::::::::::::::::::::
 Weapon                    Range                                          Harm    Tags
 ---------------           ---                                            ------  -------
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
@@ -656,7 +605,7 @@ Weapon                    Range                                          Harm   
 :::::::::::: notes :::::::::::::::::::::::::::::::::::::::::
 - Notes
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-</div><div class="ship-sheet">
+</div><div class="ship-sheet blank">
 ### &nbsp; ![Illuminated by LUMEN](art/lumen-dark.png)
 
 :::::::::::::: bio :::::::::::::::::::::::::::::::::::::::::
@@ -680,10 +629,6 @@ Weapon                    Range                                          Harm   
 ::::::::::::::: weapons ::::::::::::::::::::::::::::::::::::
 Weapon                    Range                                          Harm    Tags
 ---------------           ---                                            ------  -------
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
-[]{.box1}                 []{.box0 .close} []{.box0 .mid} []{.box0 .far} Harm -
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
