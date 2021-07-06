@@ -529,6 +529,8 @@ At the end of the MC's turn, they generate Drops, if appropriate.
 
 #### Big Changes {#toc-big-changes}
 
+[]{.lorem}
+
 #### Pion Counter-Attacks {#toc-counter-attack}
 
 Usually, the MC doesn't need to specifically have the Pions attack; complications rolled
@@ -544,15 +546,20 @@ the full amount of Harm.
 
 #### Pion Moves {#toc-pion-moves}
 
+[]{.lorem}
+
 #### Drops {#toc-drops}
 
-At the end of the GM's turn, roll 1d6 for each enemy that died.
+At the end of the MC's turn, they roll 1d6 for each enemy that died that round.
 
  Roll  Result
 ------ -----------
 1-2    +1 Health
 3-4    +1 Impulse
 5-6    +1 Kit
+
+Players can decide among themselves who will take each drop.
+
 
 ## The Solar System {#toc-solar-system .breakbefore}
 
@@ -566,8 +573,12 @@ At the end of the GM's turn, roll 1d6 for each enemy that died.
 > [Transcript of emergency broadcast, unknown speaker. June 19 2320]{.credit}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+[]{.lorem}
+
 ::::::::::: { .infolist .breakable } :::::::::::::::::::::::::::::::::::::
 ### Location Tags {#toc-location-tags}
+
+[]{.lorem}
 
 - **Atmosphere** The location has a breathable atmosphere.
 - **Blocade** Currently blocaded by the Pions.
@@ -645,6 +656,8 @@ form of brine shrimp.
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Saturn {#toc-location-saturn}
 
+[]{.lorem}
+
 - **Titan** Low Population, Blocade, Cold, Colony, Life, Low-G, Orbit
 - **Rhea** Minimal Population, Cold, Ice, Low-G
 - **Iapetus** Cold, Ice, Low-G
@@ -669,6 +682,8 @@ Oberon is the nominal capital of the five united colonies on Uranian moons.
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Neptune {#toc-location-neptune}
+
+[]{.lorem}
 
 - **Triton** Minimal Population, Cold, Ice, Low-G, Surface
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -787,6 +802,8 @@ central body mounted on 12 flexible legs of variegrated size.
 
 ## Ships {.breakbefore #step-ship}
 
+[]{.lorem}
+
 ### Ship Fights {#toc-ship-fights}
 
 Ship fights work exactly like normal fights, except that instead of using
@@ -802,14 +819,15 @@ tag or Escape Pods.
 These weapons or other devices are attached to a ship's mount points.
 
 - **Asteroid Drill**         *close-ship* Harm Ship-2
-- **Booster Rockets**        *mid-ship, far-ship* Harm Ship-5, Explosive, Single-Use
+- **Booster Rocket**         *mid-ship, far-ship* Harm Ship-5, Explosive, Single-Use
 - **Docking Clamps**         *close-ship* Harm none or Ship-1; prevents other vessel from moving
 - **EMP Burster**            *close-ship* Harm Ship-4, Pulse, Single-Use
 - **Escape Pods**            crew not KIA when ship destroyed
 - **Flak Cannon**            *close-ship* Harm Ship-2, AOE, Exploding
 - **Fuel Reserve**           *close-ship* Harm Ship-3 (explosive) + Ship-3 (burn), Single-Use
-- **Gatling Cannon**         *mid-ship* Harm Ship-3, Autofire
+- **Gatling Laser**          *mid-ship* Harm Ship-3, Autofire, Burn
 - **Jumpstart Hawsers**      *close-ship* Harm Ship-1, Shock
+- **Laser Cannon**           *mid-ship, far-ship* Harm Ship-1, Burn
 - **Laser Refractor**        *close-ship, mid-ship* Harm Ship-2, Burn
 - **Manipulator Arm**        *close-ship* Harm Ship-1; can move objects around
 - **Micro-Nuke**             *close-ship* Harm Ship-6 (explosive) + Ship-6 (burn) + Ship-6 (burn) + Ship-6 (pulse), AOE, Friendly Fire, Self-Destructive, Single-Use
@@ -818,7 +836,6 @@ These weapons or other devices are attached to a ship's mount points.
 - **Osmium Ballista**        *mid-ship* Harm Ship-5, Reload
 - **Patch Kit**              *close-ship* Repairs Health Ship-1
 - **Railgun**                *far-ship* Harm Ship-4, Reload, Scope
-- **Raybeam Cannon**         *mid-ship, far-ship* Harm Ship-1, Burn
 - **Ramming Spike**          Ship takes only one third of its maximum Health when using Ramming Speed.
 - **Refueling Tether**       *close-ship* Harm Ship-1, Burn
 - **Seeker Mines**           *close-ship* Harm Ship-2, Explosive
@@ -831,6 +848,8 @@ These weapons or other devices are attached to a ship's mount points.
 :::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Ship Tags {#toc-ship-tags}
+
+[]{.lorem}
 
 - **Atmospheric** Can touch down or launch in an atmsophere.
 - **Balanced** Add 1 to Gyro.
@@ -1008,6 +1027,8 @@ computers and has no pilot.
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Genesis
 
+[]{.lorem}
+
 - **Health** Ship-1000
 - **Vulnerable** *nothing*
 - **Ship-to-Ship Defense Batteries** *close-ship* Harm Ship-2, Burn
@@ -1019,6 +1040,8 @@ computers and has no pilot.
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Kosmos
 
+[]{.lorem}
+
 - **Health** Ship-50
 - **Vulnerable** burn
 - **Electrostatic Defense Field Generators** *close-ship* Harm Ship-2, AOE, Shock
@@ -1027,6 +1050,8 @@ computers and has no pilot.
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Mariner
+
+[]{.lorem}
 
 - **Health** Ship-2
 - **Vulnerable** explosive
@@ -1037,6 +1062,8 @@ computers and has no pilot.
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Sakigake {.colbefore}
 
+[]{.lorem}
+
 - **Health** Ship-10
 - **Vulnerable** pulse
 - **Laser Bombardment Cannons** *far-ship* Harm Ship-6, AOE, Burn, Reload
@@ -1045,6 +1072,8 @@ computers and has no pilot.
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Zond
+
+[]{.lorem}
 
 - **Health** Ship-4
 - **Vulnerable** shock
@@ -1070,7 +1099,11 @@ There are three basic Op types:
 - Orbital Ops
 - Combined Ops
 
-### Preparing for the Mission {#toc-op-prep}
+[]{.lorem}
+
+### Mission Prep {#toc-op-prep}
+
+[]{.lorem}
 
 ### Travel Time {#toc-op-travel}
 
@@ -1103,7 +1136,7 @@ For travel from the inner planets to the outer planets, roll
 For travel between two outer planets, use the higher base travel
 time, plus 1d6 weeks.
 
-- Travel time between moons of the same outer planet takes 1d6 hours.
+Travel time between moons of the same outer planet takes 1d6 hours.
 
 
 ## Credits {#toc-credits .breakbefore}
