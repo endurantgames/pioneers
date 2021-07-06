@@ -54,6 +54,8 @@ header h1     { string-set: gamename content()       }
   --small:     13px;
   --title:    128px;
   --subtitle:  64px;
+  --headline:  80px;
+  --subhed:    64px;
   --h1:        64px; 
   --h2:        36px;
   --h3:        32px;
@@ -288,7 +290,7 @@ a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
 }
 
 h2.headline { 
-  font-size: 80px; 
+  font-size: var(--headline);
   column-span: all;
   margin-bottom: 32px;
   text-align: center;
@@ -300,16 +302,19 @@ h2.headline {
 .class { break-before: page; }
 
 .class table { column-span: all;
-  border-collapse: collapse;
+  margin: 0;
   border: 1pt solid white;
-  width: 100%;
   position: absolute;
   bottom: 32px;
   left: 32px;
   right: 32px;
+  box-sizing: border-box;
+  width: 1088px;
   }
-.class table :matches(td, th) { width: 16.666%;
+.class table :matches(td, th) { 
   padding: 16px;
+  box-sizing: border-box;
+  width: 181.333px;
   }
 .class table td { font-size: var(--h3);
   font-family: var(--font-header);
@@ -324,6 +329,10 @@ h2.headline {
   }
 .class h2 {
   column-span: all;
+  font-family: var(--font-title);
+  font-size: var(--subhed);
+  text-align: center;
+  letter-spacing: 0.5em;
 }
 .class h3.classquote { 
    position: absolute;
@@ -388,23 +397,25 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
   width: auto; 
   background: none;
   padding: 0; 
+  margin-inside: 0;
+  margin-outside: 0;
 }
 .nofloat blockquote p { font-size: var(--quotesize-inline); text-shadow: none; }
 .nofloat blockquote p .credit { font-size: var(--creditsize-inline); }
 
 blockquote { 
   box-sizing: border-box;
-  width: 576px;
+  /* width: 576px; */
   position: absolute; top: 0; left: 0;
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 36px;
   padding-right: 36px;
   background: var(--bg-quote);
-  margin-left: -640px;
+  margin-inside: -640px;
+  margin-outside: 1216px;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 0;
 }
 
 blockquote p strong { font-family: var(--font-quote);
@@ -431,6 +442,7 @@ blockquote .chinese { font-family: var(--font-chinese); }
 .traveltimes { float: column bottom; margin-top: 9pt; }
 
 h2.breakbefore { column-span: all; }
+h2.breakbefore.nospan { column-span: none; }
 
 a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
 
@@ -448,11 +460,12 @@ a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
 #toc ul { margin-left: 0; }
 #toc ul li { margin-bottom: 0; margin-left: 0; }
 #toc ul li li { 
-  margin-bottom: 0; margin-left: 1em; 
+  margin-bottom: 0; 
+  margin-left: 1em; 
   line-height: 1.4;
 }
-#toc ul li li a:before { font-size: 
-  var(--body);  
+#toc ul li li a:before { 
+  font-size: var(--body);  
   color: white;
 }
 #toc ul li li a:after { 
@@ -462,7 +475,7 @@ a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
 #toc a:before { 
   content: target-content(attr(href));
   color: yellow;
-  font-family: var(--font-bold);
+  font-family: var(--font);
   text-shadow: 0 0 6px black;
   font-size: var(--large);
   display: inline-block;

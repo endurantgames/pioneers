@@ -1,13 +1,4 @@
-# Survivor Creation {#toc-chargen}
-
-:::::::::::::::::::: classtable :::::::::::::::::::::::::::::::
-Class       Thrust   Gyro   Telemetry   Health   Impulse   Kit
----------- -------- ------ ----------- -------- --------- -----
-Apollo        3       1         2         8       4         3 
-Gemini        1       2         3         6       3         6
-Mercury       1       3         2         5       6         4
-Soyuz         2       2         2         5       5         5
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+# Survivor Creation {#toc-chargen .colbefore .nospan}
 
 Creating a Survivor is dirt simple. There are just five steps,
 then you're done.  
@@ -23,7 +14,16 @@ details.
 
 Instructions for playing the MC [come later in the rules](#the-mc).
 
-# Class {#step-class}
+# Class {#step-class .colbefore}
+
+:::::::::::::::::::: classtable :::::::::::::::::::::::::::::::
+Class       Thrust   Gyro   Telemetry   Health   Impulse   Kit
+---------- -------- ------ ----------- -------- --------- -----
+Apollo        3       1         2         8       4         3 
+Gemini        1       2         3         6       3         6
+Mercury       1       3         2         5       6         4
+Soyuz         2       2         2         5       5         5
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Your **Class** determines your attributes and pools, your talents,
 and your starting equipment. Pick a class from this list:

@@ -1,4 +1,4 @@
-# Game Mechanics {#toc-attributes .breakbefore}
+# Three Attributes {#toc-attributes .colbefore}
 
 > "In retrospect, putting a map showing how to get back to Earth on those 
 > old-fashioned space probes probably wasn't the smartest idea."
@@ -16,7 +16,7 @@ gracefully, or both, then you're going to make a Gyro roll.
 specialized knowledge of a hacker or surgeon, or just general
 intelligence about the enemy's movement.
 
-## Resource Pools {#toc-pools}
+## Resource Pools {.colbefore #toc-pools}
 
 In addition, you have three resource pools, **Health**, **Impulse**,
 and **Kit**. At the start of each Op, your resource pools are set
@@ -35,7 +35,7 @@ your Kit; you can also spend Kit in the field, to represent
 items that you had on you but didn't want to slow the game down with 
 time-consuming inventory tracking.
 
-## Rolling the Dice {#toc-dice}
+## Rolling the Dice {.colbefore #toc-dice}
 
 When you do an action, either in a fight or not, state which 
 attribute you're using, then roll a number of six-sided dice equal to 
