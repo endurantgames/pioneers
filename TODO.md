@@ -28,7 +28,8 @@
   - [-] Rover
 - [ ] Mission Control section
 - [ ] Character Sheet
-  - [ ] Apollo
-  - [ ] Gemini
-  - [ ] Mercury
-  - [ ] Soyuz
+  - [x] Apollo
+  - [x] Gemini
+  - [x] Mercury
+  - [x] Soyuz
+  - [x] Ship sheets
