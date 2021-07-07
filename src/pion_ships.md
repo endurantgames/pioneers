@@ -1,7 +1,9 @@
 # Pion Spacecraft {#toc-pion-ships .breakbefore}
 
-Pion ships are essentially huge robots; each is controlled by redundant central
-computers and has no pilot.
+Pion ships are essentially huge, self-piloting robot vehicles; each is controlled by 
+redundant central computers, and has no separate pilot.
+
+The five known types of Pion ships are:
 
 - **Genesis** Worldship
 - **Kosmos** Carrier
@@ -12,7 +14,11 @@ computers and has no pilot.
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Genesis
 
-[]{.lorem}
+Only one of these is ships is known to exist, and that's fortunate. Nearly the
+size of O'Neill Station, *Genesis* is a mobile battlestation that was at first
+mistaken for a small natural satellite, but this is no moon.
+
+*Genesis* is only found in Earth orbit or nearby.
 
 - **Health** Ship-1000
 - **Vulnerable** *nothing*
@@ -25,18 +31,32 @@ computers and has no pilot.
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Kosmos
 
-[]{.lorem}
+A total of 8 *Kosmos* carriers have been identified by Resistance Intel Officers.
+One is in Earth orbit, and another in Lunar orbit. Every human colony under a
+blockade -- Ceres, Europa, and Titan -- has a *Kosmos* craft stationed nearby,
+and three more prowl the reaches of the Solar System.
+
+Their primary function is akin to an aircraft carrier. They have facilities
+for creating and launching the *Zond* attack interceptor craft, and landing
+facilities for those and other Pion ships, including hangars for *Mariners.*
 
 - **Health** Ship-50
 - **Vulnerable** burn
 - **Electrostatic Defense Field Generators** *close-ship* Harm Ship-2, AOE, Shock
-- **Moves** Launch interceptors, fire point defense guns, recall Zonds
+- **Moves** Launch interdictors, fire point defense guns, recall Zonds
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Mariner
 
-[]{.lorem}
+*Mariners* are the smallest of the Pion ships, even smaller than the *Zonds.*
+Unlike most spacecraft, they *can* be affected by personal-level weaponry;
+see the section on planetary Pions 
+[for their stats in a personal context](#toc-pion-mariner){.page}.
+
+In addition to transporting troops, *Mariners* also move Cassini-class Pions
+and valuable human prisoners within planetary systems. They're found throughout
+the Solar System.
 
 - **Health** Ship-2
 - **Vulnerable** explosive
@@ -47,7 +67,16 @@ computers and has no pilot.
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Sakigake {.colbefore}
 
-[]{.lorem}
+Smaller than the *Kosmos*-class carriers, *Sakigake* craft are primarily weapons
+of mass destruction that can attack from the edge of a planet's orbit. They're
+mostly used to shell occupied planets that get out of line and destroy
+infrastructure on colonies that resist traditional occupation.
+*Sakigakes* are found wherever the Pions are actively besieging a colony --
+Mercury, Luna, and Callisto.
+
+At least two dozen *Sakigake* are known to exist; they usually travel in pairs, 
+with *Zond* escorts. Although they pack a devastating punch,
+*Sakigakes* are, relatively speaking, glass cannons.
 
 - **Health** Ship-10
 - **Vulnerable** pulse
@@ -58,7 +87,17 @@ computers and has no pilot.
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Zond
 
-[]{.lorem}
+*Zond*-class craft are agile and deadly interceptor craft that hunt in packs
+like wolves or sharks. They're most frequently encountered near *Kosmos*
+carriers or *Genesis*, although they can be found as escorts for any other
+Pion craft. 
+
+Their inability to function in any kind of atmosphere is the
+only factor limiting their deadliness. Resistance pilots using
+[shuttles](#toc-fleet-shuttle){.page} or
+[racing yachts](#toc-fleet-racing-yacht){.page} have learned to ditch
+their *Zond* pursuers with a dive into an atmosphere -- even one that's
+not breathable by humans.
 
 - **Health** Ship-4
 - **Vulnerable** shock

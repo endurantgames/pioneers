@@ -1,23 +1,27 @@
 # TODO
 
-- [-] Fights
-  - [ ] Big Changes
-  - [ ] Pion Moves
-  - [-] Drops
+- [x] Fights
+  - [x] Big Changes
+  - [x] Pion Moves
+  - [x] Drops
+- [x] Ships
+  - [x] Ship fights
+  - [x] Drops
+- [x] Opponents - just need descriptions
+  - [x] Mariner
+  - [x] Venera
+  - [x] Viking
+  - [x] Ulysses
+  - [x] Cassini
+  - [x] Rover
+- [x] Solar System
+  - [x] Various blurbs
+- [ ] Mission Control section
+  - [ ] Roleplaying the Pions
 - [ ] Ops
   - [ ] Surface ops
   - [ ] Ship ops
   - [ ] Combined ops
-- [-] Ships
-  - [-] Ship fights
-  - [ ] Drops
-- [-] Opponents - just need descriptions
-  - [-] Mariner
-  - [-] Venera
-  - [-] Viking
-  - [-] Ulysses
-  - [-] Cassini
-  - [-] Rover
-- [ ] Mission Control section
-  - [ ] Roleplaying the Pions
-
+- [ ] CSS
+  - [ ] Review pagination
+  - [ ] Images for all pages

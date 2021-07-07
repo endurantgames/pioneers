@@ -16,7 +16,7 @@ The most common ship types are:
 - **Solar Glider**
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Comms Relay {.colbefore}
+## Comms Relay {#toc-fleet-comms-relay .colbefore}
 
 These ships were constructed from old communications satellites.
 
@@ -32,7 +32,7 @@ These ships were constructed from old communications satellites.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Liquid-Hydrogen Tanker {.colbefore}
+## Liquid-Hydrogen Tanker {#toc-fleet-lh2-tanker .colbefore}
 
 Large, ponderous tankers that actually move quite quickly when they get up to speed.
 
@@ -48,7 +48,7 @@ Large, ponderous tankers that actually move quite quickly when they get up to sp
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Mining Rig {.colbefore}
+## Mining Rig {#toc-fleet-mining-rig .colbefore}
 
 Primarily used in the asteroid belt to mine ores.
 
@@ -64,7 +64,7 @@ Primarily used in the asteroid belt to mine ores.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Ore Hauler {.colbefore}
+## Ore Hauler {#toc-fleet-ore-hauler .colbefore}
 
 Largest ships in the Resistance fleet, but lacking in mount points for its size.
 
@@ -80,7 +80,7 @@ Largest ships in the Resistance fleet, but lacking in mount points for its size.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Racing Yacht {.colbefore}
+## Racing Yacht {#toc-fleet-racing-yacht .colbefore}
 
 A sleek vessel not designed for space combat.
 
@@ -96,7 +96,7 @@ A sleek vessel not designed for space combat.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Repair Pod {.colbefore}
+## Repair Pod {#toc-fleet-repair-pod .colbefore}
 
 Small and maneuverable with tools for repairing other ships in battlefield conditions.
 
@@ -112,7 +112,7 @@ Small and maneuverable with tools for repairing other ships in battlefield condi
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Shuttle {.colbefore}
+## Shuttle {#toc-fleet-shuttle .colbefore}
 
 The workhorses of the Resistance; able to fly, land, and lift off in an atmosphere.
 
@@ -128,7 +128,7 @@ The workhorses of the Resistance; able to fly, land, and lift off in an atmosphe
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Solar Glider {.colbefore}
+## Solar Glider {#toc-fleet-solar-glider .colbefore}
 
 An agile, reflective ship with solar sails and a tiny radar signature.
 

@@ -78,15 +78,28 @@ During the MC's turn, they can do any or all of these:
 
 2. Make a **Big Change** in the fight.
 
-3. Have the **Pions counter-attack.**
+3. Have the **Pions make moves.**
 
-4. Have the **Pions take moves.**
+4. Have the **Pions counter-attack.**
 
 At the end of the MC's turn, they generate Drops, if appropriate.
 
 ### Big Changes {#toc-big-changes}
 
-[]{.lorem}
+A Big Change means that the battle is shifting in some way -- it might be that
+the Pions retreat to a secured location. It could be that a new, larger model of Pion
+arrives. The environment could be working against the Survivors -- barriers slamming
+down, hatches opening to space, a rumbling geiser erupts.
+
+The idea is not to undo the players' hard-earned victories but to change things
+up so that their tactics evolve.
+
+### Pion Moves {#toc-pion-moves}
+
+Each model of Pion has three "moves" listed that describe their usual tactics
+in battle. These aren't just methods of attack but give a specific feel to each
+type of Pion -- playing to these standard moves rewards the players for learning
+what each does, while subverting the moves can be a Big Change itself.
 
 ### Pion Counter-Attacks {#toc-counter-attack}
 
@@ -95,25 +108,22 @@ by the players are usually enough to keep the flow of damage in both directions.
 However, a concentrated counter-attack could be the Big Change that the MC chooses during
 their turn. 
 
-When this happens, they describe the type of attack or attacks used by each enemy, and
+When this happens, the MC describes the type of attack or attacks used by each enemy, and
 the players can describe how their Survivor is avoiding the Harm. They roll the appropriate
 number of dice and check the high number as always; on a 5 or 6, they escape taking any
 Harm; 3 or 4 they take Harm equal to half the Pion's Harm rating; and 1 or 2 they take
 the full amount of Harm.
 
-### Pion Moves {#toc-pion-moves}
-
-[]{.lorem}
-
 ### Drops {#toc-drops}
 
-At the end of the MC's turn, they roll 1d6 for each enemy that died that round.
+At the end of the MC's turn, they roll 1d6 for each enemy that died since their last turn.
 
- Roll  Result
------- -----------
-1-2    +1 Health
-3-4    +1 Impulse
-5-6    +1 Kit
+ Roll  Pool        Example
+------ ----------- -----------------------------------
+1-2    +1 Health   Defeating the Pion gave a quick opportunity to bandage wounds.
+3-4    +1 Impulse  The rush of victory is invigorating.
+5-6    +1 Kit      Scraps of Pions can be used for a variety of purposes.
 
-Players can decide among themselves who will take each drop.
+The players can then decide among themselves who will take each drop. No player can
+exceed their maximum in a pool.`
 

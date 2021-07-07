@@ -17,7 +17,7 @@ more as yet unseen.
 - **Viking** Marine
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Cassini {.colbefore}
+## Cassini {#toc-pion-cassini .colbefore}
 
 The only pions who have verbally spoken with humans. Roughly humanoid,
 slender, eight feet tall, and with clear domes over their blinking cybernetic
@@ -30,7 +30,7 @@ brains. They're the spokesrobots for the Occupation.
 - **Moves** Issue threats, call for help, strategic withdrawal
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Mariner {.colbefore}
+## Mariner {#toc-pion-mariner .colbefore}
 
 The largest of the non-vessel Pions, they're less like individual robots 
 and more like small shuttlecraft used as troop transports.
@@ -44,7 +44,7 @@ truck and have fore- and aft-facing cannons.
 - **Moves** Lift off, disgorge troops, hover precipitously
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Rover 
+## Rover  {#toc-pion-rover}
 
 These pions are about the size of a large dog; their four limbs are made to 
 fold inward, or extend to maneuver over obstacles. They're the rank-and-file
@@ -58,7 +58,7 @@ infantry of the Occupation.
 - **Moves** Swarm the humans, obey orders, breach defenses
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Ulysses 
+## Ulysses {#toc-pion-ulysses}
 
 The Ulysses pions are the command-and-control leaders of pion ground forces,
 including the rovers and the vikings. They're shaped like six-legged mechanical
@@ -71,7 +71,7 @@ spiders about the size of a small car, with sensors in all directions.
 - **Moves** Analyze tactics, coordinate troops, missile lock
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Venera {.colbefore}
+## Venera {#toc-pion-venera .colbefore}
 
 Venera pions are the air support for ground operations, offering eye-in-the-sky
 intelligence reports to those on the ground. They look the most like old NASA
@@ -84,7 +84,7 @@ probes of any pions, resembling armored viking orbiters.
 - **Moves** Transmit tactical telemetry, evasive maneuvers, crash and burn
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Viking 
+## Viking  {#toc-pion-viking}
 
 The viking-class pions are the most feared by resistance fighters, as they're
 the heavy troopers of the Ooccupation. Reinforced weapon mounts surround a cylindrical

@@ -1,20 +1,74 @@
 # Ships {.breakbefore #step-ship}
 
-[]{.lorem}
+[]{.gamename} isn't just a game that takes place on the surface of planets --
+there's just as much that happens in the dark void of space.
+
+Instead of the players all serving as crew on one large ship, each Survivor has 
+access to one ship, randomly determined at character creation.
+
+This section presents general rules on spacecraft and ship-to-ship combat;
+for examples of ships, read about the [rag-tag fugitive fleet](#toc-fleet){.page}
+and the [Pion ships](#toc-pion-ships){.page} in later sections.
+
+The [Resistance Ops](#toc-ops){.page} has details on missions that happen 
+both primarily in space and in a mixture of planetary and space action.
+
+## Ship Stats
+
+Each ship is defined by the following stats:
+
+- **Thrust** Which works as the personal attribute, but for the ship.
+- **Gyro** Also works as the personal attribute.
+- **Telemetry** And also the same as the personal attribute.
+- **Health** Ships are rated with Ship-Health scores; each Ship-Health
+  point is equal to 10 personal Health points. Things that heal
+  Ship-Health can't heal personal Health, and vice versa.
+  Ship-Health is lost only to weapons that do Ship-Harm.
+- **Resist and Vulnerable** Ships resistant to certain attacks take
+  1 less Ship-Harm from those attacks, while those vulnerable to such
+  attacks take 1 more Ship-Harm.
+- **Mount Points** These are an abstraction of the ability to add
+  weapons and other devices onto a ship. Most ships have between 1
+  and 4 Mount Points. At the start or end of an op, a player can spend 
+  1 Kit to swap 1 piece of mounted gear for another.
+- **Tags** Like weapon tags and system tags, ship tags give a ship new
+  abilities. At the start or end of an op, a player can spend 2 Kit
+  to swap 1 Tag for another.
 
 ## Ship Fights {#toc-ship-fights}
 
 Ship fights work exactly like normal fights, except that instead of using
-your character's Thrust, Gyro, or Telemetry, you use the ship's.
+your Survivor's Thrust, Gyro, or Telemetry, you use the ship's attribute.
 
 If a ship is destroyed, anyone on board is KIA unless the ship has the EVA
-tag or Escape Pods.
+tag, the ship has Escape Pods, or a person is wearing [a vacsuit](#toc-armor){.page}.
+
+At the end of their turn, the MC still [rolls as normal for drops](#toc-drops){.page}
+for any Pion killed, but uses the following table instead:
+
+ Roll   Pool           Example
+------- -------------- -----------------------------------------
+ 1-3    +1 Ship-Health With one less Pion to worry about, the pilot can get their ship running again.
+ 5-6    +1 Impulse     Acts of destruction only spur some people forward toward ... even more destruction.
+
+## Ship-Ranges
+
+Ranges in spacecraft fights use the same *close*, *mid*, *far* bands as personal
+fights, but refer specifically to *close-ship*, *mid-ship*, and *far-ship* ranges.
+All personal range bands are within *close-ship* range.
+
+## Ship-Talents and Regular Talents
+
+Each class has one Ship-Talent that applies only to spacecraft fights; it can't be used
+in regular fights. Likewise, no standard Talents can be used in a ship-to-ship fight.
 
 :::::::::::::{ .infolist .breakable } :::::::::::::::::::::::::::::::::
 
-## Ship Weaponry {#toc-ship-weapons}
+## Mounted Equipment {#toc-ship-weapons}
 
 These weapons or other devices are attached to a ship's mount points.
+The tags for ship equipment are equivalent to the
+[parallel tags for personal weapons](#toc-weapon-tags){.page}.
 
 - **Asteroid Drill**         *close-ship* Harm Ship-2
 - **Booster Rocket**         *mid-ship, far-ship* Harm Ship-5, Explosive, Single-Use
@@ -47,7 +101,8 @@ These weapons or other devices are attached to a ship's mount points.
 
 ## Ship Tags {#toc-ship-tags}
 
-[]{.lorem}
+These tags give ships additional abilities. At the start or end of an op, a player can
+spend 2 Kit to switch one tag for another tag.
 
 - **Atmospheric** Can touch down or launch in an atmsophere.
 - **Balanced** Add 1 to Gyro.
