@@ -480,7 +480,7 @@ or *far* to *mid*. (You can't jump from *close* to *far* or vice versa.)
    as many Talents as you wish during your turn, but you can only activate each
    Talent once during that turn.
 
-### Attacking {#toc-attacking}
+### Attacking {#toc-attacking .breakbefore }
 
 To attack, choose which weapon you're using and which attribute you're using for the
 attack -- *Thrust* for a direct attack, *Gyro* for quick strikes or feints, and 
@@ -513,7 +513,7 @@ harm, they take an extra 1 point of Harm.
 Each Pion is resistant and vulnerable to different types of attacks, so it pays to switch
 up your tactics during a fight as you discover how it reacts to each.
 
-### The MC's Turn {#toc-turn-mc}
+### The MC's Turn {#toc-turn-mc .breakbefore }
 
 During the MC's turn, they can do any or all of these:
 
@@ -521,44 +521,56 @@ During the MC's turn, they can do any or all of these:
 
 2. Make a **Big Change** in the fight.
 
-3. Have the **Pions counter-attack.**
+3. Have the **Pions make moves.**
 
-4. Have the **Pions take moves.**
+4. Have the **Pions counter-attack.**
 
 At the end of the MC's turn, they generate Drops, if appropriate.
 
 #### Big Changes {#toc-big-changes}
 
-[]{.lorem}
+A Big Change means that the battle is shifting in some way -- it might be that
+the Pions retreat to a secured location. It could be that a new, larger model of Pion
+arrives. The environment could be working against the Survivors -- barriers slamming
+down, hatches opening to space, a rumbling geiser erupts.
 
-#### Pion Counter-Attacks {#toc-counter-attack}
+The idea is not to undo the players' hard-earned victories but to change things
+up so that their tactics evolve.
+
+#### Pion Moves {#toc-pion-moves}
+
+Each model of Pion has three "moves" listed that describe their usual tactics
+in battle. These aren't just methods of attack but give a specific feel to each
+type of Pion -- playing to these standard moves rewards the players for learning
+what each does, while subverting the moves can be a Big Change itself.
+
+#### Pion Counter-Attacks {#toc-counter-attack .breakbefore}
 
 Usually, the MC doesn't need to specifically have the Pions attack; complications rolled
 by the players are usually enough to keep the flow of damage in both directions.
 However, a concentrated counter-attack could be the Big Change that the MC chooses during
 their turn. 
 
-When this happens, they describe the type of attack or attacks used by each enemy, and
+When this happens, the MC describes the type of attack or attacks used by each enemy, and
 the players can describe how their Survivor is avoiding the Harm. They roll the appropriate
 number of dice and check the high number as always; on a 5 or 6, they escape taking any
 Harm; 3 or 4 they take Harm equal to half the Pion's Harm rating; and 1 or 2 they take
 the full amount of Harm.
 
-#### Pion Moves {#toc-pion-moves}
-
-[]{.lorem}
-
 #### Drops {#toc-drops}
 
-At the end of the MC's turn, they roll 1d6 for each enemy that died that round.
+At the end of the MC's turn, they roll 1d6 for each enemy that died since their last turn.
 
- Roll  Result
------- -----------
-1-2    +1 Health
-3-4    +1 Impulse
-5-6    +1 Kit
+:::::::::::::::::::::::::::::::::: drops :::::::::::::::::::::::::::::::::::::::::::::::::::::
+ Roll  Pool        Example
+------ ----------- -----------------------------------
+1-2    +1 Health   Defeating the Pion gave a quick opportunity to bandage wounds.
+3-4    +1 Impulse  The rush of victory is invigorating.
+5-6    +1 Kit      Scraps of Pions can be used for a variety of purposes.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Players can decide among themselves who will take each drop.
+The players can then decide among themselves who will claim each drop. No player can
+exceed their maximum in a pool.`
 
 
 ## The Solar System {#toc-solar-system .breakbefore}
@@ -573,13 +585,33 @@ Players can decide among themselves who will take each drop.
 > [Transcript of emergency broadcast, unknown speaker. June 19 2320]{.credit}
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-[]{.lorem}
+By the first part of the 24th Century, mankind has left their home planet of
+Earth and spread throughout the Solar System. 
 
-::::::::::: { .infolist .breakable } :::::::::::::::::::::::::::::::::::::
-### Location Tags {#toc-location-tags}
+The first surface colonies on
+the Moon and Mars were soon joined by orbital colonies in long, rotating spheres
+or wide, cirling toruses, housing up to several million people.
+Even more remote settlements were built in asteroids or buried into the
+surface of terrestrial planets.
 
-[]{.lorem}
+Beginning with Mars and then Ceres, some colonies were granted independence, 
+allowing them to function as the equivalent of national governments. 
+The costly and asymmetrical Colonial War of the 2270s granted independence 
+to all human colonies outside of the Earth's orbit.
 
+### Location Tags {#toc-location-tags .breakbefore}
+
+These are tags that apply to locations within the Solar System that can be used to
+give MCs and players an idea as to what any particular planet or satellite is like,
+as well as the level of Pion influence.
+
+For more information on locations in the Solar System, including photographs or
+artists' renderings, check out 
+[NASA's web site](https://www.nasa.gov/topics/solarsystem/index.html){.page}!
+Apart from being set 300 years in the future and occupied by humans and killer
+robots, the Solar System of []{.gamename} is the same Solar System we inhabit today.
+
+::::::::::: { .infolist .breakable              } :::::::::::::::::::::::::::::::::::::
 - **Atmosphere** The location has a breathable atmosphere.
 - **Blocade** Currently blocaded by the Pions.
 - **Cold** It's too cold for a human to survive without protection.
@@ -603,61 +635,96 @@ Players can decide among themselves who will take each drop.
 - **Water** Liquid water can be found at this location.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
  
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Earth Orbit {#toc-location-earth}
+### Earth Orbit {#toc-location-earth .breakbefore}
 
 Earth is home to the vast majority of the human race, and is surrounded by large
-orbital colonies in Low Earth Orbit.
+orbital colonies in Low Earth Orbit used for farming.
 
 Luna is the second most populated colony and is primarily technological workers.
-It's also the communications hub of the Solar System ... or at least, it *was*.
+It's also the communications hub of the Solar System ... or at least, it *was*,
+until key stations were struck by Pion nuclear weapons.
 
-Located in the La Grange 5 point, O'Neill Station is the largest orbital colony 
-in the Solar System.
+Located in the La Grange L5 point, O'Neill Station is the largest orbital colony 
+in the Solar System. McKendree Station, O'Neill's sister station, was cataclysmically
+destroyed in 2150 in the largest space disaster in human history -- with over
+2 million humans dying instantly.
 
+::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 - **Earth** Maximum Population, Atmosphere, Blocade, Farming, Ice, High-G, Life, Manufacturing, Occupation, Orbit, Spaceport, Surface, Underground, Volcanos, Water
 - **Luna** High Population, Colony, Low-G, Mining, Siege, Spaceport, Surface, Underground
 - **O'Neill Station** Medium Population, Atmosphere, Farming, High-G, Occupation, Spaceport
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Inner Planets {#toc-location-inner}
+### Inner Planets {#toc-location-inner .breakbefore}
 
 Mercury is a very hot planet on the side facing the sun, and a very cold planet on the
-side facing away from the sun.
+side facing away from the sun. Low-scale mining takes place there, plus solar batteries
+store photonic energy for shipment throughout the Solar System.
 
 Venus has floating cloud cities occupied by the wealthy above, and gas miners on the lower decks.
+The atmosphere remains poisonous to human lungs, but extensive glass walls give the Venusian
+colonies the appearance of domed cities.
 
-Mars is the most populous colony in the Solar System. Its two moons are known
-for their shipbuilding.
+Mars is the most populous and oldest colony in the Solar System. Its two moons are known
+for their shipbuilding, although both have been seized by the Pions and are being refitted
+to produce Pion craft instead.
 
-Ceres is the largest and most populous planetoid in the asteroid belt.
+Ceres is the largest and most populous planetoid in the asteroid belt. Once the site of a major
+mining operation, the asteroid is honeycombed with occupied tunnels and caverns. Ceres serves
+as the capital of the Asteroid Belt and prior to the coming of the Pions was a major transit
+port between the Inner Planets and the Outer Planets.
 
+::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 - **Mercury** Low Population, Bright, Cold, Colony, Hot, Mining, Orbit, Siege, Surface, Underground
 - **Venus**  Medium Population, Colony, High-G, Hot, Life, Mining, Occupation, Orbit, Spaceport, Surface
 - **Mars** High Population, Cold, Colony, Ice, Manufacturing, Mining, Occupation, Orbit, Spaceport, Surface, Underground
 - **Ceres** Low Population, Blocade, Cold, Colony, Ice, Low-G, Mining, Spaceport, Underground
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Jupiter {#toc-location-jupiter}
+### Jupiter {#toc-location-jupiter .breakbefore}
 
-All but one of Jupiter's largest moons are home to Earth colonies.
+After Earth and Mars, Jupiter is the most populated planetary system in the
+Solar System. No one dwells on the gas giant, of course, but 
+all but one of Jupiter's largest moons are home to Earth colonies.
 
 Europa is known for the indigenous life forms in its chilly seas -- a primitive
-form of brine shrimp.
+form of life akin to brine shrimp -- that was the source of the first
+extraterrestial life found by humans. Europa is currently under a crushing
+Pion blockade, but to date, they have attempted no landings there.
 
+Cleomestra Station orbits Ganymede, the largest moon in the Solar System;
+the Station is the second most distant orbital colony from Earth.
+Prior to occupation by the Pions, Ganymede was a commerce port, centered on the
+ice-mining trade.
+
+Callisto's surface is dotted with numerous small manufacturing facilities, many of
+them almost entirely automated, that are actively being bombarded by Pion 
+*Sakigake* ships.
+
+::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 - **Europa** Medium Population, Cold, Colony, Life, Low-G, Blocade, Surface, Water
 - **Ganymede** Low Population, Cold, Colony, Ice, Low-G, Mining, Occupation, Orbit
 - **Io** Cold, Hot, Low-G, Volcanos
 - **Callisto** Low Population, Cold, Colony, Ice, Low-G, Manufacturing, Siege, Surface
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+### Saturn {#toc-location-saturn .breakbefore}
+
+Even in the 24th Century, the ringed giant remains widely acknowledged as among the
+most breathtaking locations in the Solar System.
+Of Saturn's many moons, only Titan and Enceledas have sizeable populations, with 
+Rhea being a research station. 
+
+The methane-based native life forms of Titan are found in its icy methane
+seas and are massive, ponderous creatures somewhere between a coral colony and
+enormous whales. Idaea Station, which orbits Titan, is the furthest orbital
+colony from Earth and was built using materials mined on Jupiter's moon Ganymede
+rather than on ores mined in the asteroid belt.
+
+Enceledus's colony is the oldest among Saturn's moons, and one of the few sources
+of liquid water in the outer planets. 
+
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Saturn {#toc-location-saturn}
-
-[]{.lorem}
-
 - **Titan** Low Population, Blocade, Cold, Colony, Life, Low-G, Orbit
 - **Rhea** Minimal Population, Cold, Ice, Low-G
 - **Iapetus** Cold, Ice, Low-G
@@ -668,11 +735,19 @@ form of brine shrimp.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+### Uranus {#toc-location-uranus .breakbefore}
+
+Terrorists claiming to represent the five distant Uranian colonies incited
+the bloody Colonial War, described at the time as "Mankind's Last War."
+
+Combining a frontier toughness with deep religious convictions, colonists
+on Uranus's moons speak of themselves as Uranians first, not individual
+colonies as found in Jupiter's and Saturn's satellites.
+
+Oberon is the nominal capital of the Uranian colonies and the center of their
+growing spiritual movement.
+
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Uranus {#toc-location-uranus}
-
-Oberon is the nominal capital of the five united colonies on Uranian moons.
-
 - **Umbriel** Minimal Population, Cold, Ice, Low-G, Mining, Underground
 - **Titania** Minimal Population, Ice, Cold, Low-G, Surface
 - **Oberon** Low Population, Cold, Colony, Ice, Low-G, Mining, Spaceport, Surface
@@ -681,20 +756,30 @@ Oberon is the nominal capital of the five united colonies on Uranian moons.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Neptune {#toc-location-neptune}
+### Neptune {#toc-location-neptune .breakbefore}
 
-[]{.lorem}
+Once thought to be a prime location for extraterrestrial life, Neptune's
+chilly moon of Triton is home to just a small ice mining colony affiliated
+with the Plutonian colony.
 
 - **Triton** Minimal Population, Cold, Ice, Low-G, Surface
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-### Trans-Neptunian Space {#toc-location-trans}
+### Trans-Neptunian Space {#toc-location-trans }
 
-Pluto is the second most distant colony and is primary for astronomical research.
+Pluto is the second most distant human colony and is primary for astronomical 
+research; in 2309, they detected anomalous radio signals from the vicinity
+of Episilon Eridani that continue to defy human explanation. The sub-surface
+astro-colony was the first human settlement to encounter the returning Pions.
+Pluto fell to their troops and went radio-silent a full three days before
+the attack on Luna, although few seemed to seem to care at the time.
 
-Eris is on the far edge of the Solar System and is a mining penal colony. Its
-remoteness let it escape Pion notice.
+Eris is on the farthest edge of the Solar System and is a mining penal colony. 
+Its remoteness let it escape Pion notice; with the occupation of Earth,
+the prison's wardens soon lost control of the inmates, who seized control of
+the distant colony. Of the few convicts who have managed to leave the dwarf
+planet, most have joined with the Resistance.
 
 - **Pluto** Minimal Population, Cold, Low-G, Occupation, Spaceport, Underground
 - **Eris** Minimal Population, Cold, Prison, Mining, Spaceport, Underground
@@ -719,7 +804,7 @@ more as yet unseen.
 - **Viking** Marine
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Cassini {.colbefore}
+### Cassini {#toc-pion-cassini }
 
 The only pions who have verbally spoken with humans. Roughly humanoid,
 slender, eight feet tall, and with clear domes over their blinking cybernetic
@@ -732,7 +817,7 @@ brains. They're the spokesrobots for the Occupation.
 - **Moves** Issue threats, call for help, strategic withdrawal
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Mariner {.colbefore}
+### Mariner {#toc-pion-mariner .colbefore}
 
 The largest of the non-vessel Pions, they're less like individual robots 
 and more like small shuttlecraft used as troop transports.
@@ -746,7 +831,7 @@ truck and have fore- and aft-facing cannons.
 - **Moves** Lift off, disgorge troops, hover precipitously
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Rover 
+### Rover  {#toc-pion-rover .breakbefore }
 
 These pions are about the size of a large dog; their four limbs are made to 
 fold inward, or extend to maneuver over obstacles. They're the rank-and-file
@@ -760,7 +845,7 @@ infantry of the Occupation.
 - **Moves** Swarm the humans, obey orders, breach defenses
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Ulysses 
+### Ulysses {#toc-pion-ulysses}
 
 The Ulysses pions are the command-and-control leaders of pion ground forces,
 including the rovers and the vikings. They're shaped like six-legged mechanical
@@ -773,7 +858,7 @@ spiders about the size of a small car, with sensors in all directions.
 - **Moves** Analyze tactics, coordinate troops, missile lock
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Venera {.colbefore}
+### Venera {#toc-pion-venera .breakbefore }
 
 Venera pions are the air support for ground operations, offering eye-in-the-sky
 intelligence reports to those on the ground. They look the most like old NASA
@@ -786,7 +871,7 @@ probes of any pions, resembling armored viking orbiters.
 - **Moves** Transmit tactical telemetry, evasive maneuvers, crash and burn
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Viking 
+### Viking  {#toc-pion-viking}
 
 The viking-class pions are the most feared by resistance fighters, as they're
 the heavy troopers of the Ooccupation. Reinforced weapon mounts surround a cylindrical
@@ -802,22 +887,79 @@ central body mounted on 12 flexible legs of variegrated size.
 
 ## Ships {.breakbefore #step-ship}
 
-[]{.lorem}
+[]{.gamename} isn't just a game that takes place on the surface of planets --
+there's just as much that happens in the dark void of space.
 
-### Ship Fights {#toc-ship-fights}
+Instead of the players all serving as crew on one large ship, each Survivor has 
+access to one ship, randomly determined at character creation.
+
+This section presents general rules on spacecraft and ship-to-ship combat;
+for examples of ships, read about the [rag-tag fugitive fleet](#toc-fleet){.page}
+and the [Pion ships](#toc-pion-ships){.page} in later sections.
+
+The [Resistance Ops](#toc-ops){.page} has details on missions that happen 
+both primarily in space and in a mixture of planetary and space action.
+
+### Ship Stats {.colbefore}
+
+Each ship is defined by the following stats:
+
+:::::::::::::::::::: {.breakable } ::::::::::::::::::::::::::::::::::::::::::::
+- **Thrust** Which works as the personal attribute, but for the ship.
+- **Gyro** Also works as the personal attribute.
+- **Telemetry** And also the same as the personal attribute.
+- **Health** Ships are rated with Ship-Health scores; each Ship-Health
+  point is equal to 10 personal Health points. Things that heal
+  Ship-Health can't heal personal Health, and vice versa.
+  Ship-Health is lost only to weapons that do Ship-Harm.
+- **Resist and Vulnerable** Ships resistant to certain attacks take
+  1 less Ship-Harm from those attacks, while those vulnerable to such
+  attacks take 1 more Ship-Harm.
+- **Mount Points** These are an abstraction of the ability to add
+  weapons and other devices onto a ship. Most ships have between 1
+  and 4 Mount Points. At the start or end of an op, a player can spend 
+  1 Kit to swap 1 piece of mounted gear for another.
+- **Tags** Like weapon tags and system tags, ship tags give a ship new
+  abilities. At the start or end of an op, a player can spend 2 Kit
+  to swap 1 Tag for another.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### Ship Fights {#toc-ship-fights .colbefore}
 
 Ship fights work exactly like normal fights, except that instead of using
-your character's Thrust, Gyro, or Telemetry, you use the ship's.
+your Survivor's Thrust, Gyro, or Telemetry, you use the ship's attribute.
 
 If a ship is destroyed, anyone on board is KIA unless the ship has the EVA
-tag or Escape Pods.
+tag, the ship has Escape Pods, or a person is wearing [a vacsuit](#toc-armor){.page}.
 
-:::::::::::::{ .infolist .breakable } :::::::::::::::::::::::::::::::::
+At the end of their turn, the MC still [rolls as normal for drops](#toc-drops){.page}
+for any Pion killed, but uses the following table instead:
 
-### Ship Weaponry {#toc-ship-weapons}
+:::::::::::::::::::::::::::::::::: drops :::::::::::::::::::::::::::::::::::::::::::::::::::::
+ Roll   Pool           Example
+------- -------------- -----------------------------------------
+ 1-3    +1 Ship-Health With one less Pion to worry about, the pilot can get their ship running again.
+ 4-6    +1 Impulse     Acts of destruction only spur some people forward toward ... even more destruction.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### Ship-Ranges {.breakbefore}
+
+Ranges in spacecraft fights use the same *close*, *mid*, *far* bands as personal
+fights, but refer specifically to *close-ship*, *mid-ship*, and *far-ship* ranges.
+All personal range bands are within *close-ship* range.
+
+### Ship-Talents and Regular Talents
+
+Each class has one Ship-Talent that applies only to spacecraft fights; it can't be used
+in regular fights. Likewise, no standard Talents can be used in a ship-to-ship fight.
+
+### Ship-Mounted Equipment {#toc-ship-weapons .colbefore }
 
 These weapons or other devices are attached to a ship's mount points.
+The tags for ship equipment are equivalent to the
+[parallel tags for personal weapons](#toc-weapon-tags){.page}.
 
+:::::::::::::{ .infolist .breakable } :::::::::::::::::::::::::::::::::
 - **Asteroid Drill**         *close-ship* Harm Ship-2
 - **Booster Rocket**         *mid-ship, far-ship* Harm Ship-5, Explosive, Single-Use
 - **Docking Clamps**         *close-ship* Harm none or Ship-1; prevents other vessel from moving
@@ -845,12 +987,13 @@ These weapons or other devices are attached to a ship's mount points.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::::::::::::
 
-### Ship Tags {#toc-ship-tags}
+### Ship Tags {#toc-ship-tags .colbefore }
 
-[]{.lorem}
+These tags give ships additional abilities. At the start or end of an op, a player can
+spend 2 Kit to switch one tag for another.
 
+:::::::::::::: {.infolist } ::::::::::::::::::::::::::::::::::::::::::::::
 - **Atmospheric** Can touch down or launch in an atmsophere.
 - **Balanced** Add 1 to Gyro.
 - **Cargo** Can carry cargo, including a ship of Health up to half its' Health.
@@ -886,7 +1029,7 @@ The most common ship types are:
 - **Solar Glider**
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Comms Relay {.colbefore}
+### Comms Relay {#toc-fleet-comms-relay .colbefore}
 
 These ships were constructed from old communications satellites.
 
@@ -902,7 +1045,7 @@ These ships were constructed from old communications satellites.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Liquid-Hydrogen Tanker {.colbefore}
+### Liquid-Hydrogen Tanker {#toc-fleet-lh2-tanker .colbefore}
 
 Large, ponderous tankers that actually move quite quickly when they get up to speed.
 
@@ -918,7 +1061,7 @@ Large, ponderous tankers that actually move quite quickly when they get up to sp
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Mining Rig {.colbefore}
+### Mining Rig {#toc-fleet-mining-rig .colbefore}
 
 Primarily used in the asteroid belt to mine ores.
 
@@ -934,7 +1077,7 @@ Primarily used in the asteroid belt to mine ores.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Ore Hauler {.colbefore}
+### Ore Hauler {#toc-fleet-ore-hauler .colbefore}
 
 Largest ships in the Resistance fleet, but lacking in mount points for its size.
 
@@ -950,7 +1093,7 @@ Largest ships in the Resistance fleet, but lacking in mount points for its size.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Racing Yacht {.colbefore}
+### Racing Yacht {#toc-fleet-racing-yacht .colbefore}
 
 A sleek vessel not designed for space combat.
 
@@ -966,7 +1109,7 @@ A sleek vessel not designed for space combat.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Repair Pod {.colbefore}
+### Repair Pod {#toc-fleet-repair-pod .colbefore}
 
 Small and maneuverable with tools for repairing other ships in battlefield conditions.
 
@@ -982,7 +1125,7 @@ Small and maneuverable with tools for repairing other ships in battlefield condi
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Shuttle {.colbefore}
+### Shuttle {#toc-fleet-shuttle .colbefore}
 
 The workhorses of the Resistance; able to fly, land, and lift off in an atmosphere.
 
@@ -998,7 +1141,7 @@ The workhorses of the Resistance; able to fly, land, and lift off in an atmosphe
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Solar Glider {.colbefore}
+### Solar Glider {#toc-fleet-solar-glider .colbefore}
 
 An agile, reflective ship with solar sails and a tiny radar signature.
 
@@ -1013,10 +1156,15 @@ An agile, reflective ship with solar sails and a tiny radar signature.
 - **Names** *Blanchard*, *Kahanamoku*, *Norrin*, *Paskowitz*, *Slater*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+[]{.colbefore}
+
+
 ## Pion Spacecraft {#toc-pion-ships .breakbefore}
 
-Pion ships are essentially huge robots; each is controlled by redundant central
-computers and has no pilot.
+Pion ships are essentially huge, self-piloting robot vehicles; each is controlled by 
+redundant central computers, and has no separate pilot.
+
+The five known types of Pion ships are:
 
 - **Genesis** Worldship
 - **Kosmos** Carrier
@@ -1025,9 +1173,13 @@ computers and has no pilot.
 - **Zond** Interdictor
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Genesis
+### Genesis {.colbefore}
 
-[]{.lorem}
+Only one of these is ships is known to exist, and that's fortunate. Nearly the
+size of O'Neill Station, *Genesis* is a mobile battlestation that was at first
+mistaken for a small natural satellite, but this is no moon.
+
+*Genesis* is only found in Earth orbit or nearby.
 
 - **Health** Ship-1000
 - **Vulnerable** *nothing*
@@ -1038,20 +1190,34 @@ computers and has no pilot.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Kosmos
+### Kosmos {.colbefore}
 
-[]{.lorem}
+A total of 8 *Kosmos* carriers have been identified by Resistance Intel Officers.
+One is in Earth orbit, and another in Lunar orbit. Every human colony under a
+blockade -- Ceres, Europa, and Titan -- has a *Kosmos* craft stationed nearby,
+and three more prowl the reaches of the Solar System.
+
+Their primary function is akin to an aircraft carrier. They have facilities
+for creating and launching the *Zond* attack interceptor craft, and landing
+facilities for those and other Pion ships, including hangars for *Mariners.*
 
 - **Health** Ship-50
 - **Vulnerable** burn
 - **Electrostatic Defense Field Generators** *close-ship* Harm Ship-2, AOE, Shock
-- **Moves** Launch interceptors, fire point defense guns, recall Zonds
+- **Moves** Launch interdictors, fire point defense guns, recall Zonds
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Mariner
+### Mariner {.colbefore}
 
-[]{.lorem}
+*Mariners* are the smallest of the Pion ships, even smaller than the *Zonds.*
+Unlike most spacecraft, they *can* be affected by personal-level weaponry;
+see the section on planetary Pions 
+[for their stats in a personal context](#toc-pion-mariner){.page}.
+
+In addition to transporting troops, *Mariners* also move Cassini-class Pions
+and valuable human prisoners within planetary systems. They're found throughout
+the Solar System.
 
 - **Health** Ship-2
 - **Vulnerable** explosive
@@ -1062,7 +1228,16 @@ computers and has no pilot.
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Sakigake {.colbefore}
 
-[]{.lorem}
+Smaller than the *Kosmos*-class carriers, *Sakigake* craft are primarily weapons
+of mass destruction that can attack from the edge of a planet's orbit. They're
+mostly used to shell occupied planets that get out of line and destroy
+infrastructure on colonies that resist traditional occupation.
+*Sakigakes* are found wherever the Pions are actively besieging a colony --
+Mercury, Luna, and Callisto.
+
+At least two dozen *Sakigake* are known to exist; they usually travel in pairs, 
+with *Zond* escorts. Although they pack a devastating punch,
+*Sakigakes* are, relatively speaking, glass cannons.
 
 - **Health** Ship-10
 - **Vulnerable** pulse
@@ -1071,9 +1246,19 @@ computers and has no pilot.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Zond
+### Zond {.colbefore}
 
-[]{.lorem}
+*Zond*-class craft are agile and deadly interceptor craft that hunt in packs
+like wolves or sharks. They're most frequently encountered near *Kosmos*
+carriers or *Genesis*, although they can be found as escorts for any other
+Pion craft. 
+
+Their inability to function in any kind of atmosphere is the
+only factor limiting their deadliness. Resistance pilots using
+[shuttles](#toc-fleet-shuttle){.page} or
+[racing yachts](#toc-fleet-racing-yacht){.page} have learned to ditch
+their *Zond* pursuers with a dive into an atmosphere -- even one that's
+not breathable by humans.
 
 - **Health** Ship-4
 - **Vulnerable** shock
@@ -1082,7 +1267,33 @@ computers and has no pilot.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Mission Control {#toc-mc}
+## Mission Control {#toc-mc .breakbefore}
+
+[]{.lorem}
+
+[]{.lorem}
+ 
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
+### Roleplaying the Pions {#toc-mc-rp .colbefore}
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
+### The Question of *Why?* {#toc-mc-why .colbefore}
+
+[]{.lorem}
+
+[]{.lorem}
 
 []{.lorem}
 
@@ -1091,21 +1302,75 @@ computers and has no pilot.
 
 []{.lorem}
 
-### Op Types {#toc-op-types}
+### Op Types {#toc-ops-types}
 
-There are three basic Op types:
+There are three kinds of Ops:
 
 - Planetary Ops
-- Orbital Ops
+- Space Ops
 - Combined Ops
 
 []{.lorem}
 
-### Mission Prep {#toc-op-prep}
+#### Planetary Ops {#toc-ops-planetary .colbefore}
 
 []{.lorem}
 
-### Travel Time {#toc-op-travel}
+::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
+ Die Roll     Result
+----------    -------------------------------------------------------
+     1        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     2        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     3        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     4        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     5        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     6        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+[]{.lorem}
+
+#### Space     Ops {#toc-ops-space .colbefore}
+
+[]{.lorem}
+
+::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
+ Die Roll     Result
+----------    -------------------------------------------------------
+     1        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     2        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     3        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     4        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     5        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     6        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[]{.lorem}
+
+#### Combined  Ops {#toc-ops-combined .colbefore}
+
+[]{.lorem}
+
+::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
+ Die Roll     Result
+----------    -------------------------------------------------------
+     1        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     2        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     3        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     4        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     5        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     6        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+[]{.lorem}
+
+### Mission Prep {#toc-ops-prep .colbefore}
+
+[]{.lorem}
+
+[]{.lorem}
+
+### Travel Time {#toc-ops-travel}
 
 Obviously, the Solar System is huge. With realistic travel times,
 it could take years to get from one side of it to another.
@@ -1138,6 +1403,15 @@ time, plus 1d6 weeks.
 
 Travel time between moons of the same outer planet takes 1d6 hours.
 
+### Post-Op Recuperation {#toc-ops-post .colbefore}
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
 
 ## Credits {#toc-credits .breakbefore}
 
@@ -1161,7 +1435,15 @@ by <a href="https://noroadhome.itch.io/acaclicense">Takuma Okada</a>
 which [you can read here](https://noroadhome.itch.io/acaclicense).
 
 
-This game is an homage to *Battlestar Galactica* (both incarnations),
-with *Star Trek: The Motion Picture* thrown in, as well as a tribute to
-my 1970s-era nerd-girl fascination with NASA.
+This game is primarily an homage 1970s-era space science and science fiction.
+
+*Battlestar Galactica* in its original, 1978 form is a key inspiration, as
+well as the later 2004-2009 remake.
+Other influences include the obvious *Star Trek: The Motion Picture*, but also
+*2001: A Space Odyssey*, *Space: 1999*, and *Buck Rogers in the 25th Century*.
+
+Around 1975-1977, as a young nerd girl growing in California, I was fascinated
+by astronomy and the *science-based* vision of a future in space portrayed in NASA's 
+concept art -- some of which appears in []{.gamename}! -- that is, until a
+certain *space opera* movie came out in the summer of 1977.
 

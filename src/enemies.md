@@ -17,7 +17,7 @@ more as yet unseen.
 - **Viking** Marine
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Cassini {#toc-pion-cassini .colbefore}
+## Cassini {#toc-pion-cassini }
 
 The only pions who have verbally spoken with humans. Roughly humanoid,
 slender, eight feet tall, and with clear domes over their blinking cybernetic
@@ -44,7 +44,7 @@ truck and have fore- and aft-facing cannons.
 - **Moves** Lift off, disgorge troops, hover precipitously
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Rover  {#toc-pion-rover}
+## Rover  {#toc-pion-rover .breakbefore }
 
 These pions are about the size of a large dog; their four limbs are made to 
 fold inward, or extend to maneuver over obstacles. They're the rank-and-file
@@ -71,7 +71,7 @@ spiders about the size of a small car, with sensors in all directions.
 - **Moves** Analyze tactics, coordinate troops, missile lock
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Venera {#toc-pion-venera .colbefore}
+## Venera {#toc-pion-venera .breakbefore }
 
 Venera pions are the air support for ground operations, offering eye-in-the-sky
 intelligence reports to those on the ground. They look the most like old NASA

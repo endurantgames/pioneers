@@ -12,35 +12,61 @@ There are three kinds of Ops:
 
 []{.lorem}
 
-### Planetary Ops {#toc-ops-planetary}
+### Planetary Ops {#toc-ops-planetary .colbefore}
 
 []{.lorem}
 
+::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
+     1        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     2        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     3        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     4        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     5        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     6        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 []{.lorem}
 
-### Space     Ops {#toc-ops-space}
+### Space     Ops {#toc-ops-space .colbefore}
 
 []{.lorem}
 
+::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
+     1        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     2        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     3        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     4        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     5        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     6        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}
 
-### Combined  Ops {#toc-ops-combined}
+### Combined  Ops {#toc-ops-combined .colbefore}
 
 []{.lorem}
 
+::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
+     1        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     2        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     3        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     4        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     5        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     6        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 []{.lorem}
 
-## Mission Prep {#toc-ops-prep}
+## Mission Prep {#toc-ops-prep .colbefore}
+
+[]{.lorem}
 
 []{.lorem}
 
@@ -77,3 +103,12 @@ time, plus 1d6 weeks.
 
 Travel time between moons of the same outer planet takes 1d6 hours.
 
+## Post-Op Recuperation {#toc-ops-post .colbefore}
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}
+
+[]{.lorem}

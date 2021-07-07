@@ -37,7 +37,7 @@ or *far* to *mid*. (You can't jump from *close* to *far* or vice versa.)
    as many Talents as you wish during your turn, but you can only activate each
    Talent once during that turn.
 
-## Attacking {#toc-attacking}
+## Attacking {#toc-attacking .breakbefore }
 
 To attack, choose which weapon you're using and which attribute you're using for the
 attack -- *Thrust* for a direct attack, *Gyro* for quick strikes or feints, and 
@@ -70,7 +70,7 @@ harm, they take an extra 1 point of Harm.
 Each Pion is resistant and vulnerable to different types of attacks, so it pays to switch
 up your tactics during a fight as you discover how it reacts to each.
 
-## The MC's Turn {#toc-turn-mc}
+## The MC's Turn {#toc-turn-mc .breakbefore }
 
 During the MC's turn, they can do any or all of these:
 
@@ -101,7 +101,7 @@ in battle. These aren't just methods of attack but give a specific feel to each
 type of Pion -- playing to these standard moves rewards the players for learning
 what each does, while subverting the moves can be a Big Change itself.
 
-### Pion Counter-Attacks {#toc-counter-attack}
+### Pion Counter-Attacks {#toc-counter-attack .breakbefore}
 
 Usually, the MC doesn't need to specifically have the Pions attack; complications rolled
 by the players are usually enough to keep the flow of damage in both directions.
@@ -118,12 +118,14 @@ the full amount of Harm.
 
 At the end of the MC's turn, they roll 1d6 for each enemy that died since their last turn.
 
+:::::::::::::::::::::::::::::::::: drops :::::::::::::::::::::::::::::::::::::::::::::::::::::
  Roll  Pool        Example
 ------ ----------- -----------------------------------
 1-2    +1 Health   Defeating the Pion gave a quick opportunity to bandage wounds.
 3-4    +1 Impulse  The rush of victory is invigorating.
 5-6    +1 Kit      Scraps of Pions can be used for a variety of purposes.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-The players can then decide among themselves who will take each drop. No player can
+The players can then decide among themselves who will claim each drop. No player can
 exceed their maximum in a pool.`
 

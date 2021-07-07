@@ -24,8 +24,7 @@ allowing them to function as the equivalent of national governments.
 The costly and asymmetrical Colonial War of the 2270s granted independence 
 to all human colonies outside of the Earth's orbit.
 
-::::::::::: { .infolist .breakable } :::::::::::::::::::::::::::::::::::::
-## Location Tags {#toc-location-tags}
+## Location Tags {#toc-location-tags .breakbefore}
 
 These are tags that apply to locations within the Solar System that can be used to
 give MCs and players an idea as to what any particular planet or satellite is like,
@@ -37,6 +36,7 @@ artists' renderings, check out
 Apart from being set 300 years in the future and occupied by humans and killer
 robots, the Solar System of []{.gamename} is the same Solar System we inhabit today.
 
+::::::::::: { .infolist .breakable              } :::::::::::::::::::::::::::::::::::::
 - **Atmosphere** The location has a breathable atmosphere.
 - **Blocade** Currently blocaded by the Pions.
 - **Cold** It's too cold for a human to survive without protection.
@@ -60,8 +60,7 @@ robots, the Solar System of []{.gamename} is the same Solar System we inhabit to
 - **Water** Liquid water can be found at this location.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
  
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-## Earth Orbit {#toc-location-earth}
+## Earth Orbit {#toc-location-earth .breakbefore}
 
 Earth is home to the vast majority of the human race, and is surrounded by large
 orbital colonies in Low Earth Orbit used for farming.
@@ -75,13 +74,13 @@ in the Solar System. McKendree Station, O'Neill's sister station, was cataclysmi
 destroyed in 2150 in the largest space disaster in human history -- with over
 2 million humans dying instantly.
 
+::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 - **Earth** Maximum Population, Atmosphere, Blocade, Farming, Ice, High-G, Life, Manufacturing, Occupation, Orbit, Spaceport, Surface, Underground, Volcanos, Water
 - **Luna** High Population, Colony, Low-G, Mining, Siege, Spaceport, Surface, Underground
 - **O'Neill Station** Medium Population, Atmosphere, Farming, High-G, Occupation, Spaceport
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-## Inner Planets {#toc-location-inner}
+## Inner Planets {#toc-location-inner .breakbefore}
 
 Mercury is a very hot planet on the side facing the sun, and a very cold planet on the
 side facing away from the sun. Low-scale mining takes place there, plus solar batteries
@@ -100,14 +99,14 @@ mining operation, the asteroid is honeycombed with occupied tunnels and caverns.
 as the capital of the Asteroid Belt and prior to the coming of the Pions was a major transit
 port between the Inner Planets and the Outer Planets.
 
+::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 - **Mercury** Low Population, Bright, Cold, Colony, Hot, Mining, Orbit, Siege, Surface, Underground
 - **Venus**  Medium Population, Colony, High-G, Hot, Life, Mining, Occupation, Orbit, Spaceport, Surface
 - **Mars** High Population, Cold, Colony, Ice, Manufacturing, Mining, Occupation, Orbit, Spaceport, Surface, Underground
 - **Ceres** Low Population, Blocade, Cold, Colony, Ice, Low-G, Mining, Spaceport, Underground
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-## Jupiter {#toc-location-jupiter}
+## Jupiter {#toc-location-jupiter .breakbefore}
 
 After Earth and Mars, Jupiter is the most populated planetary system in the
 Solar System. No one dwells on the gas giant, of course, but 
@@ -127,14 +126,14 @@ Callisto's surface is dotted with numerous small manufacturing facilities, many 
 them almost entirely automated, that are actively being bombarded by Pion 
 *Sakigake* ships.
 
+::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 - **Europa** Medium Population, Cold, Colony, Life, Low-G, Blocade, Surface, Water
 - **Ganymede** Low Population, Cold, Colony, Ice, Low-G, Mining, Occupation, Orbit
 - **Io** Cold, Hot, Low-G, Volcanos
 - **Callisto** Low Population, Cold, Colony, Ice, Low-G, Manufacturing, Siege, Surface
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-## Saturn {#toc-location-saturn}
+## Saturn {#toc-location-saturn .breakbefore}
 
 Even in the 24th Century, the ringed giant remains widely acknowledged as among the
 most breathtaking locations in the Solar System.
@@ -150,6 +149,7 @@ rather than on ores mined in the asteroid belt.
 Enceledus's colony is the oldest among Saturn's moons, and one of the few sources
 of liquid water in the outer planets. 
 
+::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 - **Titan** Low Population, Blocade, Cold, Colony, Life, Low-G, Orbit
 - **Rhea** Minimal Population, Cold, Ice, Low-G
 - **Iapetus** Cold, Ice, Low-G
@@ -160,17 +160,19 @@ of liquid water in the outer planets.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-## Uranus {#toc-location-uranus}
+## Uranus {#toc-location-uranus .breakbefore}
 
 Terrorists claiming to represent the five distant Uranian colonies incited
 the bloody Colonial War, described at the time as "Mankind's Last War."
+
 Combining a frontier toughness with deep religious convictions, colonists
 on Uranus's moons speak of themselves as Uranians first, not individual
 colonies as found in Jupiter's and Saturn's satellites.
+
 Oberon is the nominal capital of the Uranian colonies and the center of their
 growing spiritual movement.
 
+::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
 - **Umbriel** Minimal Population, Cold, Ice, Low-G, Mining, Underground
 - **Titania** Minimal Population, Ice, Cold, Low-G, Surface
 - **Oberon** Low Population, Cold, Colony, Ice, Low-G, Mining, Spaceport, Surface
@@ -179,7 +181,7 @@ growing spiritual movement.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-## Neptune {#toc-location-neptune}
+## Neptune {#toc-location-neptune .breakbefore}
 
 Once thought to be a prime location for extraterrestrial life, Neptune's
 chilly moon of Triton is home to just a small ice mining colony affiliated
@@ -189,7 +191,7 @@ with the Plutonian colony.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-## Trans-Neptunian Space {#toc-location-trans}
+## Trans-Neptunian Space {#toc-location-trans }
 
 Pluto is the second most distant human colony and is primary for astronomical 
 research; in 2309, they detected anomalous radio signals from the vicinity

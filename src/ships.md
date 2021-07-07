@@ -13,10 +13,11 @@ and the [Pion ships](#toc-pion-ships){.page} in later sections.
 The [Resistance Ops](#toc-ops){.page} has details on missions that happen 
 both primarily in space and in a mixture of planetary and space action.
 
-## Ship Stats
+## Ship Stats {.colbefore}
 
 Each ship is defined by the following stats:
 
+:::::::::::::::::::: {.breakable } ::::::::::::::::::::::::::::::::::::::::::::
 - **Thrust** Which works as the personal attribute, but for the ship.
 - **Gyro** Also works as the personal attribute.
 - **Telemetry** And also the same as the personal attribute.
@@ -34,8 +35,9 @@ Each ship is defined by the following stats:
 - **Tags** Like weapon tags and system tags, ship tags give a ship new
   abilities. At the start or end of an op, a player can spend 2 Kit
   to swap 1 Tag for another.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Ship Fights {#toc-ship-fights}
+## Ship Fights {#toc-ship-fights .colbefore}
 
 Ship fights work exactly like normal fights, except that instead of using
 your Survivor's Thrust, Gyro, or Telemetry, you use the ship's attribute.
@@ -46,12 +48,14 @@ tag, the ship has Escape Pods, or a person is wearing [a vacsuit](#toc-armor){.p
 At the end of their turn, the MC still [rolls as normal for drops](#toc-drops){.page}
 for any Pion killed, but uses the following table instead:
 
+:::::::::::::::::::::::::::::::::: drops :::::::::::::::::::::::::::::::::::::::::::::::::::::
  Roll   Pool           Example
 ------- -------------- -----------------------------------------
  1-3    +1 Ship-Health With one less Pion to worry about, the pilot can get their ship running again.
- 5-6    +1 Impulse     Acts of destruction only spur some people forward toward ... even more destruction.
+ 4-6    +1 Impulse     Acts of destruction only spur some people forward toward ... even more destruction.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Ship-Ranges
+## Ship-Ranges {.breakbefore}
 
 Ranges in spacecraft fights use the same *close*, *mid*, *far* bands as personal
 fights, but refer specifically to *close-ship*, *mid-ship*, and *far-ship* ranges.
@@ -62,14 +66,13 @@ All personal range bands are within *close-ship* range.
 Each class has one Ship-Talent that applies only to spacecraft fights; it can't be used
 in regular fights. Likewise, no standard Talents can be used in a ship-to-ship fight.
 
-:::::::::::::{ .infolist .breakable } :::::::::::::::::::::::::::::::::
-
-## Mounted Equipment {#toc-ship-weapons}
+## Ship-Mounted Equipment {#toc-ship-weapons .colbefore }
 
 These weapons or other devices are attached to a ship's mount points.
 The tags for ship equipment are equivalent to the
 [parallel tags for personal weapons](#toc-weapon-tags){.page}.
 
+:::::::::::::{ .infolist .breakable } :::::::::::::::::::::::::::::::::
 - **Asteroid Drill**         *close-ship* Harm Ship-2
 - **Booster Rocket**         *mid-ship, far-ship* Harm Ship-5, Explosive, Single-Use
 - **Docking Clamps**         *close-ship* Harm none or Ship-1; prevents other vessel from moving
@@ -97,13 +100,13 @@ The tags for ship equipment are equivalent to the
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::::::::::::
 
-## Ship Tags {#toc-ship-tags}
+## Ship Tags {#toc-ship-tags .colbefore }
 
 These tags give ships additional abilities. At the start or end of an op, a player can
-spend 2 Kit to switch one tag for another tag.
+spend 2 Kit to switch one tag for another.
 
+:::::::::::::: {.infolist } ::::::::::::::::::::::::::::::::::::::::::::::
 - **Atmospheric** Can touch down or launch in an atmsophere.
 - **Balanced** Add 1 to Gyro.
 - **Cargo** Can carry cargo, including a ship of Health up to half its' Health.

@@ -464,9 +464,6 @@ blockquote .chinese { font-family: var(--font-chinese); }
 
 .traveltimes { float: column bottom; margin-top: 9pt; }
 
-h2.breakbefore { column-span: all; }
-h2.breakbefore.nospan { column-span: none; }
-
 a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
 
 
@@ -532,4 +529,11 @@ a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
   margin-left: -88px; 
   display: inline-block; 
   width: 80px; }
+
+
+.drops table { width: 100%; }
+.drops table :matches(th, td):nth-child(1) { white-space: pre; }
+.drops table :matches(th, td):nth-child(2) { white-space: pre; }
+
+.opstable table { break-inside: auto; }
 

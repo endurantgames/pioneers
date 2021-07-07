@@ -1,31 +1,51 @@
 /* base css file for TTRPG projects */
 /* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
 
-@page:nth(2 ) { background-image: url("../art/blue-2.jpg"         ); }
-@page:nth(3 ) { background-image: url("../art/golden-record.png"  ); }
-@page:nth(4 ) { background-image: url("../art/jupiter.jpg"        ); background-position: bottom; }
-@page:nth(5 ) { background-image: url("../art/red-nebula.jpg"     ); }
-@page:nth(6 ) { background-image: url("../art/funky-interior.jpg" ); }
-@page:nth(7 ) { background-image: url("../art/rhea-rings.jpg"     ); }
-@page:nth(8 ) { background-image: url("../art/island3.jpg"        ); }
-@page:nth(9 ) { background-image: url("../art/nasty.jpg"          ); }
-@page:nth(10) { background-image: url("../art/ldsd.jpg"           ); background-position: top; }
-@page:nth(11) { background-image: url("../art/sphere-interior.jpg"); }
-@page:nth(12) { background-image: url("../art/nebula.jpg"         ); }
-@page:nth(15) { background-image: url("../art/torus.jpg"          ); background-position: center; }
-@page:nth(16) { background-image: url("../art/abstract-jupiter.jpg"); }
-@page:nth(17) { background-image: url("../art/saturn.jpg"         ); }
-@page:nth(18) { background-image: url("../art/voyager.jpg"        ); }
-@page:nth(19) { background-image: url("../art/aquasimian.jpg"     ); }
-@page:nth(20) { background-image: url("../art/tracking-satellites.jpg"); }
-@page:nth(21) { background-image: url("../art/venus-approach.jpg" ); }
-@page:nth(22) { background-image: url("../art/hit-europa.jpg"     ); }
-@page:nth(23) { background-image: url("../art/nebula3.jpg"        ); }
-@page:nth(24) { background-image: url("../art/vesta.jpg"          ); }
-@page:nth(25) { background-image: url("../art/europa-surface.jpg" ); }
-@page:nth(26) { background-image: url("../art/green-station.jpg"  ); }
-@page:nth(27) { background-image: url("../art/jupiter-slingshot.jpg"); }
-@page:nth(28) { background-image: url("../art/flyby-saturn.jpg"   ); }
-@page:nth(29) { background-image: url("../art/lunar-flashlight.jpg"); }
-@page:nth(30) { background-image: url("../art/texas.jpg"          ); }
-@page:nth(31) { background-image: url("../art/titan-lakes.jpg"    ); }
+@page:nth(2  ) { background-image: url("../art/blue-2.jpg"              ) ; }
+@page:nth(3  ) { background-image: url("../art/golden-record.png"       ) ; }
+@page:nth(4  ) { background-image: url("../art/jupiter.jpg"             ) ; background-position: bottom; }
+@page:nth(5  ) { background-image: url("../art/red-nebula.jpg"          ) ; }
+@page:nth(6  ) { background-image: url("../art/funky-interior.jpg"      ) ; }
+@page:nth(7  ) { background-image: url("../art/rhea-rings.jpg"          ) ; }
+@page:nth(8  ) { background-image: url("../art/island3.jpg"             ) ; }
+@page:nth(9  ) { background-image: url("../art/nasty.jpg"               ) ; }
+@page:nth(10 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(11 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(12 ) { background-image: url("../art/nebula.jpg"              ) ; }
+@page:nth(13 ) { background-image: url("../art/placeholder.jpg"         ) ; } 
+@page:nth(14 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(15 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(16 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(17 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(18 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(19 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(20 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(21 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(22 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(23 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(24 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(25 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(26 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(27 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(28 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(29 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(30 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(31 ) { background-image: url("../art/titan-lakes.jpg"         ) ; }
+@page:nth(32 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(33 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(34 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(35 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(36 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(37 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(38 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(39 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(40 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(41 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(42 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(43 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(44 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(45 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(46 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(47 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(48 ) { background-image: url("../art/placeholder.jpg"         ) ; }
+@page:nth(49 ) { background-image: url("../art/placeholder.jpg"         ) ; }

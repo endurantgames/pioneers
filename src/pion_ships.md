@@ -12,7 +12,7 @@ The five known types of Pion ships are:
 - **Zond** Interdictor
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Genesis
+## Genesis {.colbefore}
 
 Only one of these is ships is known to exist, and that's fortunate. Nearly the
 size of O'Neill Station, *Genesis* is a mobile battlestation that was at first
@@ -29,7 +29,7 @@ mistaken for a small natural satellite, but this is no moon.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Kosmos
+## Kosmos {.colbefore}
 
 A total of 8 *Kosmos* carriers have been identified by Resistance Intel Officers.
 One is in Earth orbit, and another in Lunar orbit. Every human colony under a
@@ -47,7 +47,7 @@ facilities for those and other Pion ships, including hangars for *Mariners.*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Mariner
+## Mariner {.colbefore}
 
 *Mariners* are the smallest of the Pion ships, even smaller than the *Zonds.*
 Unlike most spacecraft, they *can* be affected by personal-level weaponry;
@@ -85,7 +85,7 @@ with *Zond* escorts. Although they pack a devastating punch,
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Zond
+## Zond {.colbefore}
 
 *Zond*-class craft are agile and deadly interceptor craft that hunt in packs
 like wolves or sharks. They're most frequently encountered near *Kosmos*
