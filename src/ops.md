@@ -2,21 +2,49 @@
 
 []{.lorem}
 
-## Op Types {#toc-op-types}
+## Op Types {#toc-ops-types}
 
-There are three basic Op types:
+There are three kinds of Ops:
 
 - Planetary Ops
-- Orbital Ops
+- Space Ops
 - Combined Ops
 
 []{.lorem}
 
-## Mission Prep {#toc-op-prep}
+### Planetary Ops {#toc-ops-planetary}
 
 []{.lorem}
 
-## Travel Time {#toc-op-travel}
+ Die Roll     Result
+----------    -------------------------------------------------------
+
+
+[]{.lorem}
+
+### Space     Ops {#toc-ops-space}
+
+[]{.lorem}
+
+ Die Roll     Result
+----------    -------------------------------------------------------
+
+[]{.lorem}
+
+### Combined  Ops {#toc-ops-combined}
+
+[]{.lorem}
+
+ Die Roll     Result
+----------    -------------------------------------------------------
+
+[]{.lorem}
+
+## Mission Prep {#toc-ops-prep}
+
+[]{.lorem}
+
+## Travel Time {#toc-ops-travel}
 
 Obviously, the Solar System is huge. With realistic travel times,
 it could take years to get from one side of it to another.

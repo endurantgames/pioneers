@@ -18,6 +18,7 @@
   - [x] Various blurbs
 - [ ] Mission Control section
   - [ ] Roleplaying the Pions
+  - [ ] Why?
 - [ ] Ops
   - [ ] Surface ops
   - [ ] Ship ops
