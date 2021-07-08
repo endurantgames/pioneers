@@ -47,20 +47,20 @@ TEASER_OUT     = $(OUTDIR)/pioneers-teaser.pdf
 # CSS Location
 #   Edit: if you have more than one stylesheet
 # PROJ_CSS    = --css = $(STYLEDIR)/$(PROJ).css
-PROJ_CSS      = --css = $(STYLEDIR)/style.css
-PLAINTEXT_CSS = --css = $(STYLEDIR)/plain.css
-SHEET_CSS     = --css = $(STYLEDIR)/charsheet.css
-SHEET_ALT_CSS = --css = $(STYLEDIR)/alt-charsheet.css
-MOBILE_CSS    = --css = $(STYLEDIR)/mobile.css
+PROJ_CSS      = --css=$(STYLEDIR)/style.css
+PLAINTEXT_CSS = --css=$(STYLEDIR)/plain.css
+SHEET_CSS     = --css=$(STYLEDIR)/charsheet.css
+SHEET_ALT_CSS = --css=$(STYLEDIR)/alt-charsheet.css
+MOBILE_CSS    = --css=$(STYLEDIR)/mobile.css
 
 # Derived Flags
 #   Edit: probably unnecessary
 FLAGS           = -t html5 --standalone --resource-path=$(IMGDIR)
-PROJ_FLAGS      = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
-SHEET_FLAGS     = $(FLAGS) $(SHEET_CSS) $(PRINCEFLAGS_SHEET)
+PROJ_FLAGS      = $(FLAGS) $(PROJ_CSS)      $(PRINCEFLAGS)
+SHEET_FLAGS     = $(FLAGS) $(SHEET_CSS)     $(PRINCEFLAGS_SHEET)
 SHEET_ALT_FLAGS = $(FLAGS) $(SHEET_ALT_CSS) $(PRINCEFLAGS_SHEET_ALT)
 PLAINTEXT_FLAGS = $(FLAGS) $(PLAINTEXT_CSS) $(PRINCEFLAGS_PLAIN)
-MOBILE_FLAGS    = $(FLAGS) $(MOBILE_CSS) $(PRINCEFLAGS_MOBILE)
+MOBILE_FLAGS    = $(FLAGS) $(MOBILE_CSS)    $(PRINCEFLAGS_MOBILE)
 
 # Application Configruation #############################################################################
 #
@@ -76,11 +76,11 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 # PRINCEFLAGS    = --pdf-engine-opt=--css-dpi=300
 #
 # These options produce individual page png files
-PRINCEFLAGS             = --pdf-engine-opt = --raster-output = $(OUTDIR)/pages/page_%d.png
-# PRINCEFLAGS_SHEET     = --pdf-engine-opt = --raster-output = $(OUTDIR)/pages/sheet_%d.png
-# PRINCEFLAGS_SHEET_ALT = --pdf-engine-opt = --raster-output = $(OUTDIR)/pages/sheet_alt_%d.png
-# PRINCEFLAGS_MOBILE    = --pdf-engine-opt = --raster-output = $(OUTDIR)/pages/mobile_%d.png
-# PRINCEFLAGS_PLAIN     = --pdf-engine-opt = --raster-output = $(OUTDIR)/pages/plain_%d.png
+PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
+# PRINCEFLAGS_SHEET     = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/sheet_%d.png
+# PRINCEFLAGS_SHEET_ALT = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/sheet_alt_%d.png
+# PRINCEFLAGS_MOBILE    = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/mobile_%d.png
+# PRINCEFLAGS_PLAIN     = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/plain_%d.png
 #
 # These do not
 #
