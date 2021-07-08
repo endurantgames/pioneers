@@ -108,7 +108,7 @@ make a prep roll before an Op to prepare for the upcoming mission using an
 attribute of their choice. The appropriate pool -- and its maximum value --
 increases by 1 for the entirety of this Op.
 
-:::::::::::::::: infotable ::::::::::::::::::::::::::::::
+:::::::::::::::: {.preptable .infotable } :::::::::::::::
  Die Roll   Attribute: Thrust    Gyro        Telemetry
 ----------  -------------------  ----------- -----------
    1        +1 Kit               +1 Health   +1 Impulse
@@ -162,7 +162,7 @@ time, plus 1d6 weeks.
 
 Travel time between moons of the same outer planet takes 1d6 hours.
 
-## When an Op is Over {.breakbefore}
+## When an Op is Over {#toc-ops-end .breakbefore}
 
 An Op concludes when the Survivors have finished an Op, or when at
 least one of them has died and the players decide to scrub the mission

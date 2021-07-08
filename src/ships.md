@@ -57,7 +57,7 @@ for any Pion killed, but uses the following table instead:
  4-6    +1 Impulse     Acts of destruction only spur some people forward toward ... even more destruction.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Ship-Ranges {.breakbefore}
+## Ship-Ranges {#toc-ship-ranges .breakbefore}
 
 Ranges in spacecraft fights use the same *close*, *mid*, *far* bands as personal
 fights, but refer specifically to *close-ship*, *mid-ship*, and *far-ship* ranges.
