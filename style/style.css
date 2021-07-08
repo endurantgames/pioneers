@@ -43,27 +43,27 @@ header h1     { string-set: gamename content()       }
 
   --icon-game: 'game-icons';
 
-  --large:     16px;
-  --larger:    14px;
-  --body:      12px;
-  --smaller:   11px;
-  --small:     10px;
-  --title:     64px;
-  --subtitle:  32px;
-  --headline:  40px;
-  --subhed:    32px;
-  --h1:        24px; 
-  --h2:        22px;
-  --h3:        20px;
-  --h4:        18px;
-  --h5:        16px;
-  --h6:        14px;
-  --th:        12px;
+  --large:     22px;
+  --larger:    20px;
+  --body:      18px;
+  --smaller:   15px;
+  --small:     13px;
+  --title:    128px;
+  --subtitle:  64px;
+  --headline:  80px;
+  --subhed:    64px;
+  --h1:        64px; 
+  --h2:        36px;
+  --h3:        30px;
+  --h4:        24px;
+  --h5:        22px;
+  --h6:        18px;
+  --th:        18px;
   --quotesize: 36px;
-  --quotesize-redalert: 18px;
-  --quotesize-inline: 18x;
-  --creditsize: 12px;
-  --creditsize-inline: 12px;
+  --quotesize-redalert: 24px;
+  --quotesize-inline: 24px;
+  --creditsize: 24px;
+  --creditsize-inline: 20px;
 
   --color-line:    gray;
   --color-light:   silver;
