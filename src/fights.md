@@ -138,7 +138,7 @@ the MC's last turn, and check this table.
 The players can then decide among themselves who will claim each drop. No player can
 exceed their maximum in a pool.`
 
-### Death and Dying
+### Death and Dying {#toc-death .colbefore}
 
 []{.gamename} isn't, broadly speaking, a happy game where the Survivors triumph and
 a parade is thrown in their honor. Instead, human civilization is on the brink of

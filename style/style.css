@@ -536,4 +536,9 @@ a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
 .drops table :matches(th, td):nth-child(2) { white-space: pre; }
 
 .opstable table { break-inside: auto; }
+.dying table { width: 100%; }
 
+.opsmasterchart table {
+  column-span: all;
+  float: page-bottom;
+}

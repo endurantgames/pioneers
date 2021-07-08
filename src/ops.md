@@ -33,7 +33,7 @@ roll a die and then crossreference the last type of Op you
 completed with the die roll, then check the following sections
 for specific Op scenarios!
 
-::::::::::::::::::::: opmasterchart :::::::::::::::::::::::::::::
+:::::::::::::::::: { .opmasterchart .infotable } ::::::::::::::::
  Die Roll  No Prior Op  Last Op: Planetary  Space      Combined
 ---------- ------------ ------------------- ---------- ----------
     1      Planetary    Planetary           Planetary  Planetary
@@ -53,7 +53,7 @@ include O<sub>2 tanks and filters.
 
 Use the following table to decide the mission paramters for a Planetary Op.
 
-::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::{ .opstable .infotable } ::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
      1        **Sabotage Industrial Center** 1 on Earth, 2 on Venus, 3-4 on Mars, 5 on Mimas, 6 in the asteroid belt
@@ -72,7 +72,7 @@ space. At no cost, a Survivor can swap out their armor for a
 
 Use the following table to decide the mission paramters for a Space Op.
 
-::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::{ .opstable .infotable } ::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
      1        **Salvage** 1-2 the asteroid belt, 3-4 near Triton, 5-6 near Pluto
@@ -93,7 +93,7 @@ their normal armor during a lull in the action.
 Use the following table to decide the mission paramters for an Op that
 has both Planetary and Space objectives.
 
-::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::{ .opstable .infotable } ::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
      1        **Free Important Prisoners** 1-2 on Venus, 3-4 on O'Neill Station, 5-6 on Ganymede's Cleomestra Station
@@ -111,11 +111,13 @@ make a prep roll before an Op to prepare for the upcoming mission using an
 attribute of their choice. The appropriate pool -- and its maximum value --
 increases by 1 for the entirety of this Op.
 
+:::::::::::::::: infotable ::::::::::::::::::::::::::::::
  Die Roll   Attribute: Thrust    Gyro        Telemetry
 ----------  -------------------  ----------- -----------
    1        +1 Kit               +1 Health   +1 Impulse
   2-3       +1 Health            +1 Impulse  +1 Kit
   4-6       +1 Impulse           +1 Gear     +1 Health
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Before each mission, players roll to see which weapons, armor, other gear,
 and ships they have access to during this Op.
@@ -135,7 +137,7 @@ it could take years to get from one side of it to another.
 If the travel time ever matters, here are some approximate values
 you can use.
 
-:::::::::::::::::::: traveltimes :::::::::::
+:::::::::::::::::::: {.traveltimes .infotable} :::::::::::
 Outer Planet Base Travel Time
 ---          ----
 Jupiter       1 week

@@ -28,6 +28,8 @@ Each ship is defined by the following stats:
 - **Resist and Vulnerable** Ships resistant to certain attacks take
   1 less Ship-Harm from those attacks, while those vulnerable to such
   attacks take 1 more Ship-Harm.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::: {.colbefore } ::::::::::::::::::::::::::::::::::::::::::::
 - **Mount Points** These are an abstraction of the ability to add
   weapons and other devices onto a ship. Most ships have between 1
   and 4 Mount Points. At the start or end of an op, a player can spend 
@@ -72,7 +74,7 @@ These weapons or other devices are attached to a ship's mount points.
 The tags for ship equipment are equivalent to the
 [parallel tags for personal weapons](#toc-weapon-tags){.page}.
 
-:::::::::::::{ .infolist .breakable } :::::::::::::::::::::::::::::::::
+:::::::::::::{ .infolist            } :::::::::::::::::::::::::::::::::
 - **Asteroid Drill**         *close-ship* Harm Ship-2
 - **Booster Rocket**         *mid-ship, far-ship* Harm Ship-5, Explosive, Single-Use
 - **Docking Clamps**         *close-ship* Harm none or Ship-1; prevents other vessel from moving
@@ -81,6 +83,8 @@ The tags for ship equipment are equivalent to the
 - **Flak Cannon**            *close-ship* Harm Ship-2, AOE, Exploding
 - **Fuel Reserve**           *close-ship* Harm Ship-3 (explosive) + Ship-3 (burn), Single-Use
 - **Gatling Laser**          *mid-ship* Harm Ship-3, Autofire, Burn
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::{ .infolist .colbefore } :::::::::::::::::::::::::::::::::
 - **Jumpstart Hawsers**      *close-ship* Harm Ship-1, Shock
 - **Laser Cannon**           *mid-ship, far-ship* Harm Ship-1, Burn
 - **Laser Refractor**        *close-ship, mid-ship* Harm Ship-2, Burn

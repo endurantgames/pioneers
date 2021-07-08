@@ -37,7 +37,7 @@ The each of other players creates a **Survivor** who is part of the **Rag-Tag
 Fugitive Resistance** striving to free the Solar System from the crushing 
 **Occupation**.  
 
-## Saving the World { #toc-intro}
+## Saving the Worlds { #toc-intro}
 
 As member of the Resistance, your Survivor is part of a small cell of 2 to 5
 freedom fighters that undertake missions, called **Ops**, that invariably 
@@ -463,7 +463,7 @@ We assume your Survivor has the basics to do their jobs:
 If you need anything else, you can spend 1 Kit before or during the
 mission to say you brought it with you.
 
-#### Med Patch {#toc-gear-med-patch}
+#### Med Patch {#toc-gear-med-patch .colbefore}
 
 Med patches are one-shot sources of Health that are in high demand but
 limited quantities among the Resistance. 
@@ -616,7 +616,7 @@ the MC's last turn, and check this table.
 The players can then decide among themselves who will claim each drop. No player can
 exceed their maximum in a pool.`
 
-#### Death and Dying
+#### Death and Dying {#toc-death .colbefore}
 
 []{.gamename} isn't, broadly speaking, a happy game where the Survivors triumph and
 a parade is thrown in their honor. Instead, human civilization is on the brink of
@@ -988,6 +988,8 @@ Each ship is defined by the following stats:
 - **Resist and Vulnerable** Ships resistant to certain attacks take
   1 less Ship-Harm from those attacks, while those vulnerable to such
   attacks take 1 more Ship-Harm.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::: {.colbefore } ::::::::::::::::::::::::::::::::::::::::::::
 - **Mount Points** These are an abstraction of the ability to add
   weapons and other devices onto a ship. Most ships have between 1
   and 4 Mount Points. At the start or end of an op, a player can spend 
@@ -1032,7 +1034,7 @@ These weapons or other devices are attached to a ship's mount points.
 The tags for ship equipment are equivalent to the
 [parallel tags for personal weapons](#toc-weapon-tags){.page}.
 
-:::::::::::::{ .infolist .breakable } :::::::::::::::::::::::::::::::::
+:::::::::::::{ .infolist            } :::::::::::::::::::::::::::::::::
 - **Asteroid Drill**         *close-ship* Harm Ship-2
 - **Booster Rocket**         *mid-ship, far-ship* Harm Ship-5, Explosive, Single-Use
 - **Docking Clamps**         *close-ship* Harm none or Ship-1; prevents other vessel from moving
@@ -1041,6 +1043,8 @@ The tags for ship equipment are equivalent to the
 - **Flak Cannon**            *close-ship* Harm Ship-2, AOE, Exploding
 - **Fuel Reserve**           *close-ship* Harm Ship-3 (explosive) + Ship-3 (burn), Single-Use
 - **Gatling Laser**          *mid-ship* Harm Ship-3, Autofire, Burn
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::{ .infolist .colbefore } :::::::::::::::::::::::::::::::::
 - **Jumpstart Hawsers**      *close-ship* Harm Ship-1, Shock
 - **Laser Cannon**           *mid-ship, far-ship* Harm Ship-1, Burn
 - **Laser Refractor**        *close-ship, mid-ship* Harm Ship-2, Burn
@@ -1092,14 +1096,14 @@ of ships not normally used in battle.
 
 The most common ship types are:
 
-- **Comms Relay**
-- **Liquid-Hydrogen Tanker**
-- **Mining Rig**
-- **Ore Hauler**
-- **Racing Yacht**
-- **Repair Pod**
-- **Shuttle**
-- **Solar Glider**
+- [**Comms Relay**](#toc-fleet-comms-relay)
+- [**Liquid-Hydrogen Tanker**](#toc-fleet-lh2-tanker)
+- [**Mining Rig**](#toc-fleet-mining-rig)
+- [**Ore Hauler**](#toc-fleet-ore-hauler)
+- [**Racing Yacht**](#toc-fleet-racing-yacht)
+- [**Repair Pod**](#toc-fleet-repair-pod)
+- [**Shuttle**](#toc-fleet-shuttle)
+- [**Solar Glider**](#toc-fleet-solar-glider)
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Comms Relay {#toc-fleet-comms-relay .colbefore}
@@ -1358,7 +1362,7 @@ consequence, you shouldn't grow that attached to your own
 Pions -- they only exist to put up a token amount of 
 threat and then get mowed down by the Survivors.
 
-### Rotating MCs
+### Rotating MCs {.colbefore}
 
 []{.gamename} is a very *episodic* game, meaning that there aren't 
 really storylines and plots that run from one Op to the next. 
@@ -1402,7 +1406,7 @@ reading this and the issue arises later, either play along with
 the MC or make up some ridiculous cockamamie explanation. Hey,
 maybe it's true in *your* game, right?
 
-### Roleplaying the Pions {#toc-mc-rp .colbefore}
+### Roleplaying the Pions {#toc-mc-rp }
 
 Unlike many roleplaying games, interactions between the player
 characters and non-player characters don't play a huge role 
@@ -1457,7 +1461,7 @@ roll a die and then crossreference the last type of Op you
 completed with the die roll, then check the following sections
 for specific Op scenarios!
 
-::::::::::::::::::::: opmasterchart :::::::::::::::::::::::::::::
+:::::::::::::::::: { .opmasterchart .infotable } ::::::::::::::::
  Die Roll  No Prior Op  Last Op: Planetary  Space      Combined
 ---------- ------------ ------------------- ---------- ----------
     1      Planetary    Planetary           Planetary  Planetary
@@ -1477,7 +1481,7 @@ include O<sub>2 tanks and filters.
 
 Use the following table to decide the mission paramters for a Planetary Op.
 
-::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::{ .opstable .infotable } ::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
      1        **Sabotage Industrial Center** 1 on Earth, 2 on Venus, 3-4 on Mars, 5 on Mimas, 6 in the asteroid belt
@@ -1496,7 +1500,7 @@ space. At no cost, a Survivor can swap out their armor for a
 
 Use the following table to decide the mission paramters for a Space Op.
 
-::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::{ .opstable .infotable } ::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
      1        **Salvage** 1-2 the asteroid belt, 3-4 near Triton, 5-6 near Pluto
@@ -1517,7 +1521,7 @@ their normal armor during a lull in the action.
 Use the following table to decide the mission paramters for an Op that
 has both Planetary and Space objectives.
 
-::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::{ .opstable .infotable } ::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
      1        **Free Important Prisoners** 1-2 on Venus, 3-4 on O'Neill Station, 5-6 on Ganymede's Cleomestra Station
@@ -1535,11 +1539,13 @@ make a prep roll before an Op to prepare for the upcoming mission using an
 attribute of their choice. The appropriate pool -- and its maximum value --
 increases by 1 for the entirety of this Op.
 
+:::::::::::::::: infotable ::::::::::::::::::::::::::::::
  Die Roll   Attribute: Thrust    Gyro        Telemetry
 ----------  -------------------  ----------- -----------
    1        +1 Kit               +1 Health   +1 Impulse
   2-3       +1 Health            +1 Impulse  +1 Kit
   4-6       +1 Impulse           +1 Gear     +1 Health
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Before each mission, players roll to see which weapons, armor, other gear,
 and ships they have access to during this Op.
@@ -1559,7 +1565,7 @@ it could take years to get from one side of it to another.
 If the travel time ever matters, here are some approximate values
 you can use.
 
-:::::::::::::::::::: traveltimes :::::::::::
+:::::::::::::::::::: {.traveltimes .infotable} :::::::::::
 Outer Planet Base Travel Time
 ---          ----
 Jupiter       1 week

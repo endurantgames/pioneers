@@ -91,7 +91,7 @@ We assume your Survivor has the basics to do their jobs:
 If you need anything else, you can spend 1 Kit before or during the
 mission to say you brought it with you.
 
-### Med Patch {#toc-gear-med-patch}
+### Med Patch {#toc-gear-med-patch .colbefore}
 
 Med patches are one-shot sources of Health that are in high demand but
 limited quantities among the Resistance. 

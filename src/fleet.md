@@ -6,14 +6,14 @@ of ships not normally used in battle.
 
 The most common ship types are:
 
-- **Comms Relay**
-- **Liquid-Hydrogen Tanker**
-- **Mining Rig**
-- **Ore Hauler**
-- **Racing Yacht**
-- **Repair Pod**
-- **Shuttle**
-- **Solar Glider**
+- [**Comms Relay**](#toc-fleet-comms-relay)
+- [**Liquid-Hydrogen Tanker**](#toc-fleet-lh2-tanker)
+- [**Mining Rig**](#toc-fleet-mining-rig)
+- [**Ore Hauler**](#toc-fleet-ore-hauler)
+- [**Racing Yacht**](#toc-fleet-racing-yacht)
+- [**Repair Pod**](#toc-fleet-repair-pod)
+- [**Shuttle**](#toc-fleet-shuttle)
+- [**Solar Glider**](#toc-fleet-solar-glider)
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ## Comms Relay {#toc-fleet-comms-relay .colbefore}

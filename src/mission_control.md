@@ -16,7 +16,7 @@ consequence, you shouldn't grow that attached to your own
 Pions -- they only exist to put up a token amount of 
 threat and then get mowed down by the Survivors.
 
-## Rotating MCs
+## Rotating MCs {.colbefore}
 
 []{.gamename} is a very *episodic* game, meaning that there aren't 
 really storylines and plots that run from one Op to the next. 
@@ -60,7 +60,7 @@ reading this and the issue arises later, either play along with
 the MC or make up some ridiculous cockamamie explanation. Hey,
 maybe it's true in *your* game, right?
 
-## Roleplaying the Pions {#toc-mc-rp .colbefore}
+## Roleplaying the Pions {#toc-mc-rp }
 
 Unlike many roleplaying games, interactions between the player
 characters and non-player characters don't play a huge role 
