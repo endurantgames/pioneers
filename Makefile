@@ -144,7 +144,8 @@ blorng := $(shell tput setab 208)
 #   Edit: if you want to change the default, e.g. to make testing easier
 # default: help
 # default: sheet
-default: pdf
+# default: pdf
+default: plain
 # default: all
 
 # Make Help #############################################################################################

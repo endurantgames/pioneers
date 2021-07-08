@@ -32,16 +32,12 @@ header h1     { string-set: gamename content()       }
 }
 
 :root {
-  /* --font-header: "Michroma"; */
-  /* --font-info: "PT Sans Narrow"; */
-  /* --font: "Federation"; */
   --font: "Michroma";
   --font-bold: "Federation Bold";
   --font-header: "Federation Bold"; 
   --font-title: "Battlestar";
   --font-quote: "Shadows Into Light";
   --font-block: "Wallpoet";
-  /* --font-info: "Noto Sans Cond"; */
   --font-info: "Noto Sans SemCond";
   --font-chinese: "Noto Sans SC";
 

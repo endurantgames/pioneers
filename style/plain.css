@@ -1,4 +1,3 @@
-
 /* base css file for TTRPG projects */
 /* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
 
@@ -18,35 +17,31 @@ header h1     { string-set: gamename content()       }
 }
 
 :root {
-  /* --font-header: "Michroma"; */
-  /* --font-info: "PT Sans Narrow"; */
-  /* --font: "Federation"; */
   --font: "Noto Sans";
-  --font-bold: "Noto Sans Bold";
+  --font-bold: "Noto Sans";
   --font-header: "Federation Bold"; 
   --font-title: "Battlestar";
   --font-quote: "Shadows Into Light";
   --font-block: "Wallpoet";
-  /* --font-info: "Noto Sans Cond"; */
   --font-info: "Noto Sans SemCond";
   --font-chinese: "Noto Sans SC";
 
   --icon-game: 'game-icons';
 
-  --large:     15pt;
-  --larger:    13pt;
-  --body:      11pt;
-  --smaller:   11pt;
-  --small:      9pt;
+  --large:     14pt;
+  --larger:    12pt;
+  --body:      10pt;
+  --smaller:    9pt;
+  --small:      8pt;
   --title:     48pt;
   --subtitle:  40pt;
-  --h1:        26pt; 
-  --h2:        24pt;
-  --h3:        22pt;
-  --h4:        20pt;
-  --h5:        18pt;
-  --h6:        16pt;
-  --th:        13pt;
+  --h1:        22pt; 
+  --h2:        18pt;
+  --h3:        15pt;
+  --h4:        14pt;
+  --h5:        13pt;
+  --h6:        12pt;
+  --th:        10pt;
 
   --color-line:    gray;
   --color-light:   silver;
@@ -55,13 +50,9 @@ header h1     { string-set: gamename content()       }
   --bgcolor-sidebar: #EEEEEE;
   --bgcolor-toolkit: #F8FFF8;
 
-  counter-reset: table figure sidebar;
 }
 
-.lorem { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur '
-                  'ornare ex nisi, sit amet aliquet libero bibendum non. Curabitur sed '
-                  'ligula eu mi laoreet ornare. Ut tempor pretium ex. Etiam eu semper '
-                  'arcu sem gravida metus, at vestibulum erat augue vel ante.'; }
+@page { @bottom-center { font-family: var(--font-header); font-size: 20pt; content: counter(page); } } 
 
 body { 
   color: black; 
@@ -71,18 +62,16 @@ body {
 
 body               { font-family: var(--font); font-size: var(--body);      }
 td                 { font-size: var(--body); vertical-align: top;           }
-th                 { font-family: var(--font-bold); font-size: var(--th); font-weight: normal; }
+th                 { font-family: var(--font-bold); font-size: var(--th); }
 h1                 { font-family: var(--font-header); font-size: var(--h1); }
-h2                 { font-family: var(--font-header); font-size: var(--h2); }
-h3                 { font-family: var(--font-header); font-size: var(--h3); }
+h2                 { font-family: var(--font-header); font-size: var(--h2); font-variant: small-caps; }
+h3                 { font-family: var(--font-header); font-size: var(--h3); border-bottom: 0.5pt solid gray; }
 h4                 { font-family: var(--font-header); font-size: var(--h4); }
 h5                 { font-family: var(--font-header); font-size: var(--h5); }
 h6                 { font-family: var(--font-header); font-size: var(--h6); }
 h1                 { break-after: avoid-page; break-inside: avoid;          }
 h2, h3, h4, h5, h6 { break-inside: avoid; break-after: avoid;               }
 h1                 { column-span: all; text-align: center;                  }
-.breakbefore       { break-before: column;                                  }
-.colbefore         { break-before: column;                                  }
 .nobreak           { break-before: avoid-page;                              }
 .nocolbreak        { break-before: avoid-column;                            }
 .colspan           { column-span: all;                                      }
@@ -108,11 +97,13 @@ img { -prince-image-resolution: 96;
 
 p, li { orphans: 3; line-height: 1.60; }
 
-a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
+a:link, a:visited, a:active, a:hover { color: navy; text-decoration: none; }
 
 .anchor { position: absolute; color: transparent; }
 
 .gamename:before { content: string(gamename); font-style: italic; }
+
+#step-class.colbefore { break-before: avoid; }
 
 #charsheet { page: charsheet; break-before: right; height: 11in; width: 8.5in; }
 
@@ -132,7 +123,7 @@ a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
 #cover h2, #cover h3, #cover h4, #cover h5 { 
   text-align: center; 
   column-span: all;
-  font-size: var(--h2); 
+  font-size: var(--subtitle);
   padding: 0;
   margin-bottom: 0.25in;
   margin-left: 1.25in;
@@ -140,9 +131,7 @@ a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
 }
 
 #cover h5 { margin-top: 1.25in; font-size: var(--h3); margin-bottom: 0.5in; }
-
 #cover p { text-align: center; column-span: all; }
-
 #cover img { width: 1.5in; height: auto; background: black; }
 
 .title { 
@@ -152,29 +141,30 @@ a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
   letter-spacing: 0.5em;
 }
 
+/* #toc-chargen, */
+/* #toc-intro, */
+/* #toc-attributes */
+h1 { break-before: column; }
+
+
 h2.headline { column-span: all; text-align: center; break-before: page; }
 
 @page { background-size: 100% auto; background-repeat: no-repeat; }
 
-.class table { column-span: all; border-collapse: collapse; border: 1pt solid white; width: 100%; margin-bottom: 32px; }
-.class table :matches(td, th) { width: 16.666%; padding: 16px; }
+.class { break-before: page; break-after: page; }
+
+.class table { column-span: all; border-collapse: collapse; width: 100%; margin-bottom: 32px; }
+.class table :matches(td, th) { width: 16.666%; padding: 4pt; }
 .class table td { font-size: var(--h3); } 
 .class table td:nth-child(3) { border-right: 1px solid silver; }
 .class table th:nth-child(3) { border-right: 1px solid silver; }
-.class table th { font-weight: normal; font-size: var(--large); font-family: var(--font); }
+.class table th { font-size: var(--body); font-family: var(--font); }
 
-.classtable table { 
-   margin: 32px;
-   background: rgba(128, 128, 128, 0.2);
-   padding: 6pt;
-   }
-.classtable table :matches(td, th) { width: 10%; padding: 8px; font-size: var(--large); }
+.classtable table { }
+.classtable table :matches(td, th) { width: 10%; padding: 2pt 4pt; font-size: var(--body); }
 .classtable table :matches(td, th):first-child { width: 20%; }
 .classtable { float: page bottom; column-span: all; }
-.classtable table td:first-child { font-family: var(--font); }
-.classtable table :matches(td, th):nth-child(4) { border-right: 1px solid gray;
-   padding-right: 1em;
-   }
+.classtable table :matches(td, th):nth-child(4) { border-right: 1px solid gray; padding-right: 1em; }
 
 strong { font-family: var(--font-bold); } 
 
@@ -201,13 +191,11 @@ blockquote p { line-height: 1.25; }
 .redalert blockquote p { line-height: 1.4; }
 blockquote { font-family: var(--font-quote); font-size: 24px; }
 .redalert blockquote { font-family: var(--font-block); font-size: 18px; } 
-blockquote .credit { display: block; font-family: var(--font-info); font-style: italic; text-align: right; font-size: 20px; padding-top: 4px; break-before: avoid; }
+blockquote .credit { display: block; font-family: var(--font-info); font-style: italic; text-align: right; font-size: var(--font); padding-top: 4px; break-before: avoid; }
 
 blockquote .chinese { font-family: var(--font-chinese); }
 
 .traveltimes { float: column bottom; margin-top: 9pt; }
-
-h2.breakbefore { }
 
 .class table { margin-top: 12pt; }
 .class h2 { 
