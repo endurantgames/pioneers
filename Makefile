@@ -36,7 +36,7 @@ PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
 
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
 
-MOBILE_OUT  = $(OUTDIR)/$(PROJ)-mobile.pdf
+MOBILE_OUT  = $(OUTDIR)/$(PROJ)-pocket.pdf
 
 SHEET_RECIPE = sheet
 SHEET_SRC  = $(BUILDDIR)/sheet.md
