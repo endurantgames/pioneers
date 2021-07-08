@@ -1,0 +1,8 @@
+@import "style.css";
+
+/* @page:nth(1) { background-image: url("../art/drac/drac-3.jpg" ) ; } */
+@page:nth(2) { background-image: url("../art/drac/drac-1.jpg" ) ; }
+@page:nth(3) { background-image: url("../art/drac/drac-2.jpg" ) ; }
+
+.squeeze.infolist li { line-height: 1.4; }
+

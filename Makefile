@@ -34,6 +34,8 @@ PROJ_SRC       = $(BUILDDIR)/$(PROJ).md
 PROJ_OUT       = $(OUTDIR)/$(PROJ).pdf
 HTML_OUT       = $(OUTDIR)/$(PROJ).html
 MOBILE_OUT     = $(OUTDIR)/$(PROJ)-pocket.pdf
+DRAC_OUT       = $(OUTDIR)/$(PROJ)-drac.pdf
+DRAC_SRC       = $(SRCDIR)/drac.md
 SHEET_RECIPE   = sheet
 SHEET_SRC      = $(BUILDDIR)/sheet.md
 SHEET_HTML_OUT = $(OUTDIR)/$(PROJ)-sheets.html
@@ -52,6 +54,7 @@ PLAINTEXT_CSS = --css=$(STYLEDIR)/plain.css
 SHEET_CSS     = --css=$(STYLEDIR)/charsheet.css
 SHEET_ALT_CSS = --css=$(STYLEDIR)/alt-charsheet.css
 MOBILE_CSS    = --css=$(STYLEDIR)/mobile.css
+DRAC_CSS      = --css=$(STYLEDIR)/drac.css
 
 # Derived Flags
 #   Edit: probably unnecessary
@@ -61,6 +64,7 @@ SHEET_FLAGS     = $(FLAGS) $(SHEET_CSS)     $(PRINCEFLAGS_SHEET)
 SHEET_ALT_FLAGS = $(FLAGS) $(SHEET_ALT_CSS) $(PRINCEFLAGS_SHEET_ALT)
 PLAINTEXT_FLAGS = $(FLAGS) $(PLAINTEXT_CSS) $(PRINCEFLAGS_PLAIN)
 MOBILE_FLAGS    = $(FLAGS) $(MOBILE_CSS)    $(PRINCEFLAGS_MOBILE)
+DRAC_FLAGS      = $(FLAGS) $(DRAC_CSS)      $(PRINCEFLAGS_DRAC)
 
 # Application Configruation #############################################################################
 #
@@ -81,6 +85,7 @@ PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_
 # PRINCEFLAGS_SHEET_ALT = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/sheet_alt_%d.png
 # PRINCEFLAGS_MOBILE    = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/mobile_%d.png
 # PRINCEFLAGS_PLAIN     = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/plain_%d.png
+PRINCEFLAGS_DRAC        = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/drac_%d.png
 #
 # These do not
 #
@@ -89,6 +94,7 @@ PRINCEFLAGS_SHEET     =
 PRINCEFLAGS_SHEET_ALT =
 PRINCEFLAGS_MOBILE    =
 PRINCEFLAGS_PLAIN     =
+# PRINCEFLAGS_DRAC      =
 
 # Pdfinfo Config
 #   Edit: probably unnecessary
@@ -281,6 +287,13 @@ mobile: markdown
 	@       $(PDFINFO) $(MOBILE_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
+drac:
+	echo '$(ltblue)Making Dracula PDF.$(resetc)'
+	      $(PANDOC) $(PANDOCFLAGS) $(DRAC_FLAGS) -o $(DRAC_OUT) $(DRAC_SRC)
+	      $(PDFINFO) $(DRAC_OUT) $(PDFINFO_GREP)
+	     -$(EXPLORER)
+
+
 teaser: markdown-teaser
 	 echo '$(ltblue)Making Teaser PDF.$(resetc)'
 	       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(TEASER_OUT) $(TEASER_SRC)
@@ -330,4 +343,5 @@ sheets:     sheet
 alt-sheets: alt-sheet
 charsheet:  sheet
 charsheets: sheet
-pocket: mobile
+pocket:     mobile
+dracula:    drac
