@@ -27,7 +27,7 @@ brains. They're the spokesrobots for the Occupation.
 - **Health** 5
 - **Vulnerable** pulse
 - **Finger Lasers** *close, mid* Harm 2, Burn 
-- **Moves** Issue threats, call for help, strategic withdrawal
+- **Moves** Sarcastically issue threats, call for help, strategic withdrawal
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Mariner {#toc-pion-mariner .colbefore}

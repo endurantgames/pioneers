@@ -1,5 +1,7 @@
 # TODO
 
+- [x] Classes
+  - [x] Names
 - [x] Fights
   - [x] Big Changes
   - [x] Pion Moves
@@ -16,13 +18,13 @@
   - [x] Rover
 - [x] Solar System
   - [x] Various blurbs
-- [ ] Mission Control section
-  - [ ] Roleplaying the Pions
-  - [ ] Why?
+- [x] Mission Control section
+  - [x] Roleplaying the Pions
+  - [x] Why?
 - [ ] Ops
   - [ ] Surface ops
   - [ ] Ship ops
   - [ ] Combined ops
 - [ ] CSS
-  - [ ] Review pagination
+  - [x] Review pagination
   - [ ] Images for all pages

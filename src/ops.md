@@ -1,16 +1,48 @@
 # Resistance Ops {#toc-ops .breakbefore}
 
-[]{.lorem}
+The basic cycle of a []{.gamename} looks like this:
+
+1. The players create Survivors.
+2. Survivors are assigned an Op with a specific mission.
+3. Survivors prepare for the Op and get in position.
+4. One or more fights ensue on the way to completing that mission.
+5. Survivors leave, bury their dead, and recover.
+6. Back to 2, until the players are satisfied with the game.
+
+Survivor creation is 
+[covered in a previous section](#toc-chargen){.page}; this section
+will tell you how to send those Survivors on those dangerous 
+missions where they might get killed.
 
 ## Op Types {#toc-ops-types}
 
-There are three kinds of Ops:
+Broadly speaking, there are three kinds of Ops: **Planetary Ops**
+that take place on the surface of a planet or moon; **Space Ops**
+that happen in spacecraft; and **Combined Ops**.
 
-- Planetary Ops
-- Space Ops
-- Combined Ops
+Each has their own unique qualities, and in general it's more
+fun to have variety in Op types.
 
-[]{.lorem}
+Most Survivors' Talents are directly tied to personal-scale
+fights, and those should be the emphasis of a []{.gamename} --
+but not exclusively.
+
+The bottom of this page has a chart you can use before an Op
+to determine what type of mission it will it. Have one player
+roll a die and then crossreference the last type of Op you
+completed with the die roll, then check the following sections
+for specific Op scenarios!
+
+::::::::::::::::::::: opmasterchart :::::::::::::::::::::::::::::
+ Die Roll  No Prior Op  Last Op: Planetary  Space      Combined
+---------- ------------ ------------------- ---------- ----------
+    1      Planetary    Planetary           Planetary  Planetary
+    2      Planetary    Planetary           Planetary  Planetary
+    3      Planetary    Space               Planetary  Planetary
+    4      Space        Space               Planetary  Space
+    5      Combined     Combined            Space      Combined
+    6      Combined     Combined            Combined   Combined
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Planetary Ops {#toc-ops-planetary .colbefore}
 
@@ -102,6 +134,8 @@ For travel between two outer planets, use the higher base travel
 time, plus 1d6 weeks.
 
 Travel time between moons of the same outer planet takes 1d6 hours.
+
+## When an Op is Over
 
 ## Post-Op Recuperation {#toc-ops-post .colbefore}
 

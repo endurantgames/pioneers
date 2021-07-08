@@ -90,4 +90,16 @@ We assume your Survivor has the basics to do their jobs:
 
 If you need anything else, you can spend 1 Kit before or during the
 mission to say you brought it with you.
+
+### Med Patch {#toc-gear-med-patch}
+
+Med patches are one-shot sources of Health that are in high demand but
+limited quantities among the Resistance. 
+
+When they take their turn, 
+a Survivor can use one on themselves or on another Survivor -- this doesn't
+use up their opportunity to attack during a turn, although they can only use
+one Med Patch each turn.
+
+A Med Patch heals 1 Health and then is used up.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

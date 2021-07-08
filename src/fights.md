@@ -37,6 +37,9 @@ or *far* to *mid*. (You can't jump from *close* to *far* or vice versa.)
    as many Talents as you wish during your turn, but you can only activate each
    Talent once during that turn.
 
+4. **Use an Object** if you've picked up something interesting along the way or are
+   carrying a [med patch](#toc-gear-med-patch){.page}.
+
 ## Attacking {#toc-attacking .breakbefore }
 
 To attack, choose which weapon you're using and which attribute you're using for the
@@ -82,7 +85,12 @@ During the MC's turn, they can do any or all of these:
 
 4. Have the **Pions counter-attack.**
 
-At the end of the MC's turn, they generate Drops, if appropriate.
+At the end of the MC's turn, two things happen:
+
+1. **The MC generates Drops** if any Pions were killed since the end of their last
+   turn.
+
+2. **Check on dying characters.**
 
 ### Big Changes {#toc-big-changes}
 
@@ -116,7 +124,8 @@ the full amount of Harm.
 
 ### Drops {#toc-drops}
 
-At the end of the MC's turn, they roll 1d6 for each enemy that died since their last turn.
+At the end of the MC's turn, they one die 1d6 for each enemy that died since the end of
+the MC's last turn, and check this table.
 
 :::::::::::::::::::::::::::::::::: drops :::::::::::::::::::::::::::::::::::::::::::::::::::::
  Roll  Pool        Example
@@ -128,4 +137,33 @@ At the end of the MC's turn, they roll 1d6 for each enemy that died since their 
 
 The players can then decide among themselves who will claim each drop. No player can
 exceed their maximum in a pool.`
+
+### Death and Dying
+
+[]{.gamename} isn't, broadly speaking, a happy game where the Survivors triumph and
+a parade is thrown in their honor. Instead, human civilization is on the brink of
+destruction and the Survivors' actions can only delay an end that seems inevitable.
+The spectre of death hangs over each Survivor and many are haunted by what they've
+seen and done.
+
+When a Survivor is reduced to 0 Health, they're **Taken Out** of this fight and don't
+get to act during the Survivors' Turn step of the fight. This lasts as long as they
+are at 0 Health.
+
+At the **end of the MC's turn**, each player whose Survivor is at 0 Health rolls a
+die and checks the following table.
+If another Survivor gave first aid to the dying Survivor during their previous turn,
+they can roll a die as well, and the Survivor uses the best value of any die rolled.
+
+:::::::::::::::::: dying :::::::::::::::::
+ Roll   Result
+------  -------                            
+ 1-2    Too late; they're **Dead**
+ 3-5    No change
+  6     Miraculous recovery! **+1 Health**
+::::::::::::::::::::::::::::::::::::::::::
+
+The Death roll happens *after* the Drops get distributed; if a Survivor who is
+at 0 Health claims a +1 Health Drop, they're no longer dying when it's time for 
+Death rolls.
 
