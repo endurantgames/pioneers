@@ -12,7 +12,7 @@ The five known types of Pion ships are:
 - **Zond** Interdictor
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Genesis {.colbefore}
+## Genesis {#toc-pion-ship-genesis .colbefore}
 
 Only one of these is ships is known to exist, and that's fortunate. Nearly the
 size of O'Neill Station, *Genesis* is a mobile battlestation that was at first
@@ -29,7 +29,7 @@ mistaken for a small natural satellite, but this is no moon.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Kosmos {.colbefore}
+## Kosmos {#toc-pion-ship-kosmos .colbefore}
 
 A total of 8 *Kosmos* carriers have been identified by Resistance Intel Officers.
 One is in Earth orbit, and another in Lunar orbit. Every human colony under a
@@ -47,7 +47,7 @@ facilities for those and other Pion ships, including hangars for *Mariners.*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Mariner {.colbefore}
+## Mariner {#toc-pion-ship-mariner .colbefore}
 
 *Mariners* are the smallest of the Pion ships, even smaller than the *Zonds.*
 Unlike most spacecraft, they *can* be affected by personal-level weaponry;
@@ -65,7 +65,7 @@ the Solar System.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Sakigake {.colbefore}
+## Sakigake {#toc-pion-ship-sakigake .colbefore}
 
 Smaller than the *Kosmos*-class carriers, *Sakigake* craft are primarily weapons
 of mass destruction that can attack from the edge of a planet's orbit. They're
@@ -85,7 +85,7 @@ with *Zond* escorts. Although they pack a devastating punch,
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-## Zond {.colbefore}
+## Zond {#toc-pion-ship-zond .colbefore}
 
 *Zond*-class craft are agile and deadly interceptor craft that hunt in packs
 like wolves or sharks. They're most frequently encountered near *Kosmos*

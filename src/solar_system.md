@@ -38,7 +38,7 @@ robots, the Solar System of []{.gamename} is the same Solar System we inhabit to
 
 ::::::::::: { .infolist .breakable              } :::::::::::::::::::::::::::::::::::::
 - **Atmosphere** The location has a breathable atmosphere.
-- **Blocade** Currently blocaded by the Pions.
+- **Blockade** Currently blockaded by the Pions.
 - **Cold** It's too cold for a human to survive without protection.
 - **Colony** Recognized as an independent colony.
 - **Farming** Farming is a major industry.
@@ -75,7 +75,7 @@ destroyed in 2150 in the largest space disaster in human history -- with over
 2 million humans dying instantly.
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-- **Earth** Maximum Population, Atmosphere, Blocade, Farming, Ice, High-G, Life, Manufacturing, Occupation, Orbit, Spaceport, Surface, Underground, Volcanos, Water
+- **Earth** Maximum Population, Atmosphere, Blockade, Farming, Ice, High-G, Life, Manufacturing, Occupation, Orbit, Spaceport, Surface, Underground, Volcanos, Water
 - **Luna** High Population, Colony, Low-G, Mining, Siege, Spaceport, Surface, Underground
 - **O'Neill Station** Medium Population, Atmosphere, Farming, High-G, Occupation, Spaceport
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -103,7 +103,7 @@ port between the Inner Planets and the Outer Planets.
 - **Mercury** Low Population, Bright, Cold, Colony, Hot, Mining, Orbit, Siege, Surface, Underground
 - **Venus**  Medium Population, Colony, High-G, Hot, Life, Mining, Occupation, Orbit, Spaceport, Surface
 - **Mars** High Population, Cold, Colony, Ice, Manufacturing, Mining, Occupation, Orbit, Spaceport, Surface, Underground
-- **Ceres** Low Population, Blocade, Cold, Colony, Ice, Low-G, Mining, Spaceport, Underground
+- **Ceres** Low Population, Blockade, Cold, Colony, Ice, Low-G, Mining, Spaceport, Underground
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Jupiter {#toc-location-jupiter .breakbefore}
@@ -127,7 +127,7 @@ them almost entirely automated, that are actively being bombarded by Pion
 *Sakigake* ships.
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-- **Europa** Medium Population, Cold, Colony, Life, Low-G, Blocade, Surface, Water
+- **Europa** Medium Population, Cold, Colony, Life, Low-G, Blockade, Surface, Water
 - **Ganymede** Low Population, Cold, Colony, Ice, Low-G, Mining, Occupation, Orbit
 - **Io** Cold, Hot, Low-G, Volcanos
 - **Callisto** Low Population, Cold, Colony, Ice, Low-G, Manufacturing, Siege, Surface
@@ -150,7 +150,7 @@ Enceledus's colony is the oldest among Saturn's moons, and one of the few source
 of liquid water in the outer planets. 
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-- **Titan** Low Population, Blocade, Cold, Colony, Life, Low-G, Orbit
+- **Titan** Low Population, Blockade, Cold, Colony, Life, Low-G, Orbit
 - **Rhea** Minimal Population, Cold, Ice, Low-G
 - **Iapetus** Cold, Ice, Low-G
 - **Enceledus** Low Population, Cold, Colony, Low-G, Surface, Water

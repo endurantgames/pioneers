@@ -175,13 +175,19 @@ The table below lists the attributes and pools for each class.
 
 ### What you lack in subtlety, you make up in brute force. {.classquote}
 
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+If you can't come up with a name, you can roll a die.
+
+- **Name** 1 Lunk, 2 Heavy, 3 Tor, 4 Stonewall, 5 Tiny, 6 Bull
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ### Starting Gear
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::
 - **Armor** 1-4 Assault Armor, 5-6 Tactical Vest
 - **Weapon** 1-2 Pulse Rifle, 3-4 Rocket Launcher, 5-6 Slug Rifle
 - **Weapon** 1-2 Frag Grenade, 3-4 Laser Grenade, 5-6 Pulse Grenade
-- **Other Gear** 1-4 Med Patch, 5-6 Toolkit
+- **Other Gear** 1-4 Med Patch [](#toc-gear-med-patch){.page}, 5-6 Toolkit
 - **Ship** 1-2 Mining Rig, 3-4 Ore Hauler, 5-6 Shuttle
 
 Spend 1 Kit per list to pick instead of taking what you rolled.
@@ -211,13 +217,19 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
 ### Why are things so heavy in the future? Is there a problem with the Earth's gravitational pull? {.classquote}
 
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+If you can't come up with a name, you can roll a die.
+
+- **Name** 1 Quark, 2 Doc, 3 Rain, 4 The Prof, 5 Specs, Tech
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ### Starting Gear
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::
 - **Armor** 1-4 Energy Siphon, Assault Armor
 - **Weapon** 1-4 Sniper Rifle, 5-6 Grenade Mortar
 - **Weapon** 1-4 Taser Pistol, 5-6 Pulse Pistol
-- **Other Gear** 1-4 Radio, 5-6 Med Patch
+- **Other Gear** 1-4 Radio, 5-6 Med Patch [](#toc-gear-med-patch){.page}
 - **Ship** 1-2 Comms Relay, 3-4 Liquid-Nitrogen Tanker, 5-6 Repair Pod
 
 Spend 1 Kit per list to pick instead of taking what you rolled.
@@ -248,13 +260,19 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
 ### It's time to buzz the tower. {.classquote}
 
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+If you can't come up with a name, you can roll a die.
+
+- **Name** 1 Slick, 2 Cheyn, 3 Maverick, 4 Ace, 5 Charm, 6 Recon
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ### Starting Gear
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::
 - **Armor** 1-4 Stealthsuit, 5-6 Energy Siphon
 - **Weapon** 1-2 two Laser Pistols, 3-4 two Slug Pistols, 5-6 one Pulse Pistol and one Taser Pistol
 - **Weapon** 1-4 Bow, 5-6 Flamethrower
-- **Other Gear** 1-4 Toolkit, 5-6 Med Patch
+- **Other Gear** 1-4 Toolkit, 5-6 Med Patch [](#toc-gear-med-patch){.page}
 - **Ship** 1-2 Mining Rig, 3-4 Racing Yacht, 5-6 Solar Glider
 
 Spend 1 Kit per list to pick instead of taking what you rolled.
@@ -284,13 +302,18 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 
 ### You're everyone's second-best friend. {.classquote}
 
+:::::::::::::::::: infolist :::::::::::::::::::::::::
+If you can't come up with a name, you can roll a die.
+
+- **Name** 1 Sarge, 2 Trace, 3 Alyn, 4 RJ, 5 Cap, 6 Smokey
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
 ### Starting Gear
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::
 - **Armor** 1-4 Tactical Vest, 5-6 Stealthsuit
 - **Weapon** 1-4 SMG, 5-6 Autolaser
 - **Weapon** 1-4 Slug Pistol, 5-6 Pulse Pistol
-- **Other Gear** 1-4 2 Med Patches, 5-6 Long-Range Radio
+- **Other Gear** 1-4 2 Med Patches [](#toc-gear-med-patch){.page}, 5-6 Long-Range Radio
 - **Ship** 1-2 Racing Yacht, 3-4 Repair Pod, 5-6 Shuttle
 
 Spend 1 Kit per list to pick instead of taking what you rolled.
@@ -439,6 +462,18 @@ We assume your Survivor has the basics to do their jobs:
 
 If you need anything else, you can spend 1 Kit before or during the
 mission to say you brought it with you.
+
+#### Med Patch {#toc-gear-med-patch}
+
+Med patches are one-shot sources of Health that are in high demand but
+limited quantities among the Resistance. 
+
+When they take their turn, 
+a Survivor can use one on themselves or on another Survivor -- this doesn't
+use up their opportunity to attack during a turn, although they can only use
+one Med Patch each turn.
+
+A Med Patch heals 1 Health and then is used up.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Fights {#toc-fights .breakbefore}
@@ -479,6 +514,9 @@ or *far* to *mid*. (You can't jump from *close* to *far* or vice versa.)
 3. **Use Your Talents** by paying a cost from the appropriate pool. You can use
    as many Talents as you wish during your turn, but you can only activate each
    Talent once during that turn.
+
+4. **Use an Object** if you've picked up something interesting along the way or are
+   carrying a [med patch](#toc-gear-med-patch){.page}.
 
 ### Attacking {#toc-attacking .breakbefore }
 
@@ -525,7 +563,12 @@ During the MC's turn, they can do any or all of these:
 
 4. Have the **Pions counter-attack.**
 
-At the end of the MC's turn, they generate Drops, if appropriate.
+At the end of the MC's turn, two things happen:
+
+1. **The MC generates Drops** if any Pions were killed since the end of their last
+   turn.
+
+2. **Check on dying characters.**
 
 #### Big Changes {#toc-big-changes}
 
@@ -559,7 +602,8 @@ the full amount of Harm.
 
 #### Drops {#toc-drops}
 
-At the end of the MC's turn, they roll 1d6 for each enemy that died since their last turn.
+At the end of the MC's turn, they one die 1d6 for each enemy that died since the end of
+the MC's last turn, and check this table.
 
 :::::::::::::::::::::::::::::::::: drops :::::::::::::::::::::::::::::::::::::::::::::::::::::
  Roll  Pool        Example
@@ -571,6 +615,35 @@ At the end of the MC's turn, they roll 1d6 for each enemy that died since their 
 
 The players can then decide among themselves who will claim each drop. No player can
 exceed their maximum in a pool.`
+
+#### Death and Dying
+
+[]{.gamename} isn't, broadly speaking, a happy game where the Survivors triumph and
+a parade is thrown in their honor. Instead, human civilization is on the brink of
+destruction and the Survivors' actions can only delay an end that seems inevitable.
+The spectre of death hangs over each Survivor and many are haunted by what they've
+seen and done.
+
+When a Survivor is reduced to 0 Health, they're **Taken Out** of this fight and don't
+get to act during the Survivors' Turn step of the fight. This lasts as long as they
+are at 0 Health.
+
+At the **end of the MC's turn**, each player whose Survivor is at 0 Health rolls a
+die and checks the following table.
+If another Survivor gave first aid to the dying Survivor during their previous turn,
+they can roll a die as well, and the Survivor uses the best value of any die rolled.
+
+:::::::::::::::::: dying :::::::::::::::::
+ Roll   Result
+------  -------                            
+ 1-2    Too late; they're **Dead**
+ 3-5    No change
+  6     Miraculous recovery! **+1 Health**
+::::::::::::::::::::::::::::::::::::::::::
+
+The Death roll happens *after* the Drops get distributed; if a Survivor who is
+at 0 Health claims a +1 Health Drop, they're no longer dying when it's time for 
+Death rolls.
 
 
 ## The Solar System {#toc-solar-system .breakbefore}
@@ -613,7 +686,7 @@ robots, the Solar System of []{.gamename} is the same Solar System we inhabit to
 
 ::::::::::: { .infolist .breakable              } :::::::::::::::::::::::::::::::::::::
 - **Atmosphere** The location has a breathable atmosphere.
-- **Blocade** Currently blocaded by the Pions.
+- **Blockade** Currently blockaded by the Pions.
 - **Cold** It's too cold for a human to survive without protection.
 - **Colony** Recognized as an independent colony.
 - **Farming** Farming is a major industry.
@@ -650,7 +723,7 @@ destroyed in 2150 in the largest space disaster in human history -- with over
 2 million humans dying instantly.
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-- **Earth** Maximum Population, Atmosphere, Blocade, Farming, Ice, High-G, Life, Manufacturing, Occupation, Orbit, Spaceport, Surface, Underground, Volcanos, Water
+- **Earth** Maximum Population, Atmosphere, Blockade, Farming, Ice, High-G, Life, Manufacturing, Occupation, Orbit, Spaceport, Surface, Underground, Volcanos, Water
 - **Luna** High Population, Colony, Low-G, Mining, Siege, Spaceport, Surface, Underground
 - **O'Neill Station** Medium Population, Atmosphere, Farming, High-G, Occupation, Spaceport
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -678,7 +751,7 @@ port between the Inner Planets and the Outer Planets.
 - **Mercury** Low Population, Bright, Cold, Colony, Hot, Mining, Orbit, Siege, Surface, Underground
 - **Venus**  Medium Population, Colony, High-G, Hot, Life, Mining, Occupation, Orbit, Spaceport, Surface
 - **Mars** High Population, Cold, Colony, Ice, Manufacturing, Mining, Occupation, Orbit, Spaceport, Surface, Underground
-- **Ceres** Low Population, Blocade, Cold, Colony, Ice, Low-G, Mining, Spaceport, Underground
+- **Ceres** Low Population, Blockade, Cold, Colony, Ice, Low-G, Mining, Spaceport, Underground
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Jupiter {#toc-location-jupiter .breakbefore}
@@ -702,7 +775,7 @@ them almost entirely automated, that are actively being bombarded by Pion
 *Sakigake* ships.
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-- **Europa** Medium Population, Cold, Colony, Life, Low-G, Blocade, Surface, Water
+- **Europa** Medium Population, Cold, Colony, Life, Low-G, Blockade, Surface, Water
 - **Ganymede** Low Population, Cold, Colony, Ice, Low-G, Mining, Occupation, Orbit
 - **Io** Cold, Hot, Low-G, Volcanos
 - **Callisto** Low Population, Cold, Colony, Ice, Low-G, Manufacturing, Siege, Surface
@@ -725,7 +798,7 @@ Enceledus's colony is the oldest among Saturn's moons, and one of the few source
 of liquid water in the outer planets. 
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::::::::::::::::::::::
-- **Titan** Low Population, Blocade, Cold, Colony, Life, Low-G, Orbit
+- **Titan** Low Population, Blockade, Cold, Colony, Life, Low-G, Orbit
 - **Rhea** Minimal Population, Cold, Ice, Low-G
 - **Iapetus** Cold, Ice, Low-G
 - **Enceledus** Low Population, Cold, Colony, Low-G, Surface, Water
@@ -814,7 +887,7 @@ brains. They're the spokesrobots for the Occupation.
 - **Health** 5
 - **Vulnerable** pulse
 - **Finger Lasers** *close, mid* Harm 2, Burn 
-- **Moves** Issue threats, call for help, strategic withdrawal
+- **Moves** Sarcastically issue threats, call for help, strategic withdrawal
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Mariner {#toc-pion-mariner .colbefore}
@@ -1173,7 +1246,7 @@ The five known types of Pion ships are:
 - **Zond** Interdictor
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Genesis {.colbefore}
+### Genesis {#toc-pion-ship-genesis .colbefore}
 
 Only one of these is ships is known to exist, and that's fortunate. Nearly the
 size of O'Neill Station, *Genesis* is a mobile battlestation that was at first
@@ -1190,7 +1263,7 @@ mistaken for a small natural satellite, but this is no moon.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Kosmos {.colbefore}
+### Kosmos {#toc-pion-ship-kosmos .colbefore}
 
 A total of 8 *Kosmos* carriers have been identified by Resistance Intel Officers.
 One is in Earth orbit, and another in Lunar orbit. Every human colony under a
@@ -1208,7 +1281,7 @@ facilities for those and other Pion ships, including hangars for *Mariners.*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Mariner {.colbefore}
+### Mariner {#toc-pion-ship-mariner .colbefore}
 
 *Mariners* are the smallest of the Pion ships, even smaller than the *Zonds.*
 Unlike most spacecraft, they *can* be affected by personal-level weaponry;
@@ -1226,7 +1299,7 @@ the Solar System.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Sakigake {.colbefore}
+### Sakigake {#toc-pion-ship-sakigake .colbefore}
 
 Smaller than the *Kosmos*-class carriers, *Sakigake* craft are primarily weapons
 of mass destruction that can attack from the edge of a planet's orbit. They're
@@ -1246,7 +1319,7 @@ with *Zond* escorts. Although they pack a devastating punch,
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::::::::::::::::::
-### Zond {.colbefore}
+### Zond {#toc-pion-ship-zond .colbefore}
 
 *Zond*-class craft are agile and deadly interceptor craft that hunt in packs
 like wolves or sharks. They're most frequently encountered near *Kosmos*
@@ -1269,106 +1342,215 @@ not breathable by humans.
 
 ## Mission Control {#toc-mc .breakbefore}
 
-[]{.lorem}
+If you're playing as Mission Control instead of creating
+and playing a Survivor, you've got an important role in
+the game -- but it's *not* to kill the other players'
+Survivor characters.
 
-[]{.lorem}
- 
-[]{.lorem}
+Think of yourself less like the players' opponents and more
+like a director or producer -- you give the players challenges 
+that their Survivors can overcome, but you're still rooting
+for them to win in the end.
 
-[]{.lorem}
+In your role, you can control the pacing and difficulty of
+the game more directly than the other players can. As a 
+consequence, you shouldn't grow that attached to your own
+Pions -- they only exist to put up a token amount of 
+threat and then get mowed down by the Survivors.
 
-[]{.lorem}
+### Rotating MCs
 
-[]{.lorem}
+[]{.gamename} is a very *episodic* game, meaning that there aren't 
+really storylines and plots that run from one Op to the next. 
 
-### Roleplaying the Pions {#toc-mc-rp .colbefore}
+That makes it to switch roles between Ops; for many groups, it
+makes sense for a player to take on the MC role for one mission,
+and then pass it on to another player at the end of an Op. 
 
-[]{.lorem}
-
-[]{.lorem}
-
-[]{.lorem}
+This is how we recommend you play the game -- it gives everyone
+a chance to experience the game from two different sides, and
+all the players get to make up Survivors! Character creation can
+be a fun mini-game.
 
 ### The Question of *Why?* {#toc-mc-why .colbefore}
 
-[]{.lorem}
+You might notice that nowhwere in []{.gamename} do we
+actually explain *why* the Pions are doing this. That's
+deliberate, not an oversight!
 
-[]{.lorem}
+In the TV shows and movies 
+[that inspired this game](#toc-credits){.page}, such as
+2004's *Battlestar Galactica*, attempts to explain the
+backstories of the villains usually made the shows worse,
+not better.
 
-[]{.lorem}
+If it's going to make a difference in the way you play, then
+of course you can make something up -- we're not stopping you!
+But ultimately []{.gamename} just isn't a game about understanding
+the motives of your enemies but about breaking evil robots, so
+that's what the game does.
+
+We also don't offer an explanation of why the Pions haven't wiped
+out humanity and are instead trying to conquerer and control
+Earth and her colonies. Also deliberate, and for the same
+reason!
+
+If the players bring this up during the game,
+just smile knowingly and say something vague, like, "Hmm, that
+*is* mysterious, isn't it?" If you're one of those players
+reading this and the issue arises later, either play along with
+the MC or make up some ridiculous cockamamie explanation. Hey,
+maybe it's true in *your* game, right?
+
+### Roleplaying the Pions {#toc-mc-rp .colbefore}
+
+Unlike many roleplaying games, interactions between the player
+characters and non-player characters don't play a huge role 
+in []{.gamename} -- the preceeding section explains why!
+
+The [Cassini model](#toc-pion-cassini){.page} are the only Pions
+who talk, so when one of those shows up -- and they're found in
+most Pion bases -- feel free to play them to the hilt. They're meant
+to be the exact opposite of the alien, non-communicative types
+that make up the vast majority of the Pions. Cassinis are snide,
+taunting, and duplicitous.
+
+You can also roleplay the other Pions without having them speak
+directly. Describe how their sensors track the Survivors with
+stony indifference. Give them unfamiliar beeps and electronic
+squawks as they die; just make sure they're implacably 
+inscrutable.
 
 
 ## Resistance Ops {#toc-ops .breakbefore}
 
-[]{.lorem}
+The basic cycle of a []{.gamename} looks like this:
+
+1. The players create Survivors.
+2. Survivors are assigned an Op with a specific mission.
+3. Survivors prepare for the Op and get in position.
+4. One or more fights ensue on the way to completing that mission.
+5. Survivors leave, bury their dead, and recover.
+6. Back to 2, until the players are satisfied with the game.
+
+Survivor creation is 
+[covered in a previous section](#toc-chargen){.page}; this section
+will tell you how to send those Survivors on those dangerous 
+missions where they might get killed.
 
 ### Op Types {#toc-ops-types}
 
-There are three kinds of Ops:
+Broadly speaking, there are three kinds of Ops: **Planetary Ops**
+that take place on the surface of a planet or moon; **Space Ops**
+that happen in spacecraft; and **Combined Ops**.
 
-- Planetary Ops
-- Space Ops
-- Combined Ops
+Each has their own unique qualities, and in general it's more
+fun to have variety in Op types.
 
-[]{.lorem}
+Most Survivors' Talents are directly tied to personal-scale
+fights, and those should be the emphasis of a []{.gamename} --
+but not exclusively.
+
+The bottom of this page has a chart you can use before an Op
+to determine what type of mission it will it. Have one player
+roll a die and then crossreference the last type of Op you
+completed with the die roll, then check the following sections
+for specific Op scenarios!
+
+::::::::::::::::::::: opmasterchart :::::::::::::::::::::::::::::
+ Die Roll  No Prior Op  Last Op: Planetary  Space      Combined
+---------- ------------ ------------------- ---------- ----------
+    1      Planetary    Planetary           Planetary  Planetary
+    2      Planetary    Planetary           Planetary  Planetary
+    3      Planetary    Space               Planetary  Planetary
+    4      Space        Space               Planetary  Space
+    5      Combined     Combined            Space      Combined
+    6      Combined     Combined            Combined   Combined
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Planetary Ops {#toc-ops-planetary .colbefore}
 
-[]{.lorem}
+On these missions, Survivors are tasked with carrying out an Op on the
+surface of a planet or moon. Their gear will be adapted to function in
+such an environment, if necessary -- for example, missions to Mars will
+include O<sub>2 tanks and filters.
+
+Use the following table to decide the mission paramters for a Planetary Op.
 
 ::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
-     1        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     2        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     3        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     4        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     5        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     6        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     1        **Sabotage Industrial Center** 1 on Earth, 2 on Venus, 3-4 on Mars, 5 on Mimas, 6 in the asteroid belt
+     2        **Rescue Crash Survivors** 1-2 on Titan, 3-4 on Oberon, 5-6 on Io
+     3        **Liberate a Settlement** 1-2 on Venus, 3-4 on Mars, 5-6 on Enceledas
+     4        **Destroy a Pion Base** 1 on Earth, 2-3 on Venus, 5-6 on Mars, 6 on Dione
+     5        **Steal Intelligence** 1 from Earth, 2-3 from O'Neill Station, 4 from Venus, 5 from Mars, 6 from Ganymede's Cleomestra Station
+     6        **Assassinate a [Cassini](#toc-pion-cassini){.page}** 1-2 on Earth, 3-4 on O'Neill Station, 5 on Ganymede, 6 on Pluto
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-[]{.lorem}
 
 #### Space     Ops {#toc-ops-space .colbefore}
 
-[]{.lorem}
+For these missions, the Survivors have to perform a mission primarily in
+space. At no cost, a Survivor can swap out their armor for a 
+[vacsuit](#toc-armor){.page} without paying a cost in Kit.
+
+Use the following table to decide the mission paramters for a Space Op.
 
 ::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
-     1        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     2        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     3        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     4        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     5        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     6        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     1        **Salvage** 1-2 the asteroid belt, 3-4 near Triton, 5-6 near Pluto
+     2        **Escort Mission** 1-2 Callisto to Europa, 3-4 Enceledas to Ariel, 5 Oberon to Triton, 6 Pluto to Earth
+     3        **Destroy a [Sakigake](#toc-pion-ship-sakigake){.page}** 1-2 near Callisto, 3-4 near Mercury, 5-6 near Oberon
+     4        **SOS Received** 1-2 in the asteroid belt, 3-4 near Jupiter, 5-6 near Saturn
+     5        **Resupply Eris** 1-2 food, 3-4 fuel, 5-6 water
+     6        **Blockade-Running** 1-2 to Ceres, 3-4 to Europa, 5-6 to Titan
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-[]{.lorem}
 
 #### Combined  Ops {#toc-ops-combined .colbefore}
 
-[]{.lorem}
+Specialized gear for use on a surface will be issued to the Survivors,
+as per planetary ops. At no cost in Kit, a player can choose to have a 
+vacsuit on their ship for this mission, and can switch between that and
+their normal armor during a lull in the action.
+
+Use the following table to decide the mission paramters for an Op that
+has both Planetary and Space objectives.
 
 ::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
-     1        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     2        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     3        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     4        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     5        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     6        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     1        **Free Important Prisoners** 1-2 on Venus, 3-4 on O'Neill Station, 5-6 on Ganymede's Cleomestra Station
+     2        **Rescue Trapped Colonists** 1 on Luna, 2 on Mars, 3-4 on Europa, 5 on Callisto, 6 on Mirans, 
+     3        **Liberate a Ship** 1-2 on Earth, 3-4 Earth orbit, 5-6 on Mars
+     4        **Evac a Resistance Base** 1-2 on Mercury, 3-4 in the asteroid belt, 5-6 on Callisto
+     5        **Broadcast a Message** 1-2 on Earth, 3-4 on Luna, 5-6 on Pluto
+     6        **Infiltrate [Genesis](#toc-pion-ship-genesis){.page}** 1-2 rescue a prisoner, 3-4 steal plans, 5-6 sabotage a comms center
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-[]{.lorem}
 
 ### Mission Prep {#toc-ops-prep .colbefore}
 
-[]{.lorem}
+Survivors' Health, Impulse, and Kit pools reset before an Op. Each player can
+make a prep roll before an Op to prepare for the upcoming mission using an
+attribute of their choice. The appropriate pool -- and its maximum value --
+increases by 1 for the entirety of this Op.
 
-[]{.lorem}
+ Die Roll   Attribute: Thrust    Gyro        Telemetry
+----------  -------------------  ----------- -----------
+   1        +1 Kit               +1 Health   +1 Impulse
+  2-3       +1 Health            +1 Impulse  +1 Kit
+  4-6       +1 Impulse           +1 Gear     +1 Health
+
+Before each mission, players roll to see which weapons, armor, other gear,
+and ships they have access to during this Op.
+Any Survivor who has customized their weapon or ship can keep that from their
+last Op and doesn't have to roll.
+
+Right before an Op, a Survivor can spend Kit (and only Kit) to change out their
+gear for another choice on the appropriate table. Survivors without a Med Patch
+can also spend 1 Kit to grab a Med Patch -- but no Survivor can have more than
+one at the start of an Op; they're too rare among the Resistance and are heavily
+rationed.
 
 ### Travel Time {#toc-ops-travel}
 
@@ -1403,15 +1585,35 @@ time, plus 1d6 weeks.
 
 Travel time between moons of the same outer planet takes 1d6 hours.
 
+### When an Op is Over
+
+An Op concludes when the Survivors have finished an Op, or when at
+least one of them has died and the players decide to scrub the mission
+and return home.
+
 ### Post-Op Recuperation {#toc-ops-post .colbefore}
 
-[]{.lorem}
+After an Op, the Survivors retreat to a hidden base to await further
+orders from the Resistance.
 
-[]{.lorem}
+Any player whose Survivor died during the previous Op can create a
+new Survivor during Post-Op Recuperation. Likewise, any player 
+who wishes to try a different character can make a new one during 
+the Post-Op.
 
-[]{.lorem}
+Pools don't automatically refresh at the end of an Op. Survivors who
+have points remaining in their Kit can spend 1 point on *one* of the
+following options:
 
-[]{.lorem}
+1. **Customize Weapons** Spend 1 kit to switch 1 Tag on a weapon to a
+   different Tag.
+
+2. **Customize Ship Weaponry** Spend 1 kit to switch 1 ship-mounted weapon for
+   a different ship weapon.
+
+3. **Customize Ship Tags** Spend 1 kit to switch 1 Tag on a ship for 
+   a different ship Tag.
+
 
 ## Credits {#toc-credits .breakbefore}
 

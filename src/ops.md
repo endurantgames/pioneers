@@ -46,61 +46,87 @@ for specific Op scenarios!
 
 ### Planetary Ops {#toc-ops-planetary .colbefore}
 
-[]{.lorem}
+On these missions, Survivors are tasked with carrying out an Op on the
+surface of a planet or moon. Their gear will be adapted to function in
+such an environment, if necessary -- for example, missions to Mars will
+include O<sub>2 tanks and filters.
+
+Use the following table to decide the mission paramters for a Planetary Op.
 
 ::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
-     1        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     2        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     3        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     4        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     5        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     6        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     1        **Sabotage Industrial Center** 1 on Earth, 2 on Venus, 3-4 on Mars, 5 on Mimas, 6 in the asteroid belt
+     2        **Rescue Crash Survivors** 1-2 on Titan, 3-4 on Oberon, 5-6 on Io
+     3        **Liberate a Settlement** 1-2 on Venus, 3-4 on Mars, 5-6 on Enceledas
+     4        **Destroy a Pion Base** 1 on Earth, 2-3 on Venus, 5-6 on Mars, 6 on Dione
+     5        **Steal Intelligence** 1 from Earth, 2-3 from O'Neill Station, 4 from Venus, 5 from Mars, 6 from Ganymede's Cleomestra Station
+     6        **Assassinate a [Cassini](#toc-pion-cassini){.page}** 1-2 on Earth, 3-4 on O'Neill Station, 5 on Ganymede, 6 on Pluto
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-[]{.lorem}
 
 ### Space     Ops {#toc-ops-space .colbefore}
 
-[]{.lorem}
+For these missions, the Survivors have to perform a mission primarily in
+space. At no cost, a Survivor can swap out their armor for a 
+[vacsuit](#toc-armor){.page} without paying a cost in Kit.
+
+Use the following table to decide the mission paramters for a Space Op.
 
 ::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
-     1        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     2        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     3        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     4        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     5        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     6        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     1        **Salvage** 1-2 the asteroid belt, 3-4 near Triton, 5-6 near Pluto
+     2        **Escort Mission** 1-2 Callisto to Europa, 3-4 Enceledas to Ariel, 5 Oberon to Triton, 6 Pluto to Earth
+     3        **Destroy a [Sakigake](#toc-pion-ship-sakigake){.page}** 1-2 near Callisto, 3-4 near Mercury, 5-6 near Oberon
+     4        **SOS Received** 1-2 in the asteroid belt, 3-4 near Jupiter, 5-6 near Saturn
+     5        **Resupply Eris** 1-2 food, 3-4 fuel, 5-6 water
+     6        **Blockade-Running** 1-2 to Ceres, 3-4 to Europa, 5-6 to Titan
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-[]{.lorem}
 
 ### Combined  Ops {#toc-ops-combined .colbefore}
 
-[]{.lorem}
+Specialized gear for use on a surface will be issued to the Survivors,
+as per planetary ops. At no cost in Kit, a player can choose to have a 
+vacsuit on their ship for this mission, and can switch between that and
+their normal armor during a lull in the action.
+
+Use the following table to decide the mission paramters for an Op that
+has both Planetary and Space objectives.
 
 ::::::::::::::::::: opstable ::::::::::::::::::::::::::::::::::::::::
  Die Roll     Result
 ----------    -------------------------------------------------------
-     1        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     2        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     3        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     4        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     5        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
-     6        1-2 something happens 3-4 something else happens 5 nothing happens 6 everything happens this is extra text to make it longer
+     1        **Free Important Prisoners** 1-2 on Venus, 3-4 on O'Neill Station, 5-6 on Ganymede's Cleomestra Station
+     2        **Rescue Trapped Colonists** 1 on Luna, 2 on Mars, 3-4 on Europa, 5 on Callisto, 6 on Mirans, 
+     3        **Liberate a Ship** 1-2 on Earth, 3-4 Earth orbit, 5-6 on Mars
+     4        **Evac a Resistance Base** 1-2 on Mercury, 3-4 in the asteroid belt, 5-6 on Callisto
+     5        **Broadcast a Message** 1-2 on Earth, 3-4 on Luna, 5-6 on Pluto
+     6        **Infiltrate [Genesis](#toc-pion-ship-genesis){.page}** 1-2 rescue a prisoner, 3-4 steal plans, 5-6 sabotage a comms center
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-[]{.lorem}
 
 ## Mission Prep {#toc-ops-prep .colbefore}
 
-[]{.lorem}
+Survivors' Health, Impulse, and Kit pools reset before an Op. Each player can
+make a prep roll before an Op to prepare for the upcoming mission using an
+attribute of their choice. The appropriate pool -- and its maximum value --
+increases by 1 for the entirety of this Op.
 
-[]{.lorem}
+ Die Roll   Attribute: Thrust    Gyro        Telemetry
+----------  -------------------  ----------- -----------
+   1        +1 Kit               +1 Health   +1 Impulse
+  2-3       +1 Health            +1 Impulse  +1 Kit
+  4-6       +1 Impulse           +1 Gear     +1 Health
+
+Before each mission, players roll to see which weapons, armor, other gear,
+and ships they have access to during this Op.
+Any Survivor who has customized their weapon or ship can keep that from their
+last Op and doesn't have to roll.
+
+Right before an Op, a Survivor can spend Kit (and only Kit) to change out their
+gear for another choice on the appropriate table. Survivors without a Med Patch
+can also spend 1 Kit to grab a Med Patch -- but no Survivor can have more than
+one at the start of an Op; they're too rare among the Resistance and are heavily
+rationed.
 
 ## Travel Time {#toc-ops-travel}
 
@@ -137,12 +163,30 @@ Travel time between moons of the same outer planet takes 1d6 hours.
 
 ## When an Op is Over
 
+An Op concludes when the Survivors have finished an Op, or when at
+least one of them has died and the players decide to scrub the mission
+and return home.
+
 ## Post-Op Recuperation {#toc-ops-post .colbefore}
 
-[]{.lorem}
+After an Op, the Survivors retreat to a hidden base to await further
+orders from the Resistance.
 
-[]{.lorem}
+Any player whose Survivor died during the previous Op can create a
+new Survivor during Post-Op Recuperation. Likewise, any player 
+who wishes to try a different character can make a new one during 
+the Post-Op.
 
-[]{.lorem}
+Pools don't automatically refresh at the end of an Op. Survivors who
+have points remaining in their Kit can spend 1 point on *one* of the
+following options:
 
-[]{.lorem}
+1. **Customize Weapons** Spend 1 kit to switch 1 Tag on a weapon to a
+   different Tag.
+
+2. **Customize Ship Weaponry** Spend 1 kit to switch 1 ship-mounted weapon for
+   a different ship weapon.
+
+3. **Customize Ship Tags** Spend 1 kit to switch 1 Tag on a ship for 
+   a different ship Tag.
+
