@@ -1405,7 +1405,7 @@ reading this and the issue arises later, either play along with
 the MC or make up some ridiculous cockamamie explanation. Hey,
 maybe it's true in *your* game, right?
 
-### Roleplaying the Pions {#toc-mc-rp }
+### Roleplaying the Pions {#toc-mc-rp .colbefore }
 
 Unlike many roleplaying games, interactions between the player
 characters and non-player characters don't play a huge role 
