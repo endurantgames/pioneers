@@ -3,25 +3,19 @@
 
 @import "pics.css";
 
-@page { size: 1920px 1080px; background-color: black; color: white; margin: 64px; }
+@page { size: 360x 720px; background-color: black; color: white; margin: 5px; }
 header        { display: none;                       }
 header p.date { string-set: date content()           }
 header h1     { string-set: gamename content()       }
 
 @page:first { margin: 0; padding: 0; }
-@page { margin-inside: 704px; }
 
-@page { @left-bottom { font-size: 64px; font-family: var(--font-header); text-shadow: 0 0 0.25em black; } }
-@page { @right-bottom { font-size: 64px; font-family: var(--font-header); text-shadow: 0 0 0.25em black; } }
+@page { @bottom-center { font-size: var(--body); font-family: var(--font-header); text-shadow: 0 0 0.25em black; } }
 
-@page:right { @left-bottom { content: counter(page); text-align: inside; padding-left: 64px; } }
-@page:left  { @right-bottom { content: counter(page); text-align: inside; padding-right: 64px; } }
-
-@page:first { @left-bottom { content: normal; } @right-bottom { content: normal; } }
+@page:first { @bottom-center { content: normal; } }
 
 @prince-pdf {
-  -prince-pdf-page-mode: fullscreen;
-  -prince-pdf-page-layout: single-page;
+  -prince-pdf-page-layout: one-column;
 }
 
 @font-face { 
@@ -43,27 +37,27 @@ header h1     { string-set: gamename content()       }
 
   --icon-game: 'game-icons';
 
-  --large:     16px;
-  --larger:    14px;
-  --body:      12px;
-  --smaller:   11px;
-  --small:     10px;
-  --title:     64px;
-  --subtitle:  32px;
-  --headline:  40px;
-  --subhed:    32px;
-  --h1:        24px; 
-  --h2:        22px;
-  --h3:        20px;
-  --h4:        18px;
-  --h5:        16px;
-  --h6:        14px;
-  --th:        12px;
+  --large:     22px;
+  --larger:    20px;
+  --body:      18px;
+  --smaller:   15px;
+  --small:     13px;
+  --title:    128px;
+  --subtitle:  64px;
+  --headline:  80px;
+  --subhed:    64px;
+  --h1:        64px; 
+  --h2:        36px;
+  --h3:        30px;
+  --h4:        24px;
+  --h5:        22px;
+  --h6:        18px;
+  --th:        18px;
   --quotesize: 36px;
-  --quotesize-redalert: 18px;
-  --quotesize-inline: 18x;
-  --creditsize: 12px;
-  --creditsize-inline: 12px;
+  --quotesize-redalert: 24px;
+  --quotesize-inline: 24px;
+  --creditsize: 24px;
+  --creditsize-inline: 20px;
 
   --color-line:    gray;
   --color-light:   silver;
@@ -82,10 +76,8 @@ header h1     { string-set: gamename content()       }
                   'arcu sem gravida metus, at vestibulum erat augue vel ante.'; }
 
 body { color: white; 
-  columns: 2 auto;
-  column-gap: 64px;
   background-color: var(--bg-dark);
-  padding: 32px;
+  padding: 8px;
 }
 
 body p { letter-spacing: 0.05em; }

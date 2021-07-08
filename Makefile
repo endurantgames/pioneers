@@ -30,15 +30,21 @@ BACKUPS = --backup=numbered
 # File Locations
 #   Edit: probably unnecessary
 PROJ_RECIPE = $(PROJ)
-SHEET_RECIPE = sheet
 PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
-SHEET_SRC  = $(BUILDDIR)/sheet.md
 PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
+
 HTML_OUT    = $(OUTDIR)/$(PROJ).html
+
+SHEET_RECIPE = sheet
+SHEET_SRC  = $(BUILDDIR)/sheet.md
 SHEET_HTML_OUT = $(OUTDIR)/$(PROJ)-sheets.html
-PLAINTEXT_OUT = $(OUTDIR)/$(PROJ)-plaintext.pdf
 SHEET_OUT = $(OUTDIR)/$(PROJ)-sheets.pdf
 SHEET_ALT_OUT = $(OUTDIR)/$(PROJ)-sheets-alt.pdf
+
+PLAINTEXT_OUT = $(OUTDIR)/$(PROJ)-plaintext.pdf
+
+MOBILE_OUT = $(OUTDIR)/$(PROJ)-mobile.pdf
+
 TEASER_RECIPE = teaser
 TEASER_SRC = $(BUILDDIR)/teaser.md
 TEASER_OUT = $(OUTDIR)/pioneers-teaser.pdf
@@ -50,6 +56,7 @@ PROJ_CSS    = --css=$(STYLEDIR)/style.css
 PLAINTEXT_CSS = --css=$(STYLEDIR)/plain.css
 SHEET_CSS = --css=$(STYLEDIR)/charsheet.css
 SHEET_ALT_CSS = --css=$(STYLEDIR)/alt-charsheet.css
+MOBILE_CSS    = --css=$(STYLEDIR)/mobile.css
 
 # Derived Flags
 #   Edit: probably unnecessary
@@ -58,6 +65,7 @@ PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
 SHEET_FLAGS = $(FLAGS) $(SHEET_CSS) $(PRINCEFLAGS_SHEET)
 SHEET_ALT_FLAGS = $(FLAGS) $(SHEET_ALT_CSS)
 PLAINTEXT_FLAGS = $(FLAGS) $(PLAINTEXT_CSS)
+MOBILE_FLAGS  = $(FLAGS) $(MOBILE_CSS) $(PRINCEFLAGS_MOBILE)
 
 # Application Configruation #############################################################################
 #
@@ -72,6 +80,7 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 # PRINCEFLAGS    = --pdf-engine-opt=--css-dpi=300
 PRINCEFLAGS    = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
 PRINCEFLAGS_SHEET    = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/sheet_%d.png
+PRINCEFLAGS_MOBILE   = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/mobile_%d.png
 # PRINCEFLAGS    =
 
 # Pdfinfo Config
@@ -253,6 +262,12 @@ plaintext: markdown
 	@ echo '$(ltblue)Making Plaintext PDF.$(resetc)'
 	@       $(PANDOC) $(PANDOCFLAGS) $(PLAINTEXT_FLAGS) -o $(PLAINTEXT_OUT) $(PROJ_SRC)
 	@       $(PDFINFO) $(PLAINTEXT_OUT) $(PDFINFO_GREP)
+	@      -$(EXPLORER)
+
+mobile: markdown
+	@ echo '$(ltblue)Making Mobile PDF.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(MOBILE_FLAGS) -o $(MOBILE_OUT) $(PROJ_SRC)
+	@       $(PDFINFO) $(MOBILE_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
 teaser: markdown-teaser
