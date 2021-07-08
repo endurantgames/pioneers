@@ -3,4 +3,5 @@ html2pdf*.pdf
 mobile*.png
 mobile
 out
+build
 *.swp
