@@ -23,50 +23,44 @@ DOCSDIR   = ./docs
 
 # Backups
 #   Edit: if you want/don't want to back up files when you do make clean
-BACKUPS = --backup=numbered
+BACKUPS   = --backup = numbered
 # BACKUPS = -b
-# BACKUPS = 
+# BACKUPS =
 
 # File Locations
 #   Edit: probably unnecessary
-PROJ_RECIPE = $(PROJ)
-
-PROJ_SRC    = $(BUILDDIR)/$(PROJ).md
-PROJ_OUT    = $(OUTDIR)/$(PROJ).pdf
-
-HTML_OUT    = $(OUTDIR)/$(PROJ).html
-
-MOBILE_OUT  = $(OUTDIR)/$(PROJ)-pocket.pdf
-
-SHEET_RECIPE = sheet
-SHEET_SRC  = $(BUILDDIR)/sheet.md
+PROJ_RECIPE    = $(PROJ)
+PROJ_SRC       = $(BUILDDIR)/$(PROJ).md
+PROJ_OUT       = $(OUTDIR)/$(PROJ).pdf
+HTML_OUT       = $(OUTDIR)/$(PROJ).html
+MOBILE_OUT     = $(OUTDIR)/$(PROJ)-pocket.pdf
+SHEET_RECIPE   = sheet
+SHEET_SRC      = $(BUILDDIR)/sheet.md
 SHEET_HTML_OUT = $(OUTDIR)/$(PROJ)-sheets.html
-SHEET_OUT = $(OUTDIR)/$(PROJ)-sheets.pdf
-SHEET_ALT_OUT = $(OUTDIR)/$(PROJ)-sheets-alt.pdf
-
-PLAINTEXT_OUT = $(OUTDIR)/$(PROJ)-plaintext.pdf
-
-TEASER_RECIPE = teaser
-TEASER_SRC = $(BUILDDIR)/teaser.md
-TEASER_OUT = $(OUTDIR)/pioneers-teaser.pdf
+SHEET_OUT      = $(OUTDIR)/$(PROJ)-sheets.pdf
+SHEET_ALT_OUT  = $(OUTDIR)/$(PROJ)-sheets-alt.pdf
+PLAINTEXT_OUT  = $(OUTDIR)/$(PROJ)-plaintext.pdf
+TEASER_RECIPE  = teaser
+TEASER_SRC     = $(BUILDDIR)/teaser.md
+TEASER_OUT     = $(OUTDIR)/pioneers-teaser.pdf
 
 # CSS Location
 #   Edit: if you have more than one stylesheet
-PROJ_CSS    = --css=$(STYLEDIR)/style.css
-# PROJ_CSS    = --css=$(STYLEDIR)/$(PROJ).css
-PLAINTEXT_CSS = --css=$(STYLEDIR)/plain.css
-SHEET_CSS = --css=$(STYLEDIR)/charsheet.css
-SHEET_ALT_CSS = --css=$(STYLEDIR)/alt-charsheet.css
-MOBILE_CSS = --css=$(STYLEDIR)/mobile.css
+# PROJ_CSS    = --css = $(STYLEDIR)/$(PROJ).css
+PROJ_CSS      = --css = $(STYLEDIR)/style.css
+PLAINTEXT_CSS = --css = $(STYLEDIR)/plain.css
+SHEET_CSS     = --css = $(STYLEDIR)/charsheet.css
+SHEET_ALT_CSS = --css = $(STYLEDIR)/alt-charsheet.css
+MOBILE_CSS    = --css = $(STYLEDIR)/mobile.css
 
 # Derived Flags
 #   Edit: probably unnecessary
-FLAGS       = -t html5 --standalone --resource-path=$(IMGDIR) 
-PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
-SHEET_FLAGS = $(FLAGS) $(SHEET_CSS) $(PRINCEFLAGS_SHEET)
-SHEET_ALT_FLAGS = $(FLAGS) $(SHEET_ALT_CSS)
-PLAINTEXT_FLAGS = $(FLAGS) $(PLAINTEXT_CSS)
-MOBILE_FLAGS = $(FLAGS) $(MOBILE_CSS) $(PRINCEFLAGS_MOBILE)
+FLAGS           = -t html5 --standalone --resource-path=$(IMGDIR)
+PROJ_FLAGS      = $(FLAGS) $(PROJ_CSS) $(PRINCEFLAGS)
+SHEET_FLAGS     = $(FLAGS) $(SHEET_CSS) $(PRINCEFLAGS_SHEET)
+SHEET_ALT_FLAGS = $(FLAGS) $(SHEET_ALT_CSS) $(PRINCEFLAGS_SHEET_ALT)
+PLAINTEXT_FLAGS = $(FLAGS) $(PLAINTEXT_CSS) $(PRINCEFLAGS_PLAIN)
+MOBILE_FLAGS    = $(FLAGS) $(MOBILE_CSS) $(PRINCEFLAGS_MOBILE)
 
 # Application Configruation #############################################################################
 #
@@ -78,15 +72,27 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 
 # Prince Config
 #   Edit: Sure, if you need to
+#  
 # PRINCEFLAGS    = --pdf-engine-opt=--css-dpi=300
-PRINCEFLAGS    = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
-PRINCEFLAGS_SHEET    = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/sheet_%d.png
-PRINCEFLAGS_MOBILE   = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/mobile_%d.png
-# PRINCEFLAGS    =
+#
+# These options produce individual page png files
+PRINCEFLAGS             = --pdf-engine-opt = --raster-output = $(OUTDIR)/pages/page_%d.png
+# PRINCEFLAGS_SHEET     = --pdf-engine-opt = --raster-output = $(OUTDIR)/pages/sheet_%d.png
+# PRINCEFLAGS_SHEET_ALT = --pdf-engine-opt = --raster-output = $(OUTDIR)/pages/sheet_alt_%d.png
+# PRINCEFLAGS_MOBILE    = --pdf-engine-opt = --raster-output = $(OUTDIR)/pages/mobile_%d.png
+# PRINCEFLAGS_PLAIN     = --pdf-engine-opt = --raster-output = $(OUTDIR)/pages/plain_%d.png
+#
+# These do not
+#
+# PRINCEFLAGS         =
+PRINCEFLAGS_SHEET     =
+PRINCEFLAGS_SHEET_ALT =
+PRINCEFLAGS_MOBILE    =
+PRINCEFLAGS_PLAIN     =
 
 # Pdfinfo Config
 #   Edit: probably unnecessary
-PDFINFO        = /usr/bin/pdfinfo
+PDFINFO      = /usr/bin/pdfinfo
 PDFINFO_GREP = | grep -v no
 
 # Make Markdown Script Config
@@ -152,10 +158,10 @@ blorng := $(shell tput setab 208)
 
 # Default Make Script ###################################################################################
 #   Edit: if you want to change the default, e.g. to make testing easier
-# default: help
+default: help
 # default: sheet
 # default: pdf
-default: mobile
+# default: mobile
 # default: all
 
 # Make Help #############################################################################################
@@ -166,8 +172,12 @@ help:
 	@ echo   '$(dkcyan)make$(resetc) arguments:'
 	@ echo '  $(dkcyan)make$(resetc) $(ltmagn)markdown   $(resetc)- collect markdown'
 	@ echo '  $(dkcyan)make$(resetc) $(ltblue)pdf        $(resetc)- create pdf'
+	@ echo '  $(dkcyan)make$(resetc) $(ltblue)plain      $(resetc)- create plain text pdf'
+	@ echo '  $(dkcyan)make$(resetc) $(ltblue)pocket     $(resetc)- create pocket text pdf'
+	@ echo '  $(dkcyan)make$(resetc) $(ltblue)sheets     $(resetc)- create character sheets'
+	@ echo '  $(dkcyan)make$(resetc) $(ltblue)alt-sheets $(resetc)- create alternative character sheets'
 	@ echo '  $(dkcyan)make$(resetc) $(ltcyan)html       $(resetc)- create html'
-	@ echo '  $(dkcyan)make$(resetc) $(ltgren)all        $(resetc)- create markdown, pdf, html'
+	@ echo '  $(dkcyan)make$(resetc) $(ltgren)all        $(resetc)- create markdown, pdf, plain, pocket, sheets, alt-sheets'
 	@ echo '  $(dkcyan)make$(resetc) $(ltyelo)clean      $(resetc)- clean $(OUTDIR), $(BUILDDIR); makes backups'
 	@ echo '  $(dkcyan)make$(resetc) $(ltorng)backups    $(resetc)- back up $(OUTDIR), $(BUILDDIR)'
 	@ echo '  $(dkcyan)make$(resetc) $(dkredd)purge      $(resetc)- $(dkredd)purge$(resetc) $(OUTDIR), $(BUILDDIR), $(BACKDIR)'
@@ -306,17 +316,18 @@ html-sheet: markdown-sheet
 # make all
 #   Edit: if you are making more than one pdf or html
 # all: pdf teaser html
-all: pdf sheet alt-sheet
+all: pdf plain pocket sheet alt-sheet
 
 # Make Aliases ##########################################################################################
 #  Edit: only you if want to add something
-md:     markdown
-game:   pdf
-backup: backups
-vi:     edit
-vim:    edit
-# game: all
-plain: plaintext
-sheets: sheet
-charsheet: sheet
+md:         markdown
+game:       pdf
+backup:     backups
+vi:         edit
+vim:        edit
+plain:      plaintext
+sheets:     sheet
+alt-sheets: alt-sheet
+charsheet:  sheet
 charsheets: sheet
+pocket: mobile
