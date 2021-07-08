@@ -1,11 +1,10 @@
 metadata
 intro
 toc
-#no_fascists
 attributes
 chargen
 classes
-#timeline -- sorry no, Dera
+## timeline -- sorry no, Dera
 colony
 gear
 fights
@@ -16,13 +15,6 @@ fleet
 pion_ships
 mission_control
 ops
-## credits/no_fascists
-## credits/safety
-## safety/intro
-## safety/cw
-## safety/toolkit
-## license
-## charsheet
 credits/intro
 credits/jam
 credits/lumen

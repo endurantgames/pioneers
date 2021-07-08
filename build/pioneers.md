@@ -1043,11 +1043,11 @@ The tags for ship equipment are equivalent to the
 - **Flak Cannon**            *close-ship* Harm Ship-2, AOE, Exploding
 - **Fuel Reserve**           *close-ship* Harm Ship-3 (explosive) + Ship-3 (burn), Single-Use
 - **Gatling Laser**          *mid-ship* Harm Ship-3, Autofire, Burn
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:::::::::::::{ .infolist .colbefore } :::::::::::::::::::::::::::::::::
 - **Jumpstart Hawsers**      *close-ship* Harm Ship-1, Shock
 - **Laser Cannon**           *mid-ship, far-ship* Harm Ship-1, Burn
 - **Laser Refractor**        *close-ship, mid-ship* Harm Ship-2, Burn
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::{ .infolist .colbefore } :::::::::::::::::::::::::::::::::
 - **Manipulator Arm**        *close-ship* Harm Ship-1; can move objects around
 - **Micro-Nuke**             *close-ship* Harm Ship-6 (explosive) + Ship-6 (burn) + Ship-6 (burn) + Ship-6 (pulse), AOE, Friendly Fire, Self-Destructive, Single-Use
 - **Microwave Scrambler**    *mid-ship, long-ship* Harm Ship-1, Pulse
@@ -1064,8 +1064,7 @@ The tags for ship equipment are equivalent to the
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-
-### Ship Tags {#toc-ship-tags .colbefore }
+### Ship Tags {#toc-ship-tags }
 
 These tags give ships additional abilities. At the start or end of an op, a player can
 spend 2 Kit to switch one tag for another.
@@ -1428,6 +1427,17 @@ inscrutable.
 
 ## Resistance Ops {#toc-ops .breakbefore}
 
+:::::::::::::::::: { .opsmastertable .infotable } ::::::::::::::::
+ Die Roll  No Prior Op  Last Op: Planetary  Space      Combined
+---------- ------------ ------------------- ---------- ----------
+    1      Planetary    Planetary           Planetary  Planetary
+    2      Planetary    Planetary           Planetary  Planetary
+    3      Planetary    Space               Planetary  Planetary
+    4      Space        Space               Planetary  Space
+    5      Combined     Combined            Space      Combined
+    6      Combined     Combined            Combined   Combined
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 The basic cycle of a []{.gamename} looks like this:
 
 1. The players create Survivors.
@@ -1442,18 +1452,7 @@ Survivor creation is
 will tell you how to send those Survivors on those dangerous 
 missions where they might get killed.
 
-### Op Types {#toc-ops-types}
-
-:::::::::::::::::: { .opsmastertable .infotable } ::::::::::::::::
- Die Roll  No Prior Op  Last Op: Planetary  Space      Combined
----------- ------------ ------------------- ---------- ----------
-    1      Planetary    Planetary           Planetary  Planetary
-    2      Planetary    Planetary           Planetary  Planetary
-    3      Planetary    Space               Planetary  Planetary
-    4      Space        Space               Planetary  Space
-    5      Combined     Combined            Space      Combined
-    6      Combined     Combined            Combined   Combined
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+### Op Types {#toc-ops-types .colbefore}
 
 Broadly speaking, there are three kinds of Ops: **Planetary Ops**
 that take place on the surface of a planet or moon; **Space Ops**
@@ -1466,11 +1465,8 @@ Most Survivors' Talents are directly tied to personal-scale
 fights, and those should be the emphasis of a []{.gamename} --
 but not exclusively.
 
-The bottom of this page has a chart you can use before an Op
-to determine what type of mission it will it. Have one player
-roll a die and then crossreference the last type of Op you
-completed with the die roll, then check the following sections
-for specific Op scenarios!
+Use the chart at the bottom of this page to determine what type 
+of Op a mission will be.
 
 #### Planetary Ops {#toc-ops-planetary .colbefore}
 
@@ -1552,11 +1548,13 @@ and ships they have access to during this Op.
 Any Survivor who has customized their weapon or ship can keep that from their
 last Op and doesn't have to roll.
 
+:::::::::::::::::::::::: breakbefore ::::::::::::::::::::::::::::::::::::::::::::
 Right before an Op, a Survivor can spend Kit (and only Kit) to change out their
 gear for another choice on the appropriate table. Survivors without a Med Patch
 can also spend 1 Kit to grab a Med Patch -- but no Survivor can have more than
 one at the start of an Op; they're too rare among the Resistance and are heavily
 rationed.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Travel Time {#toc-ops-travel}
 
@@ -1591,13 +1589,13 @@ time, plus 1d6 weeks.
 
 Travel time between moons of the same outer planet takes 1d6 hours.
 
-### When an Op is Over
+### When an Op is Over {.breakbefore}
 
 An Op concludes when the Survivors have finished an Op, or when at
 least one of them has died and the players decide to scrub the mission
 and return home.
 
-### Post-Op Recuperation {#toc-ops-post .colbefore}
+### Post-Op Recuperation {#toc-ops-post }
 
 After an Op, the Survivors retreat to a hidden base to await further
 orders from the Resistance.

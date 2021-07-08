@@ -83,11 +83,11 @@ The tags for ship equipment are equivalent to the
 - **Flak Cannon**            *close-ship* Harm Ship-2, AOE, Exploding
 - **Fuel Reserve**           *close-ship* Harm Ship-3 (explosive) + Ship-3 (burn), Single-Use
 - **Gatling Laser**          *mid-ship* Harm Ship-3, Autofire, Burn
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:::::::::::::{ .infolist .colbefore } :::::::::::::::::::::::::::::::::
 - **Jumpstart Hawsers**      *close-ship* Harm Ship-1, Shock
 - **Laser Cannon**           *mid-ship, far-ship* Harm Ship-1, Burn
 - **Laser Refractor**        *close-ship, mid-ship* Harm Ship-2, Burn
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::{ .infolist .colbefore } :::::::::::::::::::::::::::::::::
 - **Manipulator Arm**        *close-ship* Harm Ship-1; can move objects around
 - **Micro-Nuke**             *close-ship* Harm Ship-6 (explosive) + Ship-6 (burn) + Ship-6 (burn) + Ship-6 (pulse), AOE, Friendly Fire, Self-Destructive, Single-Use
 - **Microwave Scrambler**    *mid-ship, long-ship* Harm Ship-1, Pulse
@@ -104,8 +104,7 @@ The tags for ship equipment are equivalent to the
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-
-## Ship Tags {#toc-ship-tags .colbefore }
+## Ship Tags {#toc-ship-tags }
 
 These tags give ships additional abilities. At the start or end of an op, a player can
 spend 2 Kit to switch one tag for another.

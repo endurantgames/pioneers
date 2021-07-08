@@ -400,6 +400,8 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 .infotable table :matches(th, td) { font-family: var(--font-info); font-size: 20px; }
 .infotable th { font-weight: bold; }
 
+.infotable td strong { font-size: 100%; font-weight: bold; font-family: var(--font-info); }
+
 .infolist ul li strong { 
   font-size: 100%;
   font-weight: normal; 
@@ -539,9 +541,11 @@ a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
 .opstable table { break-inside: auto; }
 .dying table { width: 100%; }
 
+.opsmastertable { column-span: all; } 
 .opsmastertable table {
   position: absolute; 
   bottom: 32px;
   left: 32px;
-  right: 32px;
+  width: 1080px; 
+  column-span: all; 
 }
