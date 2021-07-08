@@ -1,0 +1,481 @@
+/* base css file for TTRPG projects */
+/* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
+
+@import "pics-mobile.css";
+
+@page { size: 360px 640px; background-color: black; color: white; margin: 8px; }
+header        { display: none;                       }
+header p.date { string-set: date content()           }
+header h1     { string-set: gamename content()       }
+
+@page { @bottom-center { content: counter(page);
+  margin-top: -32px;
+  font-size: var(--larger);
+  font-family: var(--font-header);
+  } }
+@page:first { @bottom-center { content: normal;
+  } }
+
+@prince-pdf {
+  -prince-pdf-page-layout: one-column;
+}
+
+@font-face { 
+  font-family: "Federation";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/home/cadera/.fonts/Federation_1.ttf");
+}
+
+:root {
+  --font: "Noto Sans";
+  --font-bold: "Noto Sans";
+  --font-header: "Federation Bold"; 
+  --font-title: "Battlestar";
+  --font-quote: "Shadows Into Light";
+  --font-block: "Wallpoet";
+  --font-info: "Noto Sans SemCond";
+  --font-chinese: "Noto Sans SC";
+
+  --icon-game: 'game-icons';
+
+  --large:     13px;
+  --larger:    12px;
+  --body:      11px;
+  --smaller:   10px;
+  --small:      9px;
+  --title:     48px;
+  --subtitle:  24px;
+  --headline:  32px;
+  --subhed:    32px;
+  --h1:        32px; 
+  --h2:        18px;
+  --h3:        16px;
+  --h4:        14px;
+  --h5:        13px;
+  --h6:        11px;
+  --th:        11px;
+  --quotesize: 18px;
+  --quotesize-redalert: 12px;
+  --quotesize-inline: 18px;
+  --creditsize: 12px;
+  --creditsize-inline: 12px;
+
+  --color-line:    gray;
+  --color-light:   silver;
+  --color-toolkit: #006600;
+
+  --bg-dark:      rgba(  0,   0,   0, 0.75);
+  --bg-light:     rgba(128, 128, 128, 0.20);
+  --bg-info:      rgba(255, 255, 255, 0.15); 
+  --bg-info-dark: rgba(  0,   0,   0, 0.10);
+  --bg-quote:     rgba(  0,   0,   0, 0.75);
+}
+
+.lorem { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur '
+                  'ornare ex nisi, sit amet aliquet libero bibendum non. Curabitur sed '
+                  'ligula eu mi laoreet ornare. Ut tempor pretium ex. Etiam eu semper '
+                  'arcu sem gravida metus, at vestibulum erat augue vel ante.'; }
+
+body { color: white; 
+  background-color: var(--bg-dark);
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 16px;
+}
+
+body p { letter-spacing: 0.05em; }
+
+h1 { margin-bottom: 6px; }
+h2 { margin-top: 6px; margin-bottom: 3px; }
+h3 { margin-top: 5px; margin-bottom: 3px; }
+h4 { margin-top: 4px; margin-bottom: 2px; }
+h5 { margin-top: 3px; margin-bottom: 2px; }
+h6 { margin-top: 2px; margin-bottom: 1px; }
+
+body               { font-family: var(--font); font-size: var(--body);      }
+td                 { font-size: var(--body); vertical-align: top;           }
+h1                 { font-family: var(--font-header); font-size: var(--h1); }
+h2                 { font-family: var(--font-header); font-size: var(--h2); }
+h3                 { font-family: var(--font-header); font-size: var(--h3); }
+h4                 { font-family: var(--font-header); font-size: var(--h4); }
+h5                 { font-family: var(--font-header); font-size: var(--h5); }
+h6                 { font-family: var(--font-header); font-size: var(--h6); }
+h1                 { break-after: avoid-page; break-inside: avoid;          }
+h2, h3, h4, h5, h6 { break-inside: avoid; break-after: avoid;               }
+h1                 { column-span: all; text-align: center;                  }
+.breakbefore       { break-before: page;                                    }
+.nobreak           { break-before: avoid-page;                              }
+.nocolbreak        { break-before: avoid-column;                            }
+.colspan           { column-span: all;                                      }
+.bottom            { column-span: all; float: page-bottom;                  }
+p+table            { break-before: avoid-page;                              }
+table              { border-collapse: collapse; break-inside: avoid-page;   }
+table tr           { break-inside: avoid-page;                              }
+table thead        { break-after: avoid;                                    }
+table thead        { border-bottom: 0.5pt solid var(--color-line);          }
+table th, table td { padding: 2pt;                                          }
+table th           { vertical-align: bottom;                                }
+table td           { vertical-align: top;                                   }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+th { 
+  font-family: var(--font-bold);
+  font-size: var(--th);
+  font-weight: normal;
+  white-space: pre;
+  }
+
+li           { break-inside: avoid; }
+ul, ol       { margin-left: 1em;    }
+ul li, ul ol { margin-left: 1em;    }
+
+.sidebar p { margin-top: 6pt; margin-bottom: 0; }
+.sidebar { 
+  float-placement:   top;
+  float-reference:   column;
+  border:            0.5pt solid var(--color-line);
+  border-radius:     3pt;
+  padding-left:      9pt;
+  padding-right:     9pt;
+  padding-bottom:    6pt;
+  margin-bottom:     9pt;
+  background:        var(--bgcolor-sidebar);
+}
+
+.sidebar.next { float-defer-column: 1;                                                    }
+.sidehead     { font-weight: bold; font-family: var(--font-header); font-size: var(--h4); }
+
+img { -prince-image-resolution: 96;
+      -prince-image-magic: recompress(50%) convert-to-jpeg(50%) snap-to-integer-coords; } 
+
+p, li { orphans: 3; line-height: 1.70; }
+p { widows: 2; }
+
+a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
+
+.anchor { position: absolute; color: transparent; }
+
+.gamename:before { content: string(gamename); font-family: var(--font-title); }
+
+#charsheet { page: charsheet; break-before: right; height: 11in; width: 8.5in; }
+
+#cover { 
+  break-after: page;
+}
+
+#cover h1.title { 
+  color: white;
+  font-family: var(--font-title);
+  font-size: var(--title); 
+  font-weight: normal; 
+  letter-spacing: 0.2em;
+  margin-top: 96px;
+  text-align: center; 
+  text-transform: uppercase;
+  margin-bottom: 64px;
+}
+
+#cover h2, #cover h3, #cover h4, #cover h5 { 
+  text-align: center; 
+  font-size: var(--subtitle); 
+  color: white;
+  padding: 0;
+  margin: 40px;
+}
+
+#cover h5 { font-size: var(--h2); padding-top: 40px; border-top: 1px solid white; }
+
+#cover h2 { text-align: left; }
+#cover h3 { text-align: center; }
+#cover h4 { text-align: center; }
+
+#cover img { 
+  width: 144px; 
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.title { font-family: var(--font-title); 
+  font-weight: normal; 
+  text-transform: uppercase; 
+  letter-spacing: 0.5em;
+}
+
+h2.headline { 
+  font-size: var(--headline);
+  column-span: all;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+@page { background-size: auto 100%; background-repeat: no-repeat; }
+
+.class { break-before: page; }
+
+.class table { 
+  width: 100%;
+  margin: 0;
+  border: 1pt solid white;
+  box-sizing: border-box;
+  }
+.class table :matches(td, th) { 
+  padding: 8px;
+  box-sizing: border-box;
+  width: 16.67%;
+  }
+.class table td { font-size: var(--h3);
+  font-family: var(--font-header);
+  } 
+.class table td:nth-child(3) { border-right: 1px solid silver;
+  }
+.class table th:nth-child(3) { border-right: 1px solid silver;
+  }
+.class table th { font-weight: normal;
+  font-size: var(--large);
+  font-family: var(--font);
+  }
+.class h2 {
+  column-span: all;
+  font-family: var(--font-title);
+  font-size: var(--subhed);
+  text-align: center;
+  letter-spacing: 0.5em;
+}
+.class h3.classquote { 
+   position: absolute;
+   top: 112px;
+   left: 0;
+   font-family: var(--font);
+   font-weight: normal;
+   text-align: center;
+   column-span: all;
+   font-style: italic;
+   margin-inside: -576px;
+   margin-outside: 1280px;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.classtable table { margin: 8px; margin-bottom: 32px; }
+.classtable table :matches(td, th) { padding: 4px; }
+.classtable { float: page bottom; }
+.classtable table :matches(td, th):nth-child(4) { 
+   border-right: 1px solid gray;
+   padding-right: 1em;
+}
+
+strong { 
+  font-family: var(--font-bold);
+  } 
+td strong, p strong { color: #90FFFF;
+  }
+
+ul li { list-style-type: none; }
+ul { margin-left: 1em; break-inside: avoid; }
+ul li strong { margin-left: -1em; padding-right: 0.25em; }
+ol li { margin-left: 2em; }
+
+.breakable ul { break-inside: auto; }
+.unbreakable { break-inside: avoid; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+.infotable table { 
+  padding: 8px; 
+  background-color: var(--bg-info);
+}
+.infotable table :matches(th, td) { font-family: var(--font-info); font-size: var(--body); }
+.infotable th { font-weight: bold; }
+
+.infotable td strong { font-weight: bold; font-family: var(--font-info); }
+
+.infolist ul li strong { 
+  font-weight: normal; 
+  font-family: var(--font-header); 
+}
+.infolist ul { 
+  margin-left: 0; 
+}
+.infolist ul li { padding-left: 1em; }
+
+.infolist.dark ul { background-color: var(--bg-info-dark); }
+
+blockquote { 
+  box-sizing: border-box;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+blockquote p strong { font-family: var(--font-quote);
+  }
+blockquote p { line-height: 1.25; }
+.redalert blockquote p { line-height: 1.4; }
+blockquote { font-family: var(--font-quote);
+  font-size: var(--quotesize);
+  }
+.redalert blockquote { 
+  font-family: var(--font-block);
+  font-size: var(--quotesize-redalert);
+  } 
+blockquote p .credit { display: block;
+  font-family: var(--font-info);
+  margin-left: 50%;
+  text-align: right;
+  font-size: var(--creditsize);
+  padding-top: 8px;
+  break-before: avoid;
+  }
+
+blockquote .chinese { font-family: var(--font-chinese); }
+
+.traveltimes { float: column bottom; margin-top: 9pt; }
+
+a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
+
+table { width: 100%; }
+
+#toc-attributes,
+#step-colony,
+#step-gear,
+#toc-fights,
+#toc-solar-system,
+#toc-pions,
+#step-ship,
+#toc-fleet,
+#toc-pion-ships,
+#toc-mc,
+#toc-ops,
+#toc-credits
+{ break-before: page;
+  margin-left: -16px;
+  margin-right: -16px;
+  border-bottom: 0.5px solid white;
+  padding-left:  16px;
+  padding-right:  16px;
+  padding-bottom: 3px;
+}
+
+#toc-weapon-tags,
+#toc-chargen,
+#step-class,
+#toc-gear-other,
+#toc-turn-player,
+#toc-attacking,
+#toc-turn-mc,
+#toc-pion-moves,
+#toc-drops,
+#toc-death,
+#toc-location-tags,
+#toc-location-earth,
+#toc-location-inner,
+#toc-location-jupiter,
+#toc-location-saturn,
+#toc-location-uranus,
+#toc-location-trans,
+#toc-pion-mariner,
+#toc-pion-ulysses,
+#toc-pion-viking,
+#toc-ship-fights,
+#toc-ship-weapons,
+#toc-ship-tags,
+#toc-fleet-comms-relay,
+#toc-fleet-mining-rig,
+#toc-fleet-racing-yacht,
+#toc-fleet-shuttle,
+#toc-fleet-solar-glider,
+#toc-pion-ship-kosmos,
+#toc-pion-ship-sakigake,
+#toc-pion-ship-zond,
+#toc-mc-why,
+#toc-mc-rp,
+#toc-ops-planetary,
+#toc-ops-space,
+#toc-ops-combined,
+#toc-ops-prep,
+#toc-ops-travel,
+#toc-ops-end,
+#toc-weapons
+{ break-before: page; }
+
+#toc-ship-tags + p { break-after: avoid; }
+#toc-ship-weapons + p + div ul { margin-bottom: 0; }
+#toc-ship-weapons + p + div + div ul { margin-top: 0; }
+
+table, th, td { box-sizing: border-box; }
+
+th { white-space: pre; }
+
+#toc {
+  break-after: page; 
+  box-sizing: border-box;
+}
+
+#toc:before {
+  display: block;
+  font-size: var(--h4);
+  font-family: var(--font-header);
+  margin-bottom: 4px;
+  content: "Table of Contents";
+  break-after: avoid;
+}
+
+#toc ul { margin-left: 0; margin: 0; padding: 0; }
+#toc ul li { margin-bottom: 0; margin-left: 0; }
+#toc ul li li { 
+  margin-bottom: 0; 
+  margin-left: 1em; 
+  line-height: 1.4;
+}
+#toc ul li li a:before { 
+  font-size: var(--larger);
+  color: white;
+}
+#toc ul li li a:after { 
+  font-size: var(--larger);
+  color: white;
+}
+#toc a:before { 
+  content: target-content(attr(href));
+  color: yellow;
+  font-family: var(--font);
+  font-size: var(--large);
+  display: inline-block;
+  }
+#toc a { 
+  content: leader(' . ');
+  color: #99ddff;
+  font-family: var(--font);
+  font-size: var(--large);
+  }
+#toc a:after { 
+  content: target-counter(attr(href), page);
+  font-family: var(--font-bold);
+  font-size: var(--large);
+  color: yellow;
+  display: inline-block;
+  text-align: right; 
+  width: 16px;
+  }
+
+.drops table { width: 100%; }
+.drops table :matches(th, td):nth-child(1) { white-space: pre; }
+.drops table :matches(th, td):nth-child(2) { white-space: pre; }
+
+.opstable table { break-inside: auto; }
+.dying table { width: 100%; }
+
+.opsmastertable { column-span: all; } 
+.opsmastertable table {
+  position: absolute; 
+  bottom: 32px;
+  left: 32px;
+  width: 1080px; 
+  column-span: all; 
+}
