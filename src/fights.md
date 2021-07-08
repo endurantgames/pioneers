@@ -29,14 +29,11 @@ every player has had to chance to act.
 When it's your turn, you can do any or all of these:
 
 1. **Change your Range Band** by one -- *close* to *mid*, *mid* to *close* or *far*,
-or *far* to *mid*. (You can't jump from *close* to *far* or vice versa.)
-
+   or *far* to *mid*. (You can't jump from *close* to *far* or vice versa.)
 2. **Make an Attack** against one of the Pions.
-
 3. **Use Your Talents** by paying a cost from the appropriate pool. You can use
    as many Talents as you wish during your turn, but you can only activate each
    Talent once during that turn.
-
 4. **Use an Object** if you've picked up something interesting along the way or are
    carrying a [med patch](#toc-gear-med-patch){.page}.
 
@@ -78,18 +75,13 @@ up your tactics during a fight as you discover how it reacts to each.
 During the MC's turn, they can do any or all of these:
 
 1. **Change the Range Band** for some or all of the Pions, relative to the Survivors.
-
 2. Make a **Big Change** in the fight.
-
 3. Have the **Pions make moves.**
-
 4. Have the **Pions counter-attack.**
 
 At the end of the MC's turn, two things happen:
 
-1. **The MC generates Drops** if any Pions were killed since the end of their last
-   turn.
-
+1. **The MC generates Drops** if any Pions were killed since the end of their last turn.
 2. **Check on dying characters.**
 
 ### Big Changes {#toc-big-changes}

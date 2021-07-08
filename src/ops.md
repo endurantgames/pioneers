@@ -1,16 +1,5 @@
 # Resistance Ops {#toc-ops .breakbefore}
 
-:::::::::::::::::: { .opsmastertable .infotable } ::::::::::::::::
- Die Roll  No Prior Op  Last Op: Planetary  Space      Combined
----------- ------------ ------------------- ---------- ----------
-    1      Planetary    Planetary           Planetary  Planetary
-    2      Planetary    Planetary           Planetary  Planetary
-    3      Planetary    Space               Planetary  Planetary
-    4      Space        Space               Planetary  Space
-    5      Combined     Combined            Space      Combined
-    6      Combined     Combined            Combined   Combined
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 The basic cycle of a []{.gamename} looks like this:
 
 1. The players create Survivors.
@@ -40,6 +29,17 @@ but not exclusively.
 
 Use the chart at the bottom of this page to determine what type 
 of Op a mission will be.
+
+:::::::::::::::::: { .opsmastertable .infotable } ::::::::::::::::
+ Die Roll  No Prior Op  Last Op: Planetary  Space      Combined
+---------- ------------ ------------------- ---------- ----------
+    1      Planetary    Planetary           Planetary  Planetary
+    2      Planetary    Planetary           Planetary  Planetary
+    3      Planetary    Space               Planetary  Planetary
+    4      Space        Space               Planetary  Space
+    5      Combined     Combined            Space      Combined
+    6      Combined     Combined            Combined   Combined
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Planetary Ops {#toc-ops-planetary .colbefore}
 

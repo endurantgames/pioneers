@@ -44,8 +44,8 @@ header h1     { string-set: gamename content()       }
   --body:      11px;
   --smaller:   10px;
   --small:      9px;
-  --title:     48px;
-  --subtitle:  24px;
+  --title:     36px;
+  --subtitle:  20px;
   --headline:  32px;
   --subhed:    32px;
   --h1:        32px; 
@@ -105,7 +105,6 @@ h6                 { font-family: var(--font-header); font-size: var(--h6); }
 h1                 { break-after: avoid-page; break-inside: avoid;          }
 h2, h3, h4, h5, h6 { break-inside: avoid; break-after: avoid;               }
 h1                 { column-span: all; text-align: center;                  }
-.breakbefore       { break-before: page;                                    }
 .nobreak           { break-before: avoid-page;                              }
 .nocolbreak        { break-before: avoid-column;                            }
 .colspan           { column-span: all;                                      }
@@ -124,7 +123,6 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 th { 
   font-family: var(--font-bold);
   font-size: var(--th);
-  font-weight: normal;
   white-space: pre;
   }
 
@@ -151,7 +149,7 @@ ul li, ul ol { margin-left: 1em;    }
 img { -prince-image-resolution: 96;
       -prince-image-magic: recompress(50%) convert-to-jpeg(50%) snap-to-integer-coords; } 
 
-p, li { orphans: 3; line-height: 1.70; }
+p, li { orphans: 3; line-height: 1.50; }
 p { widows: 2; }
 
 a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
@@ -171,7 +169,8 @@ a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
   font-family: var(--font-title);
   font-size: var(--title); 
   font-weight: normal; 
-  letter-spacing: 0.2em;
+  letter-spacing: 0.3em;
+  padding-left: 0.3em;
   margin-top: 96px;
   text-align: center; 
   text-transform: uppercase;
@@ -183,7 +182,7 @@ a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
   font-size: var(--subtitle); 
   color: white;
   padding: 0;
-  margin: 40px;
+  margin: 50px 20px;
 }
 
 #cover h5 { font-size: var(--h2); padding-top: 40px; border-top: 1px solid white; }
@@ -208,62 +207,90 @@ a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
 
 h2.headline { 
   font-size: var(--headline);
-  column-span: all;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   text-align: center;
+  padding-left: 0.3em;
 }
+
+h2.headline:after {
+  font-size: var(--h3);
+  display: block;
+  margin-top: 16px;
+  border-top: 0.5pt solid silver;
+  margin-left: -30px;
+  margin-right: -30px;
+  padding-left: 0;
+  padding-top: 8px;
+  letter-spacing: 4px;
+  content: "Pocket Reference";
+}
+
 
 @page { background-size: auto 100%; background-repeat: no-repeat; }
 
 .class { break-before: page; }
 
+.class p { margin: 0; }
+
+.class ul { margin-top: 4px;
+  margin-bottom: 8px;
+  margin-left: 0;
+  }
+.class ul li { margin-bottom: 4px;
+  line-height: 1.30;
+  }
+.class ul li strong:first-child { margin-left: -2em;
+  }
+
 .class table { 
   width: 100%;
   margin: 0;
-  border: 1pt solid white;
+  border: 0.5pt solid white;
   box-sizing: border-box;
   }
 .class table :matches(td, th) { 
-  padding: 8px;
+  padding: 4px;
   box-sizing: border-box;
   width: 16.67%;
   }
-.class table td { font-size: var(--h3);
-  font-family: var(--font-header);
-  } 
-.class table td:nth-child(3) { border-right: 1px solid silver;
-  }
-.class table th:nth-child(3) { border-right: 1px solid silver;
+.class table td { font-size: var(--larger); font-family: var(--font-header); }
+.class table :matches(th, td):nth-child(3) { border-right: 1px solid silver;
   }
 .class table th { font-weight: normal;
-  font-size: var(--large);
   font-family: var(--font);
+  font-size: var(--smaller);
   }
 .class h2 {
-  column-span: all;
   font-family: var(--font-title);
-  font-size: var(--subhed);
+  font-size: var(--h1);
   text-align: center;
   letter-spacing: 0.5em;
+  margin-bottom: 4px;
 }
+.class h3 { border-bottom: 0.25px solid gray;
+  font-size: var(--large);
+  margin-top: 8px;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  }
+
 .class h3.classquote { 
-   position: absolute;
-   top: 112px;
-   left: 0;
    font-family: var(--font);
+   font-size: var(--larger);
    font-weight: normal;
    text-align: center;
-   column-span: all;
    font-style: italic;
-   margin-inside: -576px;
-   margin-outside: 1280px;
-   margin-top: 0;
-   margin-bottom: 0;
+   border-bottom: none;
 }
 
-.classtable table { margin: 8px; margin-bottom: 32px; }
-.classtable table :matches(td, th) { padding: 4px; }
-.classtable { float: page bottom; }
+.classtable table { 
+  width: auto;
+  position: absolute;
+  top: 248px;
+  left: 8px;
+  right: 8px;
+}
+
 .classtable table :matches(td, th):nth-child(4) { 
    border-right: 1px solid gray;
    padding-right: 1em;
@@ -278,32 +305,27 @@ td strong, p strong { color: #90FFFF;
 ul li { list-style-type: none; }
 ul { margin-left: 1em; break-inside: avoid; }
 ul li strong { margin-left: -1em; padding-right: 0.25em; }
-ol li { margin-left: 2em; }
+ol li { margin-left: 2em; margin-bottom: 4pt; }
 
 .breakable ul { break-inside: auto; }
 .unbreakable { break-inside: avoid; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 
-.infotable table { 
-  padding: 8px; 
-  background-color: var(--bg-info);
-}
-.infotable table :matches(th, td) { font-family: var(--font-info); font-size: var(--body); }
-.infotable th { font-weight: bold; }
-
-.infotable td strong { font-weight: bold; font-family: var(--font-info); }
+.infotable table { }
+.infotable table :matches(th, td) { }
+.infotable td strong { }
 
 .infolist ul li strong { 
   font-weight: normal; 
   font-family: var(--font-header); 
 }
+.infolist ul li strong:first-child { margin-left: -2em; }
+
 .infolist ul { 
   margin-left: 0; 
 }
 .infolist ul li { padding-left: 1em; }
-
-.infolist.dark ul { background-color: var(--bg-info-dark); }
 
 blockquote { 
   box-sizing: border-box;
@@ -335,12 +357,11 @@ blockquote p .credit { display: block;
 
 blockquote .chinese { font-family: var(--font-chinese); }
 
-.traveltimes { float: column bottom; margin-top: 9pt; }
-
 a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
 
 table { width: 100%; }
 
+#toc-intro,
 #toc-attributes,
 #step-colony,
 #step-gear,
@@ -348,6 +369,8 @@ table { width: 100%; }
 #toc-solar-system,
 #toc-pions,
 #step-ship,
+#toc-chargen,
+#step-class,
 #toc-fleet,
 #toc-pion-ships,
 #toc-mc,
@@ -363,17 +386,10 @@ table { width: 100%; }
 }
 
 #toc-weapon-tags,
-#toc-chargen,
-#step-class,
 #toc-gear-other,
 #toc-turn-player,
-#toc-attacking,
 #toc-turn-mc,
-#toc-pion-moves,
-#toc-drops,
-#toc-death,
 #toc-location-tags,
-#toc-location-earth,
 #toc-location-inner,
 #toc-location-jupiter,
 #toc-location-saturn,
@@ -382,19 +398,18 @@ table { width: 100%; }
 #toc-pion-mariner,
 #toc-pion-ulysses,
 #toc-pion-viking,
-#toc-ship-fights,
-#toc-ship-weapons,
 #toc-ship-tags,
-#toc-fleet-comms-relay,
-#toc-fleet-mining-rig,
-#toc-fleet-racing-yacht,
-#toc-fleet-shuttle,
+#toc-fleet-l2h-tanker,
+#toc-fleet-ore-hauler,
+#toc-fleet-repair-pod,
 #toc-fleet-solar-glider,
 #toc-pion-ship-kosmos,
+#toc-pion-ship-mariner,
 #toc-pion-ship-sakigake,
 #toc-pion-ship-zond,
 #toc-mc-why,
 #toc-mc-rp,
+#toc-ops-types,
 #toc-ops-planetary,
 #toc-ops-space,
 #toc-ops-combined,
@@ -405,8 +420,9 @@ table { width: 100%; }
 { break-before: page; }
 
 #toc-ship-tags + p { break-after: avoid; }
+/* #toc-ship-weapons + p + div { break-after: avoid; }
 #toc-ship-weapons + p + div ul { margin-bottom: 0; }
-#toc-ship-weapons + p + div + div ul { margin-top: 0; }
+#toc-ship-weapons + p + div + div ul { margin-top: 0; } */
 
 table, th, td { box-sizing: border-box; }
 
@@ -419,9 +435,10 @@ th { white-space: pre; }
 
 #toc:before {
   display: block;
-  font-size: var(--h4);
+  font-size: var(--h3);
   font-family: var(--font-header);
-  margin-bottom: 4px;
+  margin-top: 4px;
+  margin-bottom: 12px;
   content: "Table of Contents";
   break-after: avoid;
 }
@@ -468,14 +485,9 @@ th { white-space: pre; }
 .drops table :matches(th, td):nth-child(1) { white-space: pre; }
 .drops table :matches(th, td):nth-child(2) { white-space: pre; }
 
-.opstable table { break-inside: auto; }
 .dying table { width: 100%; }
 
-.opsmastertable { column-span: all; } 
-.opsmastertable table {
-  position: absolute; 
-  bottom: 32px;
-  left: 32px;
-  width: 1080px; 
-  column-span: all; 
-}
+.opsmastertable table { }
+.opsmastertable table th { white-space: normal; }
+.traveltimes table th { text-align: left; }
+
