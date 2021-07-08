@@ -397,7 +397,8 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
   padding: 8px; 
   background-color: var(--bg-info);
 }
-.infotable table :matches(th, td) { font-family: var(--font-info); }
+.infotable table :matches(th, td) { font-family: var(--font-info); font-size: 20px; }
+.infotable th { font-weight: bold; }
 
 .infolist ul li strong { 
   font-size: 100%;
@@ -538,7 +539,9 @@ a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
 .opstable table { break-inside: auto; }
 .dying table { width: 100%; }
 
-.opsmasterchart table {
-  column-span: all;
-  float: page-bottom;
+.opsmastertable table {
+  position: absolute; 
+  bottom: 32px;
+  left: 32px;
+  right: 32px;
 }

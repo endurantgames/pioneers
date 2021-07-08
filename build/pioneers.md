@@ -1444,6 +1444,17 @@ missions where they might get killed.
 
 ### Op Types {#toc-ops-types}
 
+:::::::::::::::::: { .opsmastertable .infotable } ::::::::::::::::
+ Die Roll  No Prior Op  Last Op: Planetary  Space      Combined
+---------- ------------ ------------------- ---------- ----------
+    1      Planetary    Planetary           Planetary  Planetary
+    2      Planetary    Planetary           Planetary  Planetary
+    3      Planetary    Space               Planetary  Planetary
+    4      Space        Space               Planetary  Space
+    5      Combined     Combined            Space      Combined
+    6      Combined     Combined            Combined   Combined
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 Broadly speaking, there are three kinds of Ops: **Planetary Ops**
 that take place on the surface of a planet or moon; **Space Ops**
 that happen in spacecraft; and **Combined Ops**.
@@ -1460,17 +1471,6 @@ to determine what type of mission it will it. Have one player
 roll a die and then crossreference the last type of Op you
 completed with the die roll, then check the following sections
 for specific Op scenarios!
-
-:::::::::::::::::: { .opmasterchart .infotable } ::::::::::::::::
- Die Roll  No Prior Op  Last Op: Planetary  Space      Combined
----------- ------------ ------------------- ---------- ----------
-    1      Planetary    Planetary           Planetary  Planetary
-    2      Planetary    Planetary           Planetary  Planetary
-    3      Planetary    Space               Planetary  Planetary
-    4      Space        Space               Planetary  Space
-    5      Combined     Combined            Space      Combined
-    6      Combined     Combined            Combined   Combined
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 #### Planetary Ops {#toc-ops-planetary .colbefore}
 
