@@ -86,7 +86,7 @@ PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_
 PRINCEFLAGS_TEASER      = --pdf-engine-opt=--raster-output=$(OUTDIR)/teaser/teaser_%d.png
 # PRINCEFLAGS_SHEET     = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/sheet_%d.png
 # PRINCEFLAGS_SHEET_ALT = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/sheet_alt_%d.png
-# PRINCEFLAGS_MOBILE    = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/mobile_%d.png
+PRINCEFLAGS_MOBILE    = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/mobile_%d.png
 # PRINCEFLAGS_PLAIN     = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/plain_%d.png
 PRINCEFLAGS_DRAC        = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/drac_%d.png
 #
@@ -95,7 +95,7 @@ PRINCEFLAGS_DRAC        = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/drac_
 # PRINCEFLAGS         =
 PRINCEFLAGS_SHEET     =
 PRINCEFLAGS_SHEET_ALT =
-PRINCEFLAGS_MOBILE    =
+# PRINCEFLAGS_MOBILE    =
 PRINCEFLAGS_PLAIN     =
 # PRINCEFLAGS_DRAC      =
 
