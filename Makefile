@@ -55,6 +55,7 @@ SHEET_CSS     = --css=$(STYLEDIR)/charsheet.css
 SHEET_ALT_CSS = --css=$(STYLEDIR)/alt-charsheet.css
 MOBILE_CSS    = --css=$(STYLEDIR)/mobile.css
 DRAC_CSS      = --css=$(STYLEDIR)/drac.css
+TEASER_CSS    = --css=$(STYLEDIR)/teaser.css
 
 # Derived Flags
 #   Edit: probably unnecessary
@@ -65,6 +66,7 @@ SHEET_ALT_FLAGS = $(FLAGS) $(SHEET_ALT_CSS) $(PRINCEFLAGS_SHEET_ALT)
 PLAINTEXT_FLAGS = $(FLAGS) $(PLAINTEXT_CSS) $(PRINCEFLAGS_PLAIN)
 MOBILE_FLAGS    = $(FLAGS) $(MOBILE_CSS)    $(PRINCEFLAGS_MOBILE)
 DRAC_FLAGS      = $(FLAGS) $(DRAC_CSS)      $(PRINCEFLAGS_DRAC)
+TEASER_FLAGS    = $(FLAGS) $(TEASER_CSS)    $(PRINCEFLAGS_TEASER)
 
 # Application Configruation #############################################################################
 #
@@ -81,6 +83,7 @@ PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fanc
 #
 # These options produce individual page png files
 PRINCEFLAGS             = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/page_%d.png
+PRINCEFLAGS_TEASER      = --pdf-engine-opt=--raster-output=$(OUTDIR)/teaser/teaser_%d.png
 # PRINCEFLAGS_SHEET     = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/sheet_%d.png
 # PRINCEFLAGS_SHEET_ALT = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/sheet_alt_%d.png
 # PRINCEFLAGS_MOBILE    = --pdf-engine-opt=--raster-output=$(OUTDIR)/pages/mobile_%d.png
@@ -296,7 +299,7 @@ drac:
 
 teaser: markdown-teaser
 	 echo '$(ltblue)Making Teaser PDF.$(resetc)'
-	       $(PANDOC) $(PANDOCFLAGS) $(PROJ_FLAGS) -o $(TEASER_OUT) $(TEASER_SRC)
+	       $(PANDOC) $(PANDOCFLAGS) $(TEASER_FLAGS) -o $(TEASER_OUT) $(TEASER_SRC)
 	       $(PDFINFO) $(TEASER_OUT) $(PDFINFO_GREP)
 	      -$(EXPLORER)
 

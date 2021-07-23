@@ -1,0 +1,232 @@
+/* base css file for TTRPG projects */
+/* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
+
+/* @import "pics.css"; */
+
+@page { size: 1920px 1080px; background-color: black; color: white; margin: 0; }
+header        { display: none;                       }
+header p.date { string-set: date content()           }
+header h1     { string-set: gamename content()       }
+
+/* 
+@page:first { margin: 0; padding: 0; }
+@page { margin-inside: 704px; }
+
+@page { @left-bottom { font-size: 64px; font-family: var(--font-header); text-shadow: 0 0 0.25em black; } }
+@page { @right-bottom { font-size: 64px; font-family: var(--font-header); text-shadow: 0 0 0.25em black; } }
+
+@page:right { @left-bottom { content: counter(page); text-align: inside; padding-left: 64px; } }
+@page:left  { @right-bottom { content: counter(page); text-align: inside; padding-right: 64px; } }
+
+@page:first { @left-bottom { content: normal; } @right-bottom { content: normal; } }
+*/
+
+@prince-pdf {
+  -prince-pdf-page-mode: fullscreen;
+  -prince-pdf-page-layout: single-page;
+}
+
+@font-face { 
+  font-family: "Federation";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/home/cadera/.fonts/Federation_1.ttf");
+}
+
+:root {
+  --font: "Michroma";
+  --font-bold: "Federation Bold";
+  --font-header: "Federation Bold"; 
+  --font-title: "Battlestar";
+  --font-quote: "Shadows Into Light";
+  --font-block: "Wallpoet";
+  --font-info: "Noto Sans SemCond";
+  --font-chinese: "Noto Sans SC";
+
+  --icon-game: 'game-icons';
+
+  --large:     22px;
+  --larger:    20px;
+  --body:      18px;
+  --smaller:   15px;
+  --small:     13px;
+  --title:    128px;
+  --subtitle:  64px;
+  --headline:  80px;
+  --subhed:    64px;
+  --h1:        64px; 
+  --h2:        36px;
+  --h3:        30px;
+  --h4:        24px;
+  --h5:        22px;
+  --h6:        18px;
+  --th:        18px;
+  --quotesize: 36px;
+  --quotesize-redalert: 24px;
+  --quotesize-inline: 24px;
+  --creditsize: 24px;
+  --creditsize-inline: 20px;
+
+  --color-line:    gray;
+  --color-light:   silver;
+  --color-toolkit: #006600;
+
+  --bg-dark:      rgba(  0,   0,   0, 0.75);
+  --bg-light:     rgba(128, 128, 128, 0.20);
+  --bg-info:      rgba(255, 255, 255, 0.15); 
+  --bg-info-dark: rgba(  0,   0,   0, 0.10);
+  --bg-quote:     rgba(  0,   0,   0, 0.75);
+}
+
+.lorem { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur '
+                  'ornare ex nisi, sit amet aliquet libero bibendum non. Curabitur sed '
+                  'ligula eu mi laoreet ornare. Ut tempor pretium ex. Etiam eu semper '
+                  'arcu sem gravida metus, at vestibulum erat augue vel ante.'; }
+
+body { color: white; 
+		  /*
+  columns: 2 auto;
+  column-gap: 64px;
+  background-color: var(--bg-dark);
+  padding: 32px;
+  */
+}
+
+body p { letter-spacing: 0.05em; }
+
+body               { font-family: var(--font); font-size: var(--body);      }
+td                 { font-size: var(--body); vertical-align: top;           }
+h1                 { font-family: var(--font-header); font-size: var(--h1); }
+h2                 { font-family: var(--font-header); font-size: var(--h2); }
+h3                 { font-family: var(--font-header); font-size: var(--h3); }
+h4                 { font-family: var(--font-header); font-size: var(--h4); }
+h5                 { font-family: var(--font-header); font-size: var(--h5); }
+h6                 { font-family: var(--font-header); font-size: var(--h6); }
+h1                 { break-after: avoid-page; break-inside: avoid;          }
+h2, h3, h4, h5, h6 { break-inside: avoid; break-after: avoid;               }
+h1                 { column-span: all; text-align: center;                  }
+.breakbefore       { break-before: page;                                    }
+.colbefore         { break-before: column;                                  }
+.nobreak           { break-before: avoid-page;                              }
+.nocolbreak        { break-before: avoid-column;                            }
+.colspan           { column-span: all;                                      }
+.bottom            { column-span: all; float: page-bottom;                  }
+p+table            { break-before: avoid-page;                              }
+table              { border-collapse: collapse; break-inside: avoid-page;   }
+table tr           { break-inside: avoid-page;                              }
+table thead        { break-after: avoid;                                    }
+table thead        { border-bottom: 0.5pt solid var(--color-line);          }
+table th, table td { padding: 2pt;                                          }
+table th           { vertical-align: bottom;                                }
+table td           { vertical-align: top;                                   }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+th { 
+  font-family: var(--font-bold);
+  font-size: var(--th);
+  font-weight: normal;
+  white-space: pre;
+  }
+
+li           { break-inside: avoid; }
+ul, ol       { margin-left: 1em;    }
+ul li, ul ol { margin-left: 1em;    }
+
+.sidebar p { margin-top: 6pt; margin-bottom: 0; }
+.sidebar { 
+  float-placement:   top;
+  float-reference:   column;
+  border:            0.5pt solid var(--color-line);
+  border-radius:     3pt;
+  padding-left:      9pt;
+  padding-right:     9pt;
+  padding-bottom:    6pt;
+  margin-bottom:     9pt;
+  background:        var(--bgcolor-sidebar);
+}
+
+.sidebar.next { float-defer-column: 1;                                                    }
+.sidehead     { font-weight: bold; font-family: var(--font-header); font-size: var(--h4); }
+
+img { -prince-image-resolution: 96;
+      -prince-image-magic: recompress(50%) convert-to-jpeg(50%) snap-to-integer-coords; } 
+
+p, li { orphans: 3; line-height: 1.70; }
+p { widows: 2; }
+
+a:link, a:visited, a:active, a:hover { color: yellow; text-decoration: none; }
+
+.anchor { position: absolute; color: transparent; }
+
+.gamename:before { content: string(gamename); font-family: var(--font-title); }
+
+#charsheet { page: charsheet; break-before: right; height: 11in; width: 8.5in; }
+
+.tease {
+  width: 1920px;
+  height: 1080px; 
+  position: relative; 
+  display: block;
+  padding-top: 256px;
+  padding-bottom: 256px;
+  box-sizing: border-box; 
+  background-size: 100% auto;
+  background-clip: content-box;
+  background-position: center; 
+}
+
+.tease figure {
+  position: absolute;
+  top: 832px;
+  left: 128px; right: 128px;
+  text-align: center;
+}
+
+.tease figure img { width: 512px; display: inline-block; }
+.tease figure figcaption { display: none; }
+
+.tease h2, .tease h3, .tease h4, .tease h5 { 
+  font-family: var(--font-header); 
+  font-size: 64px; 
+  position: absolute; 
+  display: inline-block; 
+  width: auto;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 0 0.25em black; 
+}
+
+.tease:nth-of-type(2n+1) { padding-bottom: 0; }
+.tease:nth-of-type(2n+2) { padding-top:    0; }
+
+.tease:nth-of-type(2n+1) h2 { top: 80px; left: 128px; }
+.tease:nth-of-type(2n+2) h2 { top: 896px; right: 128px; }
+
+.tease:nth-of-type(n+9) h2 { top: 128px; left: 128px; right: 128px; 
+  font-family: var(--font-title);
+  font-size: 128px;
+  text-align: center; 
+  font-weight: normal; 
+  letter-spacing: 0.5em;
+}
+
+.tease:nth-of-type(n+10) h3 { top: 448px; left: 128px; }
+.tease:nth-of-type(n+12) h5 { top: 640px; left: 128px; right: 128px; text-align: center; }
+.tease:nth-of-type(n+11) h4 { top: 832px; right: 128px; }
+
+.tease.p1 { background-image: url("../art/nasty.jpg"); background-position: top; }
+.tease.p2 { background-image: url("../art/blue-voyager.jpg"); }
+.tease.p3 { background-image: url("../art/space-colony.jpg"); background-position: top; }
+.tease.p4 { background-image: url("../art/dawn-arrival.jpg"); background-position: top; } 
+/* .tease.p4 { background-image: url("../art/parker.jpg"); background-position: top; }  */
+.tease.p5 { background-image: url("../art/jupiter.jpg"); background-position: bottom; }
+.tease.p6 { background-image: url("../art/nebula.jpg"); background-position: top; }
+.tease.p7 { background-image: url("../art/funky-interior.jpg"); background-position: top; }
+.tease.p8 { background-image: url("../art/earth.jpg"); background-position: top; }
+.tease.p9 { background-image: url("../art/earth.jpg"); background-position: top; padding: 0; }
+.tease.p10 { background-image: url("../art/earth.jpg"); background-position: top; padding: 0; }
+.tease.p11 { background-image: url("../art/earth.jpg"); background-position: top; padding: 0; }
+.tease.p13 h2 { font-size: 64pt; top: 192pt; }
+.tease.p13 h3 { top: 800px; right: 128px; left: 128px; text-align: center; }
