@@ -502,7 +502,7 @@ th { white-space: pre; }
   padding-left: 4px;
   padding-right: 4px;
   margin-left: 12px;
-  margin-top: 16px;
+  margin-top: 20px;
   display: block;
   width: 306px;
   height: auto;
@@ -510,15 +510,12 @@ th { white-space: pre; }
   position: relative;
   border: 0.5px solid white;
   border-radius: 3px 36px;
-  margin-top: 16px;
-  margin-bottom: 16px;
   background-color: var(--bg-light);
 }
 
 .pion-sketch figure img {
   width: 298px;
   height: auto;
-  background: lime;
 }
 
 .pion-sketch figure:after {
@@ -537,13 +534,13 @@ th { white-space: pre; }
 }
 
 .pion-sketch figcaption:before {
-  content: 'Classified Intelligence: ';
+  content: 'Classified: ';
   text-transform: none;
 }
 
 .pion-sketch figcaption {
   position: absolute;
-  top: -8px;
+  top: -10px;
   left: -12px;
   padding: 4px;
   font-family: var(--font-block);
