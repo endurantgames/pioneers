@@ -222,11 +222,13 @@ Weapon                    Range                                          Harm   
 []{.box1} Slug Pistol     []{.boxc .close} []{.box0 .mid} []{.box0 .far} Harm 1  Handgun [+1 Harm with Gyro]{.means}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 []{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
+[]{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
+[]{.box1}                 []{.box1 .close} []{.box1 .mid} []{.box1 .far}         []{.empty}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::: gear ::::::::::::::::::::::::::::::::::::::
 - Other Gear
-- Med Patches []{.box3}
+- Med Patches []{.box5}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

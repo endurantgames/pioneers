@@ -318,7 +318,8 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
   font-size: 9pt;
 }
 
-#soyuz .talents ul li { margin-bottom: 0; margin-top: 0; }
+#soyuz  .talents ul li { margin-bottom: 0; margin-top: 0; }
+#gemini .talents ul li { margin-bottom: 0; margin-top: 0; }
 
 .talents ul li strong { 
   font-size: 10pt;
@@ -397,7 +398,8 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
 }
 
 #mercury          .notes ul li { height:  30pt; }
-#soyuz            .notes ul li { height:  30pt; }
+#soyuz            .notes ul li { height:  31pt; }
+#gemini           .notes ul li { height:  44pt; }
 
 #comms-relay      .notes ul li { height:  70pt; }
 #tanker           .notes ul li { height:  50pt; }
@@ -427,7 +429,7 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
   top: 0;
 }
 
-#apollo .gear ul li:first-child { height: 28pt; }
-#mercury .gear ul li:first-child { height: 53pt; }
-#soyuz .gear       { margin-top: 4pt; }
-#gemini .gear ul li:first-child { height: 40.5pt; }
+#apollo  .gear ul li:first-child { height: 28.5pt; }
+#mercury .gear ul li:first-child { height: 53.0pt; }
+#gemini  .gear ul li:first-child { height: 40.0pt; }
+#soyuz   .gear ul li:first-child { height: 59.0pt; }

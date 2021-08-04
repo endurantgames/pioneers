@@ -94,7 +94,7 @@ mission to say you brought it with you.
 ### Med Patch {#toc-gear-med-patch .colbefore}
 
 Med patches are one-shot sources of Health that are in high demand but
-limited quantities among the Resistance. Each Survivor can carry only 1 Med Patch, except for Soyuz Survivors who can carry 3.
+limited quantities among the Resistance. Each Survivor can carry only 1 Med Patch, except for Soyuz Survivors who can carry 5.
 
 When they take their turn, 
 a Survivor can use one on themselves or on another Survivor -- this doesn't

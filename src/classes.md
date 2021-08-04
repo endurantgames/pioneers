@@ -157,7 +157,7 @@ If you can't come up with a name, you can roll a die.
 - **Armor** 1-4 Tactical Vest, 5-6 Stealthsuit
 - **Weapon** 1-4 SMG, 5-6 Autolaser
 - **Weapon** 1-4 Slug Pistol, 5-6 Pulse Pistol
-- **Other Gear** 1-4 2 Med Patches [](#toc-gear-med-patch){.page}, 5-6 Long-Range Radio
+- **Other Gear** 1-4 2 Med Patches [](#toc-gear-med-patch){.page}, 5-6 Long-Range Radio and 1 Med Patch
 - **Ship** 1-2 Racing Yacht, 3-4 Repair Pod, 5-6 Shuttle
 
 Spend 1 Kit per list to pick instead of taking what you rolled.
