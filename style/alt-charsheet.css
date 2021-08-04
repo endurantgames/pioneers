@@ -3,7 +3,7 @@
 .ship-sheet :matches(.resist, .vulnerable, .mount-points, .tags),
 .bio ul li :matches(.name, .pronouns, .colony, .talent),
 .notes ul li,
-.gear ul li,
+.gear ul li:first-child,
 .ship-sheet .bio .pilot { 
   border: 0.5pt solid gray;
   background: none;

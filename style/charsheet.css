@@ -427,6 +427,7 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
   position: absolute;
   right: 4pt;
   top: 0;
+  height: auto;
 }
 
 #apollo  .gear ul li:first-child { height: 28.5pt; }
