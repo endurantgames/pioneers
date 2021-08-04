@@ -169,9 +169,9 @@ blorng := $(shell tput setab 208)
 
 # Default Make Script ###################################################################################
 #   Edit: if you want to change the default, e.g. to make testing easier
-default: help
+# default: help
 # default: sheet
-# default: pdf
+default: pdf
 # default: mobile
 # default: all
 

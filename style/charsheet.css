@@ -317,6 +317,9 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
   font-family: var(--font-info);
   font-size: 9pt;
 }
+
+#soyuz .talents ul li { margin-bottom: 0; margin-top: 0; }
+
 .talents ul li strong { 
   font-size: 10pt;
   vertical-align: baseline;
@@ -330,7 +333,32 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
   word-spacing: -0.25em;
 }
 
-.talents ul li .ship-talent { font-style: italic; content: 'Ship Talent:'; }
+.talents ul li .ship-talent { font-style: italic; content: 'Ship Talent'; }
+.talents ul li .react-talent { font-style: italic; content: 'React Talent'; }
+
+
+/* med-patch ----------------------------------------------------------- */
+
+.med-patch { margin-top: 4pt; }
+.med-patch ul { margin: 0; }
+.med-patch ul li { 
+  list-style-type: none; 
+  margin-left: 0; 
+  margin-bottom: 4pt; 
+  display: inline-block; 
+  box-sizing: border-box; 
+  padding-left: 4pt;
+  background: var(--bg-light);
+  height: 24pt;
+}
+
+.med-patch ul li:after {
+  content: var(--box-1);
+  font-family: var(--font-icon); 
+}
+#soyuz .med-patch ul li:after {
+  content: var(--box-3);
+}
 
 /* bio ----------------------------------------------------------------- */
 
@@ -354,7 +382,7 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
 .bio ul li .name     { width: 286pt; content: 'Name';     margin-right: 4pt; }
 .bio ul li .pronouns { width: 286pt; content: 'Pronouns'; margin-right: 0; }
 .bio ul li .colony   { width: 286pt; content: 'Colony';   margin-right: 4pt; }
-.bio ul li .talent   { width: 286pt; content: 'Talent';   margin-right: 0; }
+.bio ul li .talent   { width: 286pt; content: 'Colony Talent';   margin-right: 0; }
 
 /* notes ----------------------------------------------------------- */
 
@@ -369,7 +397,8 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
 }
 
 #mercury          .notes ul li { height:  30pt; }
-#soyuz            .notes ul li { height:  46pt; }
+#soyuz            .notes ul li { height:  30pt; }
+
 #comms-relay      .notes ul li { height:  70pt; }
 #tanker           .notes ul li { height:  50pt; }
 #mining-rig       .notes ul li { height:  93pt; }
@@ -382,16 +411,23 @@ table td .empty { content: ' '; display: inline-block; height: 2em; }
 
 /* gear ------------------------------------------------------------ */
 
-.gear ul { margin: 0; }
+.gear ul { margin: 0; position: relative; }
 .gear ul li { 
   list-style-type: none; 
   margin-left: 0; 
-  background: var(--bg-light);
-  padding-left: 4pt;
   height: 40pt;
 }
+.gear ul li:first-child {
+  padding-left: 4pt;
+  background: var(--bg-light);
+}
+.gear ul li:nth-child(2) {
+  position: absolute;
+  right: 4pt;
+  top: 0;
+}
 
-#apollo .gear ul li { height: 28pt; }
-#mercury .gear ul li { height: 53pt; }
+#apollo .gear ul li:first-child { height: 28pt; }
+#mercury .gear ul li:first-child { height: 53pt; }
 #soyuz .gear       { margin-top: 4pt; }
-#gemini .gear ul li { height: 40.5pt; }
+#gemini .gear ul li:first-child { height: 40.5pt; }

@@ -19,12 +19,12 @@
 :::::::::::::::::::::::::::::::::::::::::: talents :::::::::::::::::::::::::::::::::::
 ## Talents
 
-- **Electronic Countermeasures** Spend 1 Kit to shut down 1 Pion until the end of the Fight.
-- **Salvage Ops** Spend 1 Impulse to gain 1 Kit from a dead Pion.
+- **Electronic Countermeasures** Spend 1 Kit to shut down 1 Pion until your next turn.
 - **Weapon Modifications** Spend 1 Kit to give your weapon Autofire, Burn,
   EMP, Exploding, Piercing, or Shock for this Fight.
-- **Armorer** Spend 1 Kit to fully repair any Armor.
-- **Damage Control** []{.ship-talent} Spend 1 Kit to repair 1 Ship-Health.
+- **Armorer** Spend 1 Kit to restore 1 charge to any armor.
+- **Flak Shield** []{.react-talent}  Spend 1 Kit to ignore 1 Harm from a Far source.
+- **Damage Control** []{.ship-talent} Spend 1 Impulse to repair 1 Ship-Health.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::: armor :::::::::::::::::::::::::::::::::::::
@@ -48,6 +48,7 @@ Weapon                    Range                                          Harm   
 
 :::::::::::::::::::::::::::::::::::::::::: gear ::::::::::::::::::::::::::::::::::::::
 - Other Gear
+- Med Patch []{.box1}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 

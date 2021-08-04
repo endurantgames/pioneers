@@ -28,10 +28,14 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 ## Apollo Talents
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::
-- **Shrug It Off** Spend 1 Impulse to ignore 1 helping of Harm.
-- **Fire in the Hole** Spend 1 Impulse to ignore your weapons' Friendly-Fire tags this Fight.
-- **Rock 'n Roll** Spend 1 Kit to do +1 damage with Autofire weapons this Fight.
+- **Fire in the Hole** Spend 1 Impulse to ignore your weapons' Friendly-Fire tags this turn.
+- **Rock 'n Roll** Spend 1 Kit to do +1 damage with an Autofire weapons.
 - **I Packed a Spare** Spend 1 Kit to ignore your weapons' Reload and Single-Use tags this Fight.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## React Talent
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Shrug It Off** Spend 1 Impulse to ignore 1 Harm from any source.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Ship Talent
@@ -70,16 +74,20 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 ## Gemini Talents
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::
-- **Electronic Countermeasures** Spend 1 Kit to shut down 1 Pion until the end of the Fight.
-- **Salvage Ops** Spend 1 Impulse to gain 1 Kit from a dead Pion.
+- **Electronic Countermeasures** Spend 1 Kit to shut down 1 Pion until your next turn.
 - **Weapon Modifications** Spend 1 Kit to give your weapon Autofire, Burn, 
   EMP, Exploding, Piercing, or Shock for this Fight.
-- **Armorer** Spend 1 Kit to fully repair any Armor.
+- **Armorer** Spend 1 Kit to restore 1 charge to any armor.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## React Talent
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Flak Shield** Spend 1 Kit to ignore 1 Harm from a Far source.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Ship Talent
 ::::::::::::::: infolist ::::::::::::::::::::::::::::
-- **Damage Control** Spend 1 Kit to repair 1 Ship-Health.
+- **Damage Control** Spend 1 Impulse to repair 1 Ship-Health.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -113,10 +121,14 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 ## Mercury Talents
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::
-- **Moving Target** Spend 1 Impulse to instantly change your Range Band.
+- **Mobility** Spend 1 Impulse to instantly change your Range band during your Turn.
 - **Rapid Fire** Spend 1 Impulse to make another attack at -1 Harm.
-- **Gun-Kata** Spend 1 Kit to use two Pistols in one attack, adding the Harm together.
-- **Dive for Cover** Spend 1 Impulse to ignore Harm from an AOE, Autofire, or Exploding attack.
+- **Guns Akimbo** Spend 1 Kit to use two Pistols in one attack, adding the Harm together.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## React Talent
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Dive for Cover** Spend 1 Impulse to ignore Harm from an AOE, Autofire, or Exploding source.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Ship Talent
@@ -154,15 +166,19 @@ Spend 1 Kit per list to pick instead of taking what you rolled.
 ## Soyuz Talents
 
 ::::::::::::: infolist ::::::::::::::::::::::::::::::
-- **Adaptable** Spend 1 Health, Impulse or Kit to add +1 Impulse, Kit, or Health.
-- **Resupply** Spend 1 Kit to replenish anyone else's Kit total.
-- **Rousing Pep Talk** Spend 1 Impulse to replenish anyone else's Impulse total.
-- **Field Medic** Spend 1 Kit to replenish anyone else's Health total.
+- **Resupply** Spend 1 Kit to restore up to 2 to anyone else's Kit total within Close range.
+- **Rousing Pep Talk** Spend 1 Impulse to restore up 2 to anyone else's Impulse total within Close or Mid range.
+- **Field Medic** Spend 1 Kit to restore up 2 to anyone else's Health total within Close range.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## React Talent
+::::::::::::: infolist ::::::::::::::::::::::::::::::
+- **Adaptable** Spend 1 Health, Impulse, or Kit to ignore 1 Harm from a Mid-range source.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Ship Talent
 ::::::::::::::: infolist ::::::::::::::::::::::::::::
-- **Fleet Tactics** Spend 1 Impulse to give everyone +1 on their next ship roll.
+- **Fleet Tactics** Spend 1 Impulse to give +1 any ship in radio contact +1 on their next ship roll.
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

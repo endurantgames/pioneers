@@ -19,10 +19,10 @@
 :::::::::::::::::::::::::::::::::::::::::: talents :::::::::::::::::::::::::::::::::::
 ## Talents
 
-- **Shrug It Off** Spend 1 Impulse to ignore 1 helping of Harm.
-- **Fire in the Hole** Spend 1 Impulse to ignore your weapons' Friendly-Fire tags this Fight.
-- **Rock 'n Roll** Spend 1 Kit to do +1 damage with Autofire weapons this Fight.
+- **Fire in the Hole** Spend 1 Impulse to ignore your weapons' Friendly-Fire tags this turn.
+- **Rock 'n Roll** Spend 1 Kit to do +1 damage with an Autofire weapon.
 - **I Packed a Spare** Spend 1 Kit to ignore your weapons' Reload and Single-Use tags this Fight.
+- **Shrug It Off** []{.react-talent} Spend 1 Impulse to ignore 1 Harm from any source.
 - **Gunner** []{.ship-talent} Spend 1 Impulse to do +1 Ship-Harm on a hit.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -30,7 +30,7 @@
 Armor                     Charges         Protection                           
 -------------             --------------- -----------                                   
 []{.box1} Assault Armor   []{.box6}       Ignore 1 Harm per attack          
-[]{.box1} Tactical Vest   []{.box3}       Ignore Harm from **close** sources
+[]{.box1} Tactical Vest   []{.box3}       Ignore Harm from a **Mid** source
 []{.box1}                 []{.box6 .gray} []{.empty}                            
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -49,6 +49,7 @@ Weapon                    Range                                          Harm   
 
 :::::::::::::::::::::::::::::::::::::::::: gear ::::::::::::::::::::::::::::::::::::::
 - Other Gear
+- Med Patch []{.box1}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 

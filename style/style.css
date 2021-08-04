@@ -64,6 +64,8 @@ header h1     { string-set: gamename content()       }
   --quotesize-inline: 24px;
   --creditsize: 24px;
   --creditsize-inline: 20px;
+  --captionsize: 22px;
+  --captionsize-small: 16px;
 
   --color-line:    gray;
   --color-light:   silver;
@@ -545,3 +547,63 @@ a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
   width: 1080px; 
   column-span: all; 
 }
+
+.pion-sketch figure {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: block;
+  width: 512px;
+  height: auto;
+  float: top;
+  box-sizing: border-box;
+  position: relative;
+  border: 0.5px solid white;
+  background-color: var(--bg-light);
+  border-radius: 3px 36px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.pion-sketch figure img {
+  width: 496px;
+}
+
+.pion-sketch figure:after {
+  display: block;
+  position: absolute;
+  content: "Artist's Depiction - Operative @SHADEFISH1";
+  bottom: 3px;
+  right: 6px;
+  font-family: var(--font-block);
+  font-size: var(--captionsize-small);
+  color: white;
+}
+
+.pion-sketch.unknown figure:after {
+  content: normal;
+}
+
+.pion-sketch figcaption:before {
+  content: 'Classified Intelligence: ';
+  text-transform: none;
+}
+
+.pion-sketch figcaption {
+  position: absolute;
+  top: -16px;
+  left: -16px;
+  padding: 4px;
+  font-family: var(--font-block);
+  background: white;
+  color: black;
+  font-size: var(--captionsize);
+  border-radius: 6px;
+  max-width: 512px;
+  text-transform: uppercase;
+  height: auto;
+  vertical-align: bottom;
+  font-weight: bold;
+}
+

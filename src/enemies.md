@@ -30,19 +30,9 @@ brains. They're the spokesrobots for the Occupation.
 - **Moves** Sarcastically issue threats, call for help, strategic withdrawal
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Mariner {#toc-pion-mariner .colbefore}
-
-The largest of the non-vessel Pions, they're less like individual robots 
-and more like small shuttlecraft used as troop transports.
-Their rectangular bodies are the size of a large 
-truck and have fore- and aft-facing cannons. 
-
-::::::::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::
-- **Health** 20 (Ship-2)
-- **Vulnerable** explosive
-- **Thunder Cannons** *mid, far* Harm 4, Exploding
-- **Moves** Lift off, disgorge troops, hover precipitously
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::: pion-sketch :::::::::::::::::::::::::::::::::::::::::
+![Cassini](art/pions/cassini-white.png "Cassini Pion"){.pion-sketch}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Rover  {#toc-pion-rover .breakbefore }
 
@@ -58,7 +48,29 @@ infantry of the Occupation.
 - **Moves** Swarm the humans, obey orders, breach defenses
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Ulysses {#toc-pion-ulysses}
+::::::::::::::::::{ .pion-sketch .unknown }:::::::::::::::::::::::::::::::::::::::::
+![Rover](art/pions/no-intelligence.png "Rover Pion"){.pion-sketch }
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Mariner {#toc-pion-mariner .breakbefore}
+
+The largest of the non-vessel Pions, they're less like individual robots 
+and more like small shuttlecraft used as troop transports.
+Their rectangular bodies are the size of a large 
+truck and have fore- and aft-facing cannons. 
+
+::::::::::::::::::: infolist :::::::::::::::::::::::::::::::::::::::
+- **Health** 20 (Ship-2)
+- **Vulnerable** explosive
+- **Thunder Cannons** *mid, far* Harm 4, Exploding
+- **Moves** Lift off, disgorge troops, hover precipitously
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::: pion-sketch :::::::::::::::::::::::::::::::::::::::::
+![Mariner](art/pions/mariner-white.png "Mariner Pion"){.pion-sketch}
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Ulysses {#toc-pion-ulysses .breakbefore}
 
 The Ulysses pions are the command-and-control leaders of pion ground forces,
 including the rovers and the vikings. They're shaped like six-legged mechanical
@@ -70,6 +82,10 @@ spiders about the size of a small car, with sensors in all directions.
 - **Micro-scramjet Swarms** *all* Harm 4, Exploding
 - **Moves** Analyze tactics, coordinate troops, missile lock
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::{ .pion-sketch .unknown }:::::::::::::::::::::::::::::::::::::::::
+![Ulysses](art/pions/no-intelligence.png "Ulysses Pion"){.pion-sketch }
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Venera {#toc-pion-venera .breakbefore }
 
@@ -84,7 +100,11 @@ probes of any pions, resembling armored viking orbiters.
 - **Moves** Transmit tactical telemetry, evasive maneuvers, crash and burn
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Viking  {#toc-pion-viking}
+::::::::::::::::::{ .pion-sketch .unknown }:::::::::::::::::::::::::::::::::::::::::
+![Venera](art/pions/no-intelligence.png "Venera Pion"){.pion-sketch }
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Viking  {#toc-pion-viking .breakbefore}
 
 The viking-class pions are the most feared by resistance fighters, as they're
 the heavy troopers of the Ooccupation. Reinforced weapon mounts surround a cylindrical
@@ -96,4 +116,8 @@ central body mounted on 12 flexible legs of variegrated size.
 - **Overkill Onslaught** *close, mid* Harm 5
 - **Moves** Take the beachhead, support mission objective, go down fighting
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::{ .pion-sketch .unknown }:::::::::::::::::::::::::::::::::::::::::
+![Viking](art/pions/no-intelligence.png "Viking Pion"){.pion-sketch }
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

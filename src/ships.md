@@ -113,15 +113,15 @@ spend 2 Kit to switch one tag for another.
 - **Atmospheric** Can touch down or launch in an atmsophere.
 - **Balanced** Add 1 to Gyro.
 - **Cargo** Can carry cargo, including a ship of Health up to half its' Health.
-- **Compact** Ship can't be targeted at Close-Ship range.
+- **Compact** Ignore 1 Ship-Harm from a Close-ship source.
 - **EVA** Pilots can easily eject in space.
 - **Networked** Other pilots can use this ship's Telemetry.
-- **Nimble** Ship can't be targeted at Mid-Ship range.
+- **Nimble** Ignore 1 Ship-Harm from a Mid-ship range.
 - **Passengers** The ship can carry passengers -- a number equal to its Health squared.
 - **Ramming Speed** Make a close attack with Thrust to do Harm equal to its maximum Health, take Harm equal to half its maximum Health.
 - **Reinforced Bulkheads** Add 1 to Health.
 - **Sensor Array** Add 1 to Telemetry.
-- **Stealth** Ship can't be targeted at Long-Ship range.
+- **Stealth** Ignore 1 Ship-Harm from a Far-Ship source.
 - **Tailgunner** The ship's mounted weapons can be fired by a co-pilot.
 - **Turbocharged** Add 1 to Thrust.
 

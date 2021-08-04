@@ -7,7 +7,7 @@
 
 ::::::::::::::::::::::: stats ::::::::::::::::::::::::::::::
 
- Thrust   Gyro   Telemetry   Ship Health
+ Thrust   Gyro   Telemetry   Ship-Health
 -------- ------ ----------- -----------------------------
  1        2         3         []{.box4}
 
@@ -41,7 +41,7 @@ Weapon                         Range                                          Ha
 
 ::::::::::::::::::::::: stats ::::::::::::::::::::::::::::::
 
- Thrust   Gyro   Telemetry   Ship Health
+ Thrust   Gyro   Telemetry   Ship-Health
 -------- ------ ----------- -----------------------------
  3        1         1        []{.box8}
 
@@ -76,7 +76,7 @@ Weapon                    Range                                          Harm   
 
 ::::::::::::::::::::::: stats ::::::::::::::::::::::::::::::
 
- Thrust   Gyro   Telemetry   Ship Health
+ Thrust   Gyro   Telemetry   Ship-Health
 -------- ------ ----------- -----------------------------
  2        2         2        []{.box3}
 
@@ -109,7 +109,7 @@ Weapon                    Range                                          Harm   
 
 ::::::::::::::::::::::: stats ::::::::::::::::::::::::::::::
 
- Thrust   Gyro   Telemetry   Ship Health
+ Thrust   Gyro   Telemetry   Ship-Health
 -------- ------ ----------- -----------------------------
  3        1         1        []{.box10}
 
@@ -144,7 +144,7 @@ Weapon                    Range                                          Harm   
 
 ::::::::::::::::::::::: stats ::::::::::::::::::::::::::::::
 
- Thrust   Gyro   Telemetry   Health
+ Thrust   Gyro   Telemetry   Ship-Health
 -------- ------ ----------- -----------------------------
  2        3         1        []{.box5}
 
@@ -178,7 +178,7 @@ Weapon                    Range                                          Harm   
 
 ::::::::::::::::::::::: stats ::::::::::::::::::::::::::::::
 
- Thrust   Gyro   Telemetry   Health
+ Thrust   Gyro   Telemetry   Ship-Health
 -------- ------ ----------- -----------------------------
  1        2         3        []{.box2}
 
@@ -212,7 +212,7 @@ Weapon                      Range                                          Harm 
 
 ::::::::::::::::::::::: stats ::::::::::::::::::::::::::::::
 
- Thrust   Gyro   Telemetry   Health
+ Thrust   Gyro   Telemetry   Ship-Health
 -------- ------ ----------- -----------------------------
  2        2         2         []{.box5}
 
@@ -248,7 +248,7 @@ Weapon                     Range                                          Harm  
 
 ::::::::::::::::::::::: stats ::::::::::::::::::::::::::::::
 
- Thrust   Gyro   Telemetry   Health
+ Thrust   Gyro   Telemetry   Ship-Health
 -------- ------ ----------- -----------------------------
  2        3         1        []{.box1}
 

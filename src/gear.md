@@ -19,8 +19,8 @@ it between Ops to reset those charges to their maximum values.
 ::::::::::::: {.infolist  } ::::::::::::::::::::::::::::::::::::::::::::::::::
 - **Assault Armor** Ignore 1 Harm per attack (6 charges)
 - **Energy Siphon** Ignore Burn, Pulse, or Shock Harm (3 charges)
-- **Stealthsuit** Ignore Harm from *far* sources (3 charges)
-- **Tactical Vest** Ignore Harm from *close* sources (3 charges)
+- **Stealthsuit** Ignore Harm from a *Far* source (3 charges)
+- **Tactical Vest** Ignore Harm from a *Mid* source (3 charges)
 - **Vacsuit** You don't get KIA if your ship is destroyed (1 charge)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -94,7 +94,7 @@ mission to say you brought it with you.
 ### Med Patch {#toc-gear-med-patch .colbefore}
 
 Med patches are one-shot sources of Health that are in high demand but
-limited quantities among the Resistance. 
+limited quantities among the Resistance. Each Survivor can carry only 1 Med Patch, except for Soyuz Survivors who can carry 3.
 
 When they take their turn, 
 a Survivor can use one on themselves or on another Survivor -- this doesn't
