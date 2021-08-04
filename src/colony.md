@@ -1,4 +1,4 @@
-::::::::::::: {.infolist .breakable } :::::::::::::::::::::::::::::::::
+::::::::::::: {.infolist .breakable #breakable-step-colony } :::::::::::::::::::::::::::::::::
 # Colonial Origin {.breakbefore #step-colony}
 
 > We created the Pions. We sent them before us, and followed them

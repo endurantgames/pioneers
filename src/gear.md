@@ -24,12 +24,12 @@ it between Ops to reset those charges to their maximum values.
 - **Vacsuit** You don't get KIA if your ship is destroyed (1 charge)
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::: {.infolist .breakable} ::::::::::::::::::::::::::::::::::::
 ## Weapons {#toc-weapons }
 
 Each weapon lists the ranges at which it can be used -- *close*, *mid*,
 and *far* -- as well as the damage and any Weapon Tags (see below).
 
+::::::::::::: {.infolist .breakable} ::::::::::::::::::::::::::::::::::::
 - **Autolaser**         *mid* Harm 2, Autofire, Burn
 - **Autorifle**         *mid* Harm 1, Autofire, Heavy
 - **Bow**               *mid, far* Harm 1, Reload
@@ -51,12 +51,12 @@ and *far* -- as well as the damage and any Weapon Tags (see below).
 - **Taser Pistol**      *close* Harm 1, Handgun, Shock           
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
  
-::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::
 ## Weapon Tags {#toc-weapon-tags .colbefore}
 
 These tags apply to both personal weaponry and weapons on spacecraft
 [](#step-ship){.page}.
 
+::::::::::::: {.infolist .breakable } ::::::::::::::::::::::::::::::::::::
 - **AOE** Affects multiple targets.
 - **Autofire** Can hit multiple targets.
 - **Burn** Does burn damage.
