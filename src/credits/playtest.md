@@ -1,6 +1,6 @@
 Thank you to 
-**Heather Chvany**,
-**Sasha Chvany**, 
+*Heather Chvany*,
+*Sasha Chvany*, 
 and
-**Greg Chvany** 
+*Greg Chvany* 
 for playtesting!
