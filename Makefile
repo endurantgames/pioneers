@@ -74,7 +74,9 @@ TEASER_FLAGS    = $(FLAGS) $(TEASER_CSS)    $(PRINCEFLAGS_TEASER)
 #   Edit: probably unnecessary
 PANDOC         = /usr/bin/pandoc
 PANDOCFLAGS    = --variable=date:"$(DATE)" -f $(PANDOC_MD_EXT) --pdf-engine=prince 
-PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fancy_lists+startnum+table_captions+link_attributes+fenced_divs+implicit_figures+bracketed_spans+auto_identifiers
+PANDOCFLAGS_ALT = --variable=date:"$(DATE)" -f $(PANDOC_MD_EXT_ALT) --pdf-engine=prince 
+PANDOC_MD_EXT  = markdown+pipe_tables+header_attributes+fancy_lists+startnum+link_attributes+fenced_divs+bracketed_spans+multiline_tables+grid_tables+simple_tables
+PANDOC_MD_EXT_ALT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fancy_lists+startnum+table_captions+link_attributes+fenced_divs+implicit_figures+bracketed_spans+auto_identifiers
 
 # Prince Config
 #   Edit: Sure, if you need to
@@ -299,7 +301,7 @@ drac:
 
 teaser: markdown-teaser
 	 echo '$(ltblue)Making Teaser PDF.$(resetc)'
-	       $(PANDOC) $(PANDOCFLAGS) $(TEASER_FLAGS) -o $(TEASER_OUT) $(TEASER_SRC)
+	       $(PANDOC) $(PANDOCFLAGS_ALT) $(TEASER_FLAGS) -o $(TEASER_OUT) $(TEASER_SRC)
 	       $(PDFINFO) $(TEASER_OUT) $(PDFINFO_GREP)
 	      -$(EXPLORER)
 
