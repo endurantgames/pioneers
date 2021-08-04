@@ -11,7 +11,7 @@ Solar System, building both surface bases on inhospitable planets and
 moons, and orbiting colonies above them.
 
 Choose one of the following origins for your Survivor, and note it
-on your Survivor Record.
+and the Colony Talent on your Survivor Record.
 
 - **Callistoan** You're from Jupiter's moon Callisto.  *+1 Ship-Telemetry on Liquid-Hydrogen Tankers.*
 - **Cererean** You're from Ceres, in the Asteroid Belt. *+1 Ship-Gyro on Mining Rigs.*
@@ -26,7 +26,7 @@ on your Survivor Record.
 - **Martian** You're from Mars. *+1 Ship-Health on any ship.*
 - **Plutonian** You're from Pluto. *+1 Ship-Telemetry on Comms Relays.*
 - **Selenite** You're from Luna, Earth's moon. *+1 Ship-Gyro on Racing Yachts.*
-- **Tellurian** You're from Earth. *Start each operation with +1 Kit above your maximum.*
+- **Tellurian** You're from Earth. *Start each operation with +1 Kit abhttps://twitter.com/ShadeFish1ove your maximum.*
 - **Titanian** You're from Saturn's moon Titan.  *+1 Ship-Telemetry on Mining Rigs.*
 - **Uranian** You're from Oberon or one of the colonies on Uranus's moons. *+1 Ship-Thrust on Liquid-Hydrogen Tankers.*
 

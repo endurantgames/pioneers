@@ -35,3 +35,15 @@ and your starting equipment. Pick a class from this list:
 
 The table below lists the attributes and pools for each class.
 
+## Talents
+
+Your class gives you **Class Talents**, a **React Talent**,
+and a **Ship Talent**. Your Colonial Origin also gives you
+a **Colony Talent**.
+
+You can use one Class Talent, once, on your turn. 
+Your React Talent can be used once each time you take Harm. 
+Your Ship Talent can be used once on your turn.
+Your Colony Talent is used whenever you are issued a new ship.
+
+
