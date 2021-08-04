@@ -548,6 +548,8 @@ a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
   column-span: all; 
 }
 
+.pion-sketch.hide { display: none; } 
+
 .pion-sketch figure {
   padding-top: 32px;
   padding-bottom: 32px;

@@ -30,9 +30,13 @@ brains. They're the spokesrobots for the Occupation.
 - **Moves** Sarcastically issue threats, call for help, strategic withdrawal
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::: pion-sketch :::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::: {.pion-sketch .hide }:::::::::::::::::::::::::::::::::::::::::
 ![Cassini](art/pions/cassini-white.png "Cassini Pion"){.pion-sketch}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::{ .pion-sketch .unknown }:::::::::::::::::::::::::::::::::::::::::
+![Cassini](art/pions/no-intelligence.png "Cassini Pion"){.pion-sketch }
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 ## Rover  {#toc-pion-rover .breakbefore }
 
@@ -66,9 +70,13 @@ truck and have fore- and aft-facing cannons.
 - **Moves** Lift off, disgorge troops, hover precipitously
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::: pion-sketch :::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::: {.pion-sketch .hide }:::::::::::::::::::::::::::::::::::::::::
 ![Mariner](art/pions/mariner-white.png "Mariner Pion"){.pion-sketch}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::{ .pion-sketch .unknown }:::::::::::::::::::::::::::::::::::::::::
+![Mariner](art/pions/no-intelligence.png "Mariner Pion"){.pion-sketch }
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 ## Ulysses {#toc-pion-ulysses .breakbefore}
 
