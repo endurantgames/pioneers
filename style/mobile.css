@@ -12,9 +12,8 @@ header h1     { string-set: gamename content()       }
   margin-top: -32px;
   font-size: var(--larger);
   font-family: var(--font-header);
-  } }
-@page:first { @bottom-center { content: normal;
-  } }
+} }
+@page:first { @bottom-center { content: normal; } }
 
 @prince-pdf {
   -prince-pdf-page-layout: one-column;
@@ -114,7 +113,7 @@ table              { border-collapse: collapse; break-inside: avoid-page;   }
 table tr           { break-inside: avoid-page;                              }
 table thead        { break-after: avoid;                                    }
 table thead        { border-bottom: 0.5pt solid var(--color-line);          }
-table th, table td { padding: 2pt;                                          }
+table th, table td { padding: 2px;                                          }
 table th           { vertical-align: bottom;                                }
 table td           { vertical-align: top;                                   }
 
@@ -130,16 +129,16 @@ li           { break-inside: avoid; }
 ul, ol       { margin-left: 1em;    }
 ul li, ul ol { margin-left: 1em;    }
 
-.sidebar p { margin-top: 6pt; margin-bottom: 0; }
+.sidebar p { margin-top: 6px; margin-bottom: 0; }
 .sidebar { 
   float-placement:   top;
   float-reference:   column;
   border:            0.5pt solid var(--color-line);
-  border-radius:     3pt;
-  padding-left:      9pt;
-  padding-right:     9pt;
-  padding-bottom:    6pt;
-  margin-bottom:     9pt;
+  border-radius:     3px;
+  padding-left:      9px;
+  padding-right:     9px;
+  padding-bottom:    6px;
+  margin-bottom:     9px;
   background:        var(--bgcolor-sidebar);
 }
 
@@ -305,7 +304,7 @@ td strong, p strong { color: #90FFFF;
 ul li { list-style-type: none; }
 ul { margin-left: 1em; break-inside: avoid; }
 ul li strong { margin-left: -1em; padding-right: 0.25em; }
-ol li { margin-left: 2em; margin-bottom: 4pt; }
+ol li { margin-left: 2em; margin-bottom: 4px; }
 
 .breakable ul { break-inside: auto; }
 .unbreakable { break-inside: avoid; }
@@ -395,11 +394,12 @@ table { width: 100%; }
 #toc-location-saturn,
 #toc-location-uranus,
 #toc-location-trans,
-/*
+#toc-pion-cassini,
 #toc-pion-mariner,
 #toc-pion-ulysses,
 #toc-pion-viking,
-*/
+#toc-pion-rover,
+#toc-pion-venera,
 #toc-ship-tags,
 #toc-fleet-l2h-tanker,
 #toc-fleet-ore-hauler,
@@ -492,4 +492,69 @@ th { white-space: pre; }
 .opsmastertable table { }
 .opsmastertable table th { white-space: normal; }
 .traveltimes table th { text-align: left; }
+
+
+.pion-sketch.hide { display: none; }
+
+.pion-sketch figure {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-left: 12px;
+  margin-top: 16px;
+  display: block;
+  width: 306px;
+  height: auto;
+  box-sizing: border-box;
+  position: relative;
+  border: 0.5px solid white;
+  border-radius: 3px 36px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: var(--bg-light);
+}
+
+.pion-sketch figure img {
+  width: 298px;
+  height: auto;
+  background: lime;
+}
+
+.pion-sketch figure:after {
+  display: block;
+  position: absolute;
+  content: "Artist's Depiction via @SHADEFISH1";
+  bottom: 3px;
+  right: 6px;
+  font-family: var(--font-block);
+  font-size: var(--captionsize-small);
+  color: white;
+}
+
+.pion-sketch.unknown figure:after {
+  content: normal;
+}
+
+.pion-sketch figcaption:before {
+  content: 'Classified Intelligence: ';
+  text-transform: none;
+}
+
+.pion-sketch figcaption {
+  position: absolute;
+  top: -8px;
+  left: -12px;
+  padding: 4px;
+  font-family: var(--font-block);
+  background: white;
+  color: black;
+  font-size: var(--captionsize);
+  border-radius: 6px;
+  max-width: 240px;
+  text-transform: uppercase;
+  height: auto;
+  vertical-align: bottom;
+  font-weight: bold;
+}
 
