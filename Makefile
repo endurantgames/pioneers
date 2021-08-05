@@ -62,7 +62,7 @@ OPENDOC_OUT    = $(OUTDIR)/$(FMTDIR)/$(PROJ).fodt
 HTML5_OUT      = $(OUTDIR)/$(FMTDIR)/$(PROJ).html
 HTML5SELF_OUT  = $(OUTDIR)/$(FMTDIR)/$(PROJ)-complete.html
 
-ZIP_FMT_OUT    = ./$(PROJ)-formats.zip
+ZIP_FMT_OUT    = ./$(PROJ)-source.zip
 ZIP_DIST_OUT   = ./$(PROJ)-ttrpg.zip
 
 # CSS Location
@@ -421,17 +421,26 @@ html5-complete: markdown formats-dir
 	@ echo '$(ltcyan)HTML 5 Self-Contained built.$(resetc)'
 
 formats-zip: formats formats-dir
+	@ echo '$(ltorng)Removing old ZIP if present.$(resetc)'
+	-@ cd $(OUTDIR); rm -f $(ZIP_FMT_OUT)
+	@ echo '$(ltyelo)Copying READMEs to $(FMTDIR).$(resetc)'
+	-@ cp $(DOCSDIR)/README_PIONEERS_SRC.md $(OUTDIR)/$(FMTDIR)/
+	-@ cp $(DOCSDIR)/LICENSE.md $(OUTDIR)/$(FMTDIR)
 	@ echo '$(ltorng)Making File Formats ZIP file.$(resetc)'
-	@ cd $(OUTDIR); pwd ; $(ZIP) $(ZIP_FMT_OUT) $(FMTDIR)
+	@ cd $(OUTDIR); $(ZIP) $(ZIP_FMT_OUT) $(FMTDIR)
 	@ echo '$(ltorng)File Formats ZIP file created.$(resetc)'
 
 dist-files: dist-dir
+	@ echo '$(ltorng)Removing old ZIP if present.$(resetc)'
+	-@ cd $(OUTDIR); rm -f $(ZIP_DIST_OUT)
 	@ echo '$(ltyelo)Copying files to $(DISTDIR).$(resetc)'
+	-@ cp $(DOCSDIR)/README_PIONEERS.md $(OUTDIR)/$(DISTDIR)/
 	@ cp $(PROJ_OUT)      $(OUTDIR)/$(DISTDIR)/
 	@ cp $(MOBILE_OUT)    $(OUTDIR)/$(DISTDIR)/
 	@ cp $(PRINT_OUT)     $(OUTDIR)/$(DISTDIR)/
 	@ cp $(SHEET_OUT)     $(OUTDIR)/$(DISTDIR)/
 	@ cp $(SHEET_ALT_OUT) $(OUTDIR)/$(DISTDIR)/
+
 dist: all dist-files
 	@ echo '$(ltorng)Making Distribution ZIP file.$(resetc)'
 	-@ cd $(OUTDIR); $(ZIP) $(ZIP_DIST_OUT) $(DISTDIR)
@@ -472,3 +481,4 @@ zip-formats: formats-zip
 html-comp:   html5-complete
 htmlc:       html5-complete
 html5-comp:  html5-complete
+source:      formats-zip
