@@ -15,9 +15,9 @@ header h1     { string-set: gamename content()       }
   text-align: right;
   font-size: var(--small);
   content: string(date);
-  position: relative;
-  right: 16px;
-  top: 32px;
+  padding-right: 32px;
+  padding-top: 64px;
+  margin-bottom: -64px;
 } }
 
 @page:first { margin: 0; padding: 0; }

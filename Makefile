@@ -20,7 +20,7 @@ SRCDIR    = ./src
 BUILDDIR  = ./build
 BACKDIR   = ./old/backups
 DOCSDIR   = ./docs
-FMTDIR    = $(PROJ)-formats
+FMTDIR    = $(PROJ)-source
 DISTDIR   = $(PROJ)
 
 # Backups
