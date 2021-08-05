@@ -1,5 +1,5 @@
 @page:nth(2  ) { background-image: url("../art/blue-2.jpg"              ) ; }
-@page:nth(3  ) { background-image: url("../art/golden-record.png"       ) ; }
+@page:nth(3  ) { background-image: url("../art/golden-record.jpg"       ) ; }
 @page:nth(4  ) { background-image: url("../art/jupiter.jpg"             ) ; background-position: bottom; }
 @page:nth(5  ) { background-image: url("../art/red-nebula.jpg"          ) ; }
 @page:nth(6  ) { background-image: url("../art/funky-interior.jpg"      ) ; }
@@ -42,7 +42,7 @@
 @page:nth(43 ) { background-image: url("../art/ldsd.jpg"                ) ; }
 @page:nth(44 ) { background-image: url("../art/fuel-satellite.jpg"      ) ; }
 @page:nth(45 ) { background-image: url("../art/keppler-1.jpg"           ) ; }
-@page:nth(46 ) { background-image: url("../art/space-polycule-breakup.png"  ) ; }
+@page:nth(46 ) { background-image: url("../art/space-polycule-breakup.jpg"  ) ; }
 @page:nth(47 ) { background-image: url("../art/four-legged-robot.jpg"   ) ; }
 @page:nth(48 ) { background-image: url("../art/dawn-arrival.jpg"        ) ; }
 @page:nth(49 ) { background-image: url("../art/psyche.jpg"              ) ; }

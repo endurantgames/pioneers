@@ -1,8 +1,8 @@
 @page:nth(1  ) { background-image: url("../art/mobile/earth-cropped-1.jpg"               ) ; }
 @page:nth(2  ) { background-image: url("../art/mobile/blue-2-0.jpg"              ) ; }
 @page:nth(3  ) { background-image: url("../art/mobile/blue-2-1.jpg"              ) ; }
-@page:nth(4  ) { background-image: url("../art/mobile/golden-record-0.png"       ) ; }
-@page:nth(5  ) { background-image: url("../art/mobile/golden-record-1.png"       ) ; }
+@page:nth(4  ) { background-image: url("../art/mobile/golden-record-0.jpg"       ) ; }
+@page:nth(5  ) { background-image: url("../art/mobile/golden-record-1.jpg"       ) ; }
 @page:nth(7  ) { background-image: url("../art/mobile/jupiter-0.jpg"             ) ; }
 @page:nth(8  ) { background-image: url("../art/mobile/red-nebula-0.jpg"          ) ; }
 @page:nth(9  ) { background-image: url("../art/mobile/funky-interior-1.jpg"      ) ; }
@@ -55,7 +55,7 @@
 @page:nth(53 ) { background-image: url("../art/mobile/ldsd-0.jpg"                ) ; }
 @page:nth(54 ) { background-image: url("../art/mobile/fuel-satellite-1.jpg"      ) ; }
 @page:nth(55 ) { background-image: url("../art/mobile/keppler-1-1.jpg"           ) ; }
-@page:nth(56 ) { background-image: url("../art/mobile/space-polycule-breakup-1.png"  ) ; }
+@page:nth(56 ) { background-image: url("../art/mobile/space-polycule-breakup-1.jpg"  ) ; }
 @page:nth(57 ) { background-image: url("../art/mobile/four-legged-robot-1.jpg"   ) ; }
 @page:nth(58 ) { background-image: url("../art/mobile/dawn-arrival-0.jpg"        ) ; }
 @page:nth(59 ) { background-image: url("../art/mobile/dawn-arrival-1.jpg"        ) ; }

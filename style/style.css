@@ -575,7 +575,7 @@ a.page:after { content: ' (p. ' target-counter(attr(href url), page) ')'; }
 .pion-sketch figure:after {
   display: block;
   position: absolute;
-  content: "Artist's Depiction - Operative @SHADEFISH1";
+  content: "Artist's Depiction via Operative @SHADEFISH1";
   bottom: 3px;
   right: 6px;
   font-family: var(--font-block);

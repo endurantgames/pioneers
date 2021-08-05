@@ -20,6 +20,8 @@ SRCDIR    = ./src
 BUILDDIR  = ./build
 BACKDIR   = ./old/backups
 DOCSDIR   = ./docs
+FMTDIR    = $(PROJ)-formats
+DISTDIR   = $(PROJ)
 
 # Backups
 #   Edit: if you want/don't want to back up files when you do make clean
@@ -31,26 +33,43 @@ BACKUPS   = --backup = numbered
 #   Edit: probably unnecessary
 PROJ_RECIPE    = $(PROJ)
 PROJ_SRC       = $(BUILDDIR)/$(PROJ).md
+
 PROJ_OUT       = $(OUTDIR)/$(PROJ).pdf
-HTML_OUT       = $(OUTDIR)/$(PROJ).html
 MOBILE_OUT     = $(OUTDIR)/$(PROJ)-pocket.pdf
-DRAC_OUT       = $(OUTDIR)/$(PROJ)-drac.pdf
-DRAC_SRC       = $(SRCDIR)/drac.md
-SHEET_RECIPE   = sheet
-SHEET_SRC      = $(BUILDDIR)/sheet.md
-SHEET_HTML_OUT = $(OUTDIR)/$(PROJ)-sheets.html
+PRINT_OUT      = $(OUTDIR)/$(PROJ)-printable.pdf
 SHEET_OUT      = $(OUTDIR)/$(PROJ)-sheets.pdf
 SHEET_ALT_OUT  = $(OUTDIR)/$(PROJ)-sheets-alt.pdf
-PLAINTEXT_OUT  = $(OUTDIR)/$(PROJ)-plaintext.pdf
+
+HTML_OUT       = $(OUTDIR)/$(PROJ).html
+SHEET_HTML_OUT = $(OUTDIR)/$(PROJ)-sheets.html
+
+TEASER_OUT     = $(OUTDIR)/pioneers-teaser.pdf
+DRAC_OUT       = $(OUTDIR)/$(PROJ)-drac.pdf
+DRAC_SRC       = $(SRCDIR)/drac.md
+
+SHEET_RECIPE   = sheet
+SHEET_SRC      = $(BUILDDIR)/sheet.md
 TEASER_RECIPE  = teaser
 TEASER_SRC     = $(BUILDDIR)/teaser.md
-TEASER_OUT     = $(OUTDIR)/pioneers-teaser.pdf
+
+TEXT_OUT       = $(OUTDIR)/$(FMTDIR)/$(PROJ).txt
+ODT_OUT        = $(OUTDIR)/$(FMTDIR)/$(PROJ).odt
+RTF_OUT        = $(OUTDIR)/$(FMTDIR)/$(PROJ).rtf
+DOCX_OUT       = $(OUTDIR)/$(FMTDIR)/$(PROJ).docx
+GFM_OUT        = $(OUTDIR)/$(FMTDIR)/$(PROJ).gfm 
+INDESIGN_OUT   = $(OUTDIR)/$(FMTDIR)/$(PROJ).icml
+OPENDOC_OUT    = $(OUTDIR)/$(FMTDIR)/$(PROJ).fodt
+HTML5_OUT      = $(OUTDIR)/$(FMTDIR)/$(PROJ).html
+HTML5SELF_OUT  = $(OUTDIR)/$(FMTDIR)/$(PROJ)-complete.html
+
+ZIP_FMT_OUT    = ./$(PROJ)-formats.zip
+ZIP_DIST_OUT   = ./$(PROJ).zip
 
 # CSS Location
 #   Edit: if you have more than one stylesheet
 # PROJ_CSS    = --css = $(STYLEDIR)/$(PROJ).css
 PROJ_CSS      = --css=$(STYLEDIR)/style.css
-PLAINTEXT_CSS = --css=$(STYLEDIR)/plain.css
+PRINT_CSS     = --css=$(STYLEDIR)/print.css
 SHEET_CSS     = --css=$(STYLEDIR)/charsheet.css
 SHEET_ALT_CSS = --css=$(STYLEDIR)/alt-charsheet.css
 MOBILE_CSS    = --css=$(STYLEDIR)/mobile.css
@@ -63,10 +82,21 @@ FLAGS           = -t html5 --standalone --resource-path=$(IMGDIR)
 PROJ_FLAGS      = $(FLAGS) $(PROJ_CSS)      $(PRINCEFLAGS)
 SHEET_FLAGS     = $(FLAGS) $(SHEET_CSS)     $(PRINCEFLAGS_SHEET)
 SHEET_ALT_FLAGS = $(FLAGS) $(SHEET_ALT_CSS) $(PRINCEFLAGS_SHEET_ALT)
-PLAINTEXT_FLAGS = $(FLAGS) $(PLAINTEXT_CSS) $(PRINCEFLAGS_PLAIN)
+PRINT_FLAGS = $(FLAGS) $(PRINT_CSS) $(PRINCEFLAGS_PLAIN)
 MOBILE_FLAGS    = $(FLAGS) $(MOBILE_CSS)    $(PRINCEFLAGS_MOBILE)
 DRAC_FLAGS      = $(FLAGS) $(DRAC_CSS)      $(PRINCEFLAGS_DRAC)
 TEASER_FLAGS    = $(FLAGS) $(TEASER_CSS)    $(PRINCEFLAGS_TEASER)
+
+# File Formats
+DOCX_FLAGS      = -t docx
+GFM_FLAGS       = -t gfm
+INDESIGN_FLAGS  = -t icml
+ODT_FLAGS       = -t odt
+OPENDOC_FLAGS   = -t opendocument --standalone
+RTF_FLAGS       = -t rtf
+TEXT_FLAGS      = -t plain        --columns=72
+HTML5_FLAGS     = -t html5        --standalone
+HTML5SELF_FLAGS = -t html5        --self-contained $(PRINT_CSS)
 
 # Application Configruation #############################################################################
 #
@@ -119,11 +149,15 @@ EDITOR = /usr/bin/vim
 # EXPLORER = /mnt/c/WINDOWS/explorer.exe $(OUT)
 EXPLORER = 
 
+# Zip
+ZIP = /usr/bin/zip -r
+
 # Variables #############################################################################################
 #
 # Date Variable
 #   Edit: no
-DATE           = $(shell date '+%Y-%b-%d %H:%M %z')
+DATE   = $(shell date '+%B %e, %Y')
+# DATE = $(shell date '+%Y-%b-%d %H:%M %z')
 
 # Color variables
 #   Edit: no
@@ -183,12 +217,12 @@ help:
 	@ echo   '$(dkcyan)make$(resetc) arguments:'
 	@ echo '  $(dkcyan)make$(resetc) $(ltmagn)markdown   $(resetc)- collect markdown'
 	@ echo '  $(dkcyan)make$(resetc) $(ltblue)pdf        $(resetc)- create pdf'
-	@ echo '  $(dkcyan)make$(resetc) $(ltblue)plain      $(resetc)- create plain text pdf'
+	@ echo '  $(dkcyan)make$(resetc) $(ltblue)print      $(resetc)- create printable pdf'
 	@ echo '  $(dkcyan)make$(resetc) $(ltblue)pocket     $(resetc)- create pocket text pdf'
 	@ echo '  $(dkcyan)make$(resetc) $(ltblue)sheets     $(resetc)- create character sheets'
 	@ echo '  $(dkcyan)make$(resetc) $(ltblue)alt-sheets $(resetc)- create alternative character sheets'
 	@ echo '  $(dkcyan)make$(resetc) $(ltcyan)html       $(resetc)- create html'
-	@ echo '  $(dkcyan)make$(resetc) $(ltgren)all        $(resetc)- create markdown, pdf, plain, pocket, sheets, alt-sheets'
+	@ echo '  $(dkcyan)make$(resetc) $(ltgren)all        $(resetc)- create markdown, pdf, print, pocket, sheets, alt-sheets'
 	@ echo '  $(dkcyan)make$(resetc) $(ltyelo)clean      $(resetc)- clean $(OUTDIR), $(BUILDDIR); makes backups'
 	@ echo '  $(dkcyan)make$(resetc) $(ltorng)backups    $(resetc)- back up $(OUTDIR), $(BUILDDIR)'
 	@ echo '  $(dkcyan)make$(resetc) $(dkredd)purge      $(resetc)- $(dkredd)purge$(resetc) $(OUTDIR), $(BUILDDIR), $(BACKDIR)'
@@ -280,10 +314,10 @@ pdf: markdown
 	@       $(PDFINFO) $(PROJ_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
-plaintext: markdown
-	@ echo '$(ltblue)Making Plaintext PDF.$(resetc)'
-	@       $(PANDOC) $(PANDOCFLAGS) $(PLAINTEXT_FLAGS) -o $(PLAINTEXT_OUT) $(PROJ_SRC)
-	@       $(PDFINFO) $(PLAINTEXT_OUT) $(PDFINFO_GREP)
+print: markdown
+	@ echo '$(ltblue)Making Printable PDF.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(PRINT_FLAGS) -o $(PRINT_OUT) $(PROJ_SRC)
+	@       $(PDFINFO) $(PRINT_OUT) $(PDFINFO_GREP)
 	@      -$(EXPLORER)
 
 mobile: markdown
@@ -331,22 +365,110 @@ html-sheet: markdown-sheet
 	@ echo '$(ltcyan)HTML built.$(resetc)'
 	@       $(EDITOR) $(SHEET_HTML_OUT)
 
+dist-dir:
+	@ echo -n '$(ltorng)Checking: $(resetc)'
+	@ mkdir -p $(OUTDIR)/$(DISTDIR)
+	@ echo '$(ltorng)$(OUTDIR)/$(DISTDIR) exists.$(resetc)'
+
+formats-dir:
+	@ echo -n '$(ltorng)Checking: $(resetc)'
+	@ mkdir -p $(OUTDIR)/$(FMTDIR)
+	@ echo '$(ltorng)$(OUTDIR)/$(FMTDIR) exists.$(resetc)'
+
+text: markdown formats-dir
+	@ echo '$(ltcyan)Making Text.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(TEXT_FLAGS) -o $(TEXT_OUT) $(PROJ_SRC)
+	@ echo '$(ltcyan)Text built.$(resetc)'
+
+docx: markdown formats-dir
+	@ echo '$(ltcyan)Making DocX.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(DOCX_FLAGS) -o $(DOCX_OUT) $(PROJ_SRC)
+	@ echo '$(ltcyan)DocX built.$(resetc)'
+
+rtf: markdown formats-dir
+	@ echo '$(ltcyan)Making RTF.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(RTF_FLAGS) -o $(RTF_OUT) $(PROJ_SRC)
+	@ echo '$(ltcyan)RTF built.$(resetc)'
+
+odt: markdown formats-dir
+	@ echo '$(ltcyan)Making ODT.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(ODT_FLAGS) -o $(ODT_OUT) $(PROJ_SRC)
+	@ echo '$(ltcyan)ODT built.$(resetc)'
+
+in-design: markdown formats-dir
+	@ echo '$(ltcyan)Making InDesign.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(INDESIGN_FLAGS) -o $(INDESIGN_OUT) $(PROJ_SRC)
+	@ echo '$(ltcyan)InDesign built.$(resetc)'
+
+gfm: markdown formats-dir
+	@ echo '$(ltcyan)Making GitHub-Flavored Markdown.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(GFM_FLAGS) -o $(GFM_OUT) $(PROJ_SRC)
+	@ echo '$(ltcyan)GFM built.$(resetc)'
+
+opendocument: markdown formats-dir
+	@ echo '$(ltcyan)Making OpenDocument.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(OPENDOC_FLAGS) -o $(OPENDOC_OUT) $(PROJ_SRC)
+	@ echo '$(ltcyan)OpenDocument built.$(resetc)'
+
+html5: markdown formats-dir
+	@ echo '$(ltcyan)Making HTML 5.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(HTML5_FLAGS) -o $(HTML5_OUT) $(PROJ_SRC)
+	@ echo '$(ltcyan)HTML 5 built.$(resetc)'
+
+html5-complete: markdown formats-dir
+	@ echo '$(ltcyan)Making HTML 5 Self-Contained.$(resetc)'
+	@       $(PANDOC) $(PANDOCFLAGS) $(HTML5SELF_FLAGS) -o $(HTML5SELF_OUT) $(PROJ_SRC)
+	@ echo '$(ltcyan)HTML 5 Self-Contained built.$(resetc)'
+
+formats-zip: formats formats-dir
+	@ echo '$(ltorng)Making File Formats ZIP file.$(resetc)'
+	@ cd $(OUTDIR); pwd ; $(ZIP) $(ZIP_FMT_OUT) $(FMTDIR)
+	@ echo '$(ltorng)File Formats ZIP file created.$(resetc)'
+
+dist-files: dist-dir
+	@ echo '$(ltyelo)Copying files to $(DISTDIR).$(resetc)'
+	@ cp $(PROJ_OUT)      $(OUTDIR)/$(DISTDIR)/
+	@ cp $(MOBILE_OUT)    $(OUTDIR)/$(DISTDIR)/
+	@ cp $(PRINT_OUT)     $(OUTDIR)/$(DISTDIR)/
+	@ cp $(SHEET_OUT)     $(OUTDIR)/$(DISTDIR)/
+	@ cp $(SHEET_ALT_OUT) $(OUTDIR)/$(DISTDIR)/
+dist: all dist-files
+	@ echo '$(ltorng)Making Distribution ZIP file.$(resetc)'
+	-@ cd $(OUTDIR); $(ZIP) $(ZIP_DIST_OUT) $(DISTDIR)
+	@ echo '$(ltorng)Distribution ZIP file created.$(resetc)'
+
 # make all
 #   Edit: if you are making more than one pdf or html
 # all: pdf teaser html
-all: pdf plain pocket sheet alt-sheet
+all:     pdf print pocket sheet alt-sheet
+formats: text docx rtf odt in-design gfm opendocument html5 html5-complete
+all-all: all formats-zip dist teaser
 
 # Make Aliases ##########################################################################################
 #  Edit: only you if want to add something
-md:         markdown
-game:       pdf
-backup:     backups
-vi:         edit
-vim:        edit
-plain:      plaintext
-sheets:     sheet
-alt-sheets: alt-sheet
-charsheet:  sheet
-charsheets: sheet
-pocket:     mobile
-dracula:    drac
+alt-sheets:  alt-sheet
+backup:      backups
+charsheet:   sheet
+charsheets:  sheet
+dracula:     drac
+fodt:        opendocument
+game:        pdf
+indesign:    in-design
+libreoffice: odt
+md:          markdown
+opendoc:     opendocument
+openoffice:  odt
+plain:       text
+plaintext:   print
+pocket:      mobile
+printable:   print
+sheets:      sheet
+txt:         text
+vi:          edit
+vim:         edit
+word:        docx
+xhtml:       html5
+zip-formats: formats-zip
+html-comp:   html5-complete
+htmlc:       html5-complete
+html5-comp:  html5-complete
