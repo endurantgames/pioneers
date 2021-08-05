@@ -21,7 +21,7 @@ BUILDDIR  = ./build
 BACKDIR   = ./old/backups
 DOCSDIR   = ./docs
 FMTDIR    = $(PROJ)-source
-DISTDIR   = $(PROJ)
+DISTDIR   = $(PROJ)-ttrpg
 
 # Backups
 #   Edit: if you want/don't want to back up files when you do make clean
@@ -63,7 +63,7 @@ HTML5_OUT      = $(OUTDIR)/$(FMTDIR)/$(PROJ).html
 HTML5SELF_OUT  = $(OUTDIR)/$(FMTDIR)/$(PROJ)-complete.html
 
 ZIP_FMT_OUT    = ./$(PROJ)-formats.zip
-ZIP_DIST_OUT   = ./$(PROJ).zip
+ZIP_DIST_OUT   = ./$(PROJ)-ttrpg.zip
 
 # CSS Location
 #   Edit: if you have more than one stylesheet
