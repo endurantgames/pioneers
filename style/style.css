@@ -8,6 +8,18 @@ header        { display: none;                       }
 header p.date { string-set: date content()           }
 header h1     { string-set: gamename content()       }
 
+@page:nth(2) { @top-right {
+  font-family: var(--font);
+  color: var(--color-light);
+  font-style: italic;
+  text-align: right;
+  font-size: var(--small);
+  content: string(date);
+  position: relative;
+  right: 16px;
+  top: 32px;
+} }
+
 @page:first { margin: 0; padding: 0; }
 @page { margin-inside: 704px; }
 
