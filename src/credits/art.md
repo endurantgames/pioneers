@@ -1,4 +1,4 @@
-Pion art is was created by
+Pion art was created by
 [Alice Braund](https://twitter.com/shadefish1/)
 and was added to the game via
 [Itchfunding](https://itchfunding.games/)

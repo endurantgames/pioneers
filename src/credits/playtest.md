@@ -1,5 +1,5 @@
 Thank you to 
-*Heather Chvany*,
+*Heather Peacock Chvany*,
 *Sasha Chvany*, 
 and
 *Greg Chvany* 
