@@ -62,5 +62,5 @@ title: Pioneers
 ## SUMMER 2021
 ### Spindrift Games
 
-![Teaser](art//illuminated-lumen-logo-white.png)
+![Teaser](art//illuminated.png)
 ::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -30,13 +30,9 @@ brains. They're the spokesrobots for the Occupation.
 - **Moves** Sarcastically issue threats, call for help, strategic withdrawal
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::: {.pion-sketch .hide }:::::::::::::::::::::::::::::::
-![Cassini](art/pions/cassini-white.png "Cassini Pion"){.pion-sketch}
+:::::::::::::::::: {.pion-sketch }:::::::::::::::::::::::::::::::
+![Cassini](art/pions/cassini.png "Cassini Pion"){.pion-sketch}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-::::::::::::::::::{ .pion-sketch .unknown }:::::::::::::::::::::::::::::::
-![Cassini](art/pions/no-intelligence.png "Cassini Pion"){.pion-sketch }
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 
 ## Rover  {#toc-pion-rover .breakbefore }
 
@@ -52,8 +48,8 @@ infantry of the Occupation.
 - **Moves** Swarm the humans, obey orders, breach defenses
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::{ .pion-sketch .unknown }:::::::::::::::::::::::::::::::
-![Rover](art/pions/no-intelligence.png "Rover Pion"){.pion-sketch }
+::::::::::::::::::{ .pion-sketch  }:::::::::::::::::::::::::::::::
+![Rover](art/pions/rover.png "Rover Pion"){.pion-sketch }
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Mariner {#toc-pion-mariner .breakbefore}
@@ -70,13 +66,9 @@ truck and have fore- and aft-facing cannons.
 - **Moves** Lift off, disgorge troops, hover precipitously
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::: {.pion-sketch .hide }:::::::::::::::::::::::::::::::
-![Mariner](art/pions/mariner-white.png "Mariner Pion"){.pion-sketch}
+:::::::::::::::::: {.pion-sketch       }:::::::::::::::::::::::::::::::
+![Mariner](art/pions/mariner.png "Mariner Pion"){.pion-sketch}
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-::::::::::::::::::{ .pion-sketch .unknown }:::::::::::::::::::::::::::::::
-![Mariner](art/pions/no-intelligence.png "Mariner Pion"){.pion-sketch }
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 
 ## Ulysses {#toc-pion-ulysses .breakbefore}
 
@@ -91,8 +83,8 @@ spiders about the size of a small car, with sensors in all directions.
 - **Moves** Analyze tactics, coordinate troops, missile lock
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::{ .pion-sketch .unknown }:::::::::::::::::::::::::::::::
-![Ulysses](art/pions/no-intelligence.png "Ulysses Pion"){.pion-sketch }
+::::::::::::::::::{ .pion-sketch          }:::::::::::::::::::::::::::::::
+![Ulysses](art/pions/ulysses.png "Ulysses Pion"){.pion-sketch }
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Venera {#toc-pion-venera .breakbefore }
@@ -108,8 +100,8 @@ probes of any pions, resembling armored viking orbiters.
 - **Moves** Transmit tactical telemetry, evasive maneuvers, crash and burn
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::{ .pion-sketch .unknown }:::::::::::::::::::::::::::::::
-![Venera](art/pions/no-intelligence.png "Venera Pion"){.pion-sketch }
+::::::::::::::::::{ .pion-sketch          }:::::::::::::::::::::::::::::::
+![Venera](art/pions/venera.png "Venera Pion"){.pion-sketch }
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Viking  {#toc-pion-viking .breakbefore}
@@ -125,7 +117,7 @@ central body mounted on 12 flexible legs of variegrated size.
 - **Moves** Take the beachhead, support mission objective, go down fighting
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::{ .pion-sketch .unknown }:::::::::::::::::::::::::::::::
-![Viking](art/pions/no-intelligence.png "Viking Pion"){.pion-sketch }
+::::::::::::::::::{ .pion-sketch }:::::::::::::::::::::::::::::::
+![Viking](art/pions/viking.png "Viking Pion"){.pion-sketch }
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
