@@ -20,8 +20,8 @@ local CONFIG = {
   verbose    = true,
   };
 
-local lfs = require "lfs" -- https://keplerproject.github.io/luafilesystem/
-local cli =  require "cliargs"; -- https://luarocks.org/modules/amireh/lua_cliargs
+local lfs = require "lfs"
+local cli =  require "cliargs";
 
 local function split(str, pat)
    local t = {}  -- NOTE: use {n = 0} in Lua-5.0
@@ -169,6 +169,8 @@ size    805 in byte
 	]=]
 end
 
+
+
 local function vprint(s, l) if CONFIG.verbose then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
 local function eprint(s, l) if CONFIG.errors  then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
 local function sprint(s, l) if CONFIG.summary then print(string.format(CONFIG.logformat, s or "", l or "")) end; end;
@@ -176,8 +178,8 @@ local function sprint(s, l) if CONFIG.summary then print(string.format(CONFIG.lo
 -- http://lua-users.org/wiki/FileInputOutput
 
 local function slug(filename)
-  filename = string.gsub(filename, "^%" .. CONFIG.src_dir   .. "$", "");
-  filename = string.gsub(filename, "%"  .. CONFIG.extension .. "$", "");
+  filename = string.gsub(filename, "^%" .. CONFIG.src_dir, "");
+  filename = string.gsub(filename, "%" .. CONFIG.extension .. "$", "");
   filename = string.gsub(filename, "^/", "");
   filename = string.gsub(filename, "/$", "");
   return filename;
