@@ -138,7 +138,7 @@ PDFINFO_GREP = | grep -v no
 
 # Make Markdown Script Config
 #   Edit: you can turn off quiet mode
-MAKE_MD = $(BINDIR)/make-markdown.lua -q
+MAKE_MD = $(BINDIR)/make-markdown.lua -v
 # MAKE_MD = $(BINDIR)/make-markdown.lua
 
 # Editor Config (for make edit)
