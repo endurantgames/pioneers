@@ -26,3 +26,8 @@ Solar System, and nuked the Moon. You know, as one does.
 hosted by [Gila RPGs](https://gilarpgs.itch.io/).
 
 [itch.io Project Page](https://spindriftgames.itch.io/pioneers)
+
+## Current Status
+
+As this project is complete and I am no longer actively developing this game, I am setting this
+repository to "public archive".
