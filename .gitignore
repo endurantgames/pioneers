@@ -3,3 +3,7 @@ html2pdf*.pdf
 out
 build
 *.swp
+/luarocks
+/lua
+/lua_modules
+/.luarocks
